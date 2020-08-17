@@ -24,6 +24,7 @@ Lieu of Fun channel][yt] on YouTube.
 
 ## Coming soon
 
+- Merch!
 - Episode log
 - Guest list
 
