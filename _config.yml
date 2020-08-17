@@ -9,3 +9,5 @@ github_username:  inlieuoffun
 theme: minima
 plugins:
   - jekyll-feed # for Atom syndication
+exclude:
+  - notes
