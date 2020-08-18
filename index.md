@@ -24,9 +24,9 @@ Lieu of Fun channel][yt] on YouTube.
 
 ## Coming soon
 
-- Merch!
-- Episode log
-- Guest list
+- [ ] Merch!
+- [ ] Episode log (linked but not populated yet)
+- [x] Guest list (linked above)
 
 [ben]: https://twitter.com/benjaminwittes
 [kate]: https://twitter.com/klonick
