@@ -11,3 +11,4 @@ plugins:
   - jekyll-feed # for Atom syndication
 exclude:
   - notes
+  - tools
