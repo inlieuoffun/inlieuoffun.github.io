@@ -1,7 +1,10 @@
 episodes:
     - episode: 145
       date: 2020-08-18T17:00:00-04:00
-      guests: [Jill Filipovic]
+      guests: [Jack Balkin]
+      topics: >-
+        Jack's new book, *Cycles of Constitutional Time*
+      youtube: https://www.youtube.com/watch?v=hP32YJaaZYo
 
     - episode: 144
       date: 2020-08-17T17:00:00-04:00
