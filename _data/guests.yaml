@@ -41,7 +41,7 @@ guests:
 
     - name: Jack Balkin
       twitter: jackbalkin
-      episodes: [7, 63]
+      episodes: [7, 63, 145]
 
     - name: Jordan Ellenberg
       twitter: JSEllenberg
@@ -403,7 +403,7 @@ guests:
     - name: Jill Filipovic
       twitter: JillFilipovic
       url: http://jillfilipovic.com/
-      episodes: [111, 145]
+      episodes: [111]
 
     - name: Charlie Warzel
       twitter: cwarzel
