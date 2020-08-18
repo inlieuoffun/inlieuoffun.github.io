@@ -21,10 +21,20 @@ import (
 
 type episode struct {
 	Number int       `yaml:"episode"`
-	Date   time.Time `yaml:"date"`
+	Date   time.Time `yaml:"date"` // encodes as RFC 3339
 	Guests []string  `yaml:"guests,flow,omitempty"`
 	Topics string    `yaml:"topics,omitempty"`
 	Stream string    `yaml:"youtube,omitempty"`
+}
+
+var usEastern *time.Location // where ILoF is recorded
+
+func init() {
+	var err error
+	usEastern, err = time.LoadLocation("America/New_York")
+	if err != nil {
+		log.Panicf("Unable to load US Eastern location: %v", err)
+	}
 }
 
 func main() {
@@ -66,9 +76,10 @@ func main() {
 		if err != nil {
 			log.Printf("Warning: invalid episode in row %d: %v", nr, err)
 		}
-		when, err := time.Parse("2-Jan-2006", field("date", row))
+		when, err := time.ParseInLocation("2-Jan-2006", field("date", row), usEastern)
 		if err == nil {
-			e.Date = when
+			// Date without time pins to midnight; advance to 1700h.
+			e.Date = when.Add(17 * time.Hour)
 		} else {
 			log.Printf("Warning: invalid date in row %d: %v", nr, err)
 		}
