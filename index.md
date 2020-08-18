@@ -27,7 +27,7 @@ Lieu of Fun channel][yt] on YouTube.
 - [ ] Merch!
 - [x] Episode log (linked above)
 - [x] Guest list (linked above)
-- [ ] Secure connection (SSL certificate is pending)
+- [x] Secure connection (SSL certificate is pending)
 
 [ben]: https://twitter.com/benjaminwittes
 [kate]: https://twitter.com/klonick
