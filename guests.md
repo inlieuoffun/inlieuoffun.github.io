@@ -14,5 +14,9 @@ The following guests have appeared on *In Lieu of Fun*.
     <a href="{{ guest.url }}">{{ guest.name }}</a>
   {%- else -%}
     {{ guest.name }}
-  {%- endif %} | {{ guest.episodes | join: ", " }} |
+  {%- endif %} |
+  {%- for n in guest.episodes -%}
+    <a href="episodes.html#ep{{ n }}">{{ n }}</a>
+    {%- unless forloop.last %}, {% endunless %}
+  {%- endfor %}
 {%- endfor %}
