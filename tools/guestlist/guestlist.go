@@ -41,7 +41,7 @@ func main() {
 	}
 	keys := make(map[string]int)
 	for i, key := range header {
-		keys[key] = i
+		keys[strings.ToLower(key)] = i
 	}
 	field := func(name string, row []string) string {
 		return row[keys[name]]
