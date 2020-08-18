@@ -830,13 +830,15 @@ episodes:
     - episode: 0
       date: 2020-03-24T17:00:00-04:00
       guests: [Danielle Citron]
-      topics: '"screen time" in the time of coronavirus'
+      topics: '\"screen time\" in the time of coronavirus'
       youtube: https://www.youtube.com/watch?v=8lqhrhjwyrk
 
-    - episode: -1
+    - episode: test 2
       date: 2020-03-25T17:00:00-04:00
+      topics: Test episode 2
       youtube: https://www.youtube.com/watch?v=SORmEeTQUX4
 
-    - episode: -2
+    - episode: test 1
       date: 2020-03-24T17:00:00-04:00
+      topics: Test episode 1
       youtube: https://www.youtube.com/watch?v=XIpo3obwAb0
