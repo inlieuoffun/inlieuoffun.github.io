@@ -219,7 +219,7 @@ episodes:
     - episode: 106
       date: 2020-07-10T17:00:00-04:00
       guests: [Alex Shephard, Jonathan Rauch]
-      topics: Harper's cancel culture letter
+      topics: "Harper's cancel culture letter"
       youtube: https://www.youtube.com/watch?v=tpY9MJa0H3U
 
     - episode: 105
