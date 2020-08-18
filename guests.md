@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Guest List
 ---
-
-# Guest List
 
 The following guests have appeared on *In Lieu of Fun*.
 
