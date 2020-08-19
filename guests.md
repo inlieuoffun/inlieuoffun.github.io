@@ -3,7 +3,8 @@ layout: page
 title: Guest List
 ---
 
-The following guests have appeared on *In Lieu of Fun*.
+The following guests have appeared on *In Lieu of Fun*. They are listed in
+order of first appearance.
 
 | Guest | Episodes |
 |-------|----------|
