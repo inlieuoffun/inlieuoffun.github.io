@@ -13,12 +13,18 @@ episodes:
       topics: >-
         Jill's new book, *OK, Boomer, Let's Talk*
       youtube: https://www.youtube.com/watch?v=Q2bi51jt60g
+      links:
+        - title: book
+          url: https://www.simonandschuster.com/books/OK-Boomer-Lets-Talk/Jill-Filipovic/9781982153762
 
     - episode: 145
       date: 2020-08-18T17:00:00-04:00
       topics: >-
         Jack's new book, *Cycles of Constitutional Time*
       youtube: https://www.youtube.com/watch?v=hP32YJaaZYo
+      links:
+        - title: book
+          url: https://global.oup.com/academic/product/the-cycles-of-constitutional-time-9780197530993
 
     - episode: 144
       date: 2020-08-17T17:00:00-04:00
