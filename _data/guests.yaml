@@ -468,7 +468,7 @@ guests:
     - name: Jill Filipovic
       twitter: JillFilipovic
       url: http://jillfilipovic.com/
-      episodes: [111]
+      episodes: [111, 146]
 
     - name: Charlie Warzel
       twitter: cwarzel
