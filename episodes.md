@@ -16,6 +16,7 @@ Here is a list of all the episodes of *In Lieu of Fun*.
 {%- endfor -%}
 | <a name="ep{{ entry.episode }}"></a>{{ entry.episode }} |
   {{- entry.date | slice: 0, 10 | replace: "-", "‑" }} |
-  {{- guests | sort | join: ", " }} | {{ entry.topics | strip | newline_to_br -}}
+  {%- if guests.size > 0 %}{{- guests | sort | join: ", " }}{% else %}(your hosts){% endif %} |
+  {{- entry.topics | strip | newline_to_br -}}
   | <a href="{{ entry.youtube }}">YouTube</a> |
 {% endfor %}
