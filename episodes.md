@@ -3,7 +3,8 @@ layout: page
 title: Episode Log
 ---
 
-Here is a list of all the episodes of *In Lieu of Fun*.
+Here is a list of all the episodes of *In Lieu of Fun*. They are listed in
+reverse chronological order.
 
 | Episode | Date | Guests | Topics | Stream |
 |---------|------|--------|--------|--------|
