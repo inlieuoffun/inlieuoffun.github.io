@@ -6,8 +6,8 @@ title: Episode Log
 Here is a list of all the episodes of *In Lieu of Fun*. They are listed in
 reverse chronological order.
 
-| Episode | Date | Guests | Topics | Stream |
-|---------|------|--------|--------|--------|
+| # | Date | Guests | Topics | Stream |
+|---|------|--------|--------|--------|
 {% for entry in site.data.episodes.episodes -%}
 {%- assign guests = '' | split: 'x' -%}
 {%- for guest in site.data.guests.guests -%}
