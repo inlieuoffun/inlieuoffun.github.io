@@ -30,7 +30,7 @@ Lieu of Fun channel][yt] on YouTube.
     * [ ] Links to related articles, videos.
 - [x] Guest list (linked above)
     * [ ] More detailed guest summaries.
-- [x] Secure connection (SSL certificate is pending)
+- [x] Secure connection (SSL certificate).
 
 [ben]: https://twitter.com/benjaminwittes
 [kate]: https://twitter.com/klonick
