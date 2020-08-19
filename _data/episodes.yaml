@@ -1,3 +1,12 @@
+# To add a new episode:
+#
+# Add a new entry to this list, at minimum including the episode number, date,
+# and youtube stream URL. You can get the latter from the ILoF channel on YT on
+# the day of the stream. Please preserve reverse chronological order. Nothing
+# will break if you list episodes out of order, but it's easier to maintain.
+#
+# Update guests.yml to add any guests who have not attended before, or to add
+# the new episode number to existing guests.
 episodes:
     - episode: 146
       date: 2020-08-29T17:00:00-04:00

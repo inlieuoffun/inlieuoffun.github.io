@@ -1,3 +1,7 @@
+# New guests should be added to the bottom of the list.
+# For guests who have previously attended, just update their episodes list.
+#
+# At minimum each guest needs a name and an episodes list.
 guests:
     - name: Danielle Citron
       twitter: daniellecitron
