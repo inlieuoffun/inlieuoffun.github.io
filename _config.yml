@@ -12,3 +12,4 @@ plugins:
 exclude:
   - notes
   - tools
+  - README.md
