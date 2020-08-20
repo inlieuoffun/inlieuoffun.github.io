@@ -197,7 +197,7 @@ guests:
     - name: Leah Litman
       twitter: LeahLitman
       url: http://www.law.umich.edu/FacultyBio/Pages/FacultyBio.aspx?FacID=lmlitman
-      episodes: [39, 81, 95, 105]
+      episodes: [39, 81, 95, 102, 105]
 
     - name: Dahlia Lithwick
       twitter: dahlialithwick
@@ -218,6 +218,7 @@ guests:
 
     - name: Margaret Taylor
       twitter: MargLTaylor
+      url: https://www.brookings.edu/experts/margaret-l-taylor/
       episodes: [42, 105]
 
     - name: Emily Bell
@@ -236,6 +237,7 @@ guests:
 
     - name: John Samples
       twitter: johnsamplescato
+      url: https://www.cato.org/people/john-samples
       episodes: [46]
 
     - name: Tim Miller
@@ -286,6 +288,7 @@ guests:
 
     - name: Carissa Byrne Hessick
       twitter: CBHessick
+      url: https://law.unc.edu/people/carissa-byrne-hessick
       episodes: [59]
 
     - name: Surya Mattu
@@ -309,7 +312,7 @@ guests:
 
     - name: Barry Friedman
       twitter: barryfriedman1
-      url: 
+      url: https://its.law.nyu.edu/facultyprofiles/index.cfm?fuseaction=profile.overview&personid=19931
       episodes: [64]
 
     - name: Radley Balko
@@ -366,6 +369,7 @@ guests:
 
     - name: Susan Hennessey
       twitter: Susan_Hennessey
+      url: https://www.brookings.edu/experts/susan-hennessey
       episodes: [83]
 
     - name: Marty Lederman
@@ -491,6 +495,7 @@ guests:
 
     - name: Andy Slavitt
       twitter: ASlavitt
+      url: https://bipartisanpolicy.org/person/andy-slavitt
       episodes: [119]
 
     - name: Steven Levy
@@ -514,6 +519,7 @@ guests:
 
     - name: Katie Phang
       twitter: KatiePhang
+      url: https://www.floridabar.org/directories/find-mbr/profile/?num=348650
       episodes: [127]
 
     - name: Kara Swisher
