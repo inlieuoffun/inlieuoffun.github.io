@@ -18,6 +18,7 @@ reverse chronological order. Each episode date links to its stream on YouTube.
    {%- capture link -%}
      {%- if guest.twitter %}<a href="https://twitter.com/{{ guest.twitter }}">{{ guest.name }}</a>
      {%- elsif guest.url %}<a href="{{ guest.url }}">{{ guest.name | replace: " ", " " }}</a>
+     {%- else %}{{ guest.name | replace: " ", " " }}
      {%- endif -%}
    {%- endcapture -%}
    {%- assign guests = guests | push: link -%}
