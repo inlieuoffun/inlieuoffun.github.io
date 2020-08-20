@@ -4,10 +4,12 @@ This repository contains the website for the [In Lieu of Fun](https://inlieuof.f
 
 ## Site Data
 
-Episode metadata are stored in `_data/episodes.yaml` and presented by `episodes.md`.
-Guest metadata are stored in `_data/guests.yaml` and presented by `guests.md`.
-The structure is fairly simple; use the existing data as examples.
-At present, these data are presented in a simple tabular format.
+Episode metadata are stored in [`_data/episodes.yaml`](./_data/episodes.yaml)
+and presented by [`episodes.md`](./episodes.md).  Guest metadata are stored in
+[`_data/guests.yaml`](./_data/guests.yaml) and presented by
+[`guests.md`](./guests.md).  The structure is fairly simple; use the existing
+data as examples.  At present, these data are presented in a simple tabular
+format.
 
 ## Updates
 
