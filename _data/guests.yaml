@@ -161,7 +161,7 @@ guests:
     - name: Sarah Longwell
       twitter: SarahLongwell25
       url: https://thebulwark.com/author/sarah-longwell/
-      episodes: [31]
+      episodes: [31, 147]
 
     - name: Yascha Mounk
       twitter: Yascha_Mounk
