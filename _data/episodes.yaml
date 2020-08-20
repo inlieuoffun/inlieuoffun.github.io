@@ -12,7 +12,7 @@ episodes:
     - episode: 146
       date: "2020-08-19T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=Q2bi51jt60g
-      topics: Jill's new book
+      summary: Discussing Jill's new book
       links:
         - title: "OK, Boomer, Let's Talk"
           url: https://www.simonandschuster.com/books/OK-Boomer-Lets-Talk/Jill-Filipovic/9781982153762
@@ -20,7 +20,7 @@ episodes:
     - episode: 145
       date: "2020-08-18T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=hP32YJaaZYo
-      topics: Jack's new book
+      summary: Discussing Jack's new book
       links:
         - title: Cycles of Constitutional Time
           url: https://global.oup.com/academic/product/the-cycles-of-constitutional-time-9780197530993
@@ -282,9 +282,9 @@ episodes:
       youtube: https://www.youtube.com/watch?v=hGG3oy2jJ3M
       topics: speech and the press
       summary: >-
-        The Leonard Tow Professor of Journalism Innovation and director of the
-        Tow-Knight Center for Entrepreneurial Journalism at the City University
-        of New York’s Craig Newmark Graduate School of Journalism
+        Leonard Tow Professor of Journalism Innovation and director of the
+        Tow-Knight Center for Entrepreneurial Journalism at CUNY's Craig
+        Newmark Graduate School of Journalism
 
     - episode: 108
       date: "2020-07-12T17:00:00-04:00"
@@ -377,7 +377,7 @@ episodes:
       topics: institutions, law enforcement, terrorism
       summary: >-
         Senior fellow in the Center for Middle East Policy at Brookings,
-        with research focusing on counterterrorism and Middle East security
+        focusing on counterterrorism and Middle East security
       links:
         - title: Beyond Counterterrorism
           url: https://www.foreignaffairs.com/articles/2015-10-20/beyond-counterterrorism
@@ -396,15 +396,15 @@ episodes:
       youtube: https://www.youtube.com/watch?v=omcuI8ljmiI
       topics: section 230, content moderation
       summary: >-
-        The George Bemis Professor of International Law at Harvard Law School
+        George Bemis Professor of International Law at Harvard Law School
 
     - episode: 89
       date: "2020-06-23T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=YCuUJIrZ60E
       topics: cybersecurity, active measures
       summary: >-
-        Cybersecurity and information warfare expert and author of the new
-        history of information operations.
+        Cybersecurity and information warfare expert and author of a new
+        history of information operations
       links:
         - title: Active Measures
           url: https://us.macmillan.com/books/9780374287269
@@ -419,7 +419,7 @@ episodes:
     - episode: 87
       date: "2020-06-21T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=Ryn7-FA7FmU
-      topics: defeating Trumpism      
+      topics: defeating Trumpism
       summary: >-
         Discussing the Lincoln Project and defeating Trump and Trumpism
         at the ballot box
@@ -471,8 +471,8 @@ episodes:
       youtube: https://www.youtube.com/watch?v=zbxMG9Y9eB4
       topics: SCOTUS LGBT discrimination case
       summary: >-
-        Discussing today's bombshell gay- and transgender-rights employment
-        discrimination decision at the Supreme Court
+        Discussing today's bombshell LGBT employment discrimination decision at
+        the Supreme Court
       links:
         - title: New York Times
           url: https://www.nytimes.com/2020/06/15/us/gay-transgender-workers-supreme-court.html
@@ -523,7 +523,7 @@ episodes:
       youtube: https://www.youtube.com/watch?v=eEJktEIn0Hg
       topics: journalism
       summary: >-
-        Co-founder of vox.com with Ezra Klein and Melissa Bell in the spring of 2014
+        Co-founder of vox.com (with Ezra Klein and Melissa Bell)
       links:
         - title: Vox
           url: https://www.vox.com/pages/about-us
@@ -601,8 +601,8 @@ episodes:
       youtube: https://www.youtube.com/watch?v=3MbA0IDkbt0
       topics: police accountability
       summary: >-
-        One of the country’s leading authorities on constitutional law,
-        policing, criminal procedure, and the federal courts
+        A leading authority on constitutional law, policing, criminal
+        procedure, and the federal courts
 
     - episode: 63
       date: "2020-05-28T17:00:00-04:00"
@@ -643,7 +643,7 @@ episodes:
       youtube: https://www.youtube.com/watch?v=1pnAfPBZpmk
       topics: facial recognition
       summary: >-
-        Brooklyn based investigative journalist, artist and engineer and who
+        Brooklyn-based investigative journalist, artist and engineer and who
         looks at the ways in which algorithmic systems perpetuate systemic
         biases and inequalities in society
       links:
@@ -680,30 +680,32 @@ episodes:
       youtube: https://www.youtube.com/watch?v=EmIG0lsjLqM
       topics: slavery, history, incarceration
       summary: >-
-        Award winning-poet, Guggenheim and National Endowment of the Arts
-        Fellow, and winner of the national magazine award for his piece
-        documenting his struggle from incarceration, to a JD at Yale, to
-        becoming a barred attorney in Connecticut
+        Award winning-poet, Guggenheim and NEA Fellow, and winner of the
+        National Magazine Award for his piece documenting his struggle from
+        incarceration, to a JD at Yale, to becoming a barred attorney in
+        Connecticut
       links:
         - title: Poetry Foundation
           url: https://www.poetryfoundation.org/poets/reginald-dwayne-betts
         - title: NEA
           url: https://www.arts.gov/nea-literature-fellowships/reginald-dwayne-betts
-        - title: New York Times
+        - title: NYT Magazine
           url: https://www.nytimes.com/2018/10/16/magazine/felon-attorney-crime-yale-law.html
 
     - episode: 55
       date: "2020-05-20T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=AqRCrypTYBc
       topics: film, stories
-      summary: Filmmaker Whit Stillman, director of "Metropolitan," "Barcelona," "The Last Days of Disco," and "Damsels in Distress."
+      summary: >-
+        Filmmaker and director of "Metropolitan," "Barcelona," "The Last Days
+        of Disco," and "Damsels in Distress"
 
     - episode: 54
       date: "2020-05-19T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=mGFrjz_E2NY
       topics: pottery, crafts
       summary: >-
-        A master potter and Designer, focused on a constant refinement of both
+        A master potter and designer, focused on a constant refinement of both
         form and technique
       links:
         - title: TORTUS
@@ -762,9 +764,9 @@ episodes:
       youtube: https://www.youtube.com/watch?v=9yAuLRoKR8I
       topics: frog-boiling on the right
       summary: >-
-        Contributor to The Bulwark and a communications consultant who
-        previously served as senior advisor to the anti-Trump "Our Principles"
-        PAC, communications director for Jeb Bush, and spokesman for the RNC
+        Contributor to The Bulwark and communications consultant, previously
+        serving as senior advisor to the anti-Trump "Our Principles" PAC,
+        communications director for Jeb Bush, and spokesman for the RNC
       links:
         - title: Our Principles PAC
           url: https://www.loc.gov/item/lcwaN0017180/
@@ -774,16 +776,13 @@ episodes:
       youtube: https://www.youtube.com/watch?v=ujT6UH-Zgrk
       topics: Facebook oversight board
       summary: >-
-        A dialogue with members of the new Facebook Oversight Board.
+        A dialogue with members of the new Facebook Oversight Board:
 
-        Jamal Greene is the Dwight Professor of Law at Columbia Law School,
-        focusing on constitutional rights adjudication and the structure of
-        legal and constitutional argument.
-
-        John Samples is a vice president at the Cato Institute.
-
-        Nicolas Suzor is a Professor at the Law School at Queensland University
-        of Technology, where he helps lead QUT’s Digital Media Research Centre
+        Jamal Greene, the Dwight Professor of Law at Columbia Law School,
+        focusing on constitutional rights adjudication;
+        John Samples, a vice president at the Cato Institute; and
+        Nicolas Suzor, a Professor at the Law School at Queensland University
+        of Technology and a leader of QUT’s Digital Media Research Centre
       links:
         - title: Business Insider
           url: https://www.businessinsider.com/facebook-announces-first-members-oversight-board-instagram-2020-5
@@ -1023,7 +1022,7 @@ episodes:
       date: "2020-04-07T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=xrofDaV8mPk
       topics: surviving the plague; democracy, policy, and government leadership
-      summary: Discussing surveillance and COVID-19.
+      summary: Discussing surveillance and COVID-19
 
     - episode: 11
       date: "2020-04-06T17:00:00-04:00"
@@ -1036,8 +1035,6 @@ episodes:
       date: "2020-04-05T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=73dll8bSuYs
       topics: law, twitter, life, coronavirus
-      summary: >-
-        Hosts each invite a mystery guest and don't tell the other who is going on the show.
 
     - episode: 9
       date: "2020-04-04T17:00:00-04:00"
@@ -1048,9 +1045,8 @@ episodes:
       youtube: https://www.youtube.com/watch?v=-i7UkLg7-a4
       topics: coronavirus response
       summary: >-
-        Brookings scholar discussing her research on coronavirus around the
-        world. She has talked to more than 90 people in 68 countries about how
-        they are handling the coronavirus
+        Brookings scholar discussing her research on 68 countries around the
+        world about how they are handling the virus
       links:
         - title: Belfer Center
           url: https://www.belfercenter.org/publication/amanda-sloat-response-covid-19-around-globe
@@ -1070,7 +1066,7 @@ episodes:
         Writer, back-woods skier, and extreme-condition kayaker talks about
         COVID-19 in rural Montana, kayaking across the Pacific Ocean and around
         Cape Horn, and whether communities at the extreme margins of human
-        existence offer protection from global cataclysms
+        existence offer lessons about global cataclysms
       links:
         - title: Crocodiles and Ice
           url: https://ravallirepublic.com/news/local/article_872f8c24-77c5-11e6-8b40-f3384dc7726b.html
