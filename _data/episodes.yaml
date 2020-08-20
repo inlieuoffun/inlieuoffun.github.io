@@ -7,734 +7,1122 @@
 #
 # Update guests.yml to add any guests who have not attended before, or to add
 # the new episode number to existing guests.
+#
 episodes:
     - episode: 146
-      date: 2020-08-19T17:00:00-04:00
-      topics: >-
-        Jill's new book, *OK, Boomer, Let's Talk*
+      date: "2020-08-19T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=Q2bi51jt60g
+      topics: Jill's new book
       links:
-        - title: book
+        - title: "OK, Boomer, Let's Talk"
           url: https://www.simonandschuster.com/books/OK-Boomer-Lets-Talk/Jill-Filipovic/9781982153762
 
     - episode: 145
-      date: 2020-08-18T17:00:00-04:00
-      topics: >-
-        Jack's new book, *Cycles of Constitutional Time*
+      date: "2020-08-18T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=hP32YJaaZYo
+      topics: Jack's new book
       links:
-        - title: book
+        - title: Cycles of Constitutional Time
           url: https://global.oup.com/academic/product/the-cycles-of-constitutional-time-9780197530993
 
     - episode: 144
-      date: 2020-08-17T17:00:00-04:00
-      topics: effects of pandemic on government function, free speech, assembly
+      date: "2020-08-17T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=ADfzmr5JEk4
+      topics: effects of pandemic on government function, free speech, assembly
 
     - episode: 143
-      date: 2020-08-16T17:00:00-04:00
-      topics: abuse on the internet, sextortion, revenge porn
+      date: "2020-08-16T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=YCE1VteWyC0
+      topics: abuse on the internet, sextortion, revenge porn
 
     - episode: 142
-      date: 2020-08-15T17:00:00-04:00
+      date: "2020-08-15T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=skQkiQIthwA
 
     - episode: 141
-      date: 2020-08-14T17:00:00-04:00
-      topics: election modeling redux, polling
+      date: "2020-08-14T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=jhlkNsXoZW4
+      topics: election modeling redux, polling
 
     - episode: 140
-      date: 2020-08-13T17:00:00-04:00
-      topics: post office history
+      date: "2020-08-13T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=KBR1Ou7Wf1g
+      topics: post office history
 
     - episode: 139
-      date: 2020-08-12T17:00:00-04:00
-      topics: election modeling
+      date: "2020-08-12T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=U1S3QO0np08
+      topics: election modeling
 
     - episode: 138
-      date: 2020-08-11T17:00:00-04:00
-      topics: the filibuster; ILoF logo poll
+      date: "2020-08-11T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=Esw2TN64jQg
+      topics: the filibuster; ILoF logo poll
 
     - episode: 137
-      date: 2020-08-10T17:00:00-04:00
-      topics: elections, journalism, otters
+      date: "2020-08-10T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=w4gsTEKlYkI
+      topics: elections, journalism, otters
 
     - episode: 136
-      date: 2020-08-09T17:00:00-04:00
-      topics: executive orders
+      date: "2020-08-09T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=Oq9qM1gngtw
+      topics: executive orders
 
     - episode: 135
-      date: 2020-08-08T17:00:00-04:00
+      date: "2020-08-08T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=O2Y6hOeFwIE
 
     - episode: 134
-      date: 2020-08-07T17:00:00-04:00
-      topics: coronavirus, vaccines, human trials
+      date: "2020-08-07T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=qzS31IHohvQ
+      topics: coronavirus, vaccines, human trials
 
     - episode: 133
-      date: 2020-08-06T17:00:00-04:00
-      topics: PACER decision, accessibility of court records
+      date: "2020-08-06T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=gPk-OIxqFGA
+      topics: PACER decision, accessibility of court records
 
     - episode: 132
-      date: 2020-08-05T17:00:00-04:00
-      topics: election, voting
+      date: "2020-08-05T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=s_917Xl_5Qc
+      topics: election, voting
 
     - episode: 131
-      date: 2020-08-04T17:00:00-04:00
-      topics: Trump Axios interview
+      date: "2020-08-04T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=WUGRwJ_RKqk
+      topics: Trump Axios interview
+      summary: Discussing the Axios interview released August 3, 2020
+      links:
+        - title: MarketWatch
+          url: https://www.marketwatch.com/story/this-is-the-cognitive-test-trump-didnt-pass-internet-reacts-to-presidents-shocking-axios-interview-2020-08-04
+        - title: Rolling Stone
+          url: https://www.rollingstone.com/politics/politics-news/trump-axios-interview-jonathan-swan-1039137
 
     - episode: 130
-      date: 2020-08-03T17:00:00-04:00
-      topics: tech, law, policy
+      date: "2020-08-03T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=Hhzs5_gP29o
+      topics: tech, law, policy
 
     - episode: 129
-      date: 2020-08-02T17:00:00-04:00
-      topics: immigration, refugees
+      date: "2020-08-02T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=pGYdsXLPSOU
+      topics: immigration, refugees
+      summary: >-
+        Immigration attorney specializing in border and refugee issues,
+        former Executive Director of Santa Fe Dreamers Project
+      links:
+        - title: Law and Border
+          url: https://dartmouthalumnimagazine.com/articles/law-and-border
+        - title: Santa Fe Dreamers
+          url: http://www.santafedreamersproject.org/who-we-are
 
     - episode: 128
-      date: 2020-08-01T17:00:00-04:00
+      date: "2020-08-01T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=9sOKNTEngOE
 
     - episode: 127
-      date: 2020-07-31T17:00:00-04:00
-      topics: law, judgeship, life
+      date: "2020-07-31T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=bOAXqLq1K44
+      topics: law, judgeship, life
+      summary: Miami-based attorney and MSNBC legal contributor
+      links:
+        - title: MSNBC
+          url: https://www.msnbc.com/msnbc/watch/katie-phang-talks-mueller-s-russia-probe-and-impeachment-1492290627856
 
     - episode: 126
-      date: 2020-07-30T17:00:00-04:00
-      topics: humor, puns, journalism
+      date: "2020-07-30T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=wzdkNWnQSMw
+      topics: humor, puns, journalism
+      summary: Washington Post humor columnist
+      links:
+        - title: Cosmopolitan
+          url: https://www.cosmopolitan.com/career/a63347/alexandra-petri-washington-post-get-that-life/
 
     - episode: 125
-      date: 2020-07-29T17:00:00-04:00
-      topics: the 2020 elections, voting
+      date: "2020-07-29T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=SEji_b4J9G4
+      topics: the 2020 elections, voting
+      summary: Discussing the 2020 U.S. Presidential election
 
     - episode: 124
-      date: 2020-07-28T17:00:00-04:00
-      topics: Barr testimony
+      date: "2020-07-28T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=pysTnKmPf8w
+      topics: Barr testimony
+      summary: >-
+        Discussing USAG Barr's testimony before the House Judiciary Committee
+      links:
+        - title: New York Times
+          url: https://www.nytimes.com/2020/07/28/us/politics/william-barr-house-judiciary-hearing.html
 
     - episode: 123
-      date: 2020-07-27T17:00:00-04:00
-      topics: polling, politics, and shibboleths
+      date: "2020-07-27T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=SEXWmPyt90c
+      topics: polling, politics, and shibboleths
+      summary: Senior political writer for FiveThirtyEight
+      links:
+        - title: FiveThirtyEight
+          url: https://fivethirtyeight.com/
 
     - episode: 122
-      date: 2020-07-26T17:00:00-04:00
-      topics: comedy writing
+      date: "2020-07-26T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=0RFr6iGH4rA
+      topics: comedy writing
+      summary: Senior writer for The Daily Show
 
     - episode: 121
-      date: 2020-07-25T17:00:00-04:00
+      date: "2020-07-25T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=6uG9TpXj_1w
 
     - episode: 120
-      date: 2020-07-24T17:00:00-04:00
-      topics: Facebook
+      date: "2020-07-24T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=OD_bxKCpKWs
+      topics: Facebook
+      links:
+        - title: New York Times
+          url: https://www.nytimes.com/2020/02/25/books/review/facebook-the-inside-story-steven-levy.html
 
     - episode: 119
-      date: 2020-07-23T17:00:00-04:00
-      topics: coronavirus
+      date: "2020-07-23T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=yRrjdIhwTjU
+      topics: coronavirus
+      summary: >-
+        Acting Administrator for Centers for Medicare and Medicaid Services (2015-2017)
+      links:
+        - title: StatNews
+          url: https://www.statnews.com/2017/05/25/andy-slavitt-aca-town-halls/
 
     - episode: 118
-      date: 2020-07-22T17:00:00-04:00
-      topics: crossword puzzles
+      date: "2020-07-22T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=tpUZVfWSc0A
+      topics: crossword puzzles
+      summary: New York Times crossword constructor
+      links:
+        - title: New York Times
+          url: https://www.nytimes.com/2020/02/19/crosswords/constructor-crossword-puzzles-trudeau.html
 
     - episode: 117
-      date: 2020-07-21T17:00:00-04:00
-      topics: stories of Ben's youth
+      date: "2020-07-21T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=laG-tutITvo
+      topics: DHS Job Aid, stories of Ben's youth
+      summary: >-
+        Discussing DHS "Job Aid" describing domestic surveillance to protect
+        monuments and statues
+      links:
+        - title: LawFare
+          url: https://www.lawfareblog.com/dhs-authorizes-domestic-surveillance-protect-statues-and-monuments
+        - title: Salon
+          url: https://www.salon.com/2020/07/21/leaked-memo-trump-administration-authorized-domestic-surveillance-of-protests-to-protect-statues
 
     - episode: 116
-      date: 2020-07-20T17:00:00-04:00
-      topics: coronavirus
+      date: "2020-07-20T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=lRYyarIkNY8
+      topics: coronavirus
+      summary: >-
+        An update on COVID-19 from Dr. Sharfstein of the Johns Hopkins
+        Bloomberg School of Public Health
 
     - episode: 115
-      date: 2020-07-19T17:00:00-04:00
+      date: "2020-07-19T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=ifekFFj8wMg
 
     - episode: 114
-      date: 2020-07-18T17:00:00-04:00
-      topics: policing
+      date: "2020-07-18T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=1UE8wrilGKU
+      topics: policing
+      summary: >-
+        Discussing deployment of DHS Rapid Protection Force in Portland, Oregon
+      links:
+        - title: LawFare
+          url: https://www.lawfareblog.com/what-heck-are-federal-law-enforcement-officers-doing-portland
 
     - episode: 113
-      date: 2020-07-17T17:00:00-04:00
+      date: "2020-07-17T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=Jz88Ae3Z6lc
+      summary: New York Times opinion columnist
+      links:
+        - title: NYT Company
+          url: https://www.nytco.com/press/charlie-warzel-to-join-the-new-york-times-opinion-pages/
 
     - episode: 112
-      date: 2020-07-16T17:00:00-04:00
-      topics: crime
+      date: "2020-07-16T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=58lpcyTWUl4
+      topics: crime
+      summary: >-
+        Discussing the "Crime a Day" Twitter feed and book
+      links:
+        - title: How to Become a Federal Criminal
+          url: https://www.simonandschuster.com/books/How-to-Become-a-Federal-Criminal/Mike-Chase/9781982112516
+        - title: '@CrimeADay'
+          url: https://twitter.com/CrimeADay
 
     - episode: 111
-      date: 2020-07-15T17:00:00-04:00
+      date: "2020-07-15T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=eXc6LFfvzbU
+      summary: >-
+        Author of "The H Spot: The Feminist Pursuit of Happiness"
+      links:
+        - title: The Atlantic
+          url: https://www.theatlantic.com/entertainment/archive/2017/04/the-h-spot-review-jill-filipovic-the-feminist-case-for-happiness/524241/
+        - title: The H-Spot
+          url: https://www.npr.org/books/titles/584670728/the-h-spot-the-feminist-pursuit-of-happiness
 
     - episode: 110
-      date: 2020-07-14T17:00:00-04:00
-      topics: supreme court (McGirt decision)
+      date: "2020-07-14T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=5k1NVhZ1i_g
+      topics: supreme court (McGirt decision)
+      summary: >-
+        Discussing McGirt v. Oklahoma, which Mr. Gershengorn argued on behalf of McGirt
+      links:
+        - title: Bloomberg Law
+          url: https://news.bloomberglaw.com/us-law-week/project-bolsters-tribes-high-court-claims-following-defeats
 
     - episode: 109
-      date: 2020-07-13T17:00:00-04:00
-      topics: speech and the press
+      date: "2020-07-13T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=hGG3oy2jJ3M
+      topics: speech and the press
+      summary: >-
+        The Leonard Tow Professor of Journalism Innovation and director of the
+        Tow-Knight Center for Entrepreneurial Journalism at the City University
+        of New York’s Craig Newmark Graduate School of Journalism
 
     - episode: 108
-      date: 2020-07-12T17:00:00-04:00
-      topics: prosciutto, media
+      date: "2020-07-12T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=jzvsZOnKshk
+      topics: prosciutto, media
+      summary: Staff writer for The New Yorker
 
     - episode: 107
-      date: 2020-07-11T17:00:00-04:00
+      date: "2020-07-11T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=T36fD7ziBGU
 
     - episode: 106
-      date: 2020-07-10T17:00:00-04:00
-      topics: "Harper's cancel culture letter"
+      date: "2020-07-10T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=tpY9MJa0H3U
+      topics: Harper's cancel culture letter
+      summary: >-
+        Debating the recent Harper's letter regarding "cancel culture"
 
     - episode: 105
-      date: 2020-07-09T17:00:00-04:00
-      topics: supreme court (subpoena cases)
+      date: "2020-07-09T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=R1tHI6LiNEM
+      topics: SCOTUS subpoena cases
 
     - episode: 104
-      date: 2020-07-08T17:00:00-04:00
-      topics: supreme court (religious freedom)
+      date: "2020-07-08T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=nGJorGSSn3I
+      topics: SCOTUS religious freedom cases
 
     - episode: 103
-      date: 2020-07-07T17:00:00-04:00
-      topics: interviewing
+      date: "2020-07-07T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=3TuLKtwKp8Q
+      topics: interviewing
+      summary: NPR Correspondent
 
     - episode: 102
-      date: 2020-07-06T17:00:00-04:00
-      topics: supreme court (faithless electors)
+      date: "2020-07-06T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=_li_K6XSBOk
+      topics: SCOTUS "faithless elector" case
+      summary: >-
+        Discussing the Faithless Electors SCOTUS case
 
     - episode: 101
-      date: 2020-07-05T17:00:00-04:00
-      topics: presidential daily briefings (PDB)
+      date: "2020-07-05T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=CSww9j4_psM
+      topics: presidential daily briefings (PDB)
 
     - episode: 100
-      date: 2020-07-04T17:00:00-04:00
+      date: "2020-07-04T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=lUN2CuGTtHk
+      summary: An informal roundup of previous guests on the show
 
     - episode: 99
-      date: 2020-07-03T17:00:00-04:00
-      topics: polling
+      date: "2020-07-03T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=ajHkbQDYdyE
+      topics: polling
+      summary: Vice President of Research at Pew Research Center
 
     - episode: 98
-      date: 2020-07-02T17:00:00-04:00
-      topics: history, speculative fiction
+      date: "2020-07-02T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=vcWc_5-65BY
+      topics: history, speculative fiction
 
     - episode: 97
-      date: 2020-07-01T17:00:00-04:00
-      topics: Hong Kong
+      date: "2020-07-01T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=sSg5N_teCKs
+      topics: Hong Kong
 
     - episode: 96
-      date: 2020-06-30T17:00:00-04:00
-      topics: Parler, oppo
+      date: "2020-06-30T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=-PSz6jWD8lE
+      topics: Parler, opposition research
 
     - episode: 95
-      date: 2020-06-29T17:00:00-04:00
-      topics: supreme court (abortion, unitary executive)
+      date: "2020-06-29T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=_c0NVSXluPw
+      topics: SCOTUS abortion and unitary executive cases
 
     - episode: 94
-      date: 2020-06-28T17:00:00-04:00
-      topics: social media
+      date: "2020-06-28T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=d8jvRDNVzkY
+      topics: social media
 
     - episode: 93
-      date: 2020-06-27T17:00:00-04:00
+      date: "2020-06-27T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=obgAI8gvVFs
 
     - episode: 92
-      date: 2020-06-26T17:00:00-04:00
-      topics: institutions, law enforcement, terrorism
+      date: "2020-06-26T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=Yo-wah-7IjY
+      topics: institutions, law enforcement, terrorism
+      summary: >-
+        Senior fellow in the Center for Middle East Policy at Brookings,
+        with research focusing on counterterrorism and Middle East security
+      links:
+        - title: Beyond Counterterrorism
+          url: https://www.foreignaffairs.com/articles/2015-10-20/beyond-counterterrorism
 
     - episode: 91
-      date: 2020-06-25T17:00:00-04:00
-      topics: misinformation, disinformation, active measures
+      date: "2020-06-25T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=G1SzMKTimV8
+      topics: misinformation, disinformation, active measures
+      summary: Chief innovation officer of Graphika
+      links:
+        - title: Exposing Secondary Infektion
+          url: https://graphika.com/reports/exposing-secondary-infektion/
 
     - episode: 90
-      date: 2020-06-24T17:00:00-04:00
-      topics: section 230, content moderation
+      date: "2020-06-24T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=omcuI8ljmiI
+      topics: section 230, content moderation
+      summary: >-
+        The George Bemis Professor of International Law at Harvard Law School
 
     - episode: 89
-      date: 2020-06-23T17:00:00-04:00
-      topics: cybersecurity, active measures
+      date: "2020-06-23T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=YCuUJIrZ60E
+      topics: cybersecurity, active measures
+      summary: >-
+        Cybersecurity and information warfare expert and author of the new
+        history of information operations.
+      links:
+        - title: Active Measures
+          url: https://us.macmillan.com/books/9780374287269
+        - title: Washington Post
+          url: https://www.washingtonpost.com/outlook/the-russians-manipulated-our-elections-we-helped/2020/04/23/e44e9e76-5742-11ea-9000-f3cffee23036_story.html
 
     - episode: 88
-      date: 2020-06-22T17:00:00-04:00
-      topics: police accountability, elections
+      date: "2020-06-22T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=2lz5iwRwqrg
+      topics: police accountability, elections
 
     - episode: 87
-      date: 2020-06-21T17:00:00-04:00
-      topics: defeating Trumpism
+      date: "2020-06-21T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=Ryn7-FA7FmU
+      topics: defeating Trumpism      
+      summary: >-
+        Discussing the Lincoln Project and defeating Trump and Trumpism
+        at the ballot box
+      links:
+        - title: The Lincoln Project
+          url: https://lincolnproject.us
 
     - episode: 86
-      date: 2020-06-20T17:00:00-04:00
-      topics: U.S. attorney appointment
+      date: "2020-06-20T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=duSBC8BANrc
+      topics: U.S. attorney appointment
 
     - episode: 85
-      date: 2020-06-19T17:00:00-04:00
-      topics: white supremacy
+      date: "2020-06-19T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=Ud0juduEvEc
+      topics: white supremacy
+      summary: >-
+        Historian of white supremacist movements at the University of Chicago
+      links:
+        - title: NPR
+          url: https://www.npr.org/2019/03/17/704209677/how-white-supremacist-ideology-spreads
 
     - episode: 84
-      date: 2020-06-18T17:00:00-04:00
-      topics: Flynn, Bolton, courts
+      date: "2020-06-18T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=NCyLimk8VZU
+      topics: Flynn, Bolton, courts
+      summary: >-
+        Georgetown law professor and former Justice Department official
 
     - episode: 83
-      date: 2020-06-17T17:00:00-04:00
-      topics: Bolton, classification
+      date: "2020-06-17T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=gfNZEIVhSqc
+      topics: Bolton, classification
+      summary: >-
+        Executive editor of Lawfare and senior fellow at Brookings and a former
+        NSA lawyer
 
     - episode: 82
-      date: 2020-06-16T17:00:00-04:00
-      topics: Russia, disinformation
+      date: "2020-06-16T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=jDF8ZIChPXI
+      topics: Russia, disinformation
+      summary: President and CEO of the Center for European Policy Analysis (CEPA)
+      links:
+        - title: CEPA
+          url: https://www.cepa.org/polyakova-cepa-president
 
     - episode: 81
-      date: 2020-06-15T17:00:00-04:00
-      topics: supreme court (LGBT discrimination)
+      date: "2020-06-15T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=zbxMG9Y9eB4
+      topics: SCOTUS LGBT discrimination case
+      summary: >-
+        Discussing today's bombshell gay- and transgender-rights employment
+        discrimination decision at the Supreme Court
+      links:
+        - title: New York Times
+          url: https://www.nytimes.com/2020/06/15/us/gay-transgender-workers-supreme-court.html
 
     - episode: 80
-      date: 2020-06-14T17:00:00-04:00
-      topics: inequality
+      date: "2020-06-14T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=evd6u9MoGsQ
+      topics: inequality
+      summary: Host of The Gist, a daily podcast by Slate
 
     - episode: 79
-      date: 2020-06-13T17:00:00-04:00
+      date: "2020-06-13T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=52tnlmp6fIE
 
     - episode: 78
-      date: 2020-06-12T17:00:00-04:00
-      topics: pandemic response, economic impacts
+      date: "2020-06-12T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=nWYCgIqY55M
+      topics: pandemic response, economic impacts
+      summary: Columnist for the Washington Post
 
     - episode: 77
-      date: 2020-06-11T17:00:00-04:00
-      topics: politics
+      date: "2020-06-11T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=e0KrQ4efuAc
+      topics: politics
+      summary: Co-founder of the Weekly Standard and the Bulwark
 
     - episode: 76
-      date: 2020-06-10T17:00:00-04:00
-      topics: DOJ, Bill Barr
+      date: "2020-06-10T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=FXQHiVi9H7s
+      topics: DOJ, Bill Barr
+      summary: >-
+        Former Director of the Office of Public Affairs for the Department of
+        Justice, leading the Department’s communications team and serving as
+        Attorney General Eric Holder’s spokesman
+      links:
+        - title: MSN
+          url: https://www.msn.com/en-us/news/politics/matt-miller-trumps-inability-to-find-top-tier-legal-council-is-harming-his-argument/vi-AAK47Iq
 
     - episode: 75
-      date: 2020-06-09T17:00:00-04:00
-      topics: law and the Internet
+      date: "2020-06-09T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=_On2qqsaoYI
+      topics: law and the Internet
+      summary: >-
+        Roy L. Furman Professor of Law and Leadership at Harvard Law School
 
     - episode: 74
-      date: 2020-06-08T17:00:00-04:00
-      topics: journalism
+      date: "2020-06-08T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=eEJktEIn0Hg
+      topics: journalism
+      summary: >-
+        Co-founder of vox.com with Ezra Klein and Melissa Bell in the spring of 2014
+      links:
+        - title: Vox
+          url: https://www.vox.com/pages/about-us
 
     - episode: 73
-      date: 2020-06-07T17:00:00-04:00
-      topics: elections, influence
+      date: "2020-06-07T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=-jnsnUei1LA
+      topics: elections, influence
 
     - episode: 72
-      date: 2020-06-06T17:00:00-04:00
+      date: "2020-06-06T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=KvktA5oGPt0
 
     - episode: 71
-      date: 2020-06-05T17:00:00-04:00
-      topics: art photography
+      date: "2020-06-05T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=Z_WpcZuXdRU
+      topics: art photography
+      summary: >-
+        Photographer and creator of the window-to-window photography movement
+      links:
+        - title: Wall Street Journal
+          url: https://www.wsj.com/articles/gail-albert-halaban-out-my-window-review-voyeuristic-beauty-1537299595
+        - title: Eastman Museum
+          url: https://www.eastman.org/gail-albert-halaban-out-my-window
 
     - episode: 70
-      date: 2020-06-04T17:00:00-04:00
-      topics: partisanship
+      date: "2020-06-04T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=jcaODo0BI_c
+      topics: partisanship
+      summary: Legal commentator, veteran, and writer
+      links:
+        - title: articles
+          url: https://thedispatch.com/people/5849328-david-french
 
     - episode: 69
-      date: 2020-06-03T17:00:00-04:00
-      topics: terrorism and influence
+      date: "2020-06-03T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=b_YBQZ2uXlQ
+      topics: terrorism and influence
+      summary: Disinformation specialist and former FBI agent
+      links:
+        - title: Messing with the Enemy
+          url: https://www.harpercollins.com/9780062795984/messing-with-the-enemy/
+        - title: CNN
+          url: https://www.cnn.com/2017/03/30/politics/who-is-clint-watts/index.html
 
     - episode: 68
-      date: 2020-06-02T17:00:00-04:00
-      topics: content moderation
+      date: "2020-06-02T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=c0TDQ_m7K9E
+      topics: content moderation
+      summary: >-
+        Stanford computer scientist and former chief security officer of
+        Facebook returns to talk disinformation
 
     - episode: 67
-      date: 2020-06-01T17:00:00-04:00
-      topics: journalism
+      date: "2020-06-01T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=6mKxbYLi-5c
+      topics: journalism
+      summary: >-
+        Host of Slate's podcast "Trumpcast"
+      links:
+        - title: Trumpcast
+          url: https://slate.com/podcasts/trumpcast
 
     - episode: 66
-      date: 2020-05-31T17:00:00-04:00
-      topics: police militarization
+      date: "2020-05-31T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=T6YEv3wPgc4
+      topics: police militarization
 
     - episode: 65
-      date: 2020-05-30T17:00:00-04:00
+      date: "2020-05-30T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=NI8dsIeZLuo
 
     - episode: 64
-      date: 2020-05-29T17:00:00-04:00
-      topics: police accountability
+      date: "2020-05-29T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=3MbA0IDkbt0
+      topics: police accountability
+      summary: >-
+        One of the country’s leading authorities on constitutional law,
+        policing, criminal procedure, and the federal courts
 
     - episode: 63
-      date: 2020-05-28T17:00:00-04:00
-      topics: executive orders, voting, moderation
+      date: "2020-05-28T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=B0urk6wOAoI
+      topics: executive orders, voting, moderation
+      summary: >-
+        Discussing the President's draft order on social media, and Twitter's
+        new policy toward Presidential tweets
+      links:
+        - title: executive order
+          url: https://www.whitehouse.gov/presidential-actions/executive-order-preventing-online-censorship/
+        - title: Business Insider
+          url: https://www.businessinsider.com/twitter-flags-trump-tweet-as-violating-policy-against-abusive-behavior-2020-6
+        - title: CNET
+          url: https://www.cnet.com/news/twitter-removes-image-from-trump-tweet-for-violating-copyright-policy/
+        - title: New York Times
+          url: https://www.nytimes.com/2020/06/18/technology/trump-tweet-baby-manipulated.html
 
     - episode: 62
-      date: 2020-05-27T17:00:00-04:00
-      topics: evidence, investigation, subpoenas
+      date: "2020-05-27T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=HdGzvDrT3AY
+      topics: evidence, investigation, subpoenas
+      summary: R Street contributor
+      links:
+        - title: R Street
+          url: https://www.rstreet.org/2013/01/09/cyber-warfare-how-conflicts-in-cyberspace-are-challenging-america-and-changing-the-world/
 
     - episode: 61
-      date: 2020-05-26T17:00:00-04:00
-      topics: supreme court
+      date: "2020-05-26T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=eYBa3OZ5AzA
+      topics: supreme court
+      summary: >-
+        Professor of Law at St. John's University in New York City, teaching
+        Constitutional Law, Criminal Procedure, and Legal History
 
     - episode: 60
-      date: 2020-05-25T17:00:00-04:00
-      topics: facial recognition
+      date: "2020-05-25T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=1pnAfPBZpmk
+      topics: facial recognition
+      summary: >-
+        Brooklyn based investigative journalist, artist and engineer and who
+        looks at the ways in which algorithmic systems perpetuate systemic
+        biases and inequalities in society
+      links:
+        - title: ProPublica
+          url: https://www.propublica.org/people/surya-mattu
+        - title: United States Artists
+          url: https://www.unitedstatesartists.org/fellow/surya-mattu/
+        - title: Aspen Ideas
+          url: https://www.aspenideas.org/speakers/surya-mattu?fbrefresh=1593365928
 
     - episode: 59
-      date: 2020-05-24T17:00:00-04:00
-      topics: justice department, prosecution
+      date: "2020-05-24T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=nSfN26DGu_Y
+      topics: justice department, prosecution
+      summary: >-
+        University of North Carolina professor
 
     - episode: 58
-      date: 2020-05-23T17:00:00-04:00
+      date: "2020-05-23T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=H6oRsd1w--Y
 
     - episode: 57
-      date: 2020-05-22T17:00:00-04:00
-      topics: art; Hong Kong
+      date: "2020-05-22T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=TN0nacauG2g
+      topics: art; Hong Kong
+      summary: >-
+        Discussing drawing, and the situation in Hong Kong
+      links:
+        - title: Sketch and the City
+          url: http://www.benponte.com/sketch-and-the-city
 
     - episode: 56
-      date: 2020-05-21T17:00:00-04:00
-      topics: slavery, history, incarceration
+      date: "2020-05-21T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=EmIG0lsjLqM
+      topics: slavery, history, incarceration
+      summary: >-
+        Award winning-poet, Guggenheim and National Endowment of the Arts
+        Fellow, and winner of the national magazine award for his piece
+        documenting his struggle from incarceration, to a JD at Yale, to
+        becoming a barred attorney in Connecticut
+      links:
+        - title: Poetry Foundation
+          url: https://www.poetryfoundation.org/poets/reginald-dwayne-betts
+        - title: NEA
+          url: https://www.arts.gov/nea-literature-fellowships/reginald-dwayne-betts
+        - title: New York Times
+          url: https://www.nytimes.com/2018/10/16/magazine/felon-attorney-crime-yale-law.html
 
     - episode: 55
-      date: 2020-05-20T17:00:00-04:00
-      topics: film, stories
+      date: "2020-05-20T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=AqRCrypTYBc
+      topics: film, stories
+      summary: Filmmaker Whit Stillman, director of "Metropolitan," "Barcelona," "The Last Days of Disco," and "Damsels in Distress."
 
     - episode: 54
-      date: 2020-05-19T17:00:00-04:00
-      topics: pottery, crafts
+      date: "2020-05-19T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=mGFrjz_E2NY
+      topics: pottery, crafts
+      summary: >-
+        A master potter and Designer, focused on a constant refinement of both
+        form and technique
+      links:
+        - title: TORTUS
+          url: http://tortus-copenhagen.com/about
 
     - episode: 53
-      date: 2020-05-18T17:00:00-04:00
-      topics: writing, stories, and creativity
+      date: "2020-05-18T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=1CeNW2cYXpU
+      topics: writing, stories, and creativity
+      summary: >-
+        Writer and illustrator of picture books for children, and a storyboard
+        and concept artist for film, television, fashion and architecture
+      links:
+        - title: Fraidyzoo
+          url: https://www.publishersweekly.com/978-1-4197-0776-6
+        - title: How Do You Dance?
+          url: https://www.publishersweekly.com/978-1-4197-3418-2
 
     - episode: 52
-      date: 2020-05-17T17:00:00-04:00
-      topics: journalism, business
+      date: "2020-05-17T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=tcENdhnjrfE
+      topics: journalism, business
 
     - episode: 51
-      date: 2020-05-16T17:00:00-04:00
+      date: "2020-05-16T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=nnwL00PQBLk
 
     - episode: 50
-      date: 2020-05-15T17:00:00-04:00
-      topics: reporting, investigations, collusion
+      date: "2020-05-15T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=UIEkehoNq2A
+      topics: reporting, investigations, collusion
+      summary: >-
+        Washington Post reporter, Rational Security host, and author of "@War"
+        and "The Watchers"
+      links:
+        - title: '@War'
+          url: https://www.lawfareblog.com/war-rise-military-internet-complex-shane-harris
+        - title: The Watchers
+          url: https://www.npr.org/2013/06/19/192770397/the-watchers-have-had-their-eyes-on-us-for-years
 
     - episode: 49
-      date: 2020-05-14T17:00:00-04:00
-      topics: law, investigation, history of the pope hat
+      date: "2020-05-14T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=_kInOCJGko4
+      topics: law, investigation, history of the pope hat
+      summary: >-
+        Discussing Michael Flynn, Bill Barr, and all the President's lawyers
 
     - episode: 48
-      date: 2020-05-13T17:00:00-04:00
-      topics: telecoms regulation, section 230
+      date: "2020-05-13T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=12uWhb9xbeI
+      topics: telecoms regulation, section 230
+      summary: Former chairman of the FCC
 
     - episode: 47
-      date: 2020-05-12T17:00:00-04:00
-      topics: frog-boiling on the right
+      date: "2020-05-12T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=9yAuLRoKR8I
+      topics: frog-boiling on the right
+      summary: >-
+        Contributor to The Bulwark and a communications consultant who
+        previously served as senior advisor to the anti-Trump "Our Principles"
+        PAC, communications director for Jeb Bush, and spokesman for the RNC
+      links:
+        - title: Our Principles PAC
+          url: https://www.loc.gov/item/lcwaN0017180/
 
     - episode: 46
-      date: 2020-05-11T17:00:00-04:00
-      topics: Facebook oversight board
+      date: "2020-05-11T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=ujT6UH-Zgrk
+      topics: Facebook oversight board
+      summary: >-
+        A dialogue with members of the new Facebook Oversight Board.
+
+        Jamal Greene is the Dwight Professor of Law at Columbia Law School,
+        focusing on constitutional rights adjudication and the structure of
+        legal and constitutional argument.
+
+        John Samples is a vice president at the Cato Institute.
+
+        Nicolas Suzor is a Professor at the Law School at Queensland University
+        of Technology, where he helps lead QUT’s Digital Media Research Centre
+      links:
+        - title: Business Insider
+          url: https://www.businessinsider.com/facebook-announces-first-members-oversight-board-instagram-2020-5
 
     - episode: 45
-      date: 2020-05-10T17:00:00-04:00
-      topics: life, travel, food, weather, Kate's cowlick
+      date: "2020-05-10T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=CI8a-k9uibU
+      topics: life, travel, food, weather, Kate's cowlick
 
     - episode: 44
-      date: 2020-05-09T17:00:00-04:00
+      date: "2020-05-09T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=RzxpF8fHdeg
 
     - episode: 43
-      date: 2020-05-08T17:00:00-04:00
-      topics: journalism, protest
+      date: "2020-05-08T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=YzjaXi8GONM
+      topics: journalism, protest
+      summary: >-
+        Founding Director of the Tow Center for Digital Journalism at Columbia
+        Journalism School and a leading thinker, commentator and strategist on
+        digital journalism
 
     - episode: 42
-      date: 2020-05-07T17:00:00-04:00
-      topics: reporting, norms, DoJ, DC gallows humour
+      date: "2020-05-07T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=rhRBI6zc6Ss
+      topics: reporting, norms, DoJ, DC gallows humour
+      summary: >-
+        Brookings scholar, Lawfare congressional correspondent, and the woman
+        who publicly took responsibility for failing adequately to vet that guy
+        who carried a whip around the State Department
+      links:
+        - title: LawFare
+          url: https://www.lawfareblog.com/i-vetted-state-department-whip-guy
 
     - episode: 41
-      date: 2020-05-06T17:00:00-04:00
-      topics: big tech, media platforms
+      date: "2020-05-06T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=oYRMd-X77w0
+      topics: big tech, media platforms
 
     - episode: 40
-      date: 2020-05-05T17:00:00-04:00
-      topics: medicine, quarantine, the plague
+      date: "2020-05-05T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=A-sAEYCSQ7c
+      topics: medicine, quarantine, the plague
+      summary: >-
+        Doctor specializing in family medicine and HIV at Callen Lorde, which
+        provides services and care to NYC’s LGBTQ community
+      links:
+        - title: Callen-Lorde
+          url: https://callen-lorde.org/meet-our-providers/
 
     - episode: 39
-      date: 2020-05-04T17:00:00-04:00
-      topics: law, trials, hearings, procedure
+      date: "2020-05-04T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=WAk_6VboUgk
+      topics: law, trials, hearings, procedure
+      summary: >-
+        Discussing the Supreme Court's embrace of remote oral arguments
+      links:
+        - title: NPR
+          url: https://www.npr.org/2020/05/04/847785015/supreme-court-arguments-resume-but-with-a-twist
 
     - episode: 38
-      date: 2020-05-03T17:00:00-04:00
-      topics: bees, murder hornets
+      date: "2020-05-03T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=Q-R2jyi108o
+      topics: bees, murder hornets
 
     - episode: 37
-      date: 2020-05-02T17:00:00-04:00
-      topics: coronavirus, governance, cabin in the woods
+      date: "2020-05-02T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=-xfccHfAw1I
+      topics: coronavirus, governance, cabin in the woods
 
     - episode: 36
-      date: 2020-05-01T17:00:00-04:00
-      topics: coronavirus, state revenue, census, tales out of school
+      date: "2020-05-01T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=vIlU7BbCPlw
+      topics: coronavirus, state revenue, census, tales out of school
+      summary: >-
+        The general treasurer of the State of Rhode Island and Providence
+        Plantations to discuss state finances in the era of coronavirus
 
     - episode: 35
-      date: 2020-04-30T17:00:00-04:00
-      topics: writing, journalism, DoJ
+      date: "2020-04-30T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=cADFrW2GHLo
+      topics: writing, journalism, DoJ
+      summary: >-
+        Former chief of Atlas Obscura and editor of Slate and one of the trio
+        who runs the Slate Political Gabfest
 
     - episode: 34
-      date: 2020-04-29T17:00:00-04:00
-      topics: leadership, social media, computers
+      date: "2020-04-29T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=2XBkAAaBrpQ
+      topics: leadership, social media, computers
+      summary: >-
+        A discussion of Russia, cybersecurity, elections, and disinformation,
+        with the former President of Estonia
 
     - episode: 33
-      date: 2020-04-28T17:00:00-04:00
-      topics: crime, prosecution, law
+      date: "2020-04-28T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=xSCPjSMk6oo
+      topics: crime, prosecution, law
+      summary: >-
+        Former U.S. Attorney for the Southern District of New York and podcaster
+      links:
+        - title: podcast
+          url: https://cafe.com/stay-tuned-podcast/
 
     - episode: 32
-      date: 2020-04-27T17:00:00-04:00
-      topics: history, The Renaissance, speculative fiction
+      date: "2020-04-27T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=ni3wmotnr2Q
+      topics: history, The Renaissance, speculative fiction
+      summary: >-
+        Historian at the University of Chicago and a sci-fi/fantasy author
 
     - episode: 31
-      date: 2020-04-26T17:00:00-04:00
-      topics: politics, life, baby cannon, cabin in the woods
+      date: "2020-04-26T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=FamjIjc_XOs
+      topics: politics, life, baby cannon, cabin in the woods
 
     - episode: 30
-      date: 2020-04-25T17:00:00-04:00
+      date: "2020-04-25T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=0mVSAhA7g6Y
 
     - episode: 29
-      date: 2020-04-24T17:00:00-04:00
-      topics: law, impeachment, courts; pugilism week; ILoF video
+      date: "2020-04-24T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=RYZAut8elnA
+      topics: law, impeachment, courts; pugilism week; ILoF video
+      summary: Harvard Law School.
 
     - episode: 28
-      date: 2020-04-23T17:00:00-04:00
-      topics: robots and the meaning of belonging
+      date: "2020-04-23T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=kCZRZrZ9hRA
+      topics: robots and the meaning of belonging
+      summary: >-
+        Research specialist at the MIT Media Lab defending the honor of robots
 
     - episode: 27
-      date: 2020-04-22T17:00:00-04:00
-      topics: government, rights, coronavirus; pugilism week
+      date: "2020-04-22T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=kxVZ9yv4EeE
+      topics: government, rights, coronavirus; pugilism week
+      summary: Georgetown law professor
 
     - episode: 26
-      date: 2020-04-21T17:00:00-04:00
-      topics: performative vilification, presidential abusiveness
+      date: "2020-04-21T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=aOxJQY-rSsg
+      topics: performative vilification, presidential abusiveness
 
     - episode: 25
-      date: 2020-04-20T17:00:00-04:00
-      topics: jurisprudence, kayfabe social media grudge matches; pugilism week
+      date: "2020-04-20T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=SDrh_KyJtmM
+      topics: jurisprudence, kayfabe social media grudge matches; pugilism week
 
     - episode: 24
-      date: 2020-04-19T17:00:00-04:00
-      topics: content moderation, section 230, mixed martial-arts
+      date: "2020-04-19T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=t0PMWLoZt04
+      topics: content moderation, section 230, mixed martial-arts
 
     - episode: 23
-      date: 2020-04-18T17:00:00-04:00
+      date: "2020-04-18T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=iEs5ZVZt6fY
 
     - episode: 22
-      date: 2020-04-17T17:00:00-04:00
-      topics: life, economics, policy limericks
+      date: "2020-04-17T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=r8vZPqeZc44
+      topics: life, economics, policy limericks
+      summary: University of Minnesota health care economist
 
     - episode: 21
-      date: 2020-04-16T17:00:00-04:00
-      topics: presidential norms, room rater, neighbors & singing
+      date: "2020-04-16T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=YR40vyRGdcg
+      topics: presidential norms, room rater, neighbors & singing
+      summary: >-
+        Discussing Dan's new book, and Maggie's letter to the New York Times
+        about her neighbor's complaints over her singing arias
+      links:
+        - title: Washington Post
+          url: https://www.washingtonpost.com/outlook/when-the-president-is-more-like-a-little-kid-than-a-leader/2020/04/17/0af66450-73a9-11ea-a9bd-9f8b593300d0_story.html
+        - title: '#NatSecGirlSquad'
+          url: https://www.natsecgirlsquad.com/about
+        - title: New York Times
+          url: https://www.nytimes.com/2020/04/02/business/coronavirus-work-neighbors.html
 
     - episode: 20
-      date: 2020-04-15T17:00:00-04:00
-      topics: law, expertise, politics
+      date: "2020-04-15T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=CL-sppxnIas
+      topics: law, expertise, politics
+      summary: Lawfare Managing Editor, contributing writer for The Atlantic
 
     - episode: 19
-      date: 2020-04-14T17:00:00-04:00
-      topics: online speech, a.k.a. speech
+      date: "2020-04-14T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=6IPTzcQ4PJc
+      topics: online speech, a.k.a. speech
 
     - episode: 18
-      date: 2020-04-13T17:00:00-04:00
-      topics: Facebook oversight board
+      date: "2020-04-13T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=9D-yg7eBbSY
+      topics: Facebook oversight board
 
     - episode: 17
-      date: 2020-04-12T17:00:00-04:00
-      topics: the hamartia of democracies
+      date: "2020-04-12T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=2XbTRLKELqU
+      topics: the hamartia of democracies
 
     - episode: 16
-      date: 2020-04-11T17:00:00-04:00
+      date: "2020-04-11T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=5r9q2Zwygg4
 
     - episode: 15
-      date: 2020-04-10T17:00:00-04:00
-      topics: coronavirus, medical response
+      date: "2020-04-10T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=C883ChjIHdw
+      topics: coronavirus, medical response
+      summary: >-
+        An emergency room doctor from Virginia joins Kate and Ben to talk about
+        what he's seeing and hearing as hospitals struggle to respond to COVID
 
     - episode: 14
-      date: 2020-04-09T17:00:00-04:00
-      topics: surviving the plague and Trumpism
+      date: "2020-04-09T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=uWgXMvJC2Eo
+      topics: surviving the plague and Trumpism
+      summary: >-
+        Head of foreign policy at AEI, former NSC and DOD, and one of the great
+        voices of principled conservative opposition to Trumpism
+      links:
+        - title: New York Times
+          url: https://www.nytimes.com/2018/06/15/opinion/sunday/trump-china-america-first.html
 
     - episode: 13
-      date: 2020-04-08T17:00:00-04:00
-      topics: responding to crisis; following the money
+      date: "2020-04-08T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=lz65Bwiau2w
+      topics: responding to crisis; following the money
+      summary: >-
+        Hosts of Slate's podcasts "Trumpcast" and "The Gist"
+      links:
+        - title: Trumpcast
+          url: https://slate.com/podcasts/trumpcast
+        - title: The Gist
+          url: https://slate.com/podcasts/the-gist
 
     - episode: 12
-      date: 2020-04-07T17:00:00-04:00
-      topics: surviving the plague; democracy, policy, and government leadership
+      date: "2020-04-07T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=xrofDaV8mPk
+      topics: surviving the plague; democracy, policy, and government leadership
+      summary: Discussing surveillance and COVID-19.
 
     - episode: 11
-      date: 2020-04-06T17:00:00-04:00
-      topics: elections in the time of coronavirus
+      date: "2020-04-06T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=dzhZpWYQezE
+      topics: elections in the time of coronavirus
+      summary: >-
+        Discussing what it will take to prevent an election meltdown in November
 
     - episode: 10
-      date: 2020-04-05T17:00:00-04:00
-      topics: law, twitter, life, coronavirus
+      date: "2020-04-05T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=73dll8bSuYs
+      topics: law, twitter, life, coronavirus
+      summary: >-
+        Hosts each invite a mystery guest and don't tell the other who is going on the show.
 
     - episode: 9
-      date: 2020-04-04T17:00:00-04:00
+      date: "2020-04-04T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=0zCGwLbUNWI
 
     - episode: 8
-      date: 2020-04-03T17:00:00-04:00
-      topics: coronavirus response
+      date: "2020-04-03T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=-i7UkLg7-a4
+      topics: coronavirus response
+      summary: >-
+        Brookings scholar discussing her research on coronavirus around the
+        world. She has talked to more than 90 people in 68 countries about how
+        they are handling the coronavirus
+      links:
+        - title: Belfer Center
+          url: https://www.belfercenter.org/publication/amanda-sloat-response-covid-19-around-globe
 
     - episode: 7
-      date: 2020-04-02T17:00:00-04:00
-      topics: education in the time of coronavirus
+      date: "2020-04-02T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=kmJMRn0x51c
+      topics: education in the time of coronavirus
+      summary: >-
+        Discussing how the pandemic has changed the future of higher education
 
     - episode: 6
-      date: 2020-04-01T17:00:00-04:00
-      topics: wild outdoor adventure
+      date: "2020-04-01T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=KNqZDaaSP60
+      topics: wild outdoor adventure
+      summary: >-
+        Writer, back-woods skier, and extreme-condition kayaker talks about
+        COVID-19 in rural Montana, kayaking across the Pacific Ocean and around
+        Cape Horn, and whether communities at the extreme margins of human
+        existence offer protection from global cataclysms
+      links:
+        - title: Crocodiles and Ice
+          url: https://ravallirepublic.com/news/local/article_872f8c24-77c5-11e6-8b40-f3384dc7726b.html
 
     - episode: 5
-      date: 2020-03-31T17:00:00-04:00
-      topics: law, legal education, life, and music
+      date: "2020-03-31T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=yIkbO7u7V5o
+      topics: law, legal education, life, and music
+      summary: >-
+        Fourth Amendment scholar discusses academic career, privacy and
+        COVID-19, and a little bit of music
 
     - episode: 4
-      date: 2020-03-30T17:00:00-04:00
-      topics: online abuse
+      date: "2020-03-30T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=fqN2cuNnsMQ
+      topics: online abuse
 
     - episode: 3
-      date: 2020-03-29T17:00:00-04:00
+      date: "2020-03-29T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=fVLJfGjf7GI
+      summary: >-
+        Kate and Ben each invite a secret guest, and invite that secret guest
+        to invite a secret guest. This establishes Sundays as Mystery Guest day
 
     - episode: 2
-      date: 2020-03-26T17:00:00-04:00
+      date: "2020-03-26T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=Jvp10Ve6LQs
 
     - episode: 1
-      date: 2020-03-25T17:00:00-04:00
-      topics: supreme court, learning
+      date: "2020-03-25T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=sVthy2h3XAk
+      topics: supreme court, learning
+      summary: >-
+        Talking about  blogging the Supreme Court and missing the end of senior year
+      links:
+        - title: High School SCOTUS
+          url: https://highschoolscotus.wordpress.com/
 
     - episode: 0
-      date: 2020-03-24T17:00:00-04:00
-      topics: '\"screen time\" in the time of coronavirus'
+      date: "2020-03-24T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=8lqhrhjwyrk
+      topics: \"screen time\" in the time of coronavirus
+      summary: >-
+        Discussing issues of platform governance, sextortion, and the
+        interaction of feminism and national security
 
     - episode: test 2
-      date: 2020-03-25T17:00:00-04:00
-      topics: Test episode 2
+      date: "2020-03-25T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=SORmEeTQUX4
+      topics: Test episode 2
 
     - episode: test 1
-      date: 2020-03-24T17:00:00-04:00
-      topics: Test episode 1
+      date: "2020-03-24T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=XIpo3obwAb0
+      topics: Test episode 1
