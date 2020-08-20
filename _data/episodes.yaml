@@ -1,12 +1,40 @@
+# Episode schema:
+#
+#   episode: int     -- episode sequence number
+#   date:    string  -- RFC 3339 date of broadcast
+#   youtube: string  -- URL of YouTube stream or recording
+#   topics:  string  -- terse comma-separated topic list (optional)
+#   summary: string  -- episode summary (optional)
+#   links:   list    -- hyperlinks to relevant content (optional)
+#
+# Link schema:
+#   title:   string  -- link title
+#   url:     string  -- link URL
+#
 # To add a new episode:
 #
 # Add a new entry to this list, at minimum including the episode number, date,
-# and youtube stream URL. You can get the latter from the ILoF channel on YT on
-# the day of the stream. Please preserve reverse chronological order. Nothing
-# will break if you list episodes out of order, but it's easier to maintain.
+# and youtube stream URL. Include topics and/or summary if you can.
+# >> Please preserve reverse chronological order.
 #
 # Update guests.yml to add any guests who have not attended before, or to add
 # the new episode number to existing guests.
+#
+# When including links, try to keep link titles brief. In the episodes below I
+# have adopted some conventions:
+#
+#   - Book titles are spelled out ("OK Boomer, Let's Talk")
+#   - Articles are tagged by their publisher ("New York Times")
+#   - Documents are described briefly ("executive order")
+#
+# Omit home page and social media links for guests unless they are specific to
+# the episode; the guests.yml file has spaces guest-specific links.
+#
+# To get the YouTube link for an episode, visit the ILoF channel page:
+#
+#    https://www.youtube.com/channel/UC8lKFNnYE1War3a41Q41fMw
+#
+# Ben usually posts these in the morning on the day of broadcast.
 #
 episodes:
     - episode: 147
