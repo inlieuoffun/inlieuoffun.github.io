@@ -1,7 +1,7 @@
 # Episode schema:
 #
 #   episode: int     -- episode sequence number
-#   date:    string  -- RFC 3339 date of broadcast
+#   date:    string  -- date of broadcast, YYYY-MM-DD.
 #   youtube: string  -- URL of YouTube stream or recording
 #   topics:  string  -- terse comma-separated topic list (optional)
 #   summary: string  -- episode summary (optional)
@@ -38,7 +38,7 @@
 #
 episodes:
     - episode: 147
-      date: "2020-08-20T17:00:00-04:00"
+      date: "2020-08-20"
       youtube: https://www.youtube.com/watch?v=0IJkgnR3hf4
       summary: >-
         Sarah Longwell returns to discuss the DNC convention and the future of conservatism, and the indictment of Steven K. Bannon. This surprises Kate for an interesting reason.
@@ -47,7 +47,7 @@ episodes:
           url: https://www.wsj.com/articles/former-senior-trump-advisor-steve-bannon-charged-with-alleged-fundraising-scheme-11597931727
 
     - episode: 146
-      date: "2020-08-19T17:00:00-04:00"
+      date: "2020-08-19"
       youtube: https://www.youtube.com/watch?v=Q2bi51jt60g
       summary: Discussing Jill's new book
       links:
@@ -55,7 +55,7 @@ episodes:
           url: https://www.simonandschuster.com/books/OK-Boomer-Lets-Talk/Jill-Filipovic/9781982153762
 
     - episode: 145
-      date: "2020-08-18T17:00:00-04:00"
+      date: "2020-08-18"
       youtube: https://www.youtube.com/watch?v=hP32YJaaZYo
       summary: Discussing Jack's new book
       links:
@@ -63,70 +63,70 @@ episodes:
           url: https://global.oup.com/academic/product/the-cycles-of-constitutional-time-9780197530993
 
     - episode: 144
-      date: "2020-08-17T17:00:00-04:00"
+      date: "2020-08-17"
       youtube: https://www.youtube.com/watch?v=ADfzmr5JEk4
       topics: effects of pandemic on government function, free speech, assembly
 
     - episode: 143
-      date: "2020-08-16T17:00:00-04:00"
+      date: "2020-08-16"
       youtube: https://www.youtube.com/watch?v=YCE1VteWyC0
       topics: abuse on the internet, sextortion, revenge porn
 
     - episode: 142
-      date: "2020-08-15T17:00:00-04:00"
+      date: "2020-08-15"
       youtube: https://www.youtube.com/watch?v=skQkiQIthwA
 
     - episode: 141
-      date: "2020-08-14T17:00:00-04:00"
+      date: "2020-08-14"
       youtube: https://www.youtube.com/watch?v=jhlkNsXoZW4
       topics: election modeling redux, polling
 
     - episode: 140
-      date: "2020-08-13T17:00:00-04:00"
+      date: "2020-08-13"
       youtube: https://www.youtube.com/watch?v=KBR1Ou7Wf1g
       topics: post office history
 
     - episode: 139
-      date: "2020-08-12T17:00:00-04:00"
+      date: "2020-08-12"
       youtube: https://www.youtube.com/watch?v=U1S3QO0np08
       topics: election modeling
 
     - episode: 138
-      date: "2020-08-11T17:00:00-04:00"
+      date: "2020-08-11"
       youtube: https://www.youtube.com/watch?v=Esw2TN64jQg
       topics: the filibuster; ILoF logo poll
 
     - episode: 137
-      date: "2020-08-10T17:00:00-04:00"
+      date: "2020-08-10"
       youtube: https://www.youtube.com/watch?v=w4gsTEKlYkI
       topics: elections, journalism, otters
 
     - episode: 136
-      date: "2020-08-09T17:00:00-04:00"
+      date: "2020-08-09"
       youtube: https://www.youtube.com/watch?v=Oq9qM1gngtw
       topics: executive orders
 
     - episode: 135
-      date: "2020-08-08T17:00:00-04:00"
+      date: "2020-08-08"
       youtube: https://www.youtube.com/watch?v=O2Y6hOeFwIE
 
     - episode: 134
-      date: "2020-08-07T17:00:00-04:00"
+      date: "2020-08-07"
       youtube: https://www.youtube.com/watch?v=qzS31IHohvQ
       topics: coronavirus, vaccines, human trials
 
     - episode: 133
-      date: "2020-08-06T17:00:00-04:00"
+      date: "2020-08-06"
       youtube: https://www.youtube.com/watch?v=gPk-OIxqFGA
       topics: PACER decision, accessibility of court records
 
     - episode: 132
-      date: "2020-08-05T17:00:00-04:00"
+      date: "2020-08-05"
       youtube: https://www.youtube.com/watch?v=s_917Xl_5Qc
       topics: election, voting
 
     - episode: 131
-      date: "2020-08-04T17:00:00-04:00"
+      date: "2020-08-04"
       youtube: https://www.youtube.com/watch?v=WUGRwJ_RKqk
       topics: Trump Axios interview
       summary: Discussing the Axios interview released August 3, 2020
@@ -137,12 +137,12 @@ episodes:
           url: https://www.rollingstone.com/politics/politics-news/trump-axios-interview-jonathan-swan-1039137
 
     - episode: 130
-      date: "2020-08-03T17:00:00-04:00"
+      date: "2020-08-03"
       youtube: https://www.youtube.com/watch?v=Hhzs5_gP29o
       topics: tech, law, policy
 
     - episode: 129
-      date: "2020-08-02T17:00:00-04:00"
+      date: "2020-08-02"
       youtube: https://www.youtube.com/watch?v=pGYdsXLPSOU
       topics: immigration, refugees
       summary: >-
@@ -155,11 +155,11 @@ episodes:
           url: http://www.santafedreamersproject.org/who-we-are
 
     - episode: 128
-      date: "2020-08-01T17:00:00-04:00"
+      date: "2020-08-01"
       youtube: https://www.youtube.com/watch?v=9sOKNTEngOE
 
     - episode: 127
-      date: "2020-07-31T17:00:00-04:00"
+      date: "2020-07-31"
       youtube: https://www.youtube.com/watch?v=bOAXqLq1K44
       topics: law, judgeship, life
       summary: Miami-based attorney and MSNBC legal contributor
@@ -168,7 +168,7 @@ episodes:
           url: https://www.msnbc.com/msnbc/watch/katie-phang-talks-mueller-s-russia-probe-and-impeachment-1492290627856
 
     - episode: 126
-      date: "2020-07-30T17:00:00-04:00"
+      date: "2020-07-30"
       youtube: https://www.youtube.com/watch?v=wzdkNWnQSMw
       topics: humor, puns, journalism
       summary: Washington Post humor columnist
@@ -177,13 +177,13 @@ episodes:
           url: https://www.cosmopolitan.com/career/a63347/alexandra-petri-washington-post-get-that-life/
 
     - episode: 125
-      date: "2020-07-29T17:00:00-04:00"
+      date: "2020-07-29"
       youtube: https://www.youtube.com/watch?v=SEji_b4J9G4
       topics: the 2020 elections, voting
       summary: Discussing the 2020 U.S. Presidential election
 
     - episode: 124
-      date: "2020-07-28T17:00:00-04:00"
+      date: "2020-07-28"
       youtube: https://www.youtube.com/watch?v=pysTnKmPf8w
       topics: Barr testimony
       summary: >-
@@ -193,7 +193,7 @@ episodes:
           url: https://www.nytimes.com/2020/07/28/us/politics/william-barr-house-judiciary-hearing.html
 
     - episode: 123
-      date: "2020-07-27T17:00:00-04:00"
+      date: "2020-07-27"
       youtube: https://www.youtube.com/watch?v=SEXWmPyt90c
       topics: polling, politics, and shibboleths
       summary: Senior political writer for FiveThirtyEight
@@ -202,17 +202,17 @@ episodes:
           url: https://fivethirtyeight.com/
 
     - episode: 122
-      date: "2020-07-26T17:00:00-04:00"
+      date: "2020-07-26"
       youtube: https://www.youtube.com/watch?v=0RFr6iGH4rA
       topics: comedy writing
       summary: Senior writer for The Daily Show
 
     - episode: 121
-      date: "2020-07-25T17:00:00-04:00"
+      date: "2020-07-25"
       youtube: https://www.youtube.com/watch?v=6uG9TpXj_1w
 
     - episode: 120
-      date: "2020-07-24T17:00:00-04:00"
+      date: "2020-07-24"
       youtube: https://www.youtube.com/watch?v=OD_bxKCpKWs
       topics: Facebook
       links:
@@ -220,7 +220,7 @@ episodes:
           url: https://www.nytimes.com/2020/02/25/books/review/facebook-the-inside-story-steven-levy.html
 
     - episode: 119
-      date: "2020-07-23T17:00:00-04:00"
+      date: "2020-07-23"
       youtube: https://www.youtube.com/watch?v=yRrjdIhwTjU
       topics: coronavirus
       summary: >-
@@ -230,7 +230,7 @@ episodes:
           url: https://www.statnews.com/2017/05/25/andy-slavitt-aca-town-halls/
 
     - episode: 118
-      date: "2020-07-22T17:00:00-04:00"
+      date: "2020-07-22"
       youtube: https://www.youtube.com/watch?v=tpUZVfWSc0A
       topics: crossword puzzles
       summary: New York Times crossword constructor
@@ -239,7 +239,7 @@ episodes:
           url: https://www.nytimes.com/2020/02/19/crosswords/constructor-crossword-puzzles-trudeau.html
 
     - episode: 117
-      date: "2020-07-21T17:00:00-04:00"
+      date: "2020-07-21"
       youtube: https://www.youtube.com/watch?v=laG-tutITvo
       topics: DHS Job Aid, stories of Ben's youth
       summary: >-
@@ -252,7 +252,7 @@ episodes:
           url: https://www.salon.com/2020/07/21/leaked-memo-trump-administration-authorized-domestic-surveillance-of-protests-to-protect-statues
 
     - episode: 116
-      date: "2020-07-20T17:00:00-04:00"
+      date: "2020-07-20"
       youtube: https://www.youtube.com/watch?v=lRYyarIkNY8
       topics: coronavirus
       summary: >-
@@ -260,11 +260,11 @@ episodes:
         Bloomberg School of Public Health
 
     - episode: 115
-      date: "2020-07-19T17:00:00-04:00"
+      date: "2020-07-19"
       youtube: https://www.youtube.com/watch?v=ifekFFj8wMg
 
     - episode: 114
-      date: "2020-07-18T17:00:00-04:00"
+      date: "2020-07-18"
       youtube: https://www.youtube.com/watch?v=1UE8wrilGKU
       topics: policing
       summary: >-
@@ -274,7 +274,7 @@ episodes:
           url: https://www.lawfareblog.com/what-heck-are-federal-law-enforcement-officers-doing-portland
 
     - episode: 113
-      date: "2020-07-17T17:00:00-04:00"
+      date: "2020-07-17"
       youtube: https://www.youtube.com/watch?v=Jz88Ae3Z6lc
       summary: New York Times opinion columnist
       links:
@@ -282,7 +282,7 @@ episodes:
           url: https://www.nytco.com/press/charlie-warzel-to-join-the-new-york-times-opinion-pages/
 
     - episode: 112
-      date: "2020-07-16T17:00:00-04:00"
+      date: "2020-07-16"
       youtube: https://www.youtube.com/watch?v=58lpcyTWUl4
       topics: crime
       summary: >-
@@ -294,7 +294,7 @@ episodes:
           url: https://twitter.com/CrimeADay
 
     - episode: 111
-      date: "2020-07-15T17:00:00-04:00"
+      date: "2020-07-15"
       youtube: https://www.youtube.com/watch?v=eXc6LFfvzbU
       summary: >-
         Author of "The H Spot: The Feminist Pursuit of Happiness"
@@ -305,7 +305,7 @@ episodes:
           url: https://www.npr.org/books/titles/584670728/the-h-spot-the-feminist-pursuit-of-happiness
 
     - episode: 110
-      date: "2020-07-14T17:00:00-04:00"
+      date: "2020-07-14"
       youtube: https://www.youtube.com/watch?v=5k1NVhZ1i_g
       topics: supreme court (McGirt decision)
       summary: >-
@@ -315,7 +315,7 @@ episodes:
           url: https://news.bloomberglaw.com/us-law-week/project-bolsters-tribes-high-court-claims-following-defeats
 
     - episode: 109
-      date: "2020-07-13T17:00:00-04:00"
+      date: "2020-07-13"
       youtube: https://www.youtube.com/watch?v=hGG3oy2jJ3M
       topics: speech and the press
       summary: >-
@@ -324,92 +324,92 @@ episodes:
         Newmark Graduate School of Journalism
 
     - episode: 108
-      date: "2020-07-12T17:00:00-04:00"
+      date: "2020-07-12"
       youtube: https://www.youtube.com/watch?v=jzvsZOnKshk
       topics: prosciutto, media
       summary: Staff writer for The New Yorker
 
     - episode: 107
-      date: "2020-07-11T17:00:00-04:00"
+      date: "2020-07-11"
       youtube: https://www.youtube.com/watch?v=T36fD7ziBGU
 
     - episode: 106
-      date: "2020-07-10T17:00:00-04:00"
+      date: "2020-07-10"
       youtube: https://www.youtube.com/watch?v=tpY9MJa0H3U
       topics: Harper's cancel culture letter
       summary: >-
         Debating the recent Harper's letter regarding "cancel culture"
 
     - episode: 105
-      date: "2020-07-09T17:00:00-04:00"
+      date: "2020-07-09"
       youtube: https://www.youtube.com/watch?v=R1tHI6LiNEM
       topics: SCOTUS subpoena cases
 
     - episode: 104
-      date: "2020-07-08T17:00:00-04:00"
+      date: "2020-07-08"
       youtube: https://www.youtube.com/watch?v=nGJorGSSn3I
       topics: SCOTUS religious freedom cases
 
     - episode: 103
-      date: "2020-07-07T17:00:00-04:00"
+      date: "2020-07-07"
       youtube: https://www.youtube.com/watch?v=3TuLKtwKp8Q
       topics: interviewing
       summary: NPR Correspondent
 
     - episode: 102
-      date: "2020-07-06T17:00:00-04:00"
+      date: "2020-07-06"
       youtube: https://www.youtube.com/watch?v=_li_K6XSBOk
       topics: SCOTUS "faithless elector" case
       summary: >-
         Discussing the Faithless Electors SCOTUS case
 
     - episode: 101
-      date: "2020-07-05T17:00:00-04:00"
+      date: "2020-07-05"
       youtube: https://www.youtube.com/watch?v=CSww9j4_psM
       topics: presidential daily briefings (PDB)
 
     - episode: 100
-      date: "2020-07-04T17:00:00-04:00"
+      date: "2020-07-04"
       youtube: https://www.youtube.com/watch?v=lUN2CuGTtHk
       summary: An informal roundup of previous guests on the show
 
     - episode: 99
-      date: "2020-07-03T17:00:00-04:00"
+      date: "2020-07-03"
       youtube: https://www.youtube.com/watch?v=ajHkbQDYdyE
       topics: polling
       summary: Vice President of Research at Pew Research Center
 
     - episode: 98
-      date: "2020-07-02T17:00:00-04:00"
+      date: "2020-07-02"
       youtube: https://www.youtube.com/watch?v=vcWc_5-65BY
       topics: history, speculative fiction
 
     - episode: 97
-      date: "2020-07-01T17:00:00-04:00"
+      date: "2020-07-01"
       youtube: https://www.youtube.com/watch?v=sSg5N_teCKs
       topics: Hong Kong
 
     - episode: 96
-      date: "2020-06-30T17:00:00-04:00"
+      date: "2020-06-30"
       youtube: https://www.youtube.com/watch?v=-PSz6jWD8lE
       topics: Parler, opposition research
 
     - episode: 95
-      date: "2020-06-29T17:00:00-04:00"
+      date: "2020-06-29"
       youtube: https://www.youtube.com/watch?v=_c0NVSXluPw
       topics: SCOTUS abortion and unitary executive cases
 
     - episode: 94
-      date: "2020-06-28T17:00:00-04:00"
+      date: "2020-06-28"
       youtube: https://www.youtube.com/watch?v=d8jvRDNVzkY
       topics: social media
 
     - episode: 93
-      date: "2020-06-27T17:00:00-04:00"
+      date: "2020-06-27"
       youtube: https://www.youtube.com/watch?v=obgAI8gvVFs
 
     - episode: 92
-      date: "2020-06-26T17:00:00-04:00"
+      date: "2020-06-26"
       youtube: https://www.youtube.com/watch?v=Yo-wah-7IjY
       topics: institutions, law enforcement, terrorism
       summary: >-
@@ -420,7 +420,7 @@ episodes:
           url: https://www.foreignaffairs.com/articles/2015-10-20/beyond-counterterrorism
 
     - episode: 91
-      date: "2020-06-25T17:00:00-04:00"
+      date: "2020-06-25"
       youtube: https://www.youtube.com/watch?v=G1SzMKTimV8
       topics: misinformation, disinformation, active measures
       summary: Chief innovation officer of Graphika
@@ -429,14 +429,14 @@ episodes:
           url: https://graphika.com/reports/exposing-secondary-infektion/
 
     - episode: 90
-      date: "2020-06-24T17:00:00-04:00"
+      date: "2020-06-24"
       youtube: https://www.youtube.com/watch?v=omcuI8ljmiI
       topics: section 230, content moderation
       summary: >-
         George Bemis Professor of International Law at Harvard Law School
 
     - episode: 89
-      date: "2020-06-23T17:00:00-04:00"
+      date: "2020-06-23"
       youtube: https://www.youtube.com/watch?v=YCuUJIrZ60E
       topics: cybersecurity, active measures
       summary: >-
@@ -449,12 +449,12 @@ episodes:
           url: https://www.washingtonpost.com/outlook/the-russians-manipulated-our-elections-we-helped/2020/04/23/e44e9e76-5742-11ea-9000-f3cffee23036_story.html
 
     - episode: 88
-      date: "2020-06-22T17:00:00-04:00"
+      date: "2020-06-22"
       youtube: https://www.youtube.com/watch?v=2lz5iwRwqrg
       topics: police accountability, elections
 
     - episode: 87
-      date: "2020-06-21T17:00:00-04:00"
+      date: "2020-06-21"
       youtube: https://www.youtube.com/watch?v=Ryn7-FA7FmU
       topics: defeating Trumpism
       summary: >-
@@ -465,12 +465,12 @@ episodes:
           url: https://lincolnproject.us
 
     - episode: 86
-      date: "2020-06-20T17:00:00-04:00"
+      date: "2020-06-20"
       youtube: https://www.youtube.com/watch?v=duSBC8BANrc
       topics: U.S. attorney appointment
 
     - episode: 85
-      date: "2020-06-19T17:00:00-04:00"
+      date: "2020-06-19"
       youtube: https://www.youtube.com/watch?v=Ud0juduEvEc
       topics: white supremacy
       summary: >-
@@ -480,14 +480,14 @@ episodes:
           url: https://www.npr.org/2019/03/17/704209677/how-white-supremacist-ideology-spreads
 
     - episode: 84
-      date: "2020-06-18T17:00:00-04:00"
+      date: "2020-06-18"
       youtube: https://www.youtube.com/watch?v=NCyLimk8VZU
       topics: Flynn, Bolton, courts
       summary: >-
         Georgetown law professor and former Justice Department official
 
     - episode: 83
-      date: "2020-06-17T17:00:00-04:00"
+      date: "2020-06-17"
       youtube: https://www.youtube.com/watch?v=gfNZEIVhSqc
       topics: Bolton, classification
       summary: >-
@@ -495,7 +495,7 @@ episodes:
         NSA lawyer
 
     - episode: 82
-      date: "2020-06-16T17:00:00-04:00"
+      date: "2020-06-16"
       youtube: https://www.youtube.com/watch?v=jDF8ZIChPXI
       topics: Russia, disinformation
       summary: President and CEO of the Center for European Policy Analysis (CEPA)
@@ -504,7 +504,7 @@ episodes:
           url: https://www.cepa.org/polyakova-cepa-president
 
     - episode: 81
-      date: "2020-06-15T17:00:00-04:00"
+      date: "2020-06-15"
       youtube: https://www.youtube.com/watch?v=zbxMG9Y9eB4
       topics: SCOTUS LGBT discrimination case
       summary: >-
@@ -515,29 +515,29 @@ episodes:
           url: https://www.nytimes.com/2020/06/15/us/gay-transgender-workers-supreme-court.html
 
     - episode: 80
-      date: "2020-06-14T17:00:00-04:00"
+      date: "2020-06-14"
       youtube: https://www.youtube.com/watch?v=evd6u9MoGsQ
       topics: inequality
       summary: Host of The Gist, a daily podcast by Slate
 
     - episode: 79
-      date: "2020-06-13T17:00:00-04:00"
+      date: "2020-06-13"
       youtube: https://www.youtube.com/watch?v=52tnlmp6fIE
 
     - episode: 78
-      date: "2020-06-12T17:00:00-04:00"
+      date: "2020-06-12"
       youtube: https://www.youtube.com/watch?v=nWYCgIqY55M
       topics: pandemic response, economic impacts
       summary: Columnist for the Washington Post
 
     - episode: 77
-      date: "2020-06-11T17:00:00-04:00"
+      date: "2020-06-11"
       youtube: https://www.youtube.com/watch?v=e0KrQ4efuAc
       topics: politics
       summary: Co-founder of the Weekly Standard and the Bulwark
 
     - episode: 76
-      date: "2020-06-10T17:00:00-04:00"
+      date: "2020-06-10"
       youtube: https://www.youtube.com/watch?v=FXQHiVi9H7s
       topics: DOJ, Bill Barr
       summary: >-
@@ -549,14 +549,14 @@ episodes:
           url: https://www.msn.com/en-us/news/politics/matt-miller-trumps-inability-to-find-top-tier-legal-council-is-harming-his-argument/vi-AAK47Iq
 
     - episode: 75
-      date: "2020-06-09T17:00:00-04:00"
+      date: "2020-06-09"
       youtube: https://www.youtube.com/watch?v=_On2qqsaoYI
       topics: law and the Internet
       summary: >-
         Roy L. Furman Professor of Law and Leadership at Harvard Law School
 
     - episode: 74
-      date: "2020-06-08T17:00:00-04:00"
+      date: "2020-06-08"
       youtube: https://www.youtube.com/watch?v=eEJktEIn0Hg
       topics: journalism
       summary: >-
@@ -566,16 +566,16 @@ episodes:
           url: https://www.vox.com/pages/about-us
 
     - episode: 73
-      date: "2020-06-07T17:00:00-04:00"
+      date: "2020-06-07"
       youtube: https://www.youtube.com/watch?v=-jnsnUei1LA
       topics: elections, influence
 
     - episode: 72
-      date: "2020-06-06T17:00:00-04:00"
+      date: "2020-06-06"
       youtube: https://www.youtube.com/watch?v=KvktA5oGPt0
 
     - episode: 71
-      date: "2020-06-05T17:00:00-04:00"
+      date: "2020-06-05"
       youtube: https://www.youtube.com/watch?v=Z_WpcZuXdRU
       topics: art photography
       summary: >-
@@ -587,7 +587,7 @@ episodes:
           url: https://www.eastman.org/gail-albert-halaban-out-my-window
 
     - episode: 70
-      date: "2020-06-04T17:00:00-04:00"
+      date: "2020-06-04"
       youtube: https://www.youtube.com/watch?v=jcaODo0BI_c
       topics: partisanship
       summary: Legal commentator, veteran, and writer
@@ -596,7 +596,7 @@ episodes:
           url: https://thedispatch.com/people/5849328-david-french
 
     - episode: 69
-      date: "2020-06-03T17:00:00-04:00"
+      date: "2020-06-03"
       youtube: https://www.youtube.com/watch?v=b_YBQZ2uXlQ
       topics: terrorism and influence
       summary: Disinformation specialist and former FBI agent
@@ -607,7 +607,7 @@ episodes:
           url: https://www.cnn.com/2017/03/30/politics/who-is-clint-watts/index.html
 
     - episode: 68
-      date: "2020-06-02T17:00:00-04:00"
+      date: "2020-06-02"
       youtube: https://www.youtube.com/watch?v=c0TDQ_m7K9E
       topics: content moderation
       summary: >-
@@ -615,7 +615,7 @@ episodes:
         Facebook returns to talk disinformation
 
     - episode: 67
-      date: "2020-06-01T17:00:00-04:00"
+      date: "2020-06-01"
       youtube: https://www.youtube.com/watch?v=6mKxbYLi-5c
       topics: journalism
       summary: >-
@@ -625,16 +625,16 @@ episodes:
           url: https://slate.com/podcasts/trumpcast
 
     - episode: 66
-      date: "2020-05-31T17:00:00-04:00"
+      date: "2020-05-31"
       youtube: https://www.youtube.com/watch?v=T6YEv3wPgc4
       topics: police militarization
 
     - episode: 65
-      date: "2020-05-30T17:00:00-04:00"
+      date: "2020-05-30"
       youtube: https://www.youtube.com/watch?v=NI8dsIeZLuo
 
     - episode: 64
-      date: "2020-05-29T17:00:00-04:00"
+      date: "2020-05-29"
       youtube: https://www.youtube.com/watch?v=3MbA0IDkbt0
       topics: police accountability
       summary: >-
@@ -642,7 +642,7 @@ episodes:
         procedure, and the federal courts
 
     - episode: 63
-      date: "2020-05-28T17:00:00-04:00"
+      date: "2020-05-28"
       youtube: https://www.youtube.com/watch?v=B0urk6wOAoI
       topics: executive orders, voting, moderation
       summary: >-
@@ -659,7 +659,7 @@ episodes:
           url: https://www.nytimes.com/2020/06/18/technology/trump-tweet-baby-manipulated.html
 
     - episode: 62
-      date: "2020-05-27T17:00:00-04:00"
+      date: "2020-05-27"
       youtube: https://www.youtube.com/watch?v=HdGzvDrT3AY
       topics: evidence, investigation, subpoenas
       summary: R Street contributor
@@ -668,7 +668,7 @@ episodes:
           url: https://www.rstreet.org/2013/01/09/cyber-warfare-how-conflicts-in-cyberspace-are-challenging-america-and-changing-the-world/
 
     - episode: 61
-      date: "2020-05-26T17:00:00-04:00"
+      date: "2020-05-26"
       youtube: https://www.youtube.com/watch?v=eYBa3OZ5AzA
       topics: supreme court
       summary: >-
@@ -676,7 +676,7 @@ episodes:
         Constitutional Law, Criminal Procedure, and Legal History
 
     - episode: 60
-      date: "2020-05-25T17:00:00-04:00"
+      date: "2020-05-25"
       youtube: https://www.youtube.com/watch?v=1pnAfPBZpmk
       topics: facial recognition
       summary: >-
@@ -692,18 +692,18 @@ episodes:
           url: https://www.aspenideas.org/speakers/surya-mattu?fbrefresh=1593365928
 
     - episode: 59
-      date: "2020-05-24T17:00:00-04:00"
+      date: "2020-05-24"
       youtube: https://www.youtube.com/watch?v=nSfN26DGu_Y
       topics: justice department, prosecution
       summary: >-
         University of North Carolina professor
 
     - episode: 58
-      date: "2020-05-23T17:00:00-04:00"
+      date: "2020-05-23"
       youtube: https://www.youtube.com/watch?v=H6oRsd1w--Y
 
     - episode: 57
-      date: "2020-05-22T17:00:00-04:00"
+      date: "2020-05-22"
       youtube: https://www.youtube.com/watch?v=TN0nacauG2g
       topics: art; Hong Kong
       summary: >-
@@ -713,7 +713,7 @@ episodes:
           url: http://www.benponte.com/sketch-and-the-city
 
     - episode: 56
-      date: "2020-05-21T17:00:00-04:00"
+      date: "2020-05-21"
       youtube: https://www.youtube.com/watch?v=EmIG0lsjLqM
       topics: slavery, history, incarceration
       summary: >-
@@ -730,7 +730,7 @@ episodes:
           url: https://www.nytimes.com/2018/10/16/magazine/felon-attorney-crime-yale-law.html
 
     - episode: 55
-      date: "2020-05-20T17:00:00-04:00"
+      date: "2020-05-20"
       youtube: https://www.youtube.com/watch?v=AqRCrypTYBc
       topics: film, stories
       summary: >-
@@ -738,7 +738,7 @@ episodes:
         of Disco," and "Damsels in Distress"
 
     - episode: 54
-      date: "2020-05-19T17:00:00-04:00"
+      date: "2020-05-19"
       youtube: https://www.youtube.com/watch?v=mGFrjz_E2NY
       topics: pottery, crafts
       summary: >-
@@ -749,7 +749,7 @@ episodes:
           url: http://tortus-copenhagen.com/about
 
     - episode: 53
-      date: "2020-05-18T17:00:00-04:00"
+      date: "2020-05-18"
       youtube: https://www.youtube.com/watch?v=1CeNW2cYXpU
       topics: writing, stories, and creativity
       summary: >-
@@ -762,16 +762,16 @@ episodes:
           url: https://www.publishersweekly.com/978-1-4197-3418-2
 
     - episode: 52
-      date: "2020-05-17T17:00:00-04:00"
+      date: "2020-05-17"
       youtube: https://www.youtube.com/watch?v=tcENdhnjrfE
       topics: journalism, business
 
     - episode: 51
-      date: "2020-05-16T17:00:00-04:00"
+      date: "2020-05-16"
       youtube: https://www.youtube.com/watch?v=nnwL00PQBLk
 
     - episode: 50
-      date: "2020-05-15T17:00:00-04:00"
+      date: "2020-05-15"
       youtube: https://www.youtube.com/watch?v=UIEkehoNq2A
       topics: reporting, investigations, collusion
       summary: >-
@@ -784,20 +784,20 @@ episodes:
           url: https://www.npr.org/2013/06/19/192770397/the-watchers-have-had-their-eyes-on-us-for-years
 
     - episode: 49
-      date: "2020-05-14T17:00:00-04:00"
+      date: "2020-05-14"
       youtube: https://www.youtube.com/watch?v=_kInOCJGko4
       topics: law, investigation, history of the pope hat
       summary: >-
         Discussing Michael Flynn, Bill Barr, and all the President's lawyers
 
     - episode: 48
-      date: "2020-05-13T17:00:00-04:00"
+      date: "2020-05-13"
       youtube: https://www.youtube.com/watch?v=12uWhb9xbeI
       topics: telecoms regulation, section 230
       summary: Former chairman of the FCC
 
     - episode: 47
-      date: "2020-05-12T17:00:00-04:00"
+      date: "2020-05-12"
       youtube: https://www.youtube.com/watch?v=9yAuLRoKR8I
       topics: frog-boiling on the right
       summary: >-
@@ -809,7 +809,7 @@ episodes:
           url: https://www.loc.gov/item/lcwaN0017180/
 
     - episode: 46
-      date: "2020-05-11T17:00:00-04:00"
+      date: "2020-05-11"
       youtube: https://www.youtube.com/watch?v=ujT6UH-Zgrk
       topics: Facebook oversight board
       summary: >-
@@ -825,16 +825,16 @@ episodes:
           url: https://www.businessinsider.com/facebook-announces-first-members-oversight-board-instagram-2020-5
 
     - episode: 45
-      date: "2020-05-10T17:00:00-04:00"
+      date: "2020-05-10"
       youtube: https://www.youtube.com/watch?v=CI8a-k9uibU
       topics: life, travel, food, weather, Kate's cowlick
 
     - episode: 44
-      date: "2020-05-09T17:00:00-04:00"
+      date: "2020-05-09"
       youtube: https://www.youtube.com/watch?v=RzxpF8fHdeg
 
     - episode: 43
-      date: "2020-05-08T17:00:00-04:00"
+      date: "2020-05-08"
       youtube: https://www.youtube.com/watch?v=YzjaXi8GONM
       topics: journalism, protest
       summary: >-
@@ -843,7 +843,7 @@ episodes:
         digital journalism
 
     - episode: 42
-      date: "2020-05-07T17:00:00-04:00"
+      date: "2020-05-07"
       youtube: https://www.youtube.com/watch?v=rhRBI6zc6Ss
       topics: reporting, norms, DoJ, DC gallows humour
       summary: >-
@@ -855,12 +855,12 @@ episodes:
           url: https://www.lawfareblog.com/i-vetted-state-department-whip-guy
 
     - episode: 41
-      date: "2020-05-06T17:00:00-04:00"
+      date: "2020-05-06"
       youtube: https://www.youtube.com/watch?v=oYRMd-X77w0
       topics: big tech, media platforms
 
     - episode: 40
-      date: "2020-05-05T17:00:00-04:00"
+      date: "2020-05-05"
       youtube: https://www.youtube.com/watch?v=A-sAEYCSQ7c
       topics: medicine, quarantine, the plague
       summary: >-
@@ -871,7 +871,7 @@ episodes:
           url: https://callen-lorde.org/meet-our-providers/
 
     - episode: 39
-      date: "2020-05-04T17:00:00-04:00"
+      date: "2020-05-04"
       youtube: https://www.youtube.com/watch?v=WAk_6VboUgk
       topics: law, trials, hearings, procedure
       summary: >-
@@ -881,17 +881,17 @@ episodes:
           url: https://www.npr.org/2020/05/04/847785015/supreme-court-arguments-resume-but-with-a-twist
 
     - episode: 38
-      date: "2020-05-03T17:00:00-04:00"
+      date: "2020-05-03"
       youtube: https://www.youtube.com/watch?v=Q-R2jyi108o
       topics: bees, murder hornets
 
     - episode: 37
-      date: "2020-05-02T17:00:00-04:00"
+      date: "2020-05-02"
       youtube: https://www.youtube.com/watch?v=-xfccHfAw1I
       topics: coronavirus, governance, cabin in the woods
 
     - episode: 36
-      date: "2020-05-01T17:00:00-04:00"
+      date: "2020-05-01"
       youtube: https://www.youtube.com/watch?v=vIlU7BbCPlw
       topics: coronavirus, state revenue, census, tales out of school
       summary: >-
@@ -899,7 +899,7 @@ episodes:
         Plantations to discuss state finances in the era of coronavirus
 
     - episode: 35
-      date: "2020-04-30T17:00:00-04:00"
+      date: "2020-04-30"
       youtube: https://www.youtube.com/watch?v=cADFrW2GHLo
       topics: writing, journalism, DoJ
       summary: >-
@@ -907,7 +907,7 @@ episodes:
         who runs the Slate Political Gabfest
 
     - episode: 34
-      date: "2020-04-29T17:00:00-04:00"
+      date: "2020-04-29"
       youtube: https://www.youtube.com/watch?v=2XBkAAaBrpQ
       topics: leadership, social media, computers
       summary: >-
@@ -915,7 +915,7 @@ episodes:
         with the former President of Estonia
 
     - episode: 33
-      date: "2020-04-28T17:00:00-04:00"
+      date: "2020-04-28"
       youtube: https://www.youtube.com/watch?v=xSCPjSMk6oo
       topics: crime, prosecution, law
       summary: >-
@@ -925,67 +925,67 @@ episodes:
           url: https://cafe.com/stay-tuned-podcast/
 
     - episode: 32
-      date: "2020-04-27T17:00:00-04:00"
+      date: "2020-04-27"
       youtube: https://www.youtube.com/watch?v=ni3wmotnr2Q
       topics: history, The Renaissance, speculative fiction
       summary: >-
         Historian at the University of Chicago and a sci-fi/fantasy author
 
     - episode: 31
-      date: "2020-04-26T17:00:00-04:00"
+      date: "2020-04-26"
       youtube: https://www.youtube.com/watch?v=FamjIjc_XOs
       topics: politics, life, baby cannon, cabin in the woods
 
     - episode: 30
-      date: "2020-04-25T17:00:00-04:00"
+      date: "2020-04-25"
       youtube: https://www.youtube.com/watch?v=0mVSAhA7g6Y
 
     - episode: 29
-      date: "2020-04-24T17:00:00-04:00"
+      date: "2020-04-24"
       youtube: https://www.youtube.com/watch?v=RYZAut8elnA
       topics: law, impeachment, courts; pugilism week; ILoF video
       summary: Harvard Law School.
 
     - episode: 28
-      date: "2020-04-23T17:00:00-04:00"
+      date: "2020-04-23"
       youtube: https://www.youtube.com/watch?v=kCZRZrZ9hRA
       topics: robots and the meaning of belonging
       summary: >-
         Research specialist at the MIT Media Lab defending the honor of robots
 
     - episode: 27
-      date: "2020-04-22T17:00:00-04:00"
+      date: "2020-04-22"
       youtube: https://www.youtube.com/watch?v=kxVZ9yv4EeE
       topics: government, rights, coronavirus; pugilism week
       summary: Georgetown law professor
 
     - episode: 26
-      date: "2020-04-21T17:00:00-04:00"
+      date: "2020-04-21"
       youtube: https://www.youtube.com/watch?v=aOxJQY-rSsg
       topics: performative vilification, presidential abusiveness
 
     - episode: 25
-      date: "2020-04-20T17:00:00-04:00"
+      date: "2020-04-20"
       youtube: https://www.youtube.com/watch?v=SDrh_KyJtmM
       topics: jurisprudence, kayfabe social media grudge matches; pugilism week
 
     - episode: 24
-      date: "2020-04-19T17:00:00-04:00"
+      date: "2020-04-19"
       youtube: https://www.youtube.com/watch?v=t0PMWLoZt04
       topics: content moderation, section 230, mixed martial-arts
 
     - episode: 23
-      date: "2020-04-18T17:00:00-04:00"
+      date: "2020-04-18"
       youtube: https://www.youtube.com/watch?v=iEs5ZVZt6fY
 
     - episode: 22
-      date: "2020-04-17T17:00:00-04:00"
+      date: "2020-04-17"
       youtube: https://www.youtube.com/watch?v=r8vZPqeZc44
       topics: life, economics, policy limericks
       summary: University of Minnesota health care economist
 
     - episode: 21
-      date: "2020-04-16T17:00:00-04:00"
+      date: "2020-04-16"
       youtube: https://www.youtube.com/watch?v=YR40vyRGdcg
       topics: presidential norms, room rater, neighbors & singing
       summary: >-
@@ -1000,32 +1000,32 @@ episodes:
           url: https://www.nytimes.com/2020/04/02/business/coronavirus-work-neighbors.html
 
     - episode: 20
-      date: "2020-04-15T17:00:00-04:00"
+      date: "2020-04-15"
       youtube: https://www.youtube.com/watch?v=CL-sppxnIas
       topics: law, expertise, politics
       summary: Lawfare Managing Editor, contributing writer for The Atlantic
 
     - episode: 19
-      date: "2020-04-14T17:00:00-04:00"
+      date: "2020-04-14"
       youtube: https://www.youtube.com/watch?v=6IPTzcQ4PJc
       topics: online speech, a.k.a. speech
 
     - episode: 18
-      date: "2020-04-13T17:00:00-04:00"
+      date: "2020-04-13"
       youtube: https://www.youtube.com/watch?v=9D-yg7eBbSY
       topics: Facebook oversight board
 
     - episode: 17
-      date: "2020-04-12T17:00:00-04:00"
+      date: "2020-04-12"
       youtube: https://www.youtube.com/watch?v=2XbTRLKELqU
       topics: the hamartia of democracies
 
     - episode: 16
-      date: "2020-04-11T17:00:00-04:00"
+      date: "2020-04-11"
       youtube: https://www.youtube.com/watch?v=5r9q2Zwygg4
 
     - episode: 15
-      date: "2020-04-10T17:00:00-04:00"
+      date: "2020-04-10"
       youtube: https://www.youtube.com/watch?v=C883ChjIHdw
       topics: coronavirus, medical response
       summary: >-
@@ -1033,7 +1033,7 @@ episodes:
         what he's seeing and hearing as hospitals struggle to respond to COVID
 
     - episode: 14
-      date: "2020-04-09T17:00:00-04:00"
+      date: "2020-04-09"
       youtube: https://www.youtube.com/watch?v=uWgXMvJC2Eo
       topics: surviving the plague and Trumpism
       summary: >-
@@ -1044,7 +1044,7 @@ episodes:
           url: https://www.nytimes.com/2018/06/15/opinion/sunday/trump-china-america-first.html
 
     - episode: 13
-      date: "2020-04-08T17:00:00-04:00"
+      date: "2020-04-08"
       youtube: https://www.youtube.com/watch?v=lz65Bwiau2w
       topics: responding to crisis; following the money
       summary: >-
@@ -1056,29 +1056,29 @@ episodes:
           url: https://slate.com/podcasts/the-gist
 
     - episode: 12
-      date: "2020-04-07T17:00:00-04:00"
+      date: "2020-04-07"
       youtube: https://www.youtube.com/watch?v=xrofDaV8mPk
       topics: surviving the plague; democracy, policy, and government leadership
       summary: Discussing surveillance and COVID-19
 
     - episode: 11
-      date: "2020-04-06T17:00:00-04:00"
+      date: "2020-04-06"
       youtube: https://www.youtube.com/watch?v=dzhZpWYQezE
       topics: elections in the time of coronavirus
       summary: >-
         Discussing what it will take to prevent an election meltdown in November
 
     - episode: 10
-      date: "2020-04-05T17:00:00-04:00"
+      date: "2020-04-05"
       youtube: https://www.youtube.com/watch?v=73dll8bSuYs
       topics: law, twitter, life, coronavirus
 
     - episode: 9
-      date: "2020-04-04T17:00:00-04:00"
+      date: "2020-04-04"
       youtube: https://www.youtube.com/watch?v=0zCGwLbUNWI
 
     - episode: 8
-      date: "2020-04-03T17:00:00-04:00"
+      date: "2020-04-03"
       youtube: https://www.youtube.com/watch?v=-i7UkLg7-a4
       topics: coronavirus response
       summary: >-
@@ -1089,14 +1089,14 @@ episodes:
           url: https://www.belfercenter.org/publication/amanda-sloat-response-covid-19-around-globe
 
     - episode: 7
-      date: "2020-04-02T17:00:00-04:00"
+      date: "2020-04-02"
       youtube: https://www.youtube.com/watch?v=kmJMRn0x51c
       topics: education in the time of coronavirus
       summary: >-
         Discussing how the pandemic has changed the future of higher education
 
     - episode: 6
-      date: "2020-04-01T17:00:00-04:00"
+      date: "2020-04-01"
       youtube: https://www.youtube.com/watch?v=KNqZDaaSP60
       topics: wild outdoor adventure
       summary: >-
@@ -1109,7 +1109,7 @@ episodes:
           url: https://ravallirepublic.com/news/local/article_872f8c24-77c5-11e6-8b40-f3384dc7726b.html
 
     - episode: 5
-      date: "2020-03-31T17:00:00-04:00"
+      date: "2020-03-31"
       youtube: https://www.youtube.com/watch?v=yIkbO7u7V5o
       topics: law, legal education, life, and music
       summary: >-
@@ -1117,23 +1117,23 @@ episodes:
         COVID-19, and a little bit of music
 
     - episode: 4
-      date: "2020-03-30T17:00:00-04:00"
+      date: "2020-03-30"
       youtube: https://www.youtube.com/watch?v=fqN2cuNnsMQ
       topics: online abuse
 
     - episode: 3
-      date: "2020-03-29T17:00:00-04:00"
+      date: "2020-03-29"
       youtube: https://www.youtube.com/watch?v=fVLJfGjf7GI
       summary: >-
         Kate and Ben each invite a secret guest, and invite that secret guest
         to invite a secret guest. This establishes Sundays as Mystery Guest day
 
     - episode: 2
-      date: "2020-03-26T17:00:00-04:00"
+      date: "2020-03-26"
       youtube: https://www.youtube.com/watch?v=Jvp10Ve6LQs
 
     - episode: 1
-      date: "2020-03-25T17:00:00-04:00"
+      date: "2020-03-25"
       youtube: https://www.youtube.com/watch?v=sVthy2h3XAk
       topics: supreme court, learning
       summary: >-
@@ -1143,7 +1143,7 @@ episodes:
           url: https://highschoolscotus.wordpress.com/
 
     - episode: 0
-      date: "2020-03-24T17:00:00-04:00"
+      date: "2020-03-24"
       youtube: https://www.youtube.com/watch?v=8lqhrhjwyrk
       topics: \"screen time\" in the time of coronavirus
       summary: >-
@@ -1151,11 +1151,11 @@ episodes:
         interaction of feminism and national security
 
     - episode: pilot
-      date: "2020-03-25T17:00:00-04:00"
+      date: "2020-03-25"
       youtube: https://www.youtube.com/watch?v=SORmEeTQUX4
       summary: Pilot episode
 
     - episode: test
-      date: "2020-03-24T17:00:00-04:00"
+      date: "2020-03-24"
       youtube: https://www.youtube.com/watch?v=XIpo3obwAb0
       topics: Test episode

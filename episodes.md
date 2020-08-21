@@ -28,7 +28,7 @@ Rest assured the topics and guests will match even if the numbers do not.
 {%- endfor -%}
 | <a name="ep{{ entry.episode }}"></a>{{ entry.episode -}}
   | <a href="{{ site.config.url }}/stream/{{ entry.episode}}">
-      {{- entry.date | slice: 0, 10 | replace: "-", "‑" }}</a> {{" " -}}
+      {{- entry.date | replace: "-", "‑" }}</a> {{" " -}}
   | {% if guests.size > 0 %}{{- guests | join: ", " }} {% else %}(your hosts) {% endif -%}
   | {% if entry.summary -%}
       {{ entry.summary | strip | replace: newline, " " -}}
