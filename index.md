@@ -29,7 +29,6 @@ Lieu of Fun channel][yt] on YouTube.
     * [x] More detailed episode summaries.
     * [x] Links to related articles, videos.
 - [x] Guest list (linked above)
-    * [ ] More detailed guest summaries.
 - [x] Secure connection (SSL certificate).
 
 [ben]: https://twitter.com/benjaminwittes
