@@ -15,7 +15,11 @@ format.
 
 The site content is generated with [Jekyll](https://jekyllrb.com).  To test
 changes locally, run `bundle exec jekyll serve` and visit the local server in
-your browser.
+your browser. You can leave this running while you work, it will detect file
+changes and rebuild as needed. The only caveat is that if you edit the root
+`_config.yml` file, you will need to restart it.
+
+### First-Time Setup
 
 After cloning the repository for the first time, you will need to install the
 toolchain, which is not checked in. This is, roughly:
