@@ -12,7 +12,7 @@ Rest assured the topics and guests will match even if the numbers do not.
 {% endcapture %}
 | # | Date | Guests | Summary | Links |
 |---|------|--------|---------|-------|
-{% for entry in site.data.episodes.episodes -%}
+{% for entry in site.episodes reversed -%}
 {%- assign raw_guests = site.data.guests.guests | sort: "name" -%}
 {%- assign guests = '' | split: 'x' -%}
 {%- for guest in raw_guests -%}
@@ -28,7 +28,7 @@ Rest assured the topics and guests will match even if the numbers do not.
 {%- endfor -%}
 | <a name="ep{{ entry.episode }}"></a>{{ entry.episode -}}
   | <a href="{{ site.config.url }}/stream/{{ entry.episode}}">
-      {{- entry.date | replace: "-", "‑" }}</a> {{" " -}}
+      {{- entry.date | date: "%Y‑%m‑%d" }}</a> {{" " -}}
   | {% if guests.size > 0 %}{{- guests | join: ", " }} {% else %}(your hosts) {% endif -%}
   | {% if entry.summary -%}
       {{ entry.summary | strip | replace: newline, " " -}}
