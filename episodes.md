@@ -5,6 +5,8 @@ title: Episode Log
 
 Here is a list of all the episodes of *In Lieu of Fun*. They are listed in
 reverse chronological order. Each episode date links to its stream on YouTube.
+Note that the labels on some of the early episodes on YouTube are incorrect.
+Rest assured the topics and guests will match even if the numbers do not.
 
 {% capture newline %}
 {% endcapture %}
