@@ -8,8 +8,10 @@ twitter_username: inlieuoffunshow
 github_username:  inlieuoffun
 theme: minima
 
-stream_redirect: # see _plugins/streamlink.rb
-  stream: youtube
+# See _plugins/streamlink.rb. This does not work on the live site, because
+# GitHub Pages disables custom plugins.
+#stream_redirect:
+#  stream: youtube
 
 plugins:
   - jekyll-feed # for Atom syndication
