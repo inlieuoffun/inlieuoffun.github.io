@@ -47,19 +47,19 @@ do not.</p>
       </td>
       <td>
         {%- if guests.size > 0 -%}
-	{{ guests | join: ", " }}
+        {{ guests | join: ", " }}
         {%- else -%}
-	(your hosts){%- endif %}
+        (your hosts){%- endif %}
       </td>
       <td>
-	{% if entry.summary %}{{- entry.summary | strip | replace: newline, " " -}}
-	{% else %}{{- entry.topics | strip | replace: newline, " " -}}{% endif %}
+        {% if entry.summary %}{{- entry.summary | strip | replace: newline, " " -}}
+        {% else %}{{- entry.topics | strip | replace: newline, " " -}}{% endif %}
       </td>
       <td>
         {%- for link in entry.links %}
         <a href="{{ link.url }}" target=_blank>{{ link.title }}</a>
         {%- unless forloop.last %},
-	{% endunless %}
+        {% endunless %}
         {%- endfor %}
       </td>
     </tr>
