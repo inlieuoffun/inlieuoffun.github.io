@@ -22,9 +22,8 @@ Episodes are streamed live on [Crowdcast](https://www.crowdcast.io/lawfareblog),
 [YouTube][yt], and a variety of other streaming platforms. You can find links
 to recordings of past episodes from the [Episode Log](episodes.html).
 
-See anything wrong? If so, please [file an
-issue](https://site.inlieuof.fun/issues/new) and one of our loyal volunteers
-will look into it.
+See anything wrong? If so, please [file an issue](http://site.inlieuof.fun/issues/new)
+and one of our loyal volunteers will look into it.
 
 ## Coming soon
 
