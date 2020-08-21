@@ -14,7 +14,7 @@ static_redirect:
     value: youtube
   detail:
     value: basename_without_ext
-    template: '/detail/%<value>s.html'
+    template: '/episode/%<value>s.html'
 
 collections:
   episodes:
