@@ -12,12 +12,14 @@ module Jekyll
     # the stream URL for the corresponding episode.
     def generate_redirects(site)
       site.data['episodes']['episodes'].each do |ep|
-        src = 'episode/%s' % ep['episode']
-        tgt = ep['youtube']
-        redirect = RedirectPage.new(site, site.source, src, tgt)
-        redirect.render(site.layouts, site.site_payload)
-        redirect.write(site.dest)
-        site.pages << redirect
+        site.config['stream_redirect'].each do |path, tkey|
+          if not ep.key? tkey then next end
+          src = '%s/%s' % [path, ep['episode']]
+          redirect = RedirectPage.new(site, site.source, src, ep[tkey])
+          redirect.render(site.layouts, site.site_payload)
+          redirect.write(site.dest)
+          site.pages << redirect
+        end
       end
     end
   end

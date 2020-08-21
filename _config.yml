@@ -7,9 +7,13 @@ url: "https://inlieuof.fun"
 twitter_username: inlieuoffunshow
 github_username:  inlieuoffun
 theme: minima
-stream_redirect: false
+
+stream_redirect: # see _plugins/streamlink.rb
+  stream: youtube
+
 plugins:
   - jekyll-feed # for Atom syndication
+
 exclude:
   - notes
   - tools
