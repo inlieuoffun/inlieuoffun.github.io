@@ -39,7 +39,8 @@ do not.</p>
     {%- endfor -%}
     <tr>
       <td>
-        <a name="ep{{ entry.episode }}"></a>{{ entry.episode }}
+        <a name="ep{{ entry.episode }}"></a>
+	<a href="/detail/{{ entry.episode }}">{{ entry.episode }}</a>
       </td>
       <td>
         <a href="{{ site.config.url }}/stream/{{ entry.episode }}">
