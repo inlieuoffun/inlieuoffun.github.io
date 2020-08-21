@@ -6,7 +6,7 @@ name: Build and publish ILoF
 on:
   push:
     branches:
-      - default
+      - source
 
 jobs:
   build-and-publish:
