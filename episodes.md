@@ -25,7 +25,8 @@ reverse chronological order. Each episode date links to its stream on YouTube.
  {%- endif -%}
 {%- endfor -%}
 | <a name="ep{{ entry.episode }}"></a>{{ entry.episode -}}
-  | <a href="{{ entry.youtube }}">{{- entry.date | slice: 0, 10 | replace: "-", "‑" }}</a> {{" " -}}
+  | <a href="{{ site.config.url }}/stream/{{ entry.episode}}">
+      {{- entry.date | slice: 0, 10 | replace: "-", "‑" }}</a> {{" " -}}
   | {% if guests.size > 0 %}{{- guests | join: ", " }} {% else %}(your hosts) {% endif -%}
   | {% if entry.summary -%}
       {{ entry.summary | strip | replace: newline, " " -}}
