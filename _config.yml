@@ -16,6 +16,14 @@ collections:
   episodes:
     output: true
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "episodes"
+    values:
+      layout: "episode"
+
 plugins:
   - jekyll-feed # for Atom syndication
 
