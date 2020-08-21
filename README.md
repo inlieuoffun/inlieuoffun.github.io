@@ -36,8 +36,8 @@ cd ilof
 bundle install
 ```
 
+## Peculiarities
 
-
-
-
-
+Because this site is hosted from a github.io repository, the generated site
+data must be published from the branch named `master`. Thus, this repository
+uses the `source` branch as its default branch.
