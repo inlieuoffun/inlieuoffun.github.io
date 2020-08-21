@@ -1,0 +1,18 @@
+# Build the site from master with Jekyll, and push the resulting content to the
+# branch used for serving.
+
+name: Build and deploy ILoF
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v2
+      - uses: helaili/jekyll-action@2.0.3
+        env:
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
