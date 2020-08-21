@@ -1151,12 +1151,12 @@ episodes:
         Discussing issues of platform governance, sextortion, and the
         interaction of feminism and national security
 
-    - episode: test 2
+    - episode: pilot
       date: "2020-03-25T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=SORmEeTQUX4
-      topics: Test episode 2
+      summary: Pilot episode
 
-    - episode: test 1
+    - episode: test
       date: "2020-03-24T17:00:00-04:00"
       youtube: https://www.youtube.com/watch?v=XIpo3obwAb0
-      topics: Test episode 1
+      topics: Test episode
