@@ -1,0 +1,67 @@
+---
+layout: page
+title: Episode Log
+---
+
+<p>Here is a list of all the episodes of <em>In Lieu of Fun</em>. They are
+listed in reverse chronological order. Each episode date links to its stream on
+YouTube.  Note that the labels on some of the early episodes on YouTube are
+incorrect.  Rest assured the topics and guests will match even if the numbers
+do not.</p>
+
+{% capture newline %}
+{% endcapture %}
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Date</th>
+      <th>Guests</th>
+      <th>Topics</th>
+      <th>Links</th>
+  </thead>
+  <tbody>
+  {%- for entry in site.episodes reversed -%}
+    {% assign raw_guests = site.data.guests.guests | sort: "name" %}
+    {% assign guests = '' | split: 'x' %}
+    {%- for guest in raw_guests -%}
+      {% if guest.episodes contains entry.episode %}
+        {% assign guest_name = guest.name | replace: " ", " " %}
+        {% capture link %}
+          {% if guest.twitter %}<a href="https://twitter.com/{{ guest.twitter }}">{{ guest_name }}</a>
+          {%- elsif guest.url %}<a href="{{ guest.url }}">{{ guest_name }}</a>
+          {%- else %}{{ guest_name }}
+          {%- endif %}
+        {%- endcapture %}
+        {% assign guests = guests | push: link %}
+      {% endif %}
+    {%- endfor -%}
+    <tr>
+      <td>
+        <a name="ep{{ entry.episode }}"></a>{{ entry.episode }}
+      </td>
+      <td>
+        <a href="{{ site.config.url }}/stream/{{ entry.episode }}">
+          {{- entry.date | date: "%Y‑%m‑%d" }}</a>
+      </td>
+      <td>
+        {%- if guests.size > 0 -%}
+	{{ guests | join: ", " }}
+        {%- else -%}
+	(your hosts){%- endif %}
+      </td>
+      <td>
+        {{- entry.topics | strip | replace: newline, " " -}}
+      </td>
+      <td>
+        {%- for link in entry.links %}
+        <a href="{{ link.url }}" target=_blank>{{ link.title }}</a>
+        {%- unless forloop.last %},
+	{% endunless %}
+        {%- endfor %}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
