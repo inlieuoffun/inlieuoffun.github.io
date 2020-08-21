@@ -19,8 +19,12 @@ there are pre-announced guests, while Saturdays are just Ben & Kate planning
 the upcoming week. Sundays usually include an unannounced Mystery Guest.
 
 Episodes are streamed live on [Crowdcast](https://www.crowdcast.io/lawfareblog),
-YouTube, and a variety of other streaming platforms, and you can watch
-recordings of past episodes from the [In Lieu of Fun channel][yt] on YouTube.
+[YouTube][yt], and a variety of other streaming platforms. You can find links
+to recordings of past episodes from the [Episode Log](episodes.html).
+
+See anything wrong? If so, please [file an
+issue](https://site.inlieuof.fun/issues/new) and one of our loyal volunteers
+will look into it.
 
 ## Coming soon
 
