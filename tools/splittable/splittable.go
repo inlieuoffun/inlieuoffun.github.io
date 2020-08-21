@@ -75,9 +75,6 @@ func main() {
 			log.Fatalf("Creating output file: %v", err)
 		}
 
-		summary := ep.Summary
-		ep.Summary = ""
-
 		fmt.Fprintln(f, "---")
 		enc := yaml.NewEncoder(f)
 		if err := enc.Encode(ep); err != nil {
@@ -86,8 +83,8 @@ func main() {
 			log.Printf("Warning: closing encoder: %v", err)
 		}
 		fmt.Fprintln(f, "---")
-		if summary != "" {
-			fmt.Fprint(f, "\n", summary, "\n")
+		if ep.Summary != "" {
+			fmt.Fprint(f, "\n", ep.Summary, "\n")
 		}
 		if err := f.Close(); err != nil {
 			log.Fatalf("Closing output file: %v", err)
