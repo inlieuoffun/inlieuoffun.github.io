@@ -12,6 +12,10 @@ theme: minima
 stream_redirect:
   stream: youtube
 
+collections:
+  episodes:
+    output: true
+
 plugins:
   - jekyll-feed # for Atom syndication
 
