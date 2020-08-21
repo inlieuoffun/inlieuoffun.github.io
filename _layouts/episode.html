@@ -21,12 +21,11 @@ layout: default
 
     <ul>
       <li><strong>Air Date:</strong> {{ page.date | date: "%Y-%m-%d" }}</li>
-      <li><strong>Guests:</strong>
-        {% if guests.size > 0 -%}
-          {{ guests | join: ", " }}
-        {% else -%}
-          (your hosts)
-        {% endif %}
+      <li>{% if guests.size > 0 -%}
+          <strong>Guests:</strong> {{ guests | join: ", " }}
+          {% else -%}
+          No guests, just your hosts.
+          {% endif %}
       </li>
       {%- if page.topics %}
       <li><strong>Topics:</strong> {{ page.topics | strip }}</li>
