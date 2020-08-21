@@ -1,7 +1,7 @@
 # Build the site from master with Jekyll, and push the resulting content to the
 # branch used for serving.
 
-name: Build and deploy ILoF
+name: Build and publish ILoF
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:
-  github-pages:
+  build-and-publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
