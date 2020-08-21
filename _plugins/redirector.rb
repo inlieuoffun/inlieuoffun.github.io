@@ -22,14 +22,12 @@ module Jekyll
           value = tkey['value']
           if not value then next end
 
-          if ep.data.key? value then target = tkey[value]
+          if ep.data.key? value then target = ep.data[value]
           elsif ep.respond_to? value then target = ep.send(value)
           else next end
 
           if tkey.key? 'template' then
             target = tkey['template'] % {:value => target}
-          else
-            target = value
           end
 
           src = '%s/%s' % [path, ep['episode']]
