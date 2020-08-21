@@ -18,9 +18,9 @@ murder hornets, Baby Cannons, and whatever else may come up. On most weekdays
 there are pre-announced guests, while Saturdays are just Ben & Kate planning
 the upcoming week. Sundays usually include an unannounced Mystery Guest.
 
-Episodes are streamed live on Crowdcast, YouTube, and a variety of other
-streaming platforms, and you can watch recordings of past episodes from the [In
-Lieu of Fun channel][yt] on YouTube.
+Episodes are streamed live on [Crowdcast](https://www.crowdcast.io/lawfareblog),
+YouTube, and a variety of other streaming platforms, and you can watch
+recordings of past episodes from the [In Lieu of Fun channel][yt] on YouTube.
 
 ## Coming soon
 
