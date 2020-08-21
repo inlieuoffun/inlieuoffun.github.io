@@ -1129,11 +1129,11 @@ episodes:
         to invite a secret guest. This establishes Sundays as Mystery Guest day
 
     - episode: 2
-      date: "2020-03-26"
+      date: "2020-03-28"
       youtube: https://www.youtube.com/watch?v=Jvp10Ve6LQs
 
     - episode: 1
-      date: "2020-03-25"
+      date: "2020-03-27"
       youtube: https://www.youtube.com/watch?v=sVthy2h3XAk
       topics: supreme court, learning
       summary: >-
@@ -1143,19 +1143,19 @@ episodes:
           url: https://highschoolscotus.wordpress.com/
 
     - episode: 0
-      date: "2020-03-24"
+      date: "2020-03-26"
       youtube: https://www.youtube.com/watch?v=8lqhrhjwyrk
       topics: \"screen time\" in the time of coronavirus
       summary: >-
         Discussing issues of platform governance, sextortion, and the
         interaction of feminism and national security
 
-    - episode: -1
+    - episode: pilot
       date: "2020-03-25"
       youtube: https://www.youtube.com/watch?v=SORmEeTQUX4
       summary: Pilot episode
 
-    - episode: -2
+    - episode: test
       date: "2020-03-24"
       youtube: https://www.youtube.com/watch?v=XIpo3obwAb0
       topics: Test episode
