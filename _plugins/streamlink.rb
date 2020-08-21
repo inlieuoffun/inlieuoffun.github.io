@@ -11,9 +11,9 @@ module Jekyll
     # Find all entries with a stream link and create a new page to redirect to
     # the stream URL for the corresponding episode.
     def generate_redirects(site)
-      site.data['episodes']['episodes'].each do |ep|
+      site.collections['episodes'].docs.each do |ep|
         site.config['stream_redirect'].each do |path, tkey|
-          if not ep.key? tkey then next end
+          if not ep[tkey] then next end
           src = '%s/%s' % [path, ep['episode']]
           redirect = RedirectPage.new(site, site.source, src, ep[tkey])
           redirect.render(site.layouts, site.site_payload)
