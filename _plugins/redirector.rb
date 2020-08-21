@@ -1,15 +1,15 @@
 module Jekyll
-  class Redirects < Generator
+  class Redirector < Generator
     safe true
     priority :low
 
     # Only generate redirections if enabled in the main config.
     def generate(site)
-      generate_redirects(site) if (site.config['stream_redirect'])
+      generate_redirects(site) if (site.config['static_redirect'])
     end
 
-    # Find all entries with a stream link and create a new page to redirect to
-    # the stream URL for the corresponding episode.
+    # Find all entries with a matching link value and create a new page to
+    # redirect to the specified URL for the corresponding episode.
     #
     # Each redirect entry names a path fragment with keys:
     #
@@ -18,7 +18,7 @@ module Jekyll
     #
     def generate_redirects(site)
       site.collections['episodes'].docs.each do |ep|
-        site.config['stream_redirect'].each do |path, tkey|
+        site.config['static_redirect'].each do |path, tkey|
           value = tkey['value']
           if not value then next end
 

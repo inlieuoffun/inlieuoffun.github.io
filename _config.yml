@@ -8,13 +8,13 @@ twitter_username: inlieuoffunshow
 github_username:  inlieuoffun
 theme: minima
 
-# See _plugins/streamlink.rb.
-stream_redirect:
+# See _plugins/redirector.rb.
+static_redirect:
   stream:
     value: youtube
-  episode:
+  detail:
     value: basename_without_ext
-    template: '/episode/%<value>s.html'
+    template: '/detail/%<value>s.html'
 
 collections:
   episodes:
