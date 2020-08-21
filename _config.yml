@@ -8,9 +8,26 @@ twitter_username: inlieuoffunshow
 github_username:  inlieuoffun
 theme: minima
 
-# See _plugins/streamlink.rb.
-stream_redirect:
-  stream: youtube
+# See _plugins/redirector.rb.
+static_redirect:
+  stream:
+    value: youtube
+  detail:
+    value: basename_without_ext
+    template: '/episode/%<value>s.html'
+
+collections:
+  episodes:
+    output: true
+    permalink: /episode/:name
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "episodes"
+    values:
+      layout: "episode"
 
 plugins:
   - jekyll-feed # for Atom syndication

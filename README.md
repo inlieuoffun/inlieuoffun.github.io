@@ -4,12 +4,28 @@ This repository contains the website for the [In Lieu of Fun](https://inlieuof.f
 
 ## Site Data
 
-Episode metadata are stored in [`_data/episodes.yaml`](./_data/episodes.yaml)
-and presented by [`episodes.md`](./episodes.md).  Guest metadata are stored in
-[`_data/guests.yaml`](./_data/guests.yaml) and presented by
-[`guests.md`](./guests.md).  The structure is fairly simple; use the existing
-data as examples.  At present, these data are presented in a simple tabular
-format.
+Episodes are stored in Markdown files in the `_episodes` directory, with each
+file named like `YYYY-MM-DD-NNNN.md`. Here `NNNN` is the episode number, padded
+with zeroes on the left (e.g., `0014`, `0143`). Each file has a YAML front
+matter section giving episode metadata:
+
+ - `episode`: The episode number [integer]
+ - `date`: The date when the episode aired [string, "YYYY-MM-DD"]
+ - `youtube`: The URL of the episode stream on YouTube [string]
+ - `summary`: A brief summary of the episode [string, optional]
+ - `topics`: A comma-separated list of topics [string, optional]
+ - `links`: A list of related hyperlinks [optional]
+
+The body of the episode is arbitrary markdown text that will be displayed on
+the episode detail page. The episode log table is rendered by the Liquid
+template in [`episodes.html`](./episodes.html).
+
+To add a new episode, create a new file in the `_episodes` directory following
+the format of the existing files, and update the guest list as necessary.
+
+Guests are recorded in [`_data/guests.yaml`](./_data/guests.yaml), and the
+guest list is rendered by the Liquid template in [`guests.md`](./guests.md).
+
 
 ## Updates
 

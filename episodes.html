@@ -1,0 +1,71 @@
+---
+layout: page
+title: Episode Log
+---
+
+<p>Here is a list of all the episodes of <em>In Lieu of Fun</em>. They are
+listed in reverse chronological order. Each episode number links to a detail
+page for that episode, and the data links to its stream on YouTube.</p>
+
+<p><strong>Note:</strong> Some of the early episode numbers are incorrect on
+YouTube.  Rest assured the topics and guests will match even when the numbers
+do not.</p>
+
+{% capture newline %}
+{% endcapture %}
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Date</th>
+      <th>Guests</th>
+      <th>Summary</th>
+      <th>Links</th>
+  </thead>
+  <tbody>
+  {%- for entry in site.episodes reversed -%}
+    {% assign raw_guests = site.data.guests.guests | sort: "name" %}
+    {% assign guests = '' | split: 'x' %}
+    {%- for guest in raw_guests -%}
+      {% if guest.episodes contains entry.episode %}
+        {% assign guest_name = guest.name | replace: " ", " " %}
+        {% capture link %}
+          {% if guest.twitter %}<a href="https://twitter.com/{{ guest.twitter }}">{{ guest_name }}</a>
+          {%- elsif guest.url %}<a href="{{ guest.url }}">{{ guest_name }}</a>
+          {%- else %}{{ guest_name }}
+          {%- endif %}
+        {%- endcapture %}
+        {% assign guests = guests | push: link %}
+      {% endif %}
+    {%- endfor -%}
+    <tr>
+      <td>
+        <a name="ep{{ entry.episode }}"></a>
+	<a href="/detail/{{ entry.episode }}">{{ entry.episode }}</a>
+      </td>
+      <td>
+        <a href="{{ site.config.url }}/stream/{{ entry.episode }}">
+          {{- entry.date | date: "%Y‑%m‑%d" }}</a>
+      </td>
+      <td>
+        {%- if guests.size > 0 -%}
+        {{ guests | join: ", " }}
+        {%- else -%}
+        (your hosts){%- endif %}
+      </td>
+      <td>
+        {% if entry.summary %}{{- entry.summary | strip | replace: newline, " " -}}
+        {% else %}{{- entry.topics | strip | replace: newline, " " -}}{% endif %}
+      </td>
+      <td>
+        {%- for link in entry.links %}
+        <a href="{{ link.url }}" target=_blank>{{ link.title }}</a>
+        {%- unless forloop.last %},
+        {% endunless %}
+        {%- endfor %}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
