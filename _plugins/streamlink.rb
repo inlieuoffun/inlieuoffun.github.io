@@ -10,12 +10,30 @@ module Jekyll
 
     # Find all entries with a stream link and create a new page to redirect to
     # the stream URL for the corresponding episode.
+    #
+    # Each redirect entry names a path fragment with keys:
+    #
+    #   value: string    -- data field or method providing target URL
+    #   template: string -- (optional) string template for value
+    #
     def generate_redirects(site)
       site.collections['episodes'].docs.each do |ep|
         site.config['stream_redirect'].each do |path, tkey|
-          if not ep[tkey] then next end
+          value = tkey['value']
+          if not value then next end
+
+          if ep.data.key? value then target = tkey[value]
+          elsif ep.respond_to? value then target = ep.send(value)
+          else next end
+
+          if tkey.key? 'template' then
+            target = tkey['template'] % {:value => target}
+          else
+            target = value
+          end
+
           src = '%s/%s' % [path, ep['episode']]
-          redirect = RedirectPage.new(site, site.source, src, ep[tkey])
+          redirect = RedirectPage.new(site, site.source, src, target)
           redirect.render(site.layouts, site.site_payload)
           redirect.write(site.dest)
           site.pages << redirect
