@@ -2,6 +2,19 @@
 layout: default
 ---
 
+{% assign streams = '' | split: "x" %}
+{% if page.crowdcast %}
+  {% capture link -%}
+    <a href="{{ page.crowdcast }}" target=_blank>Crowdcast</a>
+  {%- endcapture %}{% assign streams = streams | push: link %}
+{% endif %}
+{% if page.youtube %}
+  {% capture link -%}
+    <a href="{{ page.youtube }}" target=_blank>YouTube</a>
+  {%- endcapture %}{% assign streams = streams | push: link %}
+{% endif %}
+{% capture stream_label %}Stream{% if streams.size != 1 %}s{% endif %}{% endcapture %}
+
 <article class="post">
   <header class="post-header">
     <h1 class="post-title">Episode {{ page.episode }}</h1>
@@ -14,7 +27,7 @@ layout: default
           No guests, just your hosts.
           {% endif %}
       </li>
-      <li><strong>Stream:</strong> <a href="{{ page.youtube }}" target=_blank>{{ page.youtube }}</a></li>
+      <li><strong>{{ stream_label }}:</strong> {{ streams | join: ", " }}</li>
       {%- if page.topics %}
       <li><strong>Topics:</strong> {{ page.topics | strip }}</li>
       {%- endif %}
