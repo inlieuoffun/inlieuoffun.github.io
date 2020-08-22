@@ -26,7 +26,7 @@ do not.</p>
   </thead>
   <tbody>
   {%- for entry in site.episodes reversed -%}
-    {% assign raw_guests = site.data.guests.guests | sort: "name" %}
+    {% assign raw_guests = site.data.guests | sort: "name" %}
     {% assign guests = '' | split: 'x' %}
     {%- for guest in raw_guests -%}
       {% if guest.episodes contains entry.episode %}

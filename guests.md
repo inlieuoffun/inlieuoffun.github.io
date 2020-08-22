@@ -8,7 +8,7 @@ order of first appearance.
 
 | Guest | Episodes |
 |-------|----------|
-{%- for guest in site.data.guests.guests %}
+{%- for guest in site.data.guests %}
 | {% if guest.url %}<a href="{{ guest.url }}">{% endif -%}
   {{ guest.name }}
   {%- if guest.url %}</a>{% endif %}

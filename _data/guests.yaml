@@ -11,570 +11,569 @@
 #
 # At minimum each guest needs a name and an episodes list.
 #
-guests:
-    - name: Danielle Citron
-      twitter: daniellecitron
-      url: https://www.daniellecitron.com/
-      episodes: [0, 4]
-
-    - name: Anna Salvatore
-      twitter: hischoolscotus
-      url: https://highschoolscotus.wordpress.com/
-      episodes: [1, 104]
-
-    - name: Maggie Feldman-Piltch
-      twitter: maggiecaroline
-      episodes: [2, 21]
-
-    - name: Alex Stamos
-      twitter: alexstamos
-      url: https://cyber.fsi.stanford.edu/io
-      episodes: [2, 11, 68]
-
-    - name: Mike Chase
-      twitter: CrimeADay
-      episodes: [3, 112, 126]
-
-    - name: Ken White
-      twitter: popehat
-      url: https://www.popehat.com/
-      episodes: [3, 49]
-
-    - name: Cory Doctorow
-      twitter: doctorow
-      url: https://pluralistic.net/
-      episodes: [3]
-
-    - name: Emily Hurson
-      twitter: Limeshy
-      episodes: [3]
-
-    - name: Ross Garber
-      twitter: rossgarber
-      episodes: [3]
-
-    - name: Orin Kerr
-      twitter: orinkerr
-      url: https://www.orinkerr.com/
-      episodes: [5, 25]
-
-    - name: Jon Turk
-      url: http://www.jonturk.net/
-      episodes: [6]
-
-    - name: Jack Balkin
-      twitter: jackbalkin
-      url: https://jackbalkin.yale.edu/
-      episodes: [7, 63, 145]
-
-    - name: Jordan Ellenberg
-      twitter: JSEllenberg
-      url: http://www.jordanellenberg.com/
-      episodes: [7]
-
-    - name: Amanda Sloat
-      twitter: A_Sloat
-      episodes: [8]
-
-    - name: Dan Drezner
-      twitter: dandrezner
-      episodes: [10, 21, 131]
-
-    - name: Scott Shapiro
-      twitter: scottjshapiro
-      episodes: [10, 25, 148]
-
-    - name: Nate Persily
-      twitter: persily
-      url: https://law.stanford.edu/directory/nathaniel-persily/
-      episodes: [11, 125, 132]
-
-    - name: Alan Rozenshtein
-      twitter: ARozenshtein
-      episodes: [12, 45]
-
-    - name: Virginia Heffernan
-      twitter: page88
-      url: https://vpheffernan.com/
-      episodes: [13, 67, 137]
-
-    - name: Mike Pesca
-      twitter: pescami
-      episodes: [13, 80]
-
-    - name: Kori Schake
-      twitter: KoriSchake
-      url: https://www.aei.org/profile/kori-schake/
-      episodes: [14]
-
-    - name: Doug Bernstein
-      episodes: [15]
-
-    - name: Jonathan Rauch
-      twitter: jon_rauch
-      url: https://www.jonathanrauch.com/
-      episodes: [17, 73, 106]
-
-    - name: Evelyn Douek
-      twitter: evelyndouek
-      url: https://www.evelyndouek.com/
-      episodes: [18, 41]
-
-    - name: Sarah Roberts
-      twitter: ubiquity75
-      url: https://www.behindthescreen-book.com/
-      episodes: [19]
-
-    - name: Jillian York
-      twitter: jilliancyork
-      episodes: [19]
-
-    - name: Quinta Jurecic
-      twitter: qjurecic
-      episodes: [20, 63]
-
-    - name: Hannah Neprash
-      twitter: hannahneprash
-      episodes: [22, 45]
-
-    - name: Carrie Goldberg
-      twitter: cagoldberglaw
-      url: https://www.cagoldberglaw.com/
-      episodes: [24, 90, 143]
-
-    - name: Yorrick "YoRock" Anderson
-      url: https://www.tapology.com/fightcenter/fighters/201304-yorrick-anderson
-      episodes: [24]
-
-    - name: Lisa Page
-      twitter: natseclisa
-      episodes: [26]
-      notes: via puppet
-
-    - name: Molly Jong Fast
-      twitter: MollyJongFast
-      url: https://www.instagram.com/mollyjongfast/
-      episodes: [26]
-
-    - name: Randy Barnett
-      twitter: RandyEBarnett
-      url: http://www.randybarnett.com/
-      episodes: [27]
-
-    - name: Kate Darling
-      twitter: grok_
-      url: http://www.katedarling.org/
-      episodes: [28]
-
-    - name: Noah Feldman
-      twitter: NoahRFeldman
-      url: http://noah-feldman.squarespace.com/
-      episodes: [29]
-
-    - name: Sarah Longwell
-      twitter: SarahLongwell25
-      url: https://thebulwark.com/author/sarah-longwell/
-      episodes: [31, 147]
-
-    - name: Yascha Mounk
-      twitter: Yascha_Mounk
-      episodes: [31, 37]
-
-    - name: Ada Palmer
-      twitter: Ada_Palmer
-      url: https://adapalmer.com/
-      episodes: [32, 98]
-
-    - name: Preet Bharara
-      twitter: PreetBharara
-      episodes: [33]
-
-    - name: Toomas Hendrick Ilves
-      twitter: IlvesToomas
-      url: https://www.presidentilves.ee/
-      episodes: [34]
-
-    - name: David Plotz
-      twitter: davidplotz
-      episodes: [35]
-
-    - name: Seth Magaziner
-      twitter: SethMagaziner
-      url: https://sethmagaziner.com/
-      episodes: [36]
-
-    - name: Jeff Horwitz
-      twitter: JeffHorwitz
-      episodes: [38]
-
-    - name: Leah Litman
-      twitter: LeahLitman
-      url: http://www.law.umich.edu/FacultyBio/Pages/FacultyBio.aspx?FacID=lmlitman
-      episodes: [39, 81, 95, 102, 105]
-
-    - name: Dahlia Lithwick
-      twitter: dahlialithwick
-      episodes: [39, 105]
-
-    - name: Will DeWitt
-      episodes: [40]
-
-    - name: Nicole Wong
-      twitter: nicolewong
-      url: https://nicolesbio.tumblr.com/
-      episodes: [41]
-
-    - name: Alex Macgillivray
-      twitter: amac
-      url: http://www.bricoleur.org/
-      episodes: [41]
-
-    - name: Margaret Taylor
-      twitter: MargLTaylor
-      url: https://www.brookings.edu/experts/margaret-l-taylor/
-      episodes: [42, 105]
-
-    - name: Emily Bell
-      twitter: emilybell
-      episodes: [43]
-
-    - name: Jamal Greene
-      twitter: jamalgreene
-      url: https://www.law.columbia.edu/faculty/jamal-greene
-      episodes: [46]
-
-    - name: Nicolas Suzor
-      twitter: nicsuzor
-      url: https://nic.suzor.net/
-      episodes: [46]
-
-    - name: John Samples
-      twitter: johnsamplescato
-      url: https://www.cato.org/people/john-samples
-      episodes: [46]
-
-    - name: Tim Miller
-      twitter: Timodc
-      url: https://thebulwark.com/author/tim-miller/
-      episodes: [47, 96, 125]
-
-    - name: Tom Wheeler
-      twitter: tewheels
-      url: https://www.brookings.edu/experts/tom-wheeler/
-      episodes: [48]
-
-    - name: Shane Harris
-      twitter: shaneharris
-      url: http://shaneharris.com/secure-contact/
-      episodes: [50]
-
-    - name: Josh Marshall
-      twitter: joshtpm
-      url: https://talkingpointsmemo.com/
-      episodes: [52]
-
-    - name: Thyra Heder
-      twitter: teerahater
-      url: http://www.thyraheder.com/
-      episodes: [53]
-
-    - name: Eric Landon
-      url: https://www.instagram.com/tortus/
-      episodes: [54]
-
-    - name: Whit Stillman
-      twitter: WhitStillman
-      episodes: [55]
-
-    - name: Reginald Dwayne Betts
-      twitter: dwaynebetts
-      episodes: [56]
-
-    - name: Ben Ponte
-      url: http://www.benponte.com/
-      episodes: [57]
-
-    - name: Alvin Cheung
-      twitter: alvinkcheung
-      url: https://people.eecs.berkeley.edu/~akcheung/
-      episodes: [57, 97]
-
-    - name: Carissa Byrne Hessick
-      twitter: CBHessick
-      url: https://law.unc.edu/people/carissa-byrne-hessick
-      episodes: [59]
-
-    - name: Surya Mattu
-      twitter: suryamattu
-      url: https://www.suryamattu.com/#/
-      episodes: [60]
-
-    - name: John Q. Barrett
-      twitter: JohnQBarrett
-      url: https://www.stjohns.edu/law/faculty/john-q-barrett
-      episodes: [61]
-
-    - name: Paul Rosenzweig
-      twitter: RosenzweigP
-      episodes: [62]
-
-    - name: Eugene Volokh
-      twitter: VolokhC
-      url: https://reason.com/volokh/
-      episodes: [63]
-
-    - name: Barry Friedman
-      twitter: barryfriedman1
-      url: https://its.law.nyu.edu/facultyprofiles/index.cfm?fuseaction=profile.overview&personid=19931
-      episodes: [64]
-
-    - name: Radley Balko
-      twitter: radleybalko
-      episodes: [66]
-
-    - name: Clint Watts
-      twitter: selectedwisdom
-      url: https://www.fpri.org/contributor/clint-watts/
-      episodes: [69]
-
-    - name: David French
-      twitter: DavidAFrench
-      url: https://frenchpress.thedispatch.com/
-      episodes: [70]
-
-    - name: Gail Albert Halaban
-      twitter: gailhalaban
-      url: https://www.gailalberthalaban.com/
-      episodes: [71]
-
-    - name: Matt Yglesias
-      twitter: mattyglesias
-      episodes: [74]
-
-    - name: Lawrence Lessig
-      twitter: lessig
-      url: https://www.lessig.org/
-      episodes: [75]
-
-    - name: Matthew Miller
-      twitter: matthewamiller
-      url: https://vianovo.com/people/matthew-miller
-      episodes: [76, 124, 125]
-
-    - name: Bill Kristol
-      twitter: BillKristol
-      url: https://conversationswithbillkristol.org/
-      episodes: [77]
-
-    - name: Catherine Rampell
-      twitter: crampell
-      url: https://www.washingtonpost.com/people/catherine-rampell/
-      episodes: [78]
-
-    - name: Anthony Michael Kries
-      twitter: AnthonyMKreis
-      url: https://law.gsu.edu/profile/anthony-kreis/
-      episodes: [81]
-
-    - name: Alina Polyakova
-      twitter: apolyakova
-      episodes: [82]
-
-    - name: Susan Hennessey
-      twitter: Susan_Hennessey
-      url: https://www.brookings.edu/experts/susan-hennessey
-      episodes: [83]
-
-    - name: Marty Lederman
-      twitter: marty_lederman
-      episodes: [84, 86, 95, 104, 105]
-
-    - name: Kathleen Belew
-      twitter: kathleen_belew
-      url: https://www.kathleenbelew.com/
-      episodes: [85, 126]
-
-    - name: Steve Vladeck
-      twitter: steve_vladeck
-      url: https://law.utexas.edu/faculty/stephen-i-vladeck/
-      episodes: [86, 114]
-
-    - name: Rick Wilson
-      twitter: TheRickWilson
-      url: http://www.therickwilson.com/
-      episodes: [87]
-
-    - name: Adam Serwer
-      url: https://www.theatlantic.com/author/adam-serwer/
-      episodes: [88]
-
-    - name: Julian Sanchez
-      twitter: normative
-      url: http://www.juliansanchez.com/
-      episodes: [88]
-
-    - name: Thomas Rid
-      twitter: RidT
-      url: https://ridt.co/
-      episodes: [89]
-
-    - name: Jonathan Zittrain
-      twitter: zittrain
-      url: https://blogs.harvard.edu/jzwrites/
-      episodes: [90]
-
-    - name: Camille François
-      twitter: camillefrancois
-      episodes: [91]
-
-    - name: Dan Byman
-      twitter: dbyman
-      url: https://www.brookings.edu/experts/daniel-l-byman/
-      episodes: [92]
-
-    - name: Mike Godwin
-      twitter: sfmnemonic
-      episodes: [94]
-
-    - name: Scott Anderson
-      episodes: [95]
-
-    - name: Jordan Schneider
-      twitter: jordanschnyc
-      url: https://chinatalk.substack.com/
-      episodes: [97]
-
-    - name: Claudia Deane
-      twitter: c_deane
-      url: https://www.pewresearch.org/staff/claudia-deane/
-      episodes: [99]
-
-    - name: David Priess
-      twitter: DavidPriess
-      url: https://www.publicaffairsbooks.com/contributor/david-priess/
-      episodes: [101]
-
-    - name: Wilfred U. Codrington III
-      twitter: wuc3
-      episodes: [102]
-
-    - name: Carrie Johnson
-      twitter: johnson_carrie
-      url: https://www.npr.org/people/127410674/carrie-johnson
-      episodes: [103]
-
-    - name: Thomas Berg
-      twitter: tcbergmn
-      url: https://fedsoc.org/contributors/thomas-berg
-      episodes: [104]
-
-    - name: Alex Shephard
-      twitter: alex_shephard
-      url: https://newrepublic.com/authors/alex-shephard
-      episodes: [106]
-
-    - name: Andrew Marantz
-      twitter: andrewmarantz
-      episodes: [108]
-
-    - name: Jeff Jarvis
-      twitter: jeffjarvis
-      url: https://buzzmachine.com/
-      episodes: [109]
-
-    - name: Ian Heath Gershengorn
-      url: https://jenner.com/people/IanGershengorn
-      episodes: [110]
-
-    - name: Jill Filipovic
-      twitter: JillFilipovic
-      url: http://jillfilipovic.com/
-      episodes: [111, 146]
-
-    - name: Charlie Warzel
-      twitter: cwarzel
-      url: https://www.nytimes.com/by/charlie-warzel
-      episodes: [112]
-
-    - name: Josh Sharfstein
-      twitter: drJoshS
-      url: https://www.jhsph.edu/faculty/directory/profile/1781/joshua-m-sharfstein
-      episodes: [116]
-
-    - name: Ross Trudeau
-      twitter: TrudeauRoss
-      url: https://rosswordpuzzles.com/
-      episodes: [118]
-
-    - name: Andy Slavitt
-      twitter: ASlavitt
-      url: https://bipartisanpolicy.org/person/andy-slavitt
-      episodes: [119]
-
-    - name: Steven Levy
-      twitter: StevenLevy
-      url: https://stevenlevy.com/
-      episodes: [120]
-
-    - name: Daniel Radosh
-      twitter: danielradosh
-      episodes: [122]
-
-    - name: Clare Malone
-      twitter: ClareMalone
-      url: https://www.claremalone.net/
-      episodes: [123]
-
-    - name: Alexandra Petri
-      twitter: petridishes
-      url: https://www.washingtonpost.com/people/alexandra-petri/
-      episodes: [126]
-
-    - name: Katie Phang
-      twitter: KatiePhang
-      url: https://www.floridabar.org/directories/find-mbr/profile/?num=348650
-      episodes: [127]
-
-    - name: Kara Swisher
-      twitter: karaswisher
-      episodes: [130]
-
-    - name: Allegra Love
-      url: http://www.santafedreamersproject.org/who-we-are
-      episodes: [129]
-
-    - name: Deepak Gupta
-      twitter: deepakguptalaw
-      url: http://guptawessler.com/people/deepak-gupta/
-      episodes: [133]
-
-    - name: Janet Turk Wittes
-      episodes: [134]
-
-    - name: Julian Davis Mortenson
-      twitter: jdmortenson
-      url: https://www.theatlantic.com/author/julian-davis-mortenson/
-      episodes: [136]
-
-    - name: Josh Chafetz
-      twitter: joshchafetz
-      url: https://www.law.georgetown.edu/faculty/josh-chafetz/
-      episodes: [138]
-
-    - name: G. Elliott Morris
-      twitter: gelliottmorris
-      url: https://gelliottmorris.com/
-      episodes: [139]
-
-    - name: Richard R. John
-      twitter: RrjohnR
-      url: https://journalism.columbia.edu/faculty/richard-r-john
-      episodes: [140]
-
-    - name: Natalie Jackson
-      twitter: nataliemj10
-      episodes: [141]
-
-    - name: Jameel Jaffer
-      twitter: JameelJaffer
-      episodes: [144]
+- name: Danielle Citron
+  twitter: daniellecitron
+  url: https://www.daniellecitron.com/
+  episodes: [0, 4]
+
+- name: Anna Salvatore
+  twitter: hischoolscotus
+  url: https://highschoolscotus.wordpress.com/
+  episodes: [1, 104]
+
+- name: Maggie Feldman-Piltch
+  twitter: maggiecaroline
+  episodes: [2, 21]
+
+- name: Alex Stamos
+  twitter: alexstamos
+  url: https://cyber.fsi.stanford.edu/io
+  episodes: [2, 11, 68]
+
+- name: Mike Chase
+  twitter: CrimeADay
+  episodes: [3, 112, 126]
+
+- name: Ken White
+  twitter: popehat
+  url: https://www.popehat.com/
+  episodes: [3, 49]
+
+- name: Cory Doctorow
+  twitter: doctorow
+  url: https://pluralistic.net/
+  episodes: [3]
+
+- name: Emily Hurson
+  twitter: Limeshy
+  episodes: [3]
+
+- name: Ross Garber
+  twitter: rossgarber
+  episodes: [3]
+
+- name: Orin Kerr
+  twitter: orinkerr
+  url: https://www.orinkerr.com/
+  episodes: [5, 25]
+
+- name: Jon Turk
+  url: http://www.jonturk.net/
+  episodes: [6]
+
+- name: Jack Balkin
+  twitter: jackbalkin
+  url: https://jackbalkin.yale.edu/
+  episodes: [7, 63, 145]
+
+- name: Jordan Ellenberg
+  twitter: JSEllenberg
+  url: http://www.jordanellenberg.com/
+  episodes: [7]
+
+- name: Amanda Sloat
+  twitter: A_Sloat
+  episodes: [8]
+
+- name: Dan Drezner
+  twitter: dandrezner
+  episodes: [10, 21, 131]
+
+- name: Scott Shapiro
+  twitter: scottjshapiro
+  episodes: [10, 25, 148]
+
+- name: Nate Persily
+  twitter: persily
+  url: https://law.stanford.edu/directory/nathaniel-persily/
+  episodes: [11, 125, 132]
+
+- name: Alan Rozenshtein
+  twitter: ARozenshtein
+  episodes: [12, 45]
+
+- name: Virginia Heffernan
+  twitter: page88
+  url: https://vpheffernan.com/
+  episodes: [13, 67, 137]
+
+- name: Mike Pesca
+  twitter: pescami
+  episodes: [13, 80]
+
+- name: Kori Schake
+  twitter: KoriSchake
+  url: https://www.aei.org/profile/kori-schake/
+  episodes: [14]
+
+- name: Doug Bernstein
+  episodes: [15]
+
+- name: Jonathan Rauch
+  twitter: jon_rauch
+  url: https://www.jonathanrauch.com/
+  episodes: [17, 73, 106]
+
+- name: Evelyn Douek
+  twitter: evelyndouek
+  url: https://www.evelyndouek.com/
+  episodes: [18, 41]
+
+- name: Sarah Roberts
+  twitter: ubiquity75
+  url: https://www.behindthescreen-book.com/
+  episodes: [19]
+
+- name: Jillian York
+  twitter: jilliancyork
+  episodes: [19]
+
+- name: Quinta Jurecic
+  twitter: qjurecic
+  episodes: [20, 63]
+
+- name: Hannah Neprash
+  twitter: hannahneprash
+  episodes: [22, 45]
+
+- name: Carrie Goldberg
+  twitter: cagoldberglaw
+  url: https://www.cagoldberglaw.com/
+  episodes: [24, 90, 143]
+
+- name: Yorrick "YoRock" Anderson
+  url: https://www.tapology.com/fightcenter/fighters/201304-yorrick-anderson
+  episodes: [24]
+
+- name: Lisa Page
+  twitter: natseclisa
+  episodes: [26]
+  notes: via puppet
+
+- name: Molly Jong Fast
+  twitter: MollyJongFast
+  url: https://www.instagram.com/mollyjongfast/
+  episodes: [26]
+
+- name: Randy Barnett
+  twitter: RandyEBarnett
+  url: http://www.randybarnett.com/
+  episodes: [27]
+
+- name: Kate Darling
+  twitter: grok_
+  url: http://www.katedarling.org/
+  episodes: [28]
+
+- name: Noah Feldman
+  twitter: NoahRFeldman
+  url: http://noah-feldman.squarespace.com/
+  episodes: [29]
+
+- name: Sarah Longwell
+  twitter: SarahLongwell25
+  url: https://thebulwark.com/author/sarah-longwell/
+  episodes: [31, 147]
+
+- name: Yascha Mounk
+  twitter: Yascha_Mounk
+  episodes: [31, 37]
+
+- name: Ada Palmer
+  twitter: Ada_Palmer
+  url: https://adapalmer.com/
+  episodes: [32, 98]
+
+- name: Preet Bharara
+  twitter: PreetBharara
+  episodes: [33]
+
+- name: Toomas Hendrick Ilves
+  twitter: IlvesToomas
+  url: https://www.presidentilves.ee/
+  episodes: [34]
+
+- name: David Plotz
+  twitter: davidplotz
+  episodes: [35]
+
+- name: Seth Magaziner
+  twitter: SethMagaziner
+  url: https://sethmagaziner.com/
+  episodes: [36]
+
+- name: Jeff Horwitz
+  twitter: JeffHorwitz
+  episodes: [38]
+
+- name: Leah Litman
+  twitter: LeahLitman
+  url: http://www.law.umich.edu/FacultyBio/Pages/FacultyBio.aspx?FacID=lmlitman
+  episodes: [39, 81, 95, 102, 105]
+
+- name: Dahlia Lithwick
+  twitter: dahlialithwick
+  episodes: [39, 105]
+
+- name: Will DeWitt
+  episodes: [40]
+
+- name: Nicole Wong
+  twitter: nicolewong
+  url: https://nicolesbio.tumblr.com/
+  episodes: [41]
+
+- name: Alex Macgillivray
+  twitter: amac
+  url: http://www.bricoleur.org/
+  episodes: [41]
+
+- name: Margaret Taylor
+  twitter: MargLTaylor
+  url: https://www.brookings.edu/experts/margaret-l-taylor/
+  episodes: [42, 105]
+
+- name: Emily Bell
+  twitter: emilybell
+  episodes: [43]
+
+- name: Jamal Greene
+  twitter: jamalgreene
+  url: https://www.law.columbia.edu/faculty/jamal-greene
+  episodes: [46]
+
+- name: Nicolas Suzor
+  twitter: nicsuzor
+  url: https://nic.suzor.net/
+  episodes: [46]
+
+- name: John Samples
+  twitter: johnsamplescato
+  url: https://www.cato.org/people/john-samples
+  episodes: [46]
+
+- name: Tim Miller
+  twitter: Timodc
+  url: https://thebulwark.com/author/tim-miller/
+  episodes: [47, 96, 125]
+
+- name: Tom Wheeler
+  twitter: tewheels
+  url: https://www.brookings.edu/experts/tom-wheeler/
+  episodes: [48]
+
+- name: Shane Harris
+  twitter: shaneharris
+  url: http://shaneharris.com/secure-contact/
+  episodes: [50]
+
+- name: Josh Marshall
+  twitter: joshtpm
+  url: https://talkingpointsmemo.com/
+  episodes: [52]
+
+- name: Thyra Heder
+  twitter: teerahater
+  url: http://www.thyraheder.com/
+  episodes: [53]
+
+- name: Eric Landon
+  url: https://www.instagram.com/tortus/
+  episodes: [54]
+
+- name: Whit Stillman
+  twitter: WhitStillman
+  episodes: [55]
+
+- name: Reginald Dwayne Betts
+  twitter: dwaynebetts
+  episodes: [56]
+
+- name: Ben Ponte
+  url: http://www.benponte.com/
+  episodes: [57]
+
+- name: Alvin Cheung
+  twitter: alvinkcheung
+  url: https://people.eecs.berkeley.edu/~akcheung/
+  episodes: [57, 97]
+
+- name: Carissa Byrne Hessick
+  twitter: CBHessick
+  url: https://law.unc.edu/people/carissa-byrne-hessick
+  episodes: [59]
+
+- name: Surya Mattu
+  twitter: suryamattu
+  url: https://www.suryamattu.com/#/
+  episodes: [60]
+
+- name: John Q. Barrett
+  twitter: JohnQBarrett
+  url: https://www.stjohns.edu/law/faculty/john-q-barrett
+  episodes: [61]
+
+- name: Paul Rosenzweig
+  twitter: RosenzweigP
+  episodes: [62]
+
+- name: Eugene Volokh
+  twitter: VolokhC
+  url: https://reason.com/volokh/
+  episodes: [63]
+
+- name: Barry Friedman
+  twitter: barryfriedman1
+  url: https://its.law.nyu.edu/facultyprofiles/index.cfm?fuseaction=profile.overview&personid=19931
+  episodes: [64]
+
+- name: Radley Balko
+  twitter: radleybalko
+  episodes: [66]
+
+- name: Clint Watts
+  twitter: selectedwisdom
+  url: https://www.fpri.org/contributor/clint-watts/
+  episodes: [69]
+
+- name: David French
+  twitter: DavidAFrench
+  url: https://frenchpress.thedispatch.com/
+  episodes: [70]
+
+- name: Gail Albert Halaban
+  twitter: gailhalaban
+  url: https://www.gailalberthalaban.com/
+  episodes: [71]
+
+- name: Matt Yglesias
+  twitter: mattyglesias
+  episodes: [74]
+
+- name: Lawrence Lessig
+  twitter: lessig
+  url: https://www.lessig.org/
+  episodes: [75]
+
+- name: Matthew Miller
+  twitter: matthewamiller
+  url: https://vianovo.com/people/matthew-miller
+  episodes: [76, 124, 125]
+
+- name: Bill Kristol
+  twitter: BillKristol
+  url: https://conversationswithbillkristol.org/
+  episodes: [77]
+
+- name: Catherine Rampell
+  twitter: crampell
+  url: https://www.washingtonpost.com/people/catherine-rampell/
+  episodes: [78]
+
+- name: Anthony Michael Kries
+  twitter: AnthonyMKreis
+  url: https://law.gsu.edu/profile/anthony-kreis/
+  episodes: [81]
+
+- name: Alina Polyakova
+  twitter: apolyakova
+  episodes: [82]
+
+- name: Susan Hennessey
+  twitter: Susan_Hennessey
+  url: https://www.brookings.edu/experts/susan-hennessey
+  episodes: [83]
+
+- name: Marty Lederman
+  twitter: marty_lederman
+  episodes: [84, 86, 95, 104, 105]
+
+- name: Kathleen Belew
+  twitter: kathleen_belew
+  url: https://www.kathleenbelew.com/
+  episodes: [85, 126]
+
+- name: Steve Vladeck
+  twitter: steve_vladeck
+  url: https://law.utexas.edu/faculty/stephen-i-vladeck/
+  episodes: [86, 114]
+
+- name: Rick Wilson
+  twitter: TheRickWilson
+  url: http://www.therickwilson.com/
+  episodes: [87]
+
+- name: Adam Serwer
+  url: https://www.theatlantic.com/author/adam-serwer/
+  episodes: [88]
+
+- name: Julian Sanchez
+  twitter: normative
+  url: http://www.juliansanchez.com/
+  episodes: [88]
+
+- name: Thomas Rid
+  twitter: RidT
+  url: https://ridt.co/
+  episodes: [89]
+
+- name: Jonathan Zittrain
+  twitter: zittrain
+  url: https://blogs.harvard.edu/jzwrites/
+  episodes: [90]
+
+- name: Camille François
+  twitter: camillefrancois
+  episodes: [91]
+
+- name: Dan Byman
+  twitter: dbyman
+  url: https://www.brookings.edu/experts/daniel-l-byman/
+  episodes: [92]
+
+- name: Mike Godwin
+  twitter: sfmnemonic
+  episodes: [94]
+
+- name: Scott Anderson
+  episodes: [95]
+
+- name: Jordan Schneider
+  twitter: jordanschnyc
+  url: https://chinatalk.substack.com/
+  episodes: [97]
+
+- name: Claudia Deane
+  twitter: c_deane
+  url: https://www.pewresearch.org/staff/claudia-deane/
+  episodes: [99]
+
+- name: David Priess
+  twitter: DavidPriess
+  url: https://www.publicaffairsbooks.com/contributor/david-priess/
+  episodes: [101]
+
+- name: Wilfred U. Codrington III
+  twitter: wuc3
+  episodes: [102]
+
+- name: Carrie Johnson
+  twitter: johnson_carrie
+  url: https://www.npr.org/people/127410674/carrie-johnson
+  episodes: [103]
+
+- name: Thomas Berg
+  twitter: tcbergmn
+  url: https://fedsoc.org/contributors/thomas-berg
+  episodes: [104]
+
+- name: Alex Shephard
+  twitter: alex_shephard
+  url: https://newrepublic.com/authors/alex-shephard
+  episodes: [106]
+
+- name: Andrew Marantz
+  twitter: andrewmarantz
+  episodes: [108]
+
+- name: Jeff Jarvis
+  twitter: jeffjarvis
+  url: https://buzzmachine.com/
+  episodes: [109]
+
+- name: Ian Heath Gershengorn
+  url: https://jenner.com/people/IanGershengorn
+  episodes: [110]
+
+- name: Jill Filipovic
+  twitter: JillFilipovic
+  url: http://jillfilipovic.com/
+  episodes: [111, 146]
+
+- name: Charlie Warzel
+  twitter: cwarzel
+  url: https://www.nytimes.com/by/charlie-warzel
+  episodes: [112]
+
+- name: Josh Sharfstein
+  twitter: drJoshS
+  url: https://www.jhsph.edu/faculty/directory/profile/1781/joshua-m-sharfstein
+  episodes: [116]
+
+- name: Ross Trudeau
+  twitter: TrudeauRoss
+  url: https://rosswordpuzzles.com/
+  episodes: [118]
+
+- name: Andy Slavitt
+  twitter: ASlavitt
+  url: https://bipartisanpolicy.org/person/andy-slavitt
+  episodes: [119]
+
+- name: Steven Levy
+  twitter: StevenLevy
+  url: https://stevenlevy.com/
+  episodes: [120]
+
+- name: Daniel Radosh
+  twitter: danielradosh
+  episodes: [122]
+
+- name: Clare Malone
+  twitter: ClareMalone
+  url: https://www.claremalone.net/
+  episodes: [123]
+
+- name: Alexandra Petri
+  twitter: petridishes
+  url: https://www.washingtonpost.com/people/alexandra-petri/
+  episodes: [126]
+
+- name: Katie Phang
+  twitter: KatiePhang
+  url: https://www.floridabar.org/directories/find-mbr/profile/?num=348650
+  episodes: [127]
+
+- name: Kara Swisher
+  twitter: karaswisher
+  episodes: [130]
+
+- name: Allegra Love
+  url: http://www.santafedreamersproject.org/who-we-are
+  episodes: [129]
+
+- name: Deepak Gupta
+  twitter: deepakguptalaw
+  url: http://guptawessler.com/people/deepak-gupta/
+  episodes: [133]
+
+- name: Janet Turk Wittes
+  episodes: [134]
+
+- name: Julian Davis Mortenson
+  twitter: jdmortenson
+  url: https://www.theatlantic.com/author/julian-davis-mortenson/
+  episodes: [136]
+
+- name: Josh Chafetz
+  twitter: joshchafetz
+  url: https://www.law.georgetown.edu/faculty/josh-chafetz/
+  episodes: [138]
+
+- name: G. Elliott Morris
+  twitter: gelliottmorris
+  url: https://gelliottmorris.com/
+  episodes: [139]
+
+- name: Richard R. John
+  twitter: RrjohnR
+  url: https://journalism.columbia.edu/faculty/richard-r-john
+  episodes: [140]
+
+- name: Natalie Jackson
+  twitter: nataliemj10
+  episodes: [141]
+
+- name: Jameel Jaffer
+  twitter: JameelJaffer
+  episodes: [144]

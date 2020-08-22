@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign raw_guests = site.data.guests.guests | sort: "name" %}
+{% assign raw_guests = site.data.guests | sort: "name" %}
 {% assign guests = '' | split: 'x' %}
 {% for guest in raw_guests %}
  {% if guest.episodes contains page.episode %}
