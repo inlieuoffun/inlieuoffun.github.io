@@ -11,7 +11,7 @@ theme: minima
 # See _plugins/redirector.rb.
 static_redirect:
   stream:
-    value: youtube
+    values: [crowdcast, youtube]
   detail:
     value: basename_without_ext
     template: '/episode/%<value>s.html'
