@@ -31,9 +31,9 @@ do not.</p>
         <a name="ep{{ entry.episode }}"></a>
         {{ entry.episode }}&nbsp;<a title="episode {{ entry.episode }} detail" href="/detail/{{ entry.episode }}">&#x2139;</a>
       </td>
-      <td>
-        <a href="{{ site.config.url }}/stream/{{ entry.episode }}">
-          {{- entry.date | date: "%Y‑%m‑%d" }}</a>
+      <td>{% assign label = entry.date | date: "%Y‑%m‑%d" %}
+        <a href="{{ site.config.url }}/stream/{{ entry.episode }}" target=_blank
+           title="Stream for ILoF episode {{ entry.episode }}; aired {{ entry.date | date: "%B %d, %Y" }}">{{ label }}</a>
       </td>
       <td>
 	{% if entry.guests.size == 0 -%}
