@@ -1,19 +1,6 @@
 ---
 layout: default
 ---
-{% assign raw_guests = site.data.guests | sort: "name" %}
-{% assign guests = '' | split: 'x' %}
-{% for guest in raw_guests %}
- {% if guest.episodes contains page.episode %}
-   {% capture link -%}
-     {%- if guest.twitter %}<a href="https://twitter.com/{{ guest.twitter }}">{{ guest.name }}</a>
-     {%- elsif guest.url %}<a href="{{ guest.url }}">{{ guest.name | replace: " ", " " }}</a>
-     {%- else %}{{ guest.name | replace: " ", " " }}
-     {%- endif -%}
-   {%- endcapture %}
-   {% assign guests = guests | push: link %}
- {% endif %}
-{% endfor %}
 
 <article class="post">
   <header class="post-header">
@@ -21,8 +8,8 @@ layout: default
 
     <ul>
       <li><strong>Air Date:</strong> {{ page.date | date: "%B %d, %Y" }}</li>
-      <li>{% if guests.size > 0 -%}
-          <strong>Guests:</strong> {{ guests | join: ", " }}
+      <li>{% if page.guests.size > 0 -%}
+          <strong>Guests:</strong> {{ page.guests | map: "hyperlink" | join: ", " }}
           {% else -%}
           No guests, just your hosts.
           {% endif %}
