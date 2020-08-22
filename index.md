@@ -27,7 +27,7 @@ to recordings of past episodes from the [Episode Log](episodes.html).
 - **See something wrong?** Please [file an issue](http://site.inlieuof.fun/issues/new)
   describing the problem, and one of our loyal volunteers will look into it.
 
-- You can also view or send pull requests for [this site](http://site.inlieuof.fun),
+- You can also [view or send pull requests](http://site.inlieuof.fun) for this site,
   or [check the build status](http://site.inlieuof.fun/actions?query=workflow%3A%22Build+and+publish+ILoF%22).
 
 ## Coming soon
