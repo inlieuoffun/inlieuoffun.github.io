@@ -8,23 +8,21 @@ module Jekyll
       generate_redirects(site) if (site.config['static_redirect'])
     end
 
+
     # Find all entries with a matching link value and create a new page to
     # redirect to the specified URL for the corresponding episode.
     #
     # Each redirect entry names a path fragment with keys:
     #
     #   value: string    -- data field or method providing target URL
+    #   values: [string] -- data fields to try in order (as value)
     #   template: string -- (optional) string template for value
     #
     def generate_redirects(site)
       site.collections['episodes'].docs.each do |ep|
         site.config['static_redirect'].each do |path, tkey|
-          value = tkey['value']
-          if not value then next end
-
-          if ep.data.key? value then target = ep.data[value]
-          elsif ep.respond_to? value then target = ep.send(value)
-          else next end
+          target = find_target(ep, search_keys(tkey))
+          if not target then next end
 
           if tkey.key? 'template' then
             target = tkey['template'] % {:value => target}
@@ -36,6 +34,25 @@ module Jekyll
           redirect.write(site.dest)
           site.pages << redirect
         end
+      end
+    end
+
+    # Return the target URL selected by the given keys, or nil.
+    def find_target(ep, keys)
+      keys.each do |key|
+        if ep.data.key? key then return ep.data[key]
+        elsif ep.respond_to? key then return ep.send(key)
+        end
+      end
+      nil
+    end
+
+    # Return an array of keys to try, or nil if there are none.
+    def search_keys(tkey)
+      if tkey.key? 'value' then
+        [tkey['value']]
+      else
+        tkey['values'] || []
       end
     end
   end
