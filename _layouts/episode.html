@@ -20,7 +20,7 @@ layout: default
     <h1 class="post-title">Episode {{ page.episode }}</h1>
 
     <ul>
-      <li><strong>Air Date:</strong> {{ page.date | date: "%Y-%m-%d" }}</li>
+      <li><strong>Air Date:</strong> {{ page.date | date: "%B %d, %Y" }}</li>
       <li>{% if guests.size > 0 -%}
           <strong>Guests:</strong> {{ guests | join: ", " }}
           {% else -%}
