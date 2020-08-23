@@ -12,6 +12,7 @@ matter section giving episode metadata:
  - `episode`: The episode number [integer]
  - `date`: The date when the episode aired [string, "YYYY-MM-DD"]
  - `youtube`: The URL of the episode stream on YouTube [string]
+ - `crowdcast`: The URL of the episode stream on Crowdcast [string]
  - `summary`: A brief summary of the episode [string, optional]
  - `topics`: A comma-separated list of topics [string, optional]
  - `links`: A list of related hyperlinks [optional]
