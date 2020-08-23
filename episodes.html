@@ -36,9 +36,9 @@ do not.</p>
            title="Stream for ILoF episode {{ entry.episode }}; aired {{ entry.date | date: "%B %d, %Y" }}">{{ label }}</a>
       </td>
       <td>
-	{% if entry.guests.size == 0 -%}
-	(your hosts){%- else -%}
-	{{ entry.guests | map: "hyperlink" | join: ", " }}
+	{% if entry.guests -%}
+	{{ entry.guests | map: "hyperlink" | join: ", " }}{%- else -%}
+	(just your hosts)
 	{%- endif %}
       </td>
       <td>
