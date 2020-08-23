@@ -52,6 +52,15 @@ cd ilof
 bundle install
 ```
 
+## URL Structure
+
+- Episode Log (HTML): https://inlieuof.fun/episodes.html
+    - Episode Log (JSON): https://inlieuof.fun/episodes.json
+- Guest List (HTML): https://inlieuof.fun/guests.html
+    - Guest List (HTML): https://inlieuof.fun/guests.json
+- Episode N stream redirect: https://inlieuof.fun/stream/N
+- Episode N detail redirect: https://inlieuof.fun/detail/N
+
 ## Peculiarities
 
 Because this site is hosted from a github.io repository, the generated site
