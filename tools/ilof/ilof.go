@@ -26,13 +26,13 @@ const BaseURL = "https://inlieuof.fun"
 // An Episode records details about an episode of the webcast.
 type Episode struct {
 	Episode      Label    `json:"episode"`
-	Date         Date     `json:"airDate"`
-	Guests       []string `json:"guestNames,omitempty"`
-	Topics       string   `json:"topics,omitempty"`
-	Summary      string   `json:"summary,omitempty"`
-	CrowdcastURL string   `json:"crowdcastURL,omitempty"`
-	YouTubeURL   string   `json:"youTubeURL,omitempty"`
-	Links        []Link   `json:"links,omitempty"`
+	Date         Date     `json:"airDate" yaml:"date"`
+	Guests       []string `json:"guestNames,omitempty" yaml:"-"`
+	Topics       string   `json:"topics,omitempty" yaml:"topics,omitempty"`
+	Summary      string   `json:"summary,omitempty" yaml:"summary,omitempty"`
+	CrowdcastURL string   `json:"crowdcastURL,omitempty" yaml:"crowdcast,omitempty"`
+	YouTubeURL   string   `json:"youTubeURL,omitempty" yaml:"youtube,omitempty"`
+	Links        []Link   `json:"links,omitempty" yaml:"links,omitempty"`
 }
 
 // A Label holds the string encoding of an episode label, which can be either a
@@ -68,6 +68,13 @@ func (a Label) MarshalJSON() ([]byte, error) {
 	return json.Marshal(string(a))
 }
 
+func (a Label) MarshalYAML() (interface{}, error) {
+	if v := a.Int(); v >= 0 {
+		return v, nil
+	}
+	return string(a), nil
+}
+
 // A Date records the date when an episode aired or will air.
 // It is encoded as a string in the format "YYYY-MM-DD".
 type Date time.Time
@@ -93,10 +100,14 @@ func (d Date) MarshalJSON() ([]byte, error) {
 	return []byte(d.String()), nil
 }
 
+func (d Date) MarshalYAML() (interface{}, error) {
+	return d.String(), nil
+}
+
 // A Link records the title and URL of a hyperlink.
 type Link struct {
-	Title string `json:"title,omitempty"`
-	URL   string `json:"url"`
+	Title string `json:"title,omitempty" yaml:"title,omitempty"`
+	URL   string `json:"url" yaml:"url"`
 }
 
 // LatestEpisode queries the site for the latest episode.
