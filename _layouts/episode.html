@@ -19,6 +19,10 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">Episode {{ page.episode }}</h1>
 
+    <span style="font-size: 130%; float: right;">
+    <a href="http://site.inlieuof.fun/edit/source/{{ page.path }}" target=_blank
+       title="Edit episode {{ page.episode }} on GitHub">&#x1F58B;</a></span>
+
     <ul>
       <li><strong>Air Date:</strong> {{ page.date | date: "%B %d, %Y" }}</li>
       <li>{% if page.guests.size > 0 -%}
@@ -48,4 +52,5 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+
 </article>
