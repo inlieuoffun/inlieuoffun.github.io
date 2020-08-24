@@ -6,13 +6,11 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"fmt"
 	"io"
 	"net/http"
 	"net/url"
 	"regexp"
 	"strconv"
-	"strings"
 	"time"
 
 	"github.com/creachadair/twitter"
@@ -187,7 +185,7 @@ func (t Twitter) Updates(ctx context.Context, since Date) ([]*TwitterUpdate, err
 				if m.Span.Start < pos {
 					continue // too soon
 				}
-				g := Guest{Twitter: m.Username}
+				g := &Guest{Twitter: m.Username}
 				if info := users.FindByUsername(m.Username); info != nil {
 					g.Name = info.Name
 					g.URL = info.ProfileURL
@@ -207,26 +205,7 @@ type TwitterUpdate struct {
 	Date      time.Time // the date of the announcement
 	YouTube   string    // if available, the YouTube stream link
 	Crowdcast string    // if available, the Crowdcast stream link
-	Guests    []Guest   // if available, possible guest twitter handles
-}
-
-// A Guest gives the name and some links for a guest.
-type Guest struct {
-	Name    string
-	Twitter string
-	URL     string
-}
-
-func (g Guest) String() string {
-	var buf strings.Builder
-	buf.WriteString(g.Name)
-	if g.URL != "" {
-		fmt.Fprintf(&buf, " <%s>", g.URL)
-	}
-	if g.Twitter != "" {
-		fmt.Fprintf(&buf, " (@%s)", g.Twitter)
-	}
-	return buf.String()
+	Guests    []*Guest  // if available, possible guest twitter handles
 }
 
 var joinedBy = regexp.MustCompile(`(?i)\bjoined by\b`)
