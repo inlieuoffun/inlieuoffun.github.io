@@ -5,10 +5,19 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
+	"errors"
+	"fmt"
 	"io"
 	"net/http"
+	"net/url"
+	"regexp"
 	"strconv"
+	"strings"
 	"time"
+
+	"github.com/creachadair/twitter"
+	"github.com/creachadair/twitter/tweets"
+	"github.com/creachadair/twitter/types"
 )
 
 // BaseURL is the base URL of the production site.
@@ -106,4 +115,139 @@ func LatestEpisode(ctx context.Context) (*Episode, error) {
 		return nil, err
 	}
 	return ep.Latest, nil
+}
+
+// Twitter is a twitter client wrapper for ILoF.
+type Twitter struct {
+	cli *twitter.Client
+}
+
+// NewTwitter constructs a twitter client wrapper using the given bearer token.
+func NewTwitter(token string) Twitter {
+	return Twitter{
+		cli: &twitter.Client{Authorize: twitter.BearerTokenAuthorizer(token)},
+	}
+}
+
+// Updates queries Twitter for episode updates since the specified date.
+func (t Twitter) Updates(ctx context.Context, since Date) ([]*TwitterUpdate, error) {
+	const query = `from:benjaminwittes "Today on @inlieuoffunshow"`
+	rsp, err := tweets.SearchRecent(query, &tweets.SearchOpts{
+		StartTime:  time.Time(since).Add(22 * time.Hour),
+		MaxResults: 10,
+		TweetFields: []string{
+			types.Tweet_CreatedAt,
+			types.Tweet_Entities, // for URLs, usernames
+		},
+		Expansions: []string{
+			types.ExpandMentionUsername,
+		},
+	}).Invoke(ctx, t.cli)
+	if err != nil {
+		return nil, err
+	} else if len(rsp.Tweets) == 0 {
+		return nil, errors.New("no matching updates")
+	}
+	users, _ := rsp.IncludedUsers()
+
+	var ups []*TwitterUpdate
+	for _, tw := range rsp.Tweets {
+		up := &TwitterUpdate{Date: time.Time(*tw.CreatedAt)}
+
+		// Search URLs for stream links, matched by hostname.
+		for _, try := range tw.Entities.URLs {
+			u := pickURL(try)
+			if u == nil {
+				continue
+			}
+			switch u.Host {
+			case "crowdcast.io", "www.crowdcast.io":
+				up.Crowdcast = u.String()
+			case "youtube.com", "www.youtube.com", "youtu.be":
+				cleanURL(u)
+				up.YouTube = u.String()
+			}
+		}
+
+		// Look for mentions following a "joined by" string.
+		pos, ok := findJoinedBy(tw.Text)
+		if ok {
+			for _, m := range tw.Entities.Mentions {
+				if m.Span.Start < pos {
+					continue // too soon
+				}
+				g := Guest{Twitter: m.Username}
+				if info := users.FindByUsername(m.Username); info != nil {
+					g.Name = info.Name
+					g.URL = info.ProfileURL
+				}
+				up.Guests = append(up.Guests, g)
+			}
+		}
+
+		ups = append(ups, up)
+	}
+	return ups, nil
+}
+
+// A TwitterUpdate reports data extracted from an episode announcement status
+// on Twitter.
+type TwitterUpdate struct {
+	Date      time.Time // the date of the announcement
+	YouTube   string    // if available, the YouTube stream link
+	Crowdcast string    // if available, the Crowdcast stream link
+	Guests    []Guest   // if available, possible guest twitter handles
+}
+
+// A Guest gives the name and some links for a guest.
+type Guest struct {
+	Name    string
+	Twitter string
+	URL     string
+}
+
+func (g Guest) String() string {
+	var buf strings.Builder
+	buf.WriteString(g.Name)
+	if g.URL != "" {
+		fmt.Fprintf(&buf, " <%s>", g.URL)
+	}
+	if g.Twitter != "" {
+		fmt.Fprintf(&buf, " (@%s)", g.Twitter)
+	}
+	return buf.String()
+}
+
+var joinedBy = regexp.MustCompile(`(?i)\bjoined by\b`)
+
+func findJoinedBy(text string) (int, bool) {
+	m := joinedBy.FindStringIndex(text)
+	if m == nil {
+		return -1, false
+	}
+	return m[1], true
+}
+
+func pickURL(u *types.URL) *url.URL {
+	if out, err := url.Parse(u.Unwound); err == nil {
+		return out
+	} else if out, err := url.Parse(u.Expanded); err == nil {
+		return out
+	} else if out, err := url.Parse(u.URL); err == nil {
+		return out
+	}
+	return nil
+}
+
+func cleanURL(u *url.URL) {
+	q, err := url.ParseQuery(u.RawQuery)
+	if err != nil {
+		return
+	}
+	for key := range q {
+		if key != "v" {
+			q.Del(key)
+		}
+	}
+	u.RawQuery = q.Encode()
 }
