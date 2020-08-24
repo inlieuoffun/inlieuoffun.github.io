@@ -26,6 +26,12 @@ import (
 
 var (
 	doDryRun = flag.Bool("dry-run", false, "Do not create or modify any files")
+	doForce  = flag.Bool("force", false, "Create updates even if the files exist")
+)
+
+const (
+	episodeDir = "_episodes"
+	guestFile  = "_data/guests.yaml"
 )
 
 func main() {
@@ -56,29 +62,25 @@ func main() {
 	for i, up := range updates {
 		epNum := latest.Episode.Int() + len(updates) - i
 		epFile := fmt.Sprintf("%s-%04d.md", up.Date.Format("2006-01-02"), epNum)
-		epPath := filepath.Join("_episodes", epFile)
+		epPath := filepath.Join(episodeDir, epFile)
 		exists := fileExists(epPath)
 
 		log.Printf("Update %d: episode %d, posted %s, exists=%v",
 			i+1, epNum, up.Date.Format(time.RFC822), exists)
-		if exists {
+		if exists && !*doForce {
 			continue
 		}
 		if err := createEpisodeFile(epNum, up, epPath); err != nil {
 			log.Fatalf("Creating episode file for %d: %v", epNum, err)
 		}
 
-		// TODO(creachadair): Plug these into the actual guest table.
 		for _, guest := range up.Guests {
-			var buf strings.Builder
-			buf.WriteString(guest.Name)
-			if guest.Twitter != "" {
-				fmt.Fprintf(&buf, " https://twitter.com/%s", guest.Twitter)
-			}
-			if guest.URL != "" {
-				fmt.Fprint(&buf, " ", guest.URL)
-			}
-			log.Printf("- Guest: %s", buf.String())
+			log.Printf("- Guest: %s", guest)
+		}
+		if *doDryRun {
+			log.Printf("Skipped guest list update, this is a dry run")
+		} else if err := ilof.AddOrUpdateGuests(epNum, guestFile, up.Guests); err != nil {
+			log.Fatalf("Updating guest list: %v", err)
 		}
 	}
 }
