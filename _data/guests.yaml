@@ -147,8 +147,8 @@
 
 - name: Lisa Page
   twitter: natseclisa
-  episodes: [26]
   notes: via puppet
+  episodes: [26]
 
 - name: Molly Jong Fast
   twitter: MollyJongFast
