@@ -68,6 +68,7 @@ func main() {
 			log.Fatalf("Creating episode file for %d: %v", epNum, err)
 		}
 
+		// TODO(creachadair): Plug these into the actual guest table.
 		for _, guest := range up.Guests {
 			var buf strings.Builder
 			buf.WriteString(guest.Name)
