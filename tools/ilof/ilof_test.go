@@ -25,9 +25,9 @@ func TestLatestEpisode(t *testing.T) {
 Date:      %s
 YouTube:   %s
 Crowdcast: %s
-Guests:    %s
+Guests:    %+v
 Summary:
-%s`, ep.Episode, ep.Date, ep.YouTubeURL, ep.CrowdcastURL,
+> %s`, ep.Episode, ep.Date, ep.YouTubeURL, ep.CrowdcastURL,
 		strings.Join(ep.Guests, ", "), ep.Summary)
 
 	ups, err := cli.Updates(ctx, ep.Date)
@@ -41,7 +41,6 @@ Summary:
 Date:      %s
 YouTube:   %s
 Crowdcast: %s
-Guests:    %s`, num, up.Date.Format("2006-01-02"), up.YouTube, up.Crowdcast,
-			strings.Join(up.Guests, ", "))
+Guests:    %+v`, num, up.Date.Format("2006-01-02"), up.YouTube, up.Crowdcast, up.Guests)
 	}
 }
