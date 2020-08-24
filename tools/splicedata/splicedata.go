@@ -73,11 +73,9 @@ func main() {
 		}
 
 		ep.Summary = detail.Description
-		for _, link := range detail.Links {
-			ep.Links = append(ep.Links, link)
-		}
+		ep.Links = append(ep.Links, detail.Links...)
 		sort.Slice(ep.Links, func(i, j int) bool {
-			return ep.Links[i].Title < ep.Links[i].Title
+			return ep.Links[i].Title < ep.Links[j].Title
 		})
 	}
 
