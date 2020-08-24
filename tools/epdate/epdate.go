@@ -67,6 +67,18 @@ func main() {
 		if err := createEpisodeFile(epNum, up, epPath); err != nil {
 			log.Fatalf("Creating episode file for %d: %v", epNum, err)
 		}
+
+		for _, guest := range up.Guests {
+			var buf strings.Builder
+			buf.WriteString(guest.Name)
+			if guest.Twitter != "" {
+				fmt.Fprintf(&buf, " https://twitter.com/%s", guest.Twitter)
+			}
+			if guest.URL != "" {
+				fmt.Fprint(&buf, " ", guest.URL)
+			}
+			log.Printf("- Guest: %s", buf.String())
+		}
 	}
 }
 
