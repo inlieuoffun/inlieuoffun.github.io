@@ -2,6 +2,11 @@
 
 This repository contains the website for the [In Lieu of Fun](https://inlieuof.fun) webcast.
 
+- If you are here to ask a question or report a problem, please consider [filing an issue][issue].
+- If you are looking for the webcast itself, please visit https://inlieuof.fun.
+
+[issue]: https://github.com/inlieuoffun/inlieuoffun.github.io/issues
+
 ## Site Data
 
 Episodes are stored in Markdown files in the `_episodes` directory, with each
