@@ -24,6 +24,8 @@ to recordings of past episodes from the [Episode Log](episodes.html).
 
 ## Quick Reference
 
+- Visit the [Episode Log](episodes.html) or the [Guest List](guests.html).
+
 - **See something wrong?** Please [file an issue](http://issues.inlieuof.fun/new)
   describing the problem, and one of our loyal volunteers will look into it.
 
