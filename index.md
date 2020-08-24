@@ -7,7 +7,7 @@ There's a coronavirus pandemic on. We aren't allowed to have fun anymore; but
 us, your hosts [Ben Wittes][ben] and [Kate Klonick][kate], every day at 5:00pm
 US Eastern time.
 
-![In Lieu of Fun Logo](/assets/inlieuoffun.png)
+![In Lieu of Fun Logo](/assets/ilof-logo.jpg)
 <span style="font-size: 60%">Logo created by Kevin Thorn of
 [NuggetHead Studioz](https://nuggethead.net/), used here with gratitude and
 permission.</span>
@@ -33,7 +33,7 @@ to recordings of past episodes from the [Episode Log](episodes.html).
 ## Coming soon
 
 - [ ] Merch!
-- [ ] Higher-resolution logo!
+- [x] Higher-resolution logo!
 
 [ben]: https://twitter.com/benjaminwittes
 [kate]: https://twitter.com/klonick
