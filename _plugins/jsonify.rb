@@ -29,9 +29,9 @@ module Jekyll
           {:title => v['title'], :url => v['url']}
         end if ep.data['links']
         all[:episodes].push msg
-        write_json(site, 'episode', '%s.json' % msg[:episode], msg)
+        write_json(site, 'episode', '%s.json' % msg[:episode], {:episode => msg})
         if first then
-          write_json(site, '', 'latest.json', msg)
+          write_json(site, '', 'latest.json', {:latest => msg})
           first = false
         end
       end
