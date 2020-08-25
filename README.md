@@ -58,6 +58,37 @@ cd ilof
 bundle install
 ```
 
+### Daily Updates
+
+To simplify the process of setting up new episodes, we have written a
+command-line tool that primes a new episode from its announcement on Twitter.
+To install it you will need [Go](https://golang.org), then run:
+
+```shell
+go install github.com/inlieuoffun/tools/epdate
+```
+
+To use the tool, you will need:
+
+- A [Twitter API v2 bearer token](https://developer.twitter.com/en/portal/dashboard),
+  in the environment variable `TWITTER_TOKEN`.
+
+- A [YouTube Data API key](https://console.developers.google.com/apis/credentials),
+  in the environment variable `YOUTUBE_API_KEY`.
+
+Once you have these set up, change directory into a clone of this repository
+and run:
+
+```shell
+epdate
+```
+
+If there are new episodes scheduled, this will create one or more new files in
+the `_episodes` directory and update `_data/guests.yaml`. Inspect these and
+correct any errors or other missing data (the tool is imperfect), then commit
+and push them up to GitHub.
+
+
 ## URL Structure
 
 - Episode Log (HTML): https://inlieuof.fun/episodes.html
