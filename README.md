@@ -62,6 +62,8 @@ bundle install
 
 - Episode Log (HTML): https://inlieuof.fun/episodes.html
     - Episode Log (JSON): https://inlieuof.fun/episodes.json
+    - Latest episode (JSON): https://inlieuof.fun/latest.json
+    - Episode N (JSON), e.g., N=25: https://inlieuof.fun/episode/25.json
 - Guest List (HTML): https://inlieuof.fun/guests.html
     - Guest List (HTML): https://inlieuof.fun/guests.json
 - Episode N stream redirect (ex. N=25): https://inlieuof.fun/stream/25
