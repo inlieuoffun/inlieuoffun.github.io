@@ -12,7 +12,7 @@ theme: minima
 static_redirect:
   stream:
     values: [crowdcast, youtube]
-  detail:
+  episode:
     value: basename_without_ext
     template: '/episode/%<value>s.html'
 

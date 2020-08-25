@@ -29,7 +29,7 @@ do not.</p>
     <tr>
       <td>
         <a name="ep{{ entry.episode }}"></a>
-        {{ entry.episode }}&nbsp;<a title="episode {{ entry.episode }} detail" href="/detail/{{ entry.episode }}">&#x2139;</a>
+        {{ entry.episode }}&nbsp;<a title="episode {{ entry.episode }} detail" href="/episode/{{ entry.episode }}">&#x2139;</a>
       </td>
       <td>{% assign label = entry.date | date: "%Y‑%m‑%d" %}
         <a href="{{ site.config.url }}/stream/{{ entry.episode }}" target=_blank
