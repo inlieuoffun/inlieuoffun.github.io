@@ -65,7 +65,7 @@ bundle install
 - Guest List (HTML): https://inlieuof.fun/guests.html
     - Guest List (HTML): https://inlieuof.fun/guests.json
 - Episode N stream redirect (ex. N=25): https://inlieuof.fun/stream/25
-- Episode N detail redirect (ex. N=25): https://inlieuof.fun/detail/25
+- Episode N detail redirect (ex. N=25): https://inlieuof.fun/episode/25
 
 ## Peculiarities
 
