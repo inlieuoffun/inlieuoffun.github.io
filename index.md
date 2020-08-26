@@ -46,7 +46,7 @@ to recordings of past episodes from the [Episode Log](episodes.html).
 - **See something wrong?** Please [file an issue](http://issues.inlieuof.fun/new)
   describing the problem, and one of our loyal volunteers will look into it.
 
-- You can also [view or send pull requests](http://site.inlieuof.fun) for this
+- You can also [view or send pull requests](http://repo.inlieuof.fun) for this
   site, or [check the build status](http://build.inlieuof.fun).
 
 ## Coming soon
