@@ -32,7 +32,7 @@ do not.</p>
         {{ entry.episode }}&nbsp;<a title="episode {{ entry.episode }} detail" href="/episode/{{ entry.episode }}">&#x2139;</a>
       </td>
       <td>{% assign label = entry.date | date: "%Y‑%m‑%d" %}
-        <a href="{{ site.config.url }}/stream/{{ entry.episode }}" target=_blank
+        <a href="{{ site.url }}/stream/{{ entry.episode }}" target=_blank
            title="Stream for ILoF episode {{ entry.episode }}; aired {{ entry.date | date: "%B %d, %Y" }}">{{ label }}</a>
       </td>
       <td>
