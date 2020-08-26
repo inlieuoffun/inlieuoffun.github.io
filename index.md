@@ -22,6 +22,23 @@ Episodes are streamed live on [Crowdcast](https://www.crowdcast.io/lawfareblog),
 [YouTube][yt], and a variety of other streaming platforms. You can find links
 to recordings of past episodes from the [Episode Log](episodes.html).
 
+## Recent Episodes
+
+{% capture newline %}
+{% endcapture %}
+{% assign rev = site.episodes | reverse %}
+{% for ep in rev limit:2 -%}
+{% capture url %}{{ site.url }}/stream/{{ ep.episode }}{% endcapture %}
+- [Episode {{ ep.episode }}](/episode/{{ ep.episode }})
+   | {{ ep.date | date: "%B %d, %Y" }}
+   | [stream]({{ url }}){% if ep.guests %}
+   | *Guests:* {{ ep.guests | map: "name" | join: ", " }}{% else %}
+   | Just Ben & Kate{% endif %}
+{%- if ep.summary %}
+    - {{ ep.summary | strip | replace: newline, " " }}{% else %}
+    - *Topics:* {{ ep.topics | strip | replace: newline, " " }}{% endif %}
+{% endfor %}
+
 ## Quick Reference
 
 - Visit the [Episode Log](episodes.html) or the [Guest List](guests.html).
