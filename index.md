@@ -35,7 +35,6 @@ to recordings of past episodes from the [Episode Log](episodes.html).
 ## Coming soon
 
 - [ ] Merch!
-- [x] Higher-resolution logo!
 
 [ben]: https://twitter.com/benjaminwittes
 [kate]: https://twitter.com/klonick
