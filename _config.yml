@@ -29,8 +29,10 @@ defaults:
     values:
       layout: "episode"
 
-plugins:
-  - jekyll-feed # for Atom syndication
+feed:
+  excerpt_only: true
+  collections:
+    - episodes
 
 exclude:
   - notes
