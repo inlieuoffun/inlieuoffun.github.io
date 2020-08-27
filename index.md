@@ -29,7 +29,7 @@ to recordings of past episodes from the [Episode Log](episodes.html).
 {% assign rev = site.episodes | reverse %}
 {% for ep in rev limit:2 -%}
 {% capture url %}{{ site.url }}/stream/{{ ep.episode }}{% endcapture %}
-- [Episode {{ ep.episode }}](/episode/{{ ep.episode }})
+- [Episode {{ ep.episode }}]({{ site.url}}/episode/{{ ep.episode }})
    | {{ ep.date | date: "%B %d, %Y" }}
    | [stream]({{ url }}){% if ep.guests %}
    | *Guests:* {{ ep.guests | map: "name" | join: ", " }}{% else %}
