@@ -28,7 +28,9 @@ module Jekyll
         msg[:links] = ep.data['links'].map do |v|
           {:title => v['title'], :url => v['url']}
         end if ep.data['links']
-        all[:episodes].push msg
+        all[:episodes].push msg.clone
+        detail = ep.content.strip
+        msg[:detail] = detail if detail.size > 0
         write_json(site, 'episode', '%s.json' % msg[:episode], {:episode => msg})
         if first then
           write_json(site, '', 'latest.json', {:latest => msg})
