@@ -28,9 +28,16 @@ module Jekyll
         msg[:links] = ep.data['links'].map do |v|
           {:title => v['title'], :url => v['url']}
         end if ep.data['links']
-        all[:episodes].push msg.clone
+        cp = msg.clone
+
+        # For detail, record a flag in the full list, put the text in the
+        # single file.
         detail = ep.content.strip
+        cp[:hasDetail] = detail.size > 0
         msg[:detail] = detail if detail.size > 0
+
+        all[:episodes].push cp
+
         write_json(site, 'episode', '%s.json' % msg[:episode], {:episode => msg})
         if first then
           write_json(site, '', 'latest.json', {:latest => msg})
