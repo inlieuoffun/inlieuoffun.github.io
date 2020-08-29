@@ -98,6 +98,7 @@ and push them up to GitHub.
 - Guest List (HTML): https://inlieuof.fun/guests.html
     - Guest List (HTML): https://inlieuof.fun/guests.json
 - Episode N stream redirect (ex. N=25): https://inlieuof.fun/stream/25
+    - Latest episode stream redirect: https://inlieuof.fun/stream/latest
 - Episode N detail redirect (ex. N=25): https://inlieuof.fun/episode/25
 
 ## Peculiarities

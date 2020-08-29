@@ -19,7 +19,8 @@ module Jekyll
     #   template: string -- (optional) string template for value
     #
     def generate_redirects(site)
-      site.collections['episodes'].docs.each do |ep|
+      first = true
+      site.collections['episodes'].docs.reverse.each do |ep|
         site.config['static_redirect'].each do |path, tkey|
           target = find_target(ep, search_keys(tkey))
           if not target then next end
@@ -28,13 +29,21 @@ module Jekyll
             target = tkey['template'] % {:value => target}
           end
 
-          src = '%s/%s' % [path, ep['episode']]
-          redirect = RedirectPage.new(site, site.source, src, target)
-          redirect.render(site.layouts, site.site_payload)
-          redirect.write(site.dest)
-          site.pages << redirect
+          write_page(site, '%s/%s' % [path, ep['episode']], target)
+          if first then
+            write_page(site, '%s/latest' % path, target)
+          end
         end
+        first = false
       end
+    end
+
+    # Generate a redirect page to the given path.
+    def write_page(site, src, target)
+      redirect = RedirectPage.new(site, site.source, src, target)
+      redirect.render(site.layouts, site.site_payload)
+      redirect.write(site.dest)
+      site.pages << redirect
     end
 
     # Return the target URL selected by the given keys, or nil.
