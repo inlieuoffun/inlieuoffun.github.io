@@ -35,7 +35,8 @@ to recordings of past episodes from the [Episode Log](episodes.html).
    | *Guests:* {{ ep.guests | map: "name" | join: ", " }}{% else %}
    | Just Ben & Kate{% endif %}
 {%- if ep.summary %}
-    - {{ ep.summary | strip | replace: newline, " " }}{% else %}
+    - {{ ep.summary | strip | replace: newline, " " }}
+{%- elsif ep.topics %}
     - *Topics:* {{ ep.topics | strip | replace: newline, " " }}{% endif %}
 {% endfor %}
 
