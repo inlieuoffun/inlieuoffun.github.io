@@ -115,12 +115,12 @@
   twitter: page88
   url: https://vpheffernan.com/
   episodes: [13, 67, 137]
-  notes: Journalist, critic, and author; contributing editor at WIRED; co-host of Trumpcast
+  notes: Journalist, critic, and author; contributing editor at WIRED; co-host of "Trumpcast"
 
 - name: Mike Pesca
   twitter: pescami
   episodes: [13, 80]
-  notes: Host of "The Gist", NPR contributor, editor
+  notes: Host of "The Gist" daily podcast; NPR contributor, editor
 
 - name: Kori Schake
   twitter: KoriSchake
@@ -337,7 +337,7 @@
 - name: Eric Landon
   url: https://www.instagram.com/tortus/
   episodes: [54]
-  notes: A master potter and designer
+  notes: A master potter and designer, focused on constant refinement of form and technique
 
 - name: Whit Stillman
   twitter: WhitStillman
@@ -347,7 +347,7 @@
 - name: Reginald Dwayne Betts
   twitter: dwaynebetts
   episodes: [56]
-  notes: Award-winning poet, memoirist, teacher, and author
+  notes: Award-winning poet; Guggenheim and NEA Fellow; winner of the National Magazine Award
 
 - name: Ben Ponte
   url: http://www.benponte.com/
@@ -393,7 +393,7 @@
   twitter: barryfriedman1
   url: https://its.law.nyu.edu/facultyprofiles/index.cfm?fuseaction=profile.overview&personid=19931
   episodes: [64]
-  notes: Law professor, litigator; Director of the Policing Project
+  notes: Law professor and authority on policing & criminal procedure; director of the Policing Project
 
 - name: Radley Balko
   twitter: radleybalko
@@ -410,7 +410,7 @@
   twitter: DavidAFrench
   url: https://frenchpress.thedispatch.com/
   episodes: [70]
-  notes: Senior editor at The Dispatch; co-host of "Advisory Opinions" podcast
+  notes: Legal commentator, veteran, writer; senior editor at The Dispatch; co-host of "Advisory Opinions" podcast
 
 - name: Gail Albert Halaban
   twitter: gailhalaban
@@ -421,13 +421,13 @@
 - name: Matt Yglesias
   twitter: mattyglesias
   episodes: [74]
-  notes: Journalist, co-founder of vox.com
+  notes: Journalist and co-founder of vox.com
 
 - name: Lawrence Lessig
   twitter: lessig
   url: https://www.lessig.org/
   episodes: [75]
-  notes: Professor of Law & Leadership at Harvard Law School
+  notes: Roy L. Furman Professor of Law & Leadership at Harvard Law School
 
 - name: Matthew Miller
   twitter: matthewamiller
@@ -467,7 +467,7 @@
 - name: Marty Lederman
   twitter: marty_lederman
   episodes: [84, 86, 95, 104, 105]
-  notes: Law professor at Georgetown University Law Center
+  notes: Law professor at Georgetown University, formerly a Department of Justice official
 
 - name: Kathleen Belew
   twitter: kathleen_belew
@@ -519,7 +519,7 @@
   twitter: dbyman
   url: https://www.brookings.edu/experts/daniel-l-byman/
   episodes: [92]
-  notes: Senior Fellow, Brookings Center for Middle-East Policy; counterterrorism and security
+  notes: Senior Fellow, Brookings Center for Middle-East Policy; on counterterrorism and Middle East security
 
 - name: Mike Godwin
   twitter: sfmnemonic
@@ -595,7 +595,7 @@
 - name: Charlie Warzel
   twitter: cwarzel
   url: https://www.nytimes.com/by/charlie-warzel
-  episodes: [112]
+  episodes: [113]
   notes: Writer-at-large for New York Times Opinion, covering the information wars
 
 - name: Josh Sharfstein
