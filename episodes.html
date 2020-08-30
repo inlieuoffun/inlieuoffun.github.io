@@ -37,14 +37,16 @@ do not.</p>
            title="Stream for ILoF episode {{ entry.episode }}; aired {{ entry.date | date: "%B %d, %Y" }}">{{ label }}</a>
       </td>
       <td>
-	{% if entry.guests -%}
-	{{ entry.guests | map: "hyperlink" | join: ", " }}{%- else -%}
-	(just your hosts)
-	{%- endif %}
+        {% if entry.guests -%}
+        {{ entry.guests | map: "hyperlink" | join: ", " }}{%- else -%}
+        (just your hosts)
+        {%- endif %}
       </td>
       <td>
         {% if entry.summary %}{{- entry.summary | strip | replace: newline, " " -}}
-        {% else %}{{- entry.topics | strip | replace: newline, " " -}}{% endif %}
+        {% elsif entry.guests.size == 1 and entry.guests[0].notes %}
+        {{- entry.guests[0].notes | strip | replace: newline, " " -}}
+        {% elsif entry.topics %}{{- entry.topics | strip | replace: newline, " " -}}{% endif %}
       </td>
       <td>
         {%- for link in entry.links %}
