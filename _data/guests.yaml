@@ -179,7 +179,7 @@
 - name: Lisa Page
   twitter: natseclisa
   episodes: [26]
-  notes: National security and tech lawyer; former federal prosecutor; legal analyst (attending via puppet)
+  notes: National security & tech lawyer; former federal prosecutor; legal analyst (via puppet)
 
 - name: Molly Jong Fast
   twitter: MollyJongFast
@@ -231,7 +231,7 @@
   twitter: IlvesToomas
   url: https://www.presidentilves.ee/
   episodes: [34]
-  notes: Fourth President of Estonia from 2006-2016; diplomat, journalist, member of European Parliament 2004-2006
+  notes: Former President of Estonia (2006-2016); diplomat, journalist, member of European Parliament (2004-2006)
 
 - name: David Plotz
   twitter: davidplotz
@@ -320,7 +320,7 @@
   twitter: shaneharris
   url: http://shaneharris.com/secure-contact/
   episodes: [50]
-  notes: Covers intelligence & national security for the Washington Post; host of "Rational Security" podcast
+  notes: Covers intelligence & national security (Washington Post); host of "Rational Security" podcast
 
 - name: Josh Marshall
   twitter: joshtpm
@@ -479,7 +479,7 @@
   twitter: steve_vladeck
   url: https://law.utexas.edu/faculty/stephen-i-vladeck/
   episodes: [86, 114]
-  notes: Law professor at the UT School of Law; federal courts, constitutional law, national security, military justice
+  notes: Law professor; federal courts, constitutional law, national security, military justice
 
 - name: Rick Wilson
   twitter: TheRickWilson
@@ -496,13 +496,13 @@
   twitter: normative
   url: http://www.juliansanchez.com/
   episodes: [88]
-  notes: Writer, policy analyst, and journalist;f privacy, technology, and politics; Cato Institute Senior Fellow
+  notes: Writer, policy analyst, and journalist; Cato Institute Senior Fellow
 
 - name: Thomas Rid
   twitter: RidT
   url: https://ridt.co/
   episodes: [89]
-  notes: Cybersecurity and information warfare expert; author of a new history of information operations
+  notes: Cybersecurity & information warfare expert; author of a history of information operations
 
 - name: Jonathan Zittrain
   twitter: zittrain
@@ -602,7 +602,7 @@
   twitter: drJoshS
   url: https://www.jhsph.edu/faculty/directory/profile/1781/joshua-m-sharfstein
   episodes: [116]
-  notes: Faculty at Bloomberg School of Public Health; author, co-host of "Public Health On Call" podcast
+  notes: Faculty, Bloomberg School of Public Health; author, co-host of "Public Health On Call" podcast
 
 - name: Ross Trudeau
   twitter: TrudeauRoss
@@ -614,7 +614,7 @@
   twitter: ASlavitt
   url: https://bipartisanpolicy.org/person/andy-slavitt
   episodes: [119]
-  notes: Host of "In the Bubble" podcast; former acting Administrator, Centers for Medicare & Medicaid Services
+  notes: Host of "In the Bubble" podcast; formerly Centers for Medicare & Medicaid Services
 
 - name: Steven Levy
   twitter: StevenLevy
@@ -713,7 +713,7 @@
   twitter: RachelBitecofer
   url: https://www.niskanencenter.org/author/rachel-bitecofer
   episodes: [152, 155]
-  notes: Election forecaster, senior fellow at The Niskanen Center; host of the "Election Whisperer" podcast; Lincoln Project senior advisor
+  notes: Election forecaster; host of the "Election Whisperer" podcast; Lincoln Project senior advisor
 
 - name: Richard Pildes
   url: https://its.law.nyu.edu/facultyprofiles/index.cfm?fuseaction=profile.overview&personid=20200
