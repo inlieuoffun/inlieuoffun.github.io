@@ -74,7 +74,7 @@ module Jekyll
     class JSONFile < StaticFile
       def initialize(site, base, dir, name, msg)
         super(site, base, dir, name)
-        @blob = msg.to_json
+        @blob = JSON.pretty_generate(msg) # vs. msg.to_json
       end
 
       # Always consider this file type to require writing.
