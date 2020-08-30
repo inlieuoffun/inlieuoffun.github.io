@@ -1,0 +1,38 @@
+---
+layout: page
+title: Guest List
+---
+
+<p>The following guests have appeared on <em>In Lieu of Fun</em>. They are
+listed in order of first appearance.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Guest</th>
+      <th>Episodes</th>
+    </tr>
+  </thead>
+  <tbody>
+  {%- for guest in site.data.guests %}
+    <tr>
+      <td>
+        {%- if guest.url %}<a href="{{ guest.url }}">{% endif -%}
+        {{ guest.name }}
+        {%- if guest.url %}</a>{% endif %}
+        {%- if guest.twitter %}
+	  (<a href="https://twitter.com/{{ guest.twitter }}">@
+          {{- guest.twitter }}</a>){% endif %}
+	{%- if guest.notes %}
+	  <br /><small>{{ guest.notes }}</small>{% endif %}
+      </td>
+      <td>
+        {%- for n in guest.episodes %}
+        <a href="episodes.html#ep{{ n }}">{{ n }}</a>
+        {%- unless forloop.last %}, {% endunless %}
+        {%- endfor %}
+      </td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>
