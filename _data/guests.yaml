@@ -4,6 +4,7 @@
 #   episodes: [int]    -- list of episode numbers attended
 #   twitter:  string   -- Twitter handle (optional)
 #   url:      site     -- personal website URL (optional)
+#   notes:    string   -- a brief biographical synopsis (optional)
 #
 # By convention guests are ordered by first appearance on the show.
 # To preserve this, add new guests to the bottom of the list.

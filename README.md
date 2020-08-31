@@ -30,7 +30,7 @@ To add a new episode, create a new file in the `_episodes` directory following
 the format of the existing files, and update the guest list as necessary.
 
 Guests are recorded in [`_data/guests.yaml`](./_data/guests.yaml), and the
-guest list is rendered by the Liquid template in [`guests.md`](./guests.md).
+guest list is rendered by the Liquid template in [`guests.html`](./guests.html).
 
 
 ## Updates
