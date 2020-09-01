@@ -80,7 +80,7 @@ Once you have these set up, change directory into a clone of this repository
 and run:
 
 ```shell
-epdate
+epdate -edit
 ```
 
 If there are new episodes scheduled, this will create one or more new files in
