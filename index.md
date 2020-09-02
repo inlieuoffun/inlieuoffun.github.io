@@ -22,7 +22,7 @@ Episodes are streamed live on [Crowdcast](https://www.crowdcast.io/lawfareblog),
 [YouTube][yt], and a variety of other streaming platforms. You can find links
 to recordings of past episodes from the [Episode Log](episodes.html).
 
-### &#x1F389; New for September: ILoF Merch!
+## &#x1F389; New for September: ILoF Merch!
 
 **Join the Order of the Baby Cannon!** You can now get your own *In Lieu of Fun*
 mugs, clothing, and more from the [Revolution Art Shop][ras]!
