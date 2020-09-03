@@ -4,8 +4,9 @@ This repository contains the website for the [In Lieu of Fun](https://inlieuof.f
 
 - If you have a question or want to report a problem, please consider [filing an issue][issues].
 - If you are looking for the webcast itself, please visit https://inlieuof.fun.
-- Here: http://repo.inlieuof.fun
-- Build status: http://build.inlieuof.fun
+- This repository: http://repo.inlieuof.fun
+    - Site build status: http://build.inlieuof.fun
+- The tools repository: http://tools.inlieuof.fun
 
 [issues]: http://issues.inlieuof.fun
 
