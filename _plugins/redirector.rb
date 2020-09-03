@@ -18,10 +18,14 @@ module Jekyll
     #   values: [string] -- data fields to try in order (as value)
     #   template: string -- (optional) string template for value
     #
+    # If the entry has fixed:true, then it generates only a single redirect to
+    # a fixed target URL (target).
     def generate_redirects(site)
       first = true
       site.collections['episodes'].docs.reverse.each do |ep|
         site.config['static_redirect'].each do |path, tkey|
+          if tkey['fixed'] then next end # see below
+
           target = find_target(ep, search_keys(tkey))
           if not target then next end
 
@@ -35,6 +39,11 @@ module Jekyll
           end
         end
         first = false
+        end
+
+      site.config['static_redirect'].each do |path, tkey|
+        if not tkey['fixed'] then next end # handled above
+        write_page(site, path, tkey['target'])
       end
     end
 

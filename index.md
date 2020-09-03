@@ -50,7 +50,7 @@ All proceeds from ILoF paraphernalia go to support [World Central Kitchen][wck].
 
 - Visit the [Episode Log](episodes.html) or the [Guest List](guests.html).
 
-- Get you some [ILoF merchandise][ras]! &#x1F60E;  
+- Get you some [ILoF merchandise]({{ site.url }}/store)! &#x1F60E;
 
 - **See something wrong?** Please [file an issue](http://issues.inlieuof.fun/new)
   describing the problem, and one of our loyal volunteers will look into it.
