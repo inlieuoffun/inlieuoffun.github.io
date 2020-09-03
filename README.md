@@ -2,10 +2,12 @@
 
 This repository contains the website for the [In Lieu of Fun](https://inlieuof.fun) webcast.
 
-- If you are here to ask a question or report a problem, please consider [filing an issue][issue].
+- If you have a question or want to report a problem, please consider [filing an issue][issues].
 - If you are looking for the webcast itself, please visit https://inlieuof.fun.
+- Here: http://repo.inlieuof.fun
+- Build status: http://build.inlieuof.fun
 
-[issue]: https://github.com/inlieuoffun/inlieuoffun.github.io/issues
+[issues]: http://issues.inlieuof.fun
 
 ## Site Data
 
