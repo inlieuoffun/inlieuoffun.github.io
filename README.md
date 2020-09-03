@@ -61,8 +61,10 @@ bundle install
 ### Daily Updates
 
 To simplify the process of setting up new episodes, we have written a
-command-line tool that primes a new episode from its announcement on Twitter.
+[command-line tool that primes a new episode][epdate] from its announcement on Twitter.
 To use it you need to have (or install) [Go](https://golang.org), then run:
+
+[epdate]: https://github.com/inlieuoffun/tools/tree/default/epdate
 
 ```shell
 go install github.com/inlieuoffun/tools/epdate
