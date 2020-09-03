@@ -26,8 +26,9 @@ matter section giving episode metadata:
  - `links`: A list of related hyperlinks [optional]
 
 The body of the episode is arbitrary markdown text that will be displayed on
-the episode detail page. The episode log table is rendered by the Liquid
-template in [`episodes.html`](./episodes.html).
+the episode detail page. Episode detail pages are rendered using the layout
+defined in [`_layouts/episode.html`](./_layouts/episode.html). The episode log
+table is rendered by the Liquid template in [`episodes.html`](./episodes.html).
 
 To add a new episode, create a new file in the `_episodes` directory following
 the format of the existing files, and update the guest list as necessary.
