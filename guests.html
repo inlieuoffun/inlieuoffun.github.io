@@ -34,7 +34,7 @@ listed in order of first appearance.
       </td>
       <td>
         {%- for n in guest.episodes %}
-        <a href="episodes.html#ep{{ n }}">{{ n }}</a>
+	<a href="episode/{{ n }}">{{ n }}</a>
         {%- unless forloop.last %}, {% endunless %}
         {%- endfor %}
       </td>
