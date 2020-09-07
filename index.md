@@ -2,21 +2,26 @@
 layout: home
 ---
 
-There's a coronavirus pandemic on. We aren't allowed to have fun anymore; but
-*in lieu of fun*, you can grab a beverage of your choice and come hang out with
-us, your hosts [Ben Wittes][ben] and [Kate Klonick][kate], every day at 5:00pm
-US Eastern time.
+<p style="margin-left:10%;margin-right:10%;font-size:110%;">&#x1F9A0;
+<b>There's a coronavirus pandemic on.</b> We aren't allowed to have fun
+anymore; but <em>in lieu of fun</em>, you can grab a beverage of your choice
+and come hang out with us, your hosts
+<a href="https://twitter.com/benjaminwittes">Ben Wittes</a> and
+<a href="https://twitter.com/klonick">Kate Klonick</a>,
+every day at 5:00pm US Eastern time.
+</p>
 
-![In Lieu of Fun Logo](/assets/ilof-logo.jpg)
-<span style="font-size: 60%">Logo created by Kevin Thorn of
-[NuggetHead Studioz](https://nuggethead.net/), used here with gratitude and
-permission.</span>
+<p style="text-align:center;"><img src="/assets/ilof-logo.jpg" /><br />
+<span style="font-size: 60%">Logo created by Kevin Thorn of <a
+href="https://nuggethead.net/">[NuggetHead Studioz</a>, used here with
+gratitude and permission.</span></p>
 
-**In Lieu of Fun** is a casual, unstructured webcast that has been broadcasting
-daily since March 25, 2020.  We talk about news, law, life, art, squirrels,
-murder hornets, Baby Cannons, and whatever else may come up. On most weekdays
-there are pre-announced guests, while Saturdays are just Ben & Kate planning
-the upcoming week. Sundays usually include an unannounced Mystery Guest.
+<b style="font-variant:small-caps;">In Lieu of Fun</b> is a casual,
+unstructured webcast that has been broadcasting daily since March 25, 2020.  We
+talk about news, law, life, art, squirrels, murder hornets, Baby Cannons, and
+whatever else may come up. On most weekdays there are pre-announced guests,
+while Saturdays are just Ben & Kate planning the upcoming week. Sundays usually
+include an unannounced Mystery Guest.
 
 Episodes are streamed live on [Crowdcast](https://www.crowdcast.io/lawfareblog),
 [YouTube][yt], and a variety of other streaming platforms. You can find links
@@ -59,8 +64,6 @@ All proceeds from ILoF paraphernalia go to support [World Central Kitchen][wck].
      site, or [check the build status](http://build.inlieuof.fun).
 
 
-[ben]: https://twitter.com/benjaminwittes
-[kate]: https://twitter.com/klonick
 [yt]: https://www.youtube.com/channel/UC8lKFNnYE1War3a41Q41fMw
 [wck]: https://wck.org/
 [ras]: https://revolutionartshop.com/collections/order-of-the-baby-cannon-in-lieu-of-fun
