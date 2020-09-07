@@ -13,7 +13,7 @@ every day at 5:00pm US Eastern time.
 
 <p style="text-align:center;"><img src="/assets/ilof-logo.jpg" /><br />
 <span style="font-size: 60%">Logo created by Kevin Thorn of <a
-href="https://nuggethead.net/">[NuggetHead Studioz</a>, used here with
+href="https://nuggethead.net/">NuggetHead Studioz</a>, used here with
 gratitude and permission.</span></p>
 
 <b style="font-variant:small-caps;">In Lieu of Fun</b> is a casual,
