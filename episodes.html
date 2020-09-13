@@ -15,6 +15,9 @@ do not.</p>
 {% capture newline %}
 {% endcapture %}
 
+<style type="text/css">
+  table tr.day6 { background-color: #e0eee0; }
+</style>
 <table>
   <thead>
     <tr>
@@ -25,7 +28,8 @@ do not.</p>
   </thead>
   <tbody>
   {%- for entry in site.episodes reversed -%}
-    <tr>
+    {%- assign weekday = entry.date | date: "%u" %}
+    <tr class="day{{ weekday }}">
       <td>
         <a name="ep{{ entry.episode }}"></a>
         {{ entry.episode }}&nbsp;<a title="episode {{ entry.episode }} detail" href="/episode/{{ entry.episode }}">&#x2139;</a><br />
@@ -55,6 +59,6 @@ do not.</p>
         {%- endfor %}
       </td>
     </tr>
-  {% endfor %}
+  {%- endfor %}
   </tbody>
 </table>
