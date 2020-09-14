@@ -17,13 +17,15 @@ file named like `YYYY-MM-DD-NNNN.md`. Here `NNNN` is the episode number, padded
 with zeroes on the left (e.g., `0014`, `0143`). Each file has a YAML front
 matter section giving episode metadata:
 
- - `episode`: The episode number [integer]
- - `date`: The date when the episode aired [string, "YYYY-MM-DD"]
+ - `episode`: The episode number [integer; required]
+ - `date`: The date when the episode aired [string, "YYYY-MM-DD"; required]
  - `youtube`: The URL of the episode stream on YouTube [string]
  - `crowdcast`: The URL of the episode stream on Crowdcast [string]
- - `summary`: A brief summary of the episode [string, optional]
- - `topics`: A comma-separated list of topics [string, optional]
- - `links`: A list of related hyperlinks [optional]
+ - `summary`: A brief summary of the episode [string, optional]. If this is
+   provided, it is shown in the Episode Log.
+ - `topics`: A comma-separated list of topics [string, optional]. If this is
+   provided and there is not a summary, it is shown in the Episode Log.
+ - `links`: A list of related hyperlinks [optional]. Shown on the Episode Log.
 
 The body of the episode is arbitrary markdown text that will be displayed on
 the episode detail page. Episode detail pages are rendered using the layout
