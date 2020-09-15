@@ -25,10 +25,13 @@
         var timeLeft = (nextStart - nowTime) / 3600000
         var hrs = Math.floor(timeLeft);
         var min = Math.floor((timeLeft - hrs) * 60);
-        var howLong = (hrs > 0 ?
-                       `${hrs} ${unit(hrs, "hour")}, ` : "") +
-            `${min} ${unit(min, "minute")}.`;
-        return "The next show goes live in " + howLong;
+        var tag = hrs == 0 ? "🔜 " : "";
+        var howLong =
+            (hrs > 0 ?
+             `${hrs} ${unit(hrs, "hour")}, ` : "") +
+            (min > 0 ?
+             `${min} ${unit(min, "minute")}.` : "just a moment!");
+        return tag + "The next show goes live in " + howLong;
     }
 
     var status = document.getElementById("countdown");
