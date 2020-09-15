@@ -35,6 +35,9 @@ All proceeds from ILoF paraphernalia go to support [World Central Kitchen][wck].
 
 ## Recent Episodes
 
+<p id="countdown"></p>
+<script type="text/javascript" src="assets/countdown.js"></script>
+
 {% capture newline %}
 {% endcapture %}
 {% assign rev = site.episodes | reverse %}
