@@ -45,4 +45,4 @@ exclude:
   - tools
   - images
   - README.md
-  - build.sh
+  - scripts
