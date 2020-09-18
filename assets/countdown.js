@@ -16,7 +16,7 @@
         var nowTime = now.getTime();
         if (nowTime > nextEnd) {
             if (nowTime < nextEnd + 15*oneMinute) {
-                return '🕒 The <a href="/episode/latest">latest episode</a> just finished streaming.';
+                return '🕕 The <a href="/episode/latest">latest episode</a> just finished streaming.';
             }
             nextStart += oneDay;
             nextEnd += oneDay;
@@ -38,7 +38,7 @@
         } else if (hrs == 0) {
             howLong.push("just a moment");
         }
-        return tag + "The next show goes live in " + howLong.join(", ") + ".";
+        return tag + "🕔 The next show goes live in " + howLong.join(", ") + ".";
     }
 
     var status = document.getElementById("countdown");
