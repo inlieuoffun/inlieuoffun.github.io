@@ -48,7 +48,7 @@ module Jekyll
     end
 
     def generate_guests(site)
-      all = {:guests => site.data['guests'].map do |guest|
+      all = {:guests => site.data['guests'].reverse.map do |guest|
                {
                  :name => guest['name'],
                  :episodes => guest['episodes'],
