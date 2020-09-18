@@ -1,0 +1,79 @@
+---
+layout: home
+---
+
+<p style="margin-left:10%;margin-right:10%;font-size:110%;">&#x1F9A0;
+<b>There's a coronavirus pandemic on.</b> We aren't allowed to have fun
+anymore; but <em>in lieu of fun</em>, you can grab a beverage of your choice
+and come hang out with us, your hosts
+<a href="https://twitter.com/benjaminwittes">Ben Wittes</a> and
+<a href="https://twitter.com/klonick">Kate Klonick</a>,
+every day at 5:00pm US Eastern time.
+</p>
+
+<p style="text-align:center;"><img src="/assets/ilof-logo.jpg" /><br />
+<span style="font-size: 60%">Logo created by Kevin Thorn of <a
+href="https://nuggethead.net/">NuggetHead Studioz</a>, used here with
+gratitude and permission.</span></p>
+
+<p><b style="font-variant:small-caps;">In Lieu of Fun</b> is a casual,
+unstructured webcast that has been broadcasting daily since March 25, 2020.  We
+talk about news, law, life, art, squirrels, murder hornets, Baby Cannons, and
+whatever else may come up. On most weekdays there are pre-announced guests,
+while Saturdays are just Ben & Kate planning the upcoming week. Sundays usually
+include an unannounced Mystery Guest.</p>
+
+<p>Episodes are streamed live
+on <a href="https://www.crowdcast.io/lawfareblog">Crowdcast</a>,
+<a href="https://www.youtube.com/channel/UC8lKFNnYE1War3a41Q41fMw">YouTube</a>,
+and a variety of other streaming platforms. You can find links to recordings of
+past episodes from the <a href="episodes.html">Episode Log</a>.</p>
+
+<h2>&#x1F389; ILoF Paraphernalia!</h2>
+
+<p><b>Join the Order of the Baby Cannon!</b> You can now get your own <b>In
+Lieu of Fun</b> mugs, clothing, and more from the
+<a href="https://revolutionartshop.com/collections/order-of-the-baby-cannon-in-lieu-of-fun">
+Revolution Art Shop</a>!  All proceeds from ILoF paraphernalia go to
+support <a href="https://wck.org/">World Central Kitchen</a>.</p>
+
+<h2>Recent Episodes</h2>
+
+<p id="countdown"></p>
+<script type="text/javascript" src="assets/countdown.js"></script>
+
+{% capture newline %}
+{% endcapture -%}
+{%- assign rev = site.episodes | reverse -%}
+<ul>
+{%- for ep in rev limit:2 -%}
+{% capture url %}{{ site.url }}/stream/{{ ep.episode }}{% endcapture %}
+  <li><a href="{{ site.url }}/episode/{{ ep.episode }}">Episode {{ ep.episode }}</a>
+   | {{ ep.date | date: "%B %d, %Y" }}
+   | <a href="{{ url }}">stream</a>{% if ep.guests %}
+   | <b>Guests:</b> {{ ep.guests | map: "name" | join: ", " }}{% else %}
+   | Just Ben & Kate{% endif %}
+{%- if ep.summary %}
+    <br /><small>{{ ep.summary | strip | replace: newline, " " }}</small>
+{%- elsif ep.topics %}
+    <br /><small><b>Topics:</b> {{ ep.topics | strip | replace: newline, " " }}</small>{% endif %}
+  </li>{% endfor %}
+</ul>
+
+<h2>Quick Reference</h2>
+
+<ul>
+  <li>Visit the <a href="episodes.html">Episode Log</a> or
+  the <a href="guests.html">Guest List</a>.</li>
+
+  <li>Get you some <a href="{{ site.url }}/store" target=_blank>ILoF merchandise</a>! &#x1F60E;</li>
+
+  <li><b>See something wrong?</b>
+  Please <a href="http://issues.inlieuof.fun/new">file an issue</a> describing
+  the problem, and one of our loyal volunteers will look into it.
+
+     <ul><li>You can also <a href="http://repo.inlieuof.fun">view or send pull
+     requests</a> for this site, or <a href="http://build.inlieuof.fun">check the
+     build status</a>.</li></ul>
+  </LI>
+</ul>
