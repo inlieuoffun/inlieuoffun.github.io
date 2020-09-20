@@ -41,11 +41,25 @@
         return tag + "🕔 The next show goes live in " + howLong.join(", ") + ".";
     }
 
+    function daysUntil(date) {
+        var then = new Date(date).getTime();
+        var now = new Date().getTime();
+        return Math.floor((then - now) / oneDay);
+    }
+
     var status = document.getElementById("countdown");
     if (status) {
         status.innerHTML = episodeStatus();
         setInterval(function() {
             status.innerHTML = episodeStatus();
         }, oneMinute);
+    }
+    var dti = document.getElementById("dti");
+    if (dti) {
+        dti.innerText = daysUntil("2021-01-20T12:00:00-0400");
+    }
+    var dte = document.getElementById("dte");
+    if (dte) {
+        dte.innerText = daysUntil("2020-11-04T00:00:00-0400");
     }
 })()
