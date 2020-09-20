@@ -56,7 +56,7 @@
     }
     var dti = document.getElementById("dti");
     if (dti) {
-        dti.innerText = daysUntil("2021-01-20T12:00:00-0400");
+        dti.innerText = daysUntil("2021-01-20T23:59:59Z");
     }
     var dte = document.getElementById("dte");
     if (dte) {
