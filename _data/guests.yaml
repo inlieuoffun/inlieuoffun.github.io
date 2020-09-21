@@ -800,11 +800,16 @@
 - name: Kate Starbird
   twitter: katestarbird
   url: http://faculty.washington.edu/kstarbi/publications.html
-  notes: >-
-    Associate Professor at University of Washington; researcher of crisis informatics
+  notes: Associate Professor at University of Washington; researcher of crisis informatics
   episodes: [176]
 
 - name: Lisa Kaplan
   twitter: lisackaplan
   notes: Founder of Alethea Group; campaign consultant, and former U.S. Senate aide
   episodes: [178]
+
+- name: David Frum
+  twitter: davidfrum
+  url: http://www.davidfrum.com
+  notes: Senior editor at The Atlantic and prolific author
+  episodes: [179]
