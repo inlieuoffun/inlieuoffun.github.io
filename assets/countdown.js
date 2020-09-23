@@ -56,10 +56,10 @@
     }
     var dti = document.getElementById("dti");
     if (dti) {
-        dti.innerText = daysUntil("2021-01-20T23:59:59Z");
+        dti.innerText = daysUntil("2021-01-20T12:00:00-0400");
     }
     var dte = document.getElementById("dte");
     if (dte) {
-        dte.innerText = daysUntil("2020-11-04T00:00:00-0400");
+        dte.innerText = daysUntil("2020-11-03T08:00:00-0400");
     }
 })()
