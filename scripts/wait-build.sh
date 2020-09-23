@@ -2,7 +2,8 @@
 set -e
 set -o pipefail
 if [[ "$(hub ci-status)" = "success" ]] ; then
-    sleep 3
+    echo "Build already complete." 1>&2
+    exit 0
 fi
 while [[ "$(hub ci-status)" != "pending" ]] ; do
     sleep 3
