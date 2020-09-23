@@ -41,25 +41,51 @@
         return tag + "🕔 The next show goes live in " + howLong.join(", ") + ".";
     }
 
-    function daysUntil(date) {
+    function timeUntil(date) {
         var then = new Date(date).getTime();
         var now = new Date().getTime();
-        return Math.floor((then - now) / oneDay);
+        var diff = Math.abs(then - now);
+        var out = {past: then <= now};
+
+        var days = diff/oneDay;
+        out.days = Math.floor(days);
+        var hours = (days - out.days) * (oneDay / oneHour);
+        out.hours = Math.floor(hours);
+        var mins = (hours - out.hours) * (oneHour / oneMinute);
+        out.minutes = Math.round(mins);
+        return out;
     }
 
+    function describeTimeUntil(date) {
+        var time = timeUntil(date);
+        var parts = [];
+        if (time.days > 0) {
+            parts.push(time.days + "d");
+        }
+        if (time.days < 7) {
+            if (time.hours > 0) {
+                parts.push(time.hours + "h");
+            }
+            if (time.hours < 5) {
+                parts.push(time.minutes + "m");
+            }
+        }
+        return parts.join(" ")+(time.past ? " ago" : "");
+    }
+
+    const inaguruation = "2021-01-20T12:00:00-0400";
+    const pollsOpen = "2020-11-03T05:00:00-0400"; // Earliest: VT
+
     var status = document.getElementById("countdown");
-    if (status) {
-        status.innerHTML = episodeStatus();
-        setInterval(function() {
-            status.innerHTML = episodeStatus();
-        }, oneMinute);
-    }
+    status.innerHTML = episodeStatus();
     var dti = document.getElementById("dti");
-    if (dti) {
-        dti.innerText = daysUntil("2021-01-20T12:00:00-0400");
-    }
+    dti.innerText = describeTimeUntil(inaguruation);
     var dte = document.getElementById("dte");
-    if (dte) {
-        dte.innerText = daysUntil("2020-11-03T08:00:00-0400");
-    }
+    dte.innerText = describeTimeUntil(pollsOpen);
+
+    setInterval(function() {
+        status.innerHTML = episodeStatus();
+        dti.innerText = describeTimeUntil(inaguruation);
+        dte.innerText = describeTimeUntil(pollsOpen);
+    }, oneMinute);
 })()
