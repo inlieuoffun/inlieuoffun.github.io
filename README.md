@@ -26,6 +26,7 @@ matter section giving episode metadata:
  - `topics`: A comma-separated list of topics [string, optional]. If this is
    provided and there is not a summary, it is shown in the Episode Log.
  - `links`: A list of related hyperlinks [optional]. Shown on the Episode Log.
+ - `special`: If true, cosmetically flag interesting episodes in the Episode Log.
 
 The body of the episode is arbitrary markdown text that will be displayed on
 the episode detail page. Episode detail pages are rendered using the layout
