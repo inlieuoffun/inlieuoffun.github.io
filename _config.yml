@@ -46,3 +46,4 @@ exclude:
   - images
   - README.md
   - scripts
+  - "*~"
