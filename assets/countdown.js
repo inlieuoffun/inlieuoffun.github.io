@@ -7,85 +7,95 @@
     const oneHour = 60*oneMinute;
     const oneDay = 24*oneHour;
 
+    function todayUTC() {
+        var now = new Date(); // stub here for testing
+        return {
+            now:   now.getTime(),
+            start: Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()),
+        };
+    }
+
     function episodeStatus() {
-        // For testing:
-        //var now = new Date("2020-09-19T21:00:00Z")
-        var now = new Date();
-        var nextStart = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), 21);
-        var nextEnd = nextStart + oneHour;
-        var nowTime = now.getTime();
-        if (nowTime > nextEnd) {
-            if (nowTime < nextEnd + 15*oneMinute) {
+        var today     = todayUTC();
+        var nextStart = today.start + 21*oneHour;
+        var nextEnd   = nextStart + oneHour;
+
+        if (today.now > nextEnd) {
+            if (today.now < nextEnd + 15*oneMinute) {
                 return '🕕 The <a href="/episode/latest">latest episode</a> just finished streaming.';
             }
             nextStart += oneDay;
             nextEnd += oneDay;
-        } else if (nowTime > nextStart) {
+        } else if (today.now > nextStart) {
             return 'The <a href="/stream/latest">current episode</a> is streaming live. 👀';
         }
 
-        var timeLeft = (nextStart - nowTime) / oneHour;
-        var hrs = Math.floor(timeLeft);
-        var min = Math.floor((timeLeft - hrs) * 60);
-        var tag = hrs == 0 ? "🔜 " : "";
-
+        var diff = new TimeDiff(nextStart, today.now);
+        var tag = diff.hours == 0 ? "🔜 " : "";
         var howLong = [];
-        if (hrs > 0) {
-            howLong.push(`${hrs} ${unit(hrs, "hour")}`);
+        if (diff.hours > 0) {
+            howLong.push(diff.hoursLabel());
         }
-        if (min > 0) {
-            howLong.push(`${min} ${unit(min, "minute")}`);
-        } else if (hrs == 0) {
+        if (diff.minutes > 0) {
+            howLong.push(diff.minutesLabel());
+        } else if (diff.hours == 0) {
             howLong.push("just a moment");
         }
         return tag + "🕔 The next show goes live in " + howLong.join(", ") + ".";
     }
 
-    function timeUntil(date) {
-        var then = new Date(date).getTime();
-        var now = new Date().getTime();
-        var diff = Math.abs(then - now);
-        var out = {past: then <= now};
+    class TimeDiff {
+        constructor(then, now) {
+            var diff = Math.abs(then - now);
+            this.past = then <= now;
 
-        var days = diff/oneDay;
-        out.days = Math.floor(days);
-        var hours = (days - out.days) * (oneDay / oneHour);
-        out.hours = Math.floor(hours);
-        var mins = (hours - out.hours) * (oneHour / oneMinute);
-        out.minutes = Math.round(mins);
-        return out;
+            var days = diff/oneDay;
+            this.days = Math.floor(days);
+            var hours = (days - this.days) * (oneDay / oneHour);
+            this.hours = Math.floor(hours);
+            var mins = (hours - this.hours) * (oneHour / oneMinute);
+            this.minutes = Math.round(mins);
+        }
+
+        static label(n, base, terse=false) {
+            var tag = terse ? base[0] : " " + (n == 1 ? base : base+"s");
+            return n.toString() + tag;
+        }
+
+        daysLabel(opt={})    { return TimeDiff.label(this.days, "day", opt.terse); }
+        hoursLabel(opt={})   { return TimeDiff.label(this.hours, "hour", opt.terse); }
+        minutesLabel(opt={}) { return TimeDiff.label(this.minutes, "minute", opt.terse); }
     }
 
     function describeTimeUntil(date) {
-        var time = timeUntil(date);
+        var diff = new TimeDiff(new Date(date).getTime(), todayUTC().now);
         var parts = [];
-        if (time.days > 0) {
-            parts.push(time.days + "d");
+        if (diff.days > 0) {
+            parts.push(diff.daysLabel({terse: true}));
         }
-        if (time.days < 7) {
-            if (time.hours > 0) {
-                parts.push(time.hours + "h");
+        if (diff.days < 7) {
+            if (diff.hours > 0) {
+                parts.push(diff.hoursLabel({terse: true}));
             }
-            if (time.hours < 5) {
-                parts.push(time.minutes + "m");
+            if (diff.hours < 5) {
+                parts.push(diff.minutesLabel({terse: true}));
             }
         }
-        return parts.join(" ")+(time.past ? " ago" : "");
+        return parts.join(" ")+(diff.past ? " ago" : "");
     }
 
-    const inaguruation = "2021-01-20T12:00:00-0500";
+    const inauguration = "2021-01-20T12:00:00-0500";
     const pollsOpen = "2020-11-03T05:00:00-0400"; // Earliest: VT
 
     var status = document.getElementById("countdown");
-    status.innerHTML = episodeStatus();
     var dti = document.getElementById("dti");
-    dti.innerText = describeTimeUntil(inaguruation);
     var dte = document.getElementById("dte");
-    dte.innerText = describeTimeUntil(pollsOpen);
-
-    setInterval(function() {
+    function update() {
         status.innerHTML = episodeStatus();
-        dti.innerText = describeTimeUntil(inaguruation);
+        dti.innerText = describeTimeUntil(inauguration);
         dte.innerText = describeTimeUntil(pollsOpen);
-    }, oneMinute);
+    }
+
+    update();
+    setInterval(update, oneMinute);
 })()
