@@ -1,8 +1,4 @@
 (() => {
-    function unit(count, base) {
-        return count == 1 ? base : base+"s";
-    }
-
     const oneMinute = 60*1000;
     const oneHour = 60*oneMinute;
     const oneDay = 24*oneHour;
