@@ -73,7 +73,7 @@
         return parts.join(" ")+(time.past ? " ago" : "");
     }
 
-    const inaguruation = "2021-01-20T12:00:00-0400";
+    const inaguruation = "2021-01-20T12:00:00-0500";
     const pollsOpen = "2020-11-03T05:00:00-0400"; // Earliest: VT
 
     var status = document.getElementById("countdown");
