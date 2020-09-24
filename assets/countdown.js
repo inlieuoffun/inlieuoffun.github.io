@@ -27,7 +27,7 @@
             nextStart += oneDay;
             nextEnd += oneDay;
         } else if (today.now > nextStart) {
-            return 'The <a href="/stream/latest">current episode</a> is streaming live. 👀';
+            return 'The current episode is <a href="/stream/latest">streaming live</a>. 👀';
         }
 
         var diff = new TimeDiff(nextStart, today.now);
@@ -39,7 +39,7 @@
         if (diff.minutes > 0) {
             howLong.push(diff.minutesLabel());
         } else if (diff.hours == 0) {
-            howLong.push("just a moment");
+            howLong.push('<a href="/stream/latest">just a moment</a>');
         }
         return tag + "🕔 The next show goes live in " + howLong.join(", ") + ".";
     }
