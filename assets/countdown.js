@@ -13,7 +13,7 @@
 
     function episodeStatus() {
         var today     = todayUTC();
-        var nextStart = today.start + 22*oneHour; // for Yom Kippur
+        var nextStart = today.start + 24*oneHour; // for Yom Kippur
         var nextEnd   = nextStart + oneHour;
 
         if (today.now > nextEnd) {
