@@ -67,6 +67,7 @@
         var diff = new TimeDiff(new Date(date).getTime(), todayUTC().now);
         var parts = [];
         if (diff.days > 0) {
+            if (diff.days >= 7 && diff.hours > 0) { diff.days += 1; }
             parts.push(diff.daysLabel({terse: true}));
         }
         if (diff.days < 7) {
