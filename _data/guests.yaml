@@ -829,5 +829,11 @@
 - name: Jason Leopold
   twitter: JasonLeopold
   url: https://www.buzzfeednews.com/author/jasonleopold
-  notes: Senior investigative reporter  at BuzzFeed News
+  notes: Senior investigative reporter at BuzzFeed News
   episodes: [187]
+
+- name: Tom Nichols
+  twitter: RadioFreeTom
+  url: https://www.facebook.com/DeathOfExpertise/
+  notes: Professor, author; senior adviser to The Lincoln Project
+  episodes: [188]
