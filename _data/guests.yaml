@@ -738,7 +738,7 @@
 - name: Adam Davidson
   twitter: adamdavidson
   url: http://www.adamdavidson.com
-  notes: CEO of Three Uncanny Four, founder of NPR's Planet Money podcast, author and reporter
+  notes: CEO of Three Uncanny Four, founder of the NPR "Planet Money" podcast, author and reporter
   episodes: [162]
 
 - name: Ian Enright
@@ -837,3 +837,9 @@
   url: https://www.facebook.com/DeathOfExpertise/
   notes: Professor, author; senior adviser to The Lincoln Project
   episodes: [188]
+
+- name: Windsor Mann
+  twitter: WindsorMann
+  url: https://theweek.com/authors/windsor-mann
+  notes: Contributor at USA Today and The Week, Project Lincoln advisor, author
+  episodes: [190]
