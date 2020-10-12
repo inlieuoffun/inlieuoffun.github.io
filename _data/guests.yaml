@@ -187,7 +187,7 @@
   twitter: MollyJongFast
   url: https://www.instagram.com/mollyjongfast/
   notes: Editor-at-large, The Daily Beast; co-host of "The New Abnormal" podcast
-  episodes: [26, 159]
+  episodes: [26, 159, 200]
 
 - name: Randy Barnett
   twitter: RandyEBarnett
@@ -487,7 +487,7 @@
   twitter: TheRickWilson
   url: http://www.therickwilson.com/
   notes: Author, member of The Lincoln Project
-  episodes: [87]
+  episodes: [87, 200]
 
 - name: Adam Serwer
   url: https://www.theatlantic.com/author/adam-serwer/
@@ -874,6 +874,6 @@
   episodes: [196]
 
 - name: Kate Gage
-  notes: Founding partner at The Movement Cooperative; formerly USAID, Obama administration
   url: https://ash.harvard.edu/people/kate-gage
+  notes: Founding partner at The Movement Cooperative; formerly USAID, Obama administration
   episodes: [199]
