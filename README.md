@@ -105,7 +105,7 @@ and push them up to GitHub.
     - Latest episode (JSON): https://inlieuof.fun/latest.json
     - Episode N (JSON), e.g., N=25: https://inlieuof.fun/episode/25.json
 - Guest List (HTML): https://inlieuof.fun/guests.html
-    - Guest List (USON): https://inlieuof.fun/guests.json
+    - Guest List (JSON): https://inlieuof.fun/guests.json
 - Episode N stream redirect (ex. N=25): https://inlieuof.fun/stream/25
     - Latest episode stream redirect: https://inlieuof.fun/stream/latest
 - Episode N detail redirect (ex. N=25): https://inlieuof.fun/episode/25
