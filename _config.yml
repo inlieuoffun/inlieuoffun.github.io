@@ -41,7 +41,6 @@ feed:
     - episodes
 
 exclude:
-  - notes
   - tools
   - images
   - README.md
