@@ -490,8 +490,8 @@
   episodes: [87, 200]
 
 - name: Adam Serwer
-  url: https://www.theatlantic.com/author/adam-serwer/
   twitter: AdamSerwer
+  url: https://www.theatlantic.com/author/adam-serwer/
   notes: Staff writer at The Atlantic, covering politics
   episodes: [88]
 
@@ -769,7 +769,7 @@
   twitter: emilybazelon
   url: https://emilybazelon.com/
   notes: Writer at NYT Magazine; co-host of Slate Political Gabfest, Truman Capote Fellow at Yale Law School
-  episodes: [168]
+  episodes: [168, 208]
 
 - name: Ben Smith
   twitter: benyt
