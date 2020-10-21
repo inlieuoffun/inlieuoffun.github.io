@@ -74,7 +74,7 @@
             if (diff.hours > 0) {
                 parts.push(diff.hoursLabel({terse: true}));
             }
-            if (diff.hours < 5) {
+            if (diff.days == 0 && diff.hours < 5) {
                 parts.push(diff.minutesLabel({terse: true}));
             }
         }
