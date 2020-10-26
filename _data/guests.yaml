@@ -911,5 +911,11 @@
 - name: Samm Sacks
   twitter: SammSacks
   url: https://law.yale.edu/samm-sacks
-  notes: Senior fellow at Yale Law School, focusing on China's information & communications tech policy
+  notes: "Senior fellow at Yale Law School, focusing on China's information & communications tech policy"
   episodes: [213]
+
+- name: Laura Rosenberger
+  twitter: rosenbergerlm
+  url: http://www.securingdemocracy.org
+  notes: Director of Alliance for Security Democracy; German Marshall Fund; former State Dept.
+  episodes: [214]
