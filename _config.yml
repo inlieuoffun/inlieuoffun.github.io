@@ -40,9 +40,14 @@ feed:
   collections:
     - episodes
 
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
 exclude:
   - tools
   - images
   - README.md
   - scripts
   - "*~"
+  - .jekyll-cache
