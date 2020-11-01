@@ -13,7 +13,7 @@
 
     function episodeStatus() {
         var today     = todayUTC();
-        var nextStart = today.start + 21*oneHour;
+        var nextStart = today.start + 22*oneHour;
         var nextEnd   = nextStart + oneHour;
 
         if (today.now > nextEnd) {
@@ -82,7 +82,7 @@
     }
 
     const inauguration = "2021-01-20T12:00:00-0500";
-    const pollsOpen = "2020-11-03T05:00:00-0400"; // Earliest: VT
+    const pollsOpen = "2020-11-03T05:00:00-0500"; // Earliest: VT
 
     var status = document.getElementById("countdown");
     var dti = document.getElementById("dti");
