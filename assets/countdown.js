@@ -74,7 +74,7 @@
             if (diff.hours > 0) {
                 parts.push(diff.hoursLabel({terse: true}));
             }
-            if (diff.days == 0 && diff.hours < 5) {
+            if (diff.days == 0 && diff.hours < 12) {
                 parts.push(diff.minutesLabel({terse: true}));
             }
         }
@@ -82,7 +82,7 @@
     }
 
     const inauguration = "2021-01-20T12:00:00-0500";
-    const pollsOpen = "2020-11-03T05:00:00-0500"; // Earliest: VT
+    const pollsClose = "2020-11-03T22:00:00-0800"; // Latests: AK, HI
 
     var status = document.getElementById("countdown");
     var dti = document.getElementById("dti");
@@ -90,7 +90,7 @@
     function update() {
         status.innerHTML = episodeStatus();
         dti.innerText = describeTimeUntil(inauguration);
-        dte.innerText = describeTimeUntil(pollsOpen);
+        dte.innerText = describeTimeUntil(pollsClose);
     }
 
     update();
