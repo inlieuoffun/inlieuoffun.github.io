@@ -82,15 +82,12 @@
     }
 
     const inauguration = "2021-01-20T12:00:00-0500";
-    const pollsClose = "2020-11-03T21:00:00-0900"; // Latest: AK, HI
 
     var status = document.getElementById("countdown");
     var dti = document.getElementById("dti");
-    var dte = document.getElementById("dte");
     function update() {
         status.innerHTML = episodeStatus();
         dti.innerText = describeTimeUntil(inauguration);
-        dte.innerText = describeTimeUntil(pollsClose);
     }
 
     update();
