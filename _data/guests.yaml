@@ -930,3 +930,7 @@
 - name: Election 2020 Panel
   notes: A rotating panel of former guests come to discuss current events
   episodes: [221]
+
+- name: Undisclosed mystery guest
+  notes: A guest (or guests) whose identity has not yet been revealed
+  episodes: [227]
