@@ -18,6 +18,7 @@ module Jekyll
 
       gmap = {}
       site.data['guests'].each do |guest|
+        if not guest['episodes'] then next end
         name = guest['name'].gsub " ", " "
         if guest.key? 'twitter' then
           guest['hyperlink'] = '<a href="https://twitter.com/%s">%s</a>' %
