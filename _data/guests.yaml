@@ -930,3 +930,9 @@
 - name: Election 2020 Panel
   notes: A rotating panel of former guests come to discuss current events
   episodes: [221]
+
+- name: Bill Galston
+  twitter: BillGalston
+  url: http://www.brookings.edu/experts/galstonw
+  notes: Senior Fellow at Brookings Institution; columnist at Wall Street Journal
+  episodes: [228]
