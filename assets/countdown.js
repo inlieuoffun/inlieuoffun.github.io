@@ -82,12 +82,15 @@
     }
 
     const inauguration = "2021-01-20T12:00:00-0500";
+    const anniversary = "2021-03-25T17:00:00-0500";
 
     var status = document.getElementById("countdown");
     var dti = document.getElementById("dti");
+    var dta = document.getElementById("dta");
     function update() {
         status.innerHTML = episodeStatus();
         dti.innerText = describeTimeUntil(inauguration);
+	dta.innerText = describeTimeUntil(anniversary);
     }
 
     update();
