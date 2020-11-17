@@ -559,7 +559,7 @@
   twitter: johnson_carrie
   url: https://www.npr.org/people/127410674/carrie-johnson
   notes: NPR Justice Department correspondent
-  episodes: [103]
+  episodes: [103, 236]
 
 - name: Thomas Berg
   twitter: tcbergmn
@@ -942,3 +942,7 @@
   url: https://davidallengreen.com/
   notes: Lawyer, commentator on law and policy; contributing editor at Financial Times
   episodes: [231]
+
+- name: Main Justice
+  twitter: USDOJ
+  episodes: [236]
