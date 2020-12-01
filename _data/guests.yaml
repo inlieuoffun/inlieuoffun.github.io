@@ -1,4 +1,4 @@
-# Guest schema:
+ jy# Guest schema:
 #
 #   name:     string   -- guest name
 #   episodes: [int]    -- list of episode numbers attended
@@ -981,3 +981,15 @@
   url: http://jigsawprods.com
   notes: Documentary filmmaker, director, and producer
   episodes: [249]
+
+- name: Vanessa Williamson
+  twitter: V_Williamson
+  url: http://www.brookings.edu/experts/williamsonv
+  notes: Senior Fellow at Brookings Institute; author
+  episodes: [250]
+
+- name: Molly Michelmore
+  twitter: MollyMichelmore
+  url: https://my.wlu.edu/directory/profile?ID=x2049
+  notes: Professor of History, researching American politics and fiscal policy
+  episodes: [250]
