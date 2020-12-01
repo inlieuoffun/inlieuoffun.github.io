@@ -1,4 +1,4 @@
- jy# Guest schema:
+# Guest schema:
 #
 #   name:     string   -- guest name
 #   episodes: [int]    -- list of episode numbers attended
