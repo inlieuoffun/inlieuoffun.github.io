@@ -1018,5 +1018,11 @@
 
 - name: Mark Lemley
   twitter: marklemley
-  notes: Professor of law, focusing on IP, patent, trademark, AI, and video game law
+  notes: Professor of Law, focusing on IP, patent, trademark, AI, and video game law
   episodes: [256]
+
+- name: Nicholson Price
+  twitter: WNicholsonPrice
+  url: http://www.nicholsonprice.org
+  notes: Professor of Law, teaching patents, health law, and innovation in the life sciences
+  episodes: [257]
