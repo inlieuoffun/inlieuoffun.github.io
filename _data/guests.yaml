@@ -1050,6 +1050,13 @@
   notes: Senior VP of Third Way National Security Program, board member of Internews
   episodes: [267]
 
-- name: Undisclosed mystery guest
-  notes: A guest (or guests) whose identity has not yet been revealed
+- name: Jasmine El-Gamal
+  twitter: jasmineelgamal
+  notes: Senior fellow at the Atlantic Council, former DOD mid-East advisor
   episodes: [269]
+
+- name: Kaeli Swift
+  twitter: corvidresearch
+  url: https://corvidresearch.blog/
+  notes: Scientist studying crows and other corvids
+  episodes: [270]
