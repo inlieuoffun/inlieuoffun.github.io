@@ -138,7 +138,7 @@
   twitter: jon_rauch
   url: https://www.jonathanrauch.com/
   notes: Senior Fellow at Brookings Institution; contributing writer at The Atlantic
-  episodes: [17, 73, 106, 206, 209, 230, 259]
+  episodes: [17, 73, 106, 206, 209, 230, 259, 271]
 
 - name: Evelyn Douek
   twitter: evelyndouek
@@ -1060,3 +1060,9 @@
   url: https://corvidresearch.blog/
   notes: Scientist studying crows and other corvids
   episodes: [270]
+
+- name: Norm Eisen
+  twitter: NormEisen
+  url: https://voterprotectionprogram.org
+  notes: Senior fellow at Brookings Institute
+  episodes: [271]
