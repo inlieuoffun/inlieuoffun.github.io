@@ -74,7 +74,7 @@ To use it you need to have (or install) [Go](https://golang.org), then run:
 [epdate]: https://github.com/inlieuoffun/tools/tree/default/epdate
 
 ```shell
-go install github.com/inlieuoffun/tools/epdate
+go get github.com/inlieuoffun/tools/epdate
 ```
 
 To use the tool, you will need:
