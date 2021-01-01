@@ -37,6 +37,11 @@ module Jekyll
         end
       end
       gmap.each do |key, val|
+        # Produce a usable diagnostic in cases where a guest is attributed to
+        # an episode with no corresponding file.
+        if not emap.key? key then
+          raise Exception.new "Guest '#{val[0]['name']}' refers to unknown episode number '#{key}'"
+        end
         emap[key].data['guests'] = val.sort_by {|x| x['name']}
       end
     end
