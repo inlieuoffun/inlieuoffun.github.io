@@ -211,7 +211,7 @@
   twitter: SarahLongwell25
   url: https://thebulwark.com/author/sarah-longwell/
   notes: Publisher of The Bulwark, founder of Republican Voters Against Trump 2020
-  episodes: [31, 147, 180, 189, 208, 220, 262]
+  episodes: [31, 147, 180, 189, 208, 220, 262, 286]
 
 - name: Yascha Mounk
   twitter: Yascha_Mounk
@@ -238,7 +238,7 @@
 - name: David Plotz
   twitter: davidplotz
   notes: Host of Slate Political Gabfest; editor-at-large at Business Insider
-  episodes: [35]
+  episodes: [35, 285]
 
 - name: Seth Magaziner
   twitter: SethMagaziner
@@ -475,7 +475,7 @@
   twitter: kathleen_belew
   url: https://www.kathleenbelew.com/
   notes: Historian of white supremacist movements, at the University of Chicago
-  episodes: [85, 126, 201]
+  episodes: [85, 126, 201, 286, 287]
 
 - name: Steve Vladeck
   twitter: steve_vladeck
@@ -1090,3 +1090,9 @@
   url: http://www.brookings.edu/hutchinscenter
   notes: Director, Hutchins Center on Fiscal & Monetary Policy, Brookings. Contributing correspondent, Wall Street Journal.
   episodes: [279]
+
+- name: Bobby Chesney
+  twitter: BobbyChesney
+  url: https://law.utexas.edu/faculty/robert-m-chesney
+  notes: James Baker Chair & Associate Dean at UT School of Law; Director of Strauss Center; Co-Host National Security Law Podcast
+  episodes: [286]
