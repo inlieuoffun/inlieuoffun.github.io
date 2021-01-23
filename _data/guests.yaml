@@ -233,7 +233,7 @@
   twitter: IlvesToomas
   url: https://www.presidentilves.ee/
   notes: Former President of Estonia (2006-2016); diplomat, journalist, member of European Parliament (2004-2006)
-  episodes: [34]
+  episodes: [34, 303]
 
 - name: David Plotz
   twitter: davidplotz
@@ -1129,3 +1129,8 @@
   url: https://constitutioncenter.org/about/president-and-ceo
   notes: President of National Constitution Center; professor of law; editor at The Atlantic
   episodes: [301]
+
+- name: Alexander S. Vindman
+  twitter: AVindman
+  notes: US Army Lt. Col. (ret); Former NSC and White House staff; Lawfare contributor
+  episodes: [303]
