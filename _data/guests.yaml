@@ -1065,7 +1065,7 @@
   twitter: NormEisen
   url: https://voterprotectionprogram.org
   notes: Senior fellow at Brookings Institute
-  episodes: [271]
+  episodes: [271, 315]
 
 - name: Heather Cox Richardson
   twitter: HC_Richardson
@@ -1172,3 +1172,8 @@
   url: http://www.icsi.berkeley.edu/~nweaver
   notes: EECS lecturer at Berkeley; researching network security and network management
   episodes: [313]
+
+- name: KatieReisner
+  twitter: KatieReisner
+  notes: Lawyer, Truman National Security Policy fellow; former Policy Director of IRAP
+  episodes: [315]
