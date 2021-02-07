@@ -87,7 +87,7 @@
     var dta = document.getElementById("dta");
     function update() {
         status.innerHTML = episodeStatus();
-	dta.innerText = describeTimeUntil(anniversary);
+        dta.innerText = describeTimeUntil(anniversary);
     }
 
     update();
