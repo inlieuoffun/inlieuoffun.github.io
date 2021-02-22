@@ -211,7 +211,7 @@
   twitter: SarahLongwell25
   url: https://thebulwark.com/author/sarah-longwell/
   notes: Publisher of The Bulwark, founder of Republican Voters Against Trump 2020
-  episodes: [31, 147, 180, 189, 208, 220, 262, 286, 300, 320]
+  episodes: [31, 147, 180, 189, 208, 220, 262, 286, 300, 320, 332]
 
 - name: Yascha Mounk
   twitter: Yascha_Mounk
@@ -435,7 +435,7 @@
   twitter: matthewamiller
   url: https://vianovo.com/people/matthew-miller
   notes: Former Director of the Office of Public Affairs for the Department of Justice
-  episodes: [76, 124, 125, 217]
+  episodes: [76, 124, 125, 217, 332]
 
 - name: Bill Kristol
   twitter: BillKristol
@@ -1209,6 +1209,6 @@
 
 - name: Deborah Copaken
   twitter: dcopaken
-  notes: Journalist, photographer, writer
   url: https://deboracopaken.com
+  notes: Journalist, photographer, writer
   episodes: [331]
