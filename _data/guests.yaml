@@ -211,7 +211,7 @@
   twitter: SarahLongwell25
   url: https://thebulwark.com/author/sarah-longwell/
   notes: Publisher of The Bulwark, founder of Republican Voters Against Trump 2020
-  episodes: [31, 147, 180, 189, 208, 220, 262, 286, 300, 320, 332]
+  episodes: [31, 147, 180, 189, 208, 220, 262, 286, 300, 320, 332, 339]
 
 - name: Yascha Mounk
   twitter: Yascha_Mounk
@@ -1229,3 +1229,9 @@
   url: https://jessibullock.com
   notes: Ph.D. candidate, researching organized crime and corruption
   episodes: [338]
+
+- name: David Jolly
+  twitter: DavidJollyFL
+  url: http://davidjolly.com
+  notes: Former Member of Congress, MSNBC contributor
+  episodes: [339]
