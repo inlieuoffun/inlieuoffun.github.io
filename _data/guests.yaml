@@ -866,7 +866,7 @@
 - name: Peter Strzok
   twitter: petestrzok
   notes: FBI and Army veteran; author
-  episodes: [195, 264]
+  episodes: [195, 264, 341]
 
 - name: Barton Gellman
   twitter: bartongellman
@@ -968,7 +968,7 @@
   twitter: john_sipher
   url: https://www.linkedin.com/in/john-sipher-93a41382/
   notes: Project Lincoln, Spycraft Entertainment; former CIA clandestine service
-  episodes: [246]
+  episodes: [246, 341]
 
 - name: Molly Brady
   twitter: mollyxbrady
@@ -1031,7 +1031,7 @@
   twitter: alexzfinley
   url: http://alexzfinley.com
   notes: Former CIA officer; author and humorist
-  episodes: [258]
+  episodes: [258, 341]
 
 - name: Asha Rangappa
   twitter: AshaRangappa_
