@@ -100,6 +100,7 @@ and push them up to GitHub.
 
 ## URL Structure
 
+- Root: https://inlieuof.fun
 - Episode Log (HTML): https://inlieuof.fun/episodes.html
     - Episode Log (JSON): https://inlieuof.fun/episodes.json
     - Latest episode (JSON): https://inlieuof.fun/latest.json
