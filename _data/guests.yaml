@@ -138,7 +138,7 @@
   twitter: jon_rauch
   url: https://www.jonathanrauch.com/
   notes: Senior Fellow at Brookings Institution; contributing writer at The Atlantic
-  episodes: [17, 73, 106, 206, 209, 230, 259, 271, 298, 319]
+  episodes: [17, 73, 106, 206, 209, 230, 259, 271, 298, 319, 345]
 
 - name: Evelyn Douek
   twitter: evelyndouek
@@ -389,7 +389,7 @@
   twitter: VolokhC
   url: https://reason.com/volokh/
   notes: Law professor, scholar of American constitutional law & libertarianism; legal blogger
-  episodes: [63]
+  episodes: [63, 346]
 
 - name: Barry Friedman
   twitter: barryfriedman1
@@ -1247,7 +1247,3 @@
   url: http://nationalmarriageproject.org/about/director/
   notes: Professor, Director of the National Marriage Project
   episodes: [342]
-
-- name: Undisclosed mystery guest
-  notes: A guest (or guests) whose identity has not yet been revealed
-  episodes: [345]
