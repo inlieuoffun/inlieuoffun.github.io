@@ -85,7 +85,7 @@
   twitter: JSEllenberg
   url: http://www.jordanellenberg.com/
   notes: Mathematics professor, number theorist and algebraic geometer; author
-  episodes: [7, 243]
+  episodes: [7, 243, 352]
 
 - name: Amanda Sloat
   twitter: A_Sloat
@@ -400,7 +400,7 @@
 - name: Radley Balko
   twitter: radleybalko
   notes: Author; opinion journalist for the Washington Post
-  episodes: [66]
+  episodes: [66, 353]
 
 - name: Clint Watts
   twitter: selectedwisdom
@@ -1265,7 +1265,3 @@
   url: http://votesaveamerica.com/
   notes: Co-founder of Crooked Media; former Presidential speechwriter
   episodes: [350]
-
-- name: Undisclosed mystery guest
-  notes: A guest (or guests) whose identity has not yet been revealed
-  episodes: [352]
