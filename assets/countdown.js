@@ -13,7 +13,7 @@
 
     function episodeStatus() {
         var today     = todayUTC();
-        var nextStart = today.start + 22*oneHour;
+        var nextStart = today.start + 21*oneHour;
         var nextEnd   = nextStart + oneHour;
 
         if (today.now > nextEnd) {
