@@ -81,13 +81,9 @@
         return parts.join(" ")+(diff.past ? " ago" : "");
     }
 
-    const anniversary = "2021-03-25T17:00:00-0500";
-
     var status = document.getElementById("countdown");
-    var dta = document.getElementById("dta");
     function update() {
         status.innerHTML = episodeStatus();
-        dta.innerText = describeTimeUntil(anniversary);
     }
 
     update();
