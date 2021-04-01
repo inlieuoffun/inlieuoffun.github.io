@@ -2,6 +2,7 @@
     const oneMinute = 60*1000;
     const oneHour = 60*oneMinute;
     const oneDay = 24*oneHour;
+    const showTimeUTC = 21*oneHour;
 
     function todayUTC() {
         var now = new Date(); // stub here for testing
@@ -13,7 +14,7 @@
 
     function episodeStatus() {
         var today     = todayUTC();
-        var nextStart = today.start + 23*oneHour;
+        var nextStart = today.start + showTimeUTC;
         var nextEnd   = nextStart + oneHour;
 
         if (today.now > nextEnd) {
