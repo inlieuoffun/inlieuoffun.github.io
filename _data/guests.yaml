@@ -1019,7 +1019,7 @@
 - name: Mark Lemley
   twitter: marklemley
   notes: Professor of Law, focusing on IP, patent, trademark, AI, and video game law
-  episodes: [256]
+  episodes: [256, 374]
 
 - name: Nicholson Price
   twitter: WNicholsonPrice
@@ -1311,3 +1311,8 @@
   url: https://accountability.gop/
   notes: Professor, Director of the Republican Accountability Project
   episodes: [373]
+
+- name: Mark Lemley
+  twitter: marklemley
+  notes: William H. Neukom Professor of Law, co-founder of Lex Machina
+  episodes: [374]
