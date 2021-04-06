@@ -18,6 +18,8 @@ static_redirect:
     target: "https://revolutionartshop.com/collections/order-of-the-baby-cannon-in-lieu-of-fun"
   stream:
     values: [crowdcast, youtube]
+  replay:
+    value: youtube
   episode:
     value: basename_without_ext
     template: '/episode/%<value>s.html'
