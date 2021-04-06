@@ -109,6 +109,7 @@ and push them up to GitHub.
     - Guest List (JSON): https://inlieuof.fun/guests.json
 - Episode N stream redirect (ex. N=25): https://inlieuof.fun/stream/25
     - Latest episode stream redirect: https://inlieuof.fun/stream/latest
+- Episode N replay redirect (ex. N=25): https://inlieuof.fun/replay/25
 - Episode N detail redirect (ex. N=25): https://inlieuof.fun/episode/25
 - Merch store redirects: https://inlieuof.fun/merch, https://inlieuof.fun/store
 
