@@ -15,7 +15,7 @@ layout: default
 {% endif %}
 {% if page.acast %}
   {% capture link -%}
-    <a href="{{ page.acast }}" target=_blank>ACast</a>
+    <a href="{{ page.acast }}" target=_blank>ACast</a> (audio)
   {%- endcapture%}{% assign streams = streams | push: link %}
 {% endif %}
 {% capture stream_label %}Stream{% if streams.size != 1 %}s{% endif %}{% endcapture %}
