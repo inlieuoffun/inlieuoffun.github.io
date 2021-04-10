@@ -23,6 +23,7 @@ module Jekyll
           :topics => ep.data['topics'],
           :crowdcastURL => ep.data['crowdcast'],
           :youTubeURL => ep.data['youtube'],
+          :acastURL => ep.data['acast'],
           :special => ep.data['special'],
         }.compact
         msg[:guestNames] = ep.data['guests'].map {|v| v['name']} if ep.data['guests']
