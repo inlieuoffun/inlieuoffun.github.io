@@ -106,7 +106,7 @@
   twitter: persily
   url: https://law.stanford.edu/directory/nathaniel-persily/
   notes: Law professor, Co-Director of Stanford Cyber Policy Center, Healthy Elections Project
-  episodes: [11, 125, 132, 173, 311]
+  episodes: [11, 125, 132, 173, 311, 380]
 
 - name: Alan Rozenshtein
   twitter: ARozenshtein
@@ -1322,7 +1322,3 @@
   url: https://www.crowell.com/Professionals/Chuck-Rosenberg
   notes: Attorney; former DEA, FBI, and DoJ; writer and commentator
   episodes: [376]
-
-- name: Undisclosed mystery guest
-  notes: A guest (or guests) whose identity has not yet been revealed
-  episodes: [380]
