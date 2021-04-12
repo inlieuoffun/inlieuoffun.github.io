@@ -2,7 +2,7 @@
     const oneMinute = 60*1000;
     const oneHour = 60*oneMinute;
     const oneDay = 24*oneHour;
-    const showTimeUTC = 22*oneHour; // for 12-Apr-2021
+    const showTimeUTC = 21*oneHour;
 
     function todayUTC() {
         var now = new Date(); // stub here for testing
