@@ -211,7 +211,7 @@
   twitter: SarahLongwell25
   url: https://thebulwark.com/author/sarah-longwell/
   notes: Publisher of The Bulwark, founder of Republican Voters Against Trump 2020
-  episodes: [31, 147, 180, 189, 208, 220, 262, 286, 300, 320, 332, 339]
+  episodes: [31, 147, 180, 189, 208, 220, 262, 286, 300, 320, 332, 339, 382]
 
 - name: Yascha Mounk
   twitter: Yascha_Mounk
@@ -1322,3 +1322,9 @@
   url: https://www.crowell.com/Professionals/Chuck-Rosenberg
   notes: Attorney; former DEA, FBI, and DoJ; writer and commentator
   episodes: [376]
+
+- name: Jonathan V. Last
+  twitter: JVLast
+  url: http://subbeacon.com
+  notes: Writer for The Bulwark
+  episodes: [382]
