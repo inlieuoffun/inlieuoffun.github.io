@@ -1,7 +1,6 @@
 {
   "guest": {
     "description": "Details about a guest",
-
     "type": "object",
     "fields": {
       "name": {
@@ -29,10 +28,8 @@
       }
     }
   },
-
   "episode": {
     "description": "Metadata describing an episode",
-
     "type": "object",
     "fields": {
       "episode": {
@@ -60,6 +57,11 @@
         "type": "string",
         "format": "url",
         "description": "Link to the episode stream on Crowdcast"
+      },
+      "acastURL": {
+        "type": "string",
+        "format": "url",
+        "description": "Link to the episode audio stream on Acast"
       },
       "topics": {
         "type": "string",
