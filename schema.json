@@ -1,4 +1,9 @@
 {
+  "channel": {
+    "acast": "https://shows.acast.com/in-lieu-of-fun",
+    "crowdcast": "https://www.crowdcast.io/inlieuoffun",
+    "youTube": "https://www.youtube.com/channel/UC8lKFNnYE1War3a41Q41fMw"
+  },
   "guest": {
     "description": "Details about a guest",
     "type": "object",
