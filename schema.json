@@ -4,114 +4,116 @@
     "crowdcast": "https://www.crowdcast.io/inlieuoffun",
     "youTube": "https://www.youtube.com/channel/UC8lKFNnYE1War3a41Q41fMw"
   },
-  "guest": {
-    "description": "Details about a guest",
-    "type": "object",
-    "fields": {
-      "name": {
-        "type": "string",
-        "description": "The full name of the guest",
-        "required": true
-      },
-      "twitter": {
-        "type": "string",
-        "description": "The twitter handle of the guest, without leading @"
-      },
-      "url": {
-        "type": "string",
-        "description": "The URL of the guest's home page or profile"
-      },
-      "notes": {
-        "type": "string",
-        "description": "One-line biographical notes for the guest list"
-      },
-      "episodes": {
-        "type": "array",
-        "element": "number",
-        "description": "The episodes the guest has appeared on",
-        "required": true
+  "type": {
+    "guest": {
+      "description": "Details about a guest",
+      "type": "object",
+      "fields": {
+        "name": {
+          "type": "string",
+          "description": "The full name of the guest",
+          "required": true
+        },
+        "twitter": {
+          "type": "string",
+          "description": "The twitter handle of the guest, without leading @"
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL of the guest's home page or profile"
+        },
+        "notes": {
+          "type": "string",
+          "description": "One-line biographical notes for the guest list"
+        },
+        "episodes": {
+          "type": "array",
+          "element": "number",
+          "description": "The episodes the guest has appeared on",
+          "required": true
+        }
       }
-    }
-  },
-  "episode": {
-    "description": "Metadata describing an episode",
-    "type": "object",
-    "fields": {
-      "episode": {
-        "type": "oneof",
-        "options": [
-          "number",
-          "string"
-        ],
-        "description": "The episode number or label",
-        "required": true
-      },
-      "airDate": {
-        "type": "string",
-        "format": "YYYY-MM-DD",
-        "description": "The date when the episode aired",
-        "required": true
-      },
-      "youTubeURL": {
-        "type": "string",
-        "format": "url",
-        "description": "Link to the episode stream on YouTube",
-        "required": true
-      },
-      "crowdcastURL": {
-        "type": "string",
-        "format": "url",
-        "description": "Link to the episode stream on Crowdcast"
-      },
-      "acastURL": {
-        "type": "string",
-        "format": "url",
-        "description": "Link to the episode audio stream on Acast"
-      },
-      "topics": {
-        "type": "string",
-        "description": "A comma-separated list of topic labels"
-      },
-      "links": {
-        "type": "array",
-        "element": {
-          "type": "object",
-          "fields": {
-            "title": {
-              "type": "string",
-              "description": "The anchor text for the link"
-            },
-            "url": {
-              "type": "string",
-              "format": "url",
-              "description": "The URL to link to"
+    },
+    "episode": {
+      "description": "Metadata describing an episode",
+      "type": "object",
+      "fields": {
+        "episode": {
+          "type": "oneof",
+          "options": [
+            "number",
+            "string"
+          ],
+          "description": "The episode number or label",
+          "required": true
+        },
+        "airDate": {
+          "type": "string",
+          "format": "YYYY-MM-DD",
+          "description": "The date when the episode aired",
+          "required": true
+        },
+        "youTubeURL": {
+          "type": "string",
+          "format": "url",
+          "description": "Link to the episode stream on YouTube",
+          "required": true
+        },
+        "crowdcastURL": {
+          "type": "string",
+          "format": "url",
+          "description": "Link to the episode stream on Crowdcast"
+        },
+        "acastURL": {
+          "type": "string",
+          "format": "url",
+          "description": "Link to the episode audio stream on Acast"
+        },
+        "topics": {
+          "type": "string",
+          "description": "A comma-separated list of topic labels"
+        },
+        "links": {
+          "type": "array",
+          "element": {
+            "type": "object",
+            "fields": {
+              "title": {
+                "type": "string",
+                "description": "The anchor text for the link"
+              },
+              "url": {
+                "type": "string",
+                "format": "url",
+                "description": "The URL to link to"
+              }
             }
           }
+        },
+        "special": {
+          "type": "bool",
+          "description": "Indicates the episode is noteworthy in some way"
+        },
+        "summary": {
+          "type": "string",
+          "description": "A one-line summary of the episode content"
+        },
+        "guestNames": {
+          "type": "array",
+          "description": "The names of the guests for this episode",
+          "element": {
+            "type": "string"
+          }
+        },
+        "hasDetail": {
+          "type": "bool",
+          "description": "Whether the episode has a textual description"
+        },
+        "detail": {
+          "type": "string",
+          "format": "markdown",
+          "description": "A detailed description and notes for the episode"
         }
-      },
-      "special": {
-        "type": "bool",
-        "description": "Indicates the episode is noteworthy in some way"
-      },
-      "summary": {
-        "type": "string",
-        "description": "A one-line summary of the episode content"
-      },
-      "guestNames": {
-        "type": "array",
-        "description": "The names of the guests for this episode",
-        "element": {
-          "type": "string"
-        }
-      },
-      "hasDetail": {
-        "type": "bool",
-        "description": "Whether the episode has a textual description"
-      },
-      "detail": {
-        "type": "string",
-        "format": "markdown",
-        "description": "A detailed description and notes for the episode"
       }
     }
   }
