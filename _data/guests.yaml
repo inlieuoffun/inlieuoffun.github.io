@@ -100,7 +100,7 @@
 - name: Scott Shapiro
   twitter: scottjshapiro
   notes: Professor of Law & Philosophy at Yale; jurisprude
-  episodes: [10, 25, 148, 182, 220, 259, 281, 340, 377]
+  episodes: [10, 25, 148, 182, 220, 259, 281, 340, 377, 392]
 
 - name: Nate Persily
   twitter: persily
@@ -1345,3 +1345,15 @@
   url: http://ccdlab.rutgers.edu/
   notes: Professor of Learning Sciences, studying learning in early childhood
   episodes: [391]
+
+- name: Nicole Perlroth
+  twitter: nicoleperlroth
+  url: https://thisishowtheytellmetheworldends.com
+  notes: cybersecurity reporter @nytimes | book “This Is How They Tell Me The World Ends" @BloomsburyPub | producer @fxnetworks
+  episodes: [392]
+
+- name: The New York Times
+  twitter: nytimes
+  url: http://www.nytimes.com/
+  notes: 'News tips? Share them here: https://t.co/ghL9OoYKMM'
+  episodes: [392]
