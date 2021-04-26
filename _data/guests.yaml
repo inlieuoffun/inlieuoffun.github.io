@@ -925,7 +925,7 @@
   twitter: kashhill
   url: https://www.nytimes.com/by/kashmir-hill
   notes: Journalist at New York Times, reporting on privacy and technology
-  episodes: [215]
+  episodes: [215, 395]
 
 - name: Election 2020 Panel
   notes: A rotating panel of former guests come to discuss current events
@@ -1351,3 +1351,9 @@
   url: https://thisishowtheytellmetheworldends.com
   notes: Cybersecurity reporter at the New York Times; author, producer
   episodes: [392]
+
+- name: Aaron Krolik
+  twitter: Aaron_Krolik
+  url: https://www.nytimes.com/by/aaron-krolik
+  notes: Journalist
+  episodes: [395]
