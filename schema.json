@@ -6,9 +6,23 @@
   },
   "template": {
     "base": "https://inlieuof.fun",
-    "latestJSON": "{base}/latest.json",
-    "episodeHTML": "{base}/episode/{episode}",
-    "episodeJSON": "{base}/episode/{episode}.json"
+    "html": {
+      "guests": "{base}/guests.html",
+      "episodes": "{base}/episodes.html",
+      "latest": "{base}/episode/latest",
+      "episode": "{base}/episode/{number}"
+    },
+    "json": {
+      "guests": "{base}/guests.json",
+      "episodes": "{base}/episodes.json",
+      "latest": "{base}/latest.json",
+      "episode": "{base}/episode/{number}.json"
+    },
+    "stream": {
+      "latest": "{base}/stream/latest",
+      "episode": "{base}/stream/{number}",
+      "replay": "{base}/replay/{number}"
+    }
   },
   "type": {
     "guest": {
