@@ -4,6 +4,12 @@
     "crowdcast": "https://www.crowdcast.io/inlieuoffun",
     "youTube": "https://www.youtube.com/channel/UC8lKFNnYE1War3a41Q41fMw"
   },
+  "template": {
+    "base": "https://inlieuof.fun",
+    "latestJSON": "{base}/latest.json",
+    "episodeHTML": "{base}/episode/{episode}",
+    "episodeJSON": "{base}/episode/{episode}.json"
+  },
   "type": {
     "guest": {
       "description": "Details about a guest",
