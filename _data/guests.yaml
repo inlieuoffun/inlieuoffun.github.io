@@ -1363,3 +1363,7 @@
   url: http://bugguide.net/user/view/9586
   notes: Doctor of Entomology, director of an insect ID lab
   episodes: [396]
+
+- name: Undisclosed mystery guest
+  notes: A guest (or guests) whose identity has not yet been revealed
+  episodes: [401]
