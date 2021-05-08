@@ -53,7 +53,7 @@ be added as time allows.</p>
    | {{ ep.date | date: "%B %d, %Y" }}
    | <a href="{{ url }}">stream</a>{% if ep.guests %}
    | <b>Guests:</b> {{ ep.guests | map: "name" | join: ", " }}{% else %}
-   | Just Ben & Kate{% endif %}
+   | Just your hosts{% endif %}
 {%- if ep.summary %}
     <br /><small>{{ ep.summary | strip | replace: newline, " " }}</small>
 {%- elsif ep.topics %}
