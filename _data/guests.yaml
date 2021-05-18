@@ -672,7 +672,7 @@
   twitter: jdmortenson
   url: https://www.theatlantic.com/author/julian-davis-mortenson/
   notes: Law professor; presidential power & constitutional history
-  episodes: [136]
+  episodes: [136, 417]
 
 - name: Josh Chafetz
   twitter: joshchafetz
@@ -1396,3 +1396,9 @@
   twitter: ddworkis
   notes: Emergency physician, author, host of the Emergency Mind podcast
   episodes: [413]
+
+- name: Nicholas Bagley
+  twitter: nicholas_bagley
+  url: https://www.law.umich.edu/FacultyBio/Pages/FacultyBio.aspx?FacID=nbagley
+  notes: Law professor at University of Michigan; contributor to the Incidental Economist
+  episodes: [417]
