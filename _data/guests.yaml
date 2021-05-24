@@ -866,7 +866,7 @@
 - name: Peter Strzok
   twitter: petestrzok
   notes: FBI and Army veteran; author
-  episodes: [195, 264, 341]
+  episodes: [195, 264, 341, 422]
 
 - name: Barton Gellman
   twitter: bartongellman
@@ -1408,3 +1408,9 @@
   url: https://www.anabracic.com/
   notes: Professor of Political Science, researching social exclusion and identity
   episodes: [419]
+
+- name: Jason Stanley
+  twitter: jasonintrator
+  url: https://jason-stanley.com/
+  notes: Professor of Philosophy, author
+  episodes: [423]
