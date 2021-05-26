@@ -222,7 +222,7 @@
   twitter: Ada_Palmer
   url: https://adapalmer.com/
   notes: Historian, SF/Fantasy author, and composer
-  episodes: [32, 98, 354]
+  episodes: [32, 98, 354, 424]
 
 - name: Preet Bharara
   twitter: PreetBharara
@@ -1414,3 +1414,8 @@
   url: https://jason-stanley.com/
   notes: Professor of Philosophy, author
   episodes: [423]
+
+- name: Rebecca Roiphe
+  twitter: rroiphe
+  notes: Law professor, former Manhattan ADA, doctor of History, writer
+  episodes: [425]
