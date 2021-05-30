@@ -1171,7 +1171,7 @@
   twitter: ncweaver
   url: http://www.icsi.berkeley.edu/~nweaver
   notes: EECS lecturer at Berkeley; researching network security and network management
-  episodes: [313]
+  episodes: [313, 427]
 
 - name: Katie Reisner
   twitter: KatieReisner
@@ -1419,3 +1419,9 @@
   twitter: rroiphe
   notes: Law professor, former Manhattan ADA, doctor of History, writer
   episodes: [425]
+
+- name: Noah Efron
+  twitter: noahjefron
+  url: https://www.sts-biu.org/noah-efron
+  notes: Former Tel Aviv City Council Member; host of "The Promised Podcast"
+  episodes: [426]
