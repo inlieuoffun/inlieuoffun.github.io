@@ -40,18 +40,17 @@ do not.</p>
            title="Stream for ILoF episode {{ entry.episode }}; aired {{ entry.date | date: "%B %d, %Y" }}">{{ label }}</a>
       </td>
       <td>
-        {% if entry.guests -%}
-        <b>Guests:</b> {{ entry.guests | map: "hyperlink" | join: ", " }}{%- else -%}
-        (just your hosts)
-        {%- endif %}
         {%- capture detail -%}
         {% if entry.summary %}{{- entry.summary | strip | replace: newline, " " -}}
         {% elsif entry.guests.size == 1 and entry.guests[0].notes %}
         {{- entry.guests[0].notes | strip | replace: newline, " " -}}
         {% elsif entry.topics %}{{- entry.topics | strip | replace: newline, " " -}}{% endif %}
         {%- endcapture %}
-          {% if detail %}<br />
-          <small>{{ detail }}</small>{% endif %}
+          {% if detail %}{{ detail }}{% endif %}
+        {% if entry.guests -%}<br />
+        <small><b>Guests:</b> {{ entry.guests | map: "hyperlink" | join: ", " }}</small>{%- else -%}
+        (just your hosts)
+        {%- endif %}
       </td>
       <td>
         {%- for link in entry.links %}
