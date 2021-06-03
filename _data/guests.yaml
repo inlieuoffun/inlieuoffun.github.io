@@ -711,7 +711,7 @@
 - name: Charlie Sykes
   twitter: SykesCharlie
   notes: Founder & editor-at-large of The Bulwark; host of the Bulwark podcast
-  episodes: [151]
+  episodes: [151, 432]
 
 - name: Rachel "The Doc" Bitecofer
   twitter: RachelBitecofer
@@ -1431,3 +1431,9 @@
   url: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=956989
   notes: Professor, comparative historian, legal theorist, commentator on China matters
   episodes: [429]
+
+- name: Nabiha Syed
+  twitter: nabihasyed
+  url: https://themarkup.org
+  notes: President of The Markup; lawyer
+  episodes: [433]
