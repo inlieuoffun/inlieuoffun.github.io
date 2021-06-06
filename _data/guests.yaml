@@ -1437,3 +1437,9 @@
   url: https://themarkup.org
   notes: President of The Markup; lawyer
   episodes: [433]
+
+- name: Deirdre Connolly
+  twitter: durumcrustulum
+  url: https://github.com/dconnolly
+  notes: Cryptographer, engineer, expert on isogeny-based cryptography
+  episodes: [436]
