@@ -1150,7 +1150,7 @@
   twitter: Lenniesaurus
   url: https://www.youtube.com/channel/UCNtTXIIxnGPPi8r1JlIbJgQ
   notes: Poet and linguist, creator of the "Scots Word a Day"
-  episodes: [307]
+  episodes: [307, 443]
 
 - name: Anne Kornhauser
   twitter: clioprof3
@@ -1454,7 +1454,3 @@
   url: http://duckswithpants.com
   notes: Songwriter, musician, geographer, political kibitzer
   episodes: [441]
-
-- name: Undisclosed mystery guest
-  notes: A guest (or guests) whose identity has not yet been revealed
-  episodes: [443]
