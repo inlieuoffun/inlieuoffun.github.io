@@ -1139,7 +1139,7 @@
   twitter: ktbenner
   url: https://www.nytimes.com/by/katie-benner
   notes: Justice Department reporter at the New York Times
-  episodes: [305, 381]
+  episodes: [305, 381, 448]
 
 - name: Dara Lind
   twitter: dlind
@@ -1460,3 +1460,8 @@
   url: https://wwnorton.com/books/9781324005933
   notes: Historian, author, writing on American civil rights movements
   episodes: [447]
+
+- name: Kate Conger
+  twitter: kateconger
+  notes: Tech reporter for the New York Times
+  episodes: [448]
