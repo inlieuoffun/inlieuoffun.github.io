@@ -187,7 +187,7 @@
   twitter: MollyJongFast
   url: https://www.instagram.com/mollyjongfast/
   notes: Editor-at-large, The Daily Beast; co-host of "The New Abnormal" podcast
-  episodes: [26, 159, 200, 402]
+  episodes: [26, 159, 200, 402, 457]
 
 - name: Randy Barnett
   twitter: RandyEBarnett
@@ -1470,7 +1470,3 @@
   twitter: klevine02
   notes: Professor of Law, former appellate public defender, writer
   episodes: [450]
-
-- name: Undisclosed mystery guest
-  notes: A guest (or guests) whose identity has not yet been revealed
-  episodes: [457]
