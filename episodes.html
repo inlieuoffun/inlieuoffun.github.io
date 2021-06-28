@@ -44,10 +44,11 @@ do not.</p>
         {% if entry.summary %}{{- entry.summary | strip | replace: newline, " " -}}
         {% elsif entry.guests.size == 1 and entry.guests[0].notes %}
         {{- entry.guests[0].notes | strip | replace: newline, " " -}}
-        {% elsif entry.topics %}{{- entry.topics | strip | replace: newline, " " -}}{% endif %}
+        {% elsif entry.topics %}{{- entry.topics | strip | replace: newline, " " -}}{% endif -%}
         {%- endcapture %}
-          {% if detail %}{{ detail }}{% endif %}
-        {% if entry.guests -%}<br />
+          {% if detail != "" %}{{ detail }}<br />
+          {% endif -%}
+        {% if entry.guests -%}
         <small><b>Guests:</b> {{ entry.guests | map: "hyperlink" | join: ", " }}</small>{%- else -%}
         (just your hosts)
         {%- endif %}
