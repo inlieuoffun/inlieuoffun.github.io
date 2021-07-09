@@ -553,7 +553,7 @@
 - name: Wilfred U. Codrington III
   twitter: wuc3
   notes: Law professor at Brooklyn Law School; constitutional law
-  episodes: [102]
+  episodes: [102, 465]
 
 - name: Carrie Johnson
   twitter: johnson_carrie
@@ -1499,3 +1499,8 @@
   url: https://massimopigliucci.com
   notes: Professor of Philosophy at City College, evolutionary biologist, student of Stoicism
   episodes: [464]
+
+- name: Matt Tait
+  twitter: pwnallthethings
+  notes: Chief operating officer of Corellium; interested in security and virtualization
+  episodes: [466]
