@@ -138,7 +138,7 @@
   twitter: jon_rauch
   url: https://www.jonathanrauch.com/
   notes: Senior Fellow at Brookings Institution; contributing writer at The Atlantic
-  episodes: [17, 73, 106, 206, 209, 230, 259, 271, 298, 319, 345, 403, 438]
+  episodes: [17, 73, 106, 206, 209, 230, 259, 271, 298, 319, 345, 403, 438, 473]
 
 - name: Evelyn Douek
   twitter: evelyndouek
@@ -1521,3 +1521,13 @@
   url: https://www.sociology.ox.ac.uk/people/jonathan-lusthaus#/
   notes: Senior research fellow at Oxford University Department of Sociology; author
   episodes: [470]
+
+- name: Sheera Frenkel
+  twitter: sheeraf
+  notes: Tech Reporter, author
+  episodes: [474]
+
+- name: Cecilia Kang
+  twitter: ceciliakang
+  notes: New York Times reporter, author
+  episodes: [474]
