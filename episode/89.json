@@ -1,0 +1,22 @@
+{
+  "episode": {
+    "episode": 89,
+    "airDate": "2020-06-23",
+    "summary": "Cybersecurity and information warfare expert and author of a new history of information operations",
+    "topics": "cybersecurity, active measures",
+    "youTubeURL": "https://www.youtube.com/watch?v=YCuUJIrZ60E",
+    "guestNames": [
+      "Thomas Rid"
+    ],
+    "links": [
+      {
+        "title": "Active Measures",
+        "url": "https://us.macmillan.com/books/9780374287269"
+      },
+      {
+        "title": "Washington Post",
+        "url": "https://www.washingtonpost.com/outlook/the-russians-manipulated-our-elections-we-helped/2020/04/23/e44e9e76-5742-11ea-9000-f3cffee23036_story.html"
+      }
+    ]
+  }
+}

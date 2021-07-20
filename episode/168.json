@@ -1,0 +1,21 @@
+{
+  "episode": {
+    "episode": 168,
+    "airDate": "2020-09-10",
+    "youTubeURL": "https://www.youtube.com/watch?v=W0S81RJiyjY",
+    "guestNames": [
+      "Emily Bazelon"
+    ],
+    "links": [
+      {
+        "title": "Emily's books",
+        "url": "https://emilybazelon.com/books/"
+      },
+      {
+        "title": "Will This Be a Lost Year for America's Children?",
+        "url": "https://www.nytimes.com/interactive/2020/09/11/magazine/covid-school-reopenings.html"
+      }
+    ],
+    "detail": "We are joined by Emily Bazelon of the New York Times Magazine and the Slate\nPolitical Gabfest to talk about her recent fascination with all the ways our\ncoming election could catastrophize.\n\nWe'll also talk criminal justice and Emily's new book, \"Charged: The New\nMovement to Transform American Prosecution and End Mass Incarceration\", the\nSupreme Court, and lots of other stuff"
+  }
+}

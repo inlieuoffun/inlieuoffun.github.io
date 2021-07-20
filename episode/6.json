@@ -1,0 +1,19 @@
+{
+  "episode": {
+    "episode": 6,
+    "airDate": "2020-04-01",
+    "summary": "Discussing COVID-19 in rural Montana, kayaking across the Pacific, and more",
+    "topics": "wild outdoor adventure",
+    "youTubeURL": "https://www.youtube.com/watch?v=KNqZDaaSP60",
+    "guestNames": [
+      "Jon Turk"
+    ],
+    "links": [
+      {
+        "title": "Crocodiles and Ice",
+        "url": "https://ravallirepublic.com/news/local/article_872f8c24-77c5-11e6-8b40-f3384dc7726b.html"
+      }
+    ],
+    "detail": "Writer, back-woods skier, and extreme-condition kayaker talks about COVID-19 in rural Montana, kayaking across the Pacific Ocean and around Cape Horn, and whether communities at the extreme margins of human existence offer lessons about global cataclysms."
+  }
+}

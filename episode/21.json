@@ -1,0 +1,27 @@
+{
+  "episode": {
+    "episode": 21,
+    "airDate": "2020-04-16",
+    "topics": "presidential norms, room rater, neighbors & singing",
+    "youTubeURL": "https://www.youtube.com/watch?v=YR40vyRGdcg",
+    "guestNames": [
+      "Dan Drezner",
+      "Maggie Feldman-Piltch"
+    ],
+    "links": [
+      {
+        "title": "Washington Post",
+        "url": "https://www.washingtonpost.com/outlook/when-the-president-is-more-like-a-little-kid-than-a-leader/2020/04/17/0af66450-73a9-11ea-a9bd-9f8b593300d0_story.html"
+      },
+      {
+        "title": "#NatSecGirlSquad",
+        "url": "https://www.natsecgirlsquad.com/about"
+      },
+      {
+        "title": "New York Times",
+        "url": "https://www.nytimes.com/2020/04/02/business/coronavirus-work-neighbors.html"
+      }
+    ],
+    "detail": "Discussing Dan's new book, and Maggie's letter to the New York Times about her neighbor's complaints over her singing arias."
+  }
+}

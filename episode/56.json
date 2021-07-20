@@ -1,0 +1,26 @@
+{
+  "episode": {
+    "episode": 56,
+    "airDate": "2020-05-21",
+    "topics": "slavery, history, incarceration",
+    "youTubeURL": "https://www.youtube.com/watch?v=EmIG0lsjLqM",
+    "guestNames": [
+      "Reginald Dwayne Betts"
+    ],
+    "links": [
+      {
+        "title": "Poetry Foundation",
+        "url": "https://www.poetryfoundation.org/poets/reginald-dwayne-betts"
+      },
+      {
+        "title": "NEA",
+        "url": "https://www.arts.gov/nea-literature-fellowships/reginald-dwayne-betts"
+      },
+      {
+        "title": "NYT Magazine",
+        "url": "https://www.nytimes.com/2018/10/16/magazine/felon-attorney-crime-yale-law.html"
+      }
+    ],
+    "detail": "Reginald is an award winning-poet, Guggenheim and NEA Fellow, and winner of the\nNational Magazine Award for his piece documenting his struggle from\nincarceration, to a JD at Yale, to becoming a barred attorney in Connecticut."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "episode": {
+    "episode": 81,
+    "airDate": "2020-06-15",
+    "summary": "Discussing SCOTUS's bombshell LGBT employment discrimination decision",
+    "topics": "SCOTUS LGBT discrimination case",
+    "youTubeURL": "https://www.youtube.com/watch?v=zbxMG9Y9eB4",
+    "guestNames": [
+      "Anthony Michael Kries",
+      "Leah Litman"
+    ],
+    "links": [
+      {
+        "title": "New York Times",
+        "url": "https://www.nytimes.com/2020/06/15/us/gay-transgender-workers-supreme-court.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5578 @@
+{
+  "episodes": [
+    {
+      "episode": 474,
+      "airDate": "2021-07-20",
+      "summary": "Discussing a new book about Facebook",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-99",
+      "youTubeURL": "https://www.youtube.com/watch?v=QSFpR0L-FpI",
+      "guestNames": [
+        "Cecilia Kang",
+        "Sheera Frenkel"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://www.harpercollins.com/products/an-ugly-truth-sheera-frenkelcecilia-Kang"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 473,
+      "airDate": "2021-07-19",
+      "summary": "Jonathan Rauch tells a story and the audience has to decide its veracity",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-98",
+      "youTubeURL": "https://www.youtube.com/watch?v=DuRYXzBB3-4",
+      "guestNames": [
+        "Jonathan Rauch"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 472,
+      "airDate": "2021-07-16",
+      "summary": "Cheese night",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-97",
+      "youTubeURL": "https://www.youtube.com/watch?v=NGiKoL-k3FA",
+      "hasDetail": false
+    },
+    {
+      "episode": 471,
+      "airDate": "2021-07-15",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-96",
+      "youTubeURL": "https://www.youtube.com/watch?v=AvMBUbf3XP4",
+      "guestNames": [
+        "Peter Strzok"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 470,
+      "airDate": "2021-07-14",
+      "summary": "Discussing the cybercrime industry and how criminals operate online",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-95",
+      "youTubeURL": "https://www.youtube.com/watch?v=6FVHzNgQILQOn",
+      "guestNames": [
+        "Jonathan Lusthaus"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://industryofanonymity.com/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 469,
+      "airDate": "2021-07-13",
+      "summary": "Discussing revelations of racial bias inside Pinterest",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-94",
+      "youTubeURL": "https://www.youtube.com/watch?v=V31alxk4xUQ",
+      "guestNames": [
+        "Ifeoma Ozoma"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 468,
+      "airDate": "2021-07-12",
+      "summary": "Discussing the growing commercial space race",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-93",
+      "youTubeURL": "https://www.youtube.com/watch?v=r4R3_OazCGE",
+      "guestNames": [
+        "Nicholas Schmidle"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 467,
+      "airDate": "2021-07-09",
+      "summary": "An in-person meetup between the hosts and the Greek Chorus",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-92",
+      "youTubeURL": "https://www.youtube.com/watch?v=eu388P1tpys",
+      "hasDetail": true
+    },
+    {
+      "episode": 466,
+      "airDate": "2021-07-08",
+      "summary": "Discussing ransomware, cybersecurity, and the Keseya attack",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-91",
+      "youTubeURL": "https://www.youtube.com/watch?v=68RpTKZsBfo",
+      "guestNames": [
+        "Matt Tait"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 465,
+      "airDate": "2021-07-07",
+      "summary": "Discussing the recent SCOTUS decision on voting rights",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-90",
+      "youTubeURL": "https://www.youtube.com/watch?v=2Fyf4qTSxLs",
+      "guestNames": [
+        "Wilfred U. Codrington III"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 464,
+      "airDate": "2021-07-06",
+      "summary": "Discussing how Stoic philosophy can support a happier life",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-89",
+      "youTubeURL": "https://www.youtube.com/watch?v=35-U6e6zfSo",
+      "guestNames": [
+        "Massimo Pigliucci"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 463,
+      "airDate": "2021-07-05",
+      "summary": "Discussing the health of democracy and how to repair it",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-88",
+      "youTubeURL": "https://www.youtube.com/watch?v=tFimilWpX3g",
+      "guestNames": [
+        "Petra Guasti"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 462,
+      "airDate": "2021-07-02",
+      "summary": "Cheese night, and some important announcements",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-87",
+      "youTubeURL": "https://www.youtube.com/watch?v=_47VvZGDNHM",
+      "hasDetail": true
+    },
+    {
+      "episode": 461,
+      "airDate": "2021-07-01",
+      "summary": "Discussing voting, indictments, and other current events while Kate is off having (actual) fun",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-86",
+      "youTubeURL": "https://www.youtube.com/watch?v=5ivMNIVacqY",
+      "guestNames": [
+        "Tim Miller"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 460,
+      "airDate": "2021-06-30",
+      "summary": "Discussing use of antitrust law against Big Tech and the FTC Facebook complaint",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-85",
+      "youTubeURL": "https://www.youtube.com/watch?v=Jz4smpGg3j0",
+      "guestNames": [
+        "Randy Picker"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 459,
+      "airDate": "2021-06-29",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-84",
+      "youTubeURL": "https://www.youtube.com/watch?v=Dovo367Z1nA",
+      "guestNames": [
+        "Ekow N. Yankah"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 458,
+      "airDate": "2021-06-28",
+      "summary": "Discussing the activities of SDNY affecting the Trump Organization",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-83",
+      "youTubeURL": "https://www.youtube.com/watch?v=ytv04iGKiWs",
+      "guestNames": [
+        "Betsy Woodruff Swan"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 457,
+      "airDate": "2021-06-27",
+      "summary": "Mystery guest Sunday, Ben edition",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-82",
+      "youTubeURL": "https://www.youtube.com/watch?v=LCKQG7gG104",
+      "guestNames": [
+        "Molly Jong-Fast"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 456,
+      "airDate": "2021-06-26",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-81",
+      "youTubeURL": "https://www.youtube.com/watch?v=brBgKh19K1c",
+      "hasDetail": false
+    },
+    {
+      "episode": 455,
+      "airDate": "2021-06-25",
+      "summary": "Day 5 of Munch Munch Munch week, a return to cheese-making",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-80",
+      "youTubeURL": "https://www.youtube.com/watch?v=qxlTr52q7E0",
+      "hasDetail": true
+    },
+    {
+      "episode": 454,
+      "airDate": "2021-06-24",
+      "summary": "Day 4 of Munch Munch Much Week, with a new co-host",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-79",
+      "youTubeURL": "https://www.youtube.com/watch?v=ckMMJieNXNk",
+      "hasDetail": true
+    },
+    {
+      "episode": 453,
+      "airDate": "2021-06-23",
+      "summary": "Day 3 of Munch Munch Munch Week, on the preparation of shellfish",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-78",
+      "youTubeURL": "https://www.youtube.com/watch?v=Y6OHA00pjBo",
+      "hasDetail": true
+    },
+    {
+      "episode": 452,
+      "airDate": "2021-06-22",
+      "summary": "Day 2 of Munch Munch Munch Week, involving fava beans and Chianti",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-77",
+      "youTubeURL": "https://www.youtube.com/watch?v=x9qTDR-fhQ4",
+      "hasDetail": true
+    },
+    {
+      "episode": 451,
+      "airDate": "2021-06-21",
+      "summary": "Day 1 of Munch Munch Munch Week, in which cheese curds are made",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-76",
+      "youTubeURL": "https://www.youtube.com/watch?v=yolsPhylVaE",
+      "hasDetail": false
+    },
+    {
+      "episode": 450,
+      "airDate": "2021-06-20",
+      "summary": "Day 7 of Kate Week, in which Kate brings a Mystery Kate",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-75",
+      "youTubeURL": "https://www.youtube.com/watch?v=Ebo15Sgha2s",
+      "guestNames": [
+        "Kate Levine"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 449,
+      "airDate": "2021-06-19",
+      "summary": "Day 6 of Kate Week, in which the original Kate stands alone",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-74",
+      "youTubeURL": "https://youtu.be/dfhFqMKQrOc",
+      "hasDetail": false
+    },
+    {
+      "episode": 448,
+      "airDate": "2021-06-18",
+      "summary": "Day 5 of Kate Week, discussing technology and journalism",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-73",
+      "youTubeURL": "https://www.youtube.com/watch?v=btD8uEtnT1Y",
+      "guestNames": [
+        "Kate Conger"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 447,
+      "airDate": "2021-06-17",
+      "summary": "Day 4 of Kate Week, discussing the history of civil rights",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-72",
+      "youTubeURL": "https://www.youtube.com/watch?v=oRpqdIjAo0Y",
+      "guestNames": [
+        "Kate Masur"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://wwnorton.com/books/9781324005933"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 446,
+      "airDate": "2021-06-16",
+      "summary": "Day 3 of Kate Week, discussing the future of the Supreme Court",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-71",
+      "youTubeURL": "https://www.youtube.com/watch?v=n_aoLuidx4A",
+      "guestNames": [
+        "Kate Shaw"
+      ],
+      "links": [
+        {
+          "title": "Article",
+          "url": "https://scholarlycommons.law.emory.edu/cgi/viewcontent.cgi?article=1399&context=elj"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 445,
+      "airDate": "2021-06-15",
+      "summary": "Day 2 of Kate Week, discussing how humans relate to animals and robots",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-70",
+      "youTubeURL": "https://youtu.be/dIGXU10QvWo",
+      "guestNames": [
+        "Kate Darling"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://us.macmillan.com/books/9781250296115"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 444,
+      "airDate": "2021-06-14",
+      "summary": "The beginning of Kate Week, a long-anticipated event",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-69",
+      "youTubeURL": "https://www.youtube.com/watch?v=NL87AMPtxhA",
+      "guestNames": [
+        "Kate Gage"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 443,
+      "airDate": "2021-06-13",
+      "summary": "Mystery guest Sunday, Ben edition",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-68",
+      "youTubeURL": "https://youtu.be/Kvcs3BoLPKE",
+      "guestNames": [
+        "Miss PunnyPennie"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 442,
+      "airDate": "2021-06-12",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-67",
+      "youTubeURL": "https://www.youtube.com/watch?v=UzWkdbd4QIY",
+      "hasDetail": false
+    },
+    {
+      "episode": 441,
+      "airDate": "2021-06-11",
+      "summary": "Introducing the ILoF theme song and other fun shenanigans",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-66",
+      "youTubeURL": "https://www.youtube.com/watch?v=KNYmDZzKrfc",
+      "guestNames": [
+        "E. G. Phillips",
+        "Mike Chase"
+      ],
+      "links": [
+        {
+          "title": "Soundcloud",
+          "url": "https://soundcloud.com/ducks-with-pants/ilof-theme-were-not-allowed-to-have-fun"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 440,
+      "airDate": "2021-06-10",
+      "summary": "Discussing Indian food, the Pentagon Papers, and cicada swarms",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-65",
+      "youTubeURL": "https://www.youtube.com/watch?v=NQn4VueFCWY",
+      "guestNames": [
+        "Virginia Heffernan"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 439,
+      "airDate": "2021-06-09",
+      "summary": "Discussing Mark Polymeropoulos's new book",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-64",
+      "youTubeURL": "https://www.youtube.com/watch?v=5fnXbdpJAEg",
+      "guestNames": [
+        "Marc Polymeropoulos"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://hcleadershipessentials.com/pages/clarity-in-crisis"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 438,
+      "airDate": "2021-06-08",
+      "summary": "Discussing Jonathan Rauch's forthcoming new book",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-63",
+      "youTubeURL": "https://www.youtube.com/watch?v=SX_Is4REz1c",
+      "guestNames": [
+        "Jonathan Rauch"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://www.brookings.edu/book/the-constitution-of-knowledge"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 437,
+      "airDate": "2021-06-07",
+      "summary": "Discussing experimental philosophy",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-62",
+      "youTubeURL": "https://www.youtube.com/watch?v=yCI2DutXFpI",
+      "guestNames": [
+        "Josh Knobe"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 436,
+      "airDate": "2021-06-06",
+      "summary": "Discussing cryptography and distributed systems",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-61",
+      "youTubeURL": "https://www.youtube.com/watch?v=0Fj325bliOM",
+      "guestNames": [
+        "Deirdre Connolly"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 435,
+      "airDate": "2021-06-05",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-60",
+      "youTubeURL": "https://www.youtube.com/watch?v=E-QYwIiA09A",
+      "hasDetail": false
+    },
+    {
+      "episode": 434,
+      "airDate": "2021-06-04",
+      "summary": "Discussing the status of Navalny in Russia and airplanes in Belarus",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-59",
+      "youTubeURL": "https://www.youtube.com/watch?v=jIXftSl7Hik",
+      "guestNames": [
+        "Alina Polyakova"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 433,
+      "airDate": "2021-06-03",
+      "summary": "Discussing work in media law, the First Amendment, and the Press",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-58",
+      "youTubeURL": "https://www.youtube.com/watch?v=hfwPQ4V_8bM",
+      "guestNames": [
+        "Nabiha Syed"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 432,
+      "airDate": "2021-06-02",
+      "summary": "Discussing the state of the contemporary Republican party",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-57",
+      "youTubeURL": "https://www.youtube.com/watch?v=p9S0a6hdJK4",
+      "guestNames": [
+        "Charlie Sykes"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 431,
+      "airDate": "2021-06-01",
+      "summary": "Discussing the parlous state of American democracy",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-56",
+      "youTubeURL": "https://www.youtube.com/watch?v=81zFbfXpwck",
+      "guestNames": [
+        "Dan Drezner"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 430,
+      "airDate": "2021-05-31",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-55",
+      "youTubeURL": "https://www.youtube.com/watch?v=s9Mw_JRcRv0",
+      "hasDetail": true
+    },
+    {
+      "episode": 429,
+      "airDate": "2021-05-30",
+      "summary": "Mystery guest Sunday, Scott edition",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-54",
+      "youTubeURL": "https://www.youtube.com/watch?v=OreFVdp-30g",
+      "guestNames": [
+        "Taisu Zhang"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 428,
+      "airDate": "2021-05-29",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-53",
+      "youTubeURL": "https://youtube.com/watch?v=mVqOWCLwC0U",
+      "hasDetail": false
+    },
+    {
+      "episode": 427,
+      "airDate": "2021-05-28",
+      "summary": "Discussing ransomeware and cryptocurrency",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-52",
+      "youTubeURL": "https://www.youtube.com/watch?v=1gPBEmM5sTM",
+      "guestNames": [
+        "Nicholas Weaver"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 426,
+      "airDate": "2021-05-27",
+      "summary": "Discussing current events in Israel",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-51",
+      "youTubeURL": "https://youtube.com/watch?v=UYu61c7Ia4Y",
+      "guestNames": [
+        "Noah Efron"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 425,
+      "airDate": "2021-05-26",
+      "summary": "Discussing the special Grand Jury convened in Manhattan for Trump Organization tax issues",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-50",
+      "youTubeURL": "https://www.youtube.com/watch?v=c1OVBXIKjM8",
+      "guestNames": [
+        "Rebecca Roiphe"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 424,
+      "airDate": "2021-05-25",
+      "summary": "Discussing Kate's trip to Iceland, and tales of the Vikings",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-49",
+      "youTubeURL": "https://www.youtube.com/watch?v=KX3kqceZZJ4",
+      "guestNames": [
+        "Ada Palmer"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 423,
+      "airDate": "2021-05-24",
+      "summary": "Discussing the philosophy of slurs",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-48",
+      "youTubeURL": "https://www.youtube.com/watch?v=ypOorY4rSpA",
+      "guestNames": [
+        "Jason Stanley"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 422,
+      "airDate": "2021-05-23",
+      "summary": "Mystery guest Sunday, Ben edition (Kate being in Iceland)",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-47",
+      "youTubeURL": "https://www.youtube.com/watch?v=65gXaGPVW3k",
+      "guestNames": [
+        "Kori Schake",
+        "Peter Strzok",
+        "Toomas Hendrick Ilves"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 421,
+      "airDate": "2021-05-22",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-46",
+      "youTubeURL": "https://youtube.com/watch?v=tZPo0QKBd1A",
+      "hasDetail": false
+    },
+    {
+      "episode": 420,
+      "airDate": "2021-05-21",
+      "summary": "Discussing the history and circumstances of the n-word",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-45",
+      "youTubeURL": "https://www.youtube.com/watch?v=qUs_seQCKVM",
+      "guestNames": [
+        "John McWhorter"
+      ],
+      "links": [
+        {
+          "title": "Essay",
+          "url": "https://www.nytimes.com/2021/04/30/opinion/john-mcwhorter-n-word-unsayable.html"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 419,
+      "airDate": "2021-05-20",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-44",
+      "youTubeURL": "https://www.youtube.com/watch?v=rf5nr_KYsYI",
+      "guestNames": [
+        "Ana Bracic"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://global.oup.com/academic/product/breaking-the-exclusion-cycle-9780190050672"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 418,
+      "airDate": "2021-05-19",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-43",
+      "youTubeURL": "https://youtube.com/watch?v=cbX4pp4pUwI",
+      "guestNames": [
+        "Jordan Ellenberg"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://www.penguinrandomhouse.com/books/612131/shape-by-jordan-ellenberg/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 417,
+      "airDate": "2021-05-18",
+      "summary": "Discussing the composition and judicial philosophies of SCOTUS",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-42",
+      "youTubeURL": "https://www.youtube.com/watch?v=7RPn90CcZ3Q",
+      "guestNames": [
+        "Julian Davis Mortenson",
+        "Nicholas Bagley"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 416,
+      "airDate": "2021-05-17",
+      "summary": "Discussing recent SCOTUS news, including cert petitions and rulings",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-41",
+      "youTubeURL": "https://www.youtube.com/watch?v=eRgdzFs3XZg",
+      "guestNames": [
+        "Leah Litman",
+        "Steve Vladeck"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 415,
+      "airDate": "2021-05-16",
+      "summary": "Mystery guest Sunday, Ben edition",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-40",
+      "youTubeURL": "https://www.youtube.com/watch?v=_DPD7phWLh0",
+      "guestNames": [
+        "David Priess"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 414,
+      "airDate": "2021-05-15",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-39",
+      "youTubeURL": "https://www.youtube.com/watch?v=S6kAfUiF6X8",
+      "hasDetail": false
+    },
+    {
+      "episode": 413,
+      "airDate": "2021-05-14",
+      "summary": "Discussing working as an emergency physician during COVID",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-38",
+      "youTubeURL": "https://www.youtube.com/watch?v=UtNa08q_G8k",
+      "guestNames": [
+        "Dan Dworkis"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://www.emergencymind.com/book"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 412,
+      "airDate": "2021-05-13",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-37",
+      "youTubeURL": "https://www.youtube.com/watch?v=OjueuvYXXis",
+      "guestNames": [
+        "Sarah Bond"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 411,
+      "airDate": "2021-05-12",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-36",
+      "youTubeURL": "https://www.youtube.com/watch?v=kwRyoXq_-kI",
+      "guestNames": [
+        "Orin Kerr"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 410,
+      "airDate": "2021-05-11",
+      "summary": "Discussing the effects of Platformer and Substack",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-35",
+      "youTubeURL": "https://www.youtube.com/watch?v=_sOPcAxAwPY",
+      "guestNames": [
+        "Charlie Warzel"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 409,
+      "airDate": "2021-05-10",
+      "summary": "Discussing the phenomenon of ransomware and what to do about it",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-34",
+      "youTubeURL": "https://www.youtube.com/watch?v=HhDZXstMbO0",
+      "guestNames": [
+        "Herb Lin"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://www.hup.harvard.edu/catalog.php?isbn=9780674979413"
+        },
+        {
+          "title": "Video",
+          "url": "https://www.reddit.com/r/Damnthatsinteresting/comments/n9434j/bullfrog_eating_murder_hornet/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 408,
+      "airDate": "2021-05-09",
+      "summary": "Mystery guest Sunday, Kate edition",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-33",
+      "youTubeURL": "https://www.youtube.com/watch?v=C1F-PoZERNI",
+      "guestNames": [
+        "Janine Balekdjian"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 407,
+      "airDate": "2021-05-08",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-32",
+      "youTubeURL": "https://www.youtube.com/watch?v=3l6759dgQyI",
+      "hasDetail": false
+    },
+    {
+      "episode": 406,
+      "airDate": "2021-05-07",
+      "summary": "The planned guest having had an emergency, Kate & Scott host Cheese Night",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-31",
+      "youTubeURL": "https://youtube.com/watch?v=GcOfec2oNP0",
+      "hasDetail": false
+    },
+    {
+      "episode": 405,
+      "airDate": "2021-05-06",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-30",
+      "youTubeURL": "https://www.youtube.com/watch?v=zFxJ0eWImho",
+      "guestNames": [
+        "Anna Lapwood"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 404,
+      "airDate": "2021-05-05",
+      "summary": "Discussing the Facebook Oversight Board decision on the Trump suspension",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-29",
+      "youTubeURL": "https://www.youtube.com/watch?v=yoPzRAx1F_8",
+      "guestNames": [
+        "Eli Sugarman"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 403,
+      "airDate": "2021-05-04",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-28",
+      "youTubeURL": "https://www.youtube.com/watch?v=qNM6JnBpT3o",
+      "guestNames": [
+        "Jonathan Rauch"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 402,
+      "airDate": "2021-05-03",
+      "summary": "Discussing participation in vaccine trials, and life after the former guy",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-27",
+      "youTubeURL": "https://www.youtube.com/watch?v=DQ6y4G8v1fU",
+      "guestNames": [
+        "Molly Jong-Fast"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 401,
+      "airDate": "2021-05-02",
+      "summary": "Mystery guest Sunday, Scott edition.",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-26",
+      "youTubeURL": "https://www.youtube.com/watch?v=Af_d8sUBMu4",
+      "guestNames": [
+        "David Golove"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 400,
+      "airDate": "2021-05-01",
+      "summary": "Just your hosts, for the 400th episode of In Lieu of Fun",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-25",
+      "youTubeURL": "https://youtube.com/watch?v=4mDV6FgsfPs",
+      "special": true,
+      "hasDetail": false
+    },
+    {
+      "episode": 399,
+      "airDate": "2021-04-30",
+      "summary": "Discussing the cavalcade of clowns currently driving discourse on the Right",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-24",
+      "youTubeURL": "https://www.youtube.com/watch?v=dFM0stQfaK4",
+      "guestNames": [
+        "Sarah Longwell"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 398,
+      "airDate": "2021-04-29",
+      "summary": "With hosts and many audience members fully-vaccinated, some attend in person",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-23",
+      "youTubeURL": "https://www.youtube.com/watch?v=RgLoYoi36ac",
+      "hasDetail": true
+    },
+    {
+      "episode": 397,
+      "airDate": "2021-04-28",
+      "summary": "Discussing the first 100 days of the Biden administration",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-22",
+      "youTubeURL": "https://youtube.com/watch?v=vp-FQZBNp20",
+      "guestNames": [
+        "Shane Harris"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 396,
+      "airDate": "2021-04-27",
+      "summary": "Discussing cicadas, who are having a Brood X season",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-21",
+      "youTubeURL": "https://www.youtube.com/watch?v=XIt0ArvzVacp",
+      "guestNames": [
+        "Dr. Michael Skvarla"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 395,
+      "airDate": "2021-04-26",
+      "summary": "Discussing recent reporting on the hidden industry around mass slander",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-20",
+      "youTubeURL": "https://www.youtube.com/watch?v=N0kRJYccifA",
+      "guestNames": [
+        "Aaron Krolik",
+        "Kashmir Hill"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 394,
+      "airDate": "2021-04-25",
+      "summary": "Mystery guest Sunday, Kate edition",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-19",
+      "youTubeURL": "https://www.youtube.com/watch?v=fRVqkg2DB60",
+      "guestNames": [
+        "Mike Chase"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 393,
+      "airDate": "2021-04-24",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-18",
+      "youTubeURL": "https://www.youtube.com/watch?v=6VczbtEmtxs",
+      "hasDetail": false
+    },
+    {
+      "episode": 392,
+      "airDate": "2021-04-23",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-17",
+      "youTubeURL": "https://www.youtube.com/watch?v=cpUC5XgkH6g",
+      "guestNames": [
+        "Nicole Perlroth"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 391,
+      "airDate": "2021-04-22",
+      "summary": "Discussing developmental cognitive psychology, and Madonna filk",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-16",
+      "youTubeURL": "https://www.youtube.com/watch?v=FQIYC-hUTqg",
+      "guestNames": [
+        "Elizabeth Bonawitz"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 390,
+      "airDate": "2021-04-21",
+      "summary": "Discussing the verdicts in the Chauvin trial and reactions to them",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-15",
+      "youTubeURL": "https://www.youtube.com/watch?v=ZNiPUbBdf1k",
+      "guestNames": [
+        "Dr. Rashawn Ray",
+        "Tim Miller"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 389,
+      "airDate": "2021-04-20",
+      "summary": "Discussing the Justice Thomas concurrence in Knight v. Trump",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-14",
+      "youTubeURL": "https://www.youtube.com/watch?v=U6MNvbmepC8",
+      "guestNames": [
+        "Jameel Jaffer"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 388,
+      "airDate": "2021-04-19",
+      "summary": "Discussing Charlie's new project, Sidechannel",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-13",
+      "youTubeURL": "https://youtube.com/watch?v=oICY2phKLsM",
+      "guestNames": [
+        "Charlie Warzel"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 387,
+      "airDate": "2021-04-18",
+      "summary": "Mystery guest Sunday, Ben edition",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-12",
+      "youTubeURL": "https://www.youtube.com/watch?v=JFexcyZIq58",
+      "guestNames": [
+        "Rachel Vindman"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 386,
+      "airDate": "2021-04-17",
+      "summary": "Introducing a new official co-host, Scott Shapiro",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-11",
+      "youTubeURL": "https://youtube.com/watch?v=3aLkR8BnWIA",
+      "hasDetail": false
+    },
+    {
+      "episode": 385,
+      "airDate": "2021-04-16",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-10",
+      "youTubeURL": "https://www.youtube.com/watch?v=0eABCo9VgfA",
+      "guestNames": [
+        "Walter Shaub"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 384,
+      "airDate": "2021-04-15",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-9",
+      "youTubeURL": "https://www.youtube.com/watch?v=qq-0T6os_NI",
+      "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/oona-hathaway-dishes-on-the-internationalists",
+      "guestNames": [
+        "Oona Hathaway"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://www.simonandschuster.com/books/The-Internationalists/Oona-A-Hathaway/9781501109874"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 383,
+      "airDate": "2021-04-14",
+      "summary": "Discussing the new book \"Silicon Values\"",
+      "crowdcastURL": "https://crowdcast.io/e/in-lieu-of-fun-episode-8",
+      "youTubeURL": "https://www.youtube.com/watch?v=TsuKzYAc11M",
+      "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/jillian-york-talks-silicon-values",
+      "guestNames": [
+        "Jillian York"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://www.versobooks.com/books/3772-silicon-values"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 382,
+      "airDate": "2021-04-13",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-7",
+      "youTubeURL": "https://youtube.com/watch?v=36kUjzl8c5o",
+      "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/sarah-longwell-is-always-right",
+      "guestNames": [
+        "Sarah Longwell"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 381,
+      "airDate": "2021-04-12",
+      "summary": "Discussing the ongoing investigation of Representative Matt Gaetz",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-6",
+      "youTubeURL": "https://youtube.com/watch?v=hnb5RF9umwo",
+      "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/katie-benner-opens-the-gaetz-of-hell",
+      "guestNames": [
+        "Katie Benner"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 380,
+      "airDate": "2021-04-11",
+      "summary": "Mystery guest Sunday, Kate edition",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-5",
+      "youTubeURL": "https://www.youtube.com/watch?v=GeTqrrGpT1A",
+      "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/mystery-guest-sunday-with-nate-persily",
+      "guestNames": [
+        "Nate Persily"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 379,
+      "airDate": "2021-04-10",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-4",
+      "youTubeURL": "https://www.youtube.com/watch?v=Y_m_o9eXuYE",
+      "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/just-us-saturday",
+      "hasDetail": false
+    },
+    {
+      "episode": 378,
+      "airDate": "2021-04-09",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-270",
+      "youTubeURL": "https://www.youtube.com/watch?v=tiD4ar2VDQU",
+      "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/windsor-mann-doesnt-talk-about-the-news",
+      "guestNames": [
+        "Windsor Mann"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 377,
+      "airDate": "2021-04-08",
+      "summary": "Kate has a conflict, so Scott Shapiro guest-hosts while Ben host-guests",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-3",
+      "youTubeURL": "https://www.youtube.com/watch?v=5zEFuMTVeNo",
+      "guestNames": [
+        "Jack Goldsmith",
+        "Scott Shapiro",
+        "Virginia Heffernan"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 376,
+      "airDate": "2021-04-07",
+      "summary": "Discussing the performance of FBI during the January 6th riot",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-2",
+      "youTubeURL": "https://www.youtube.com/watch?v=pzWSNrz3u44",
+      "guestNames": [
+        "Chuck Rosenberg"
+      ],
+      "links": [
+        {
+          "title": "Article",
+          "url": "https://www.washingtonpost.com/opinions/fbi-domestic-terrorism-chuck-rosenberg/2021/04/05/5a5d4188-9646-11eb-a6d0-13d207aadb78_story.html"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 375,
+      "airDate": "2021-04-06",
+      "summary": "Discussing the status of The Markup, and the fate of privacy and journalism",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-266",
+      "youTubeURL": "https://www.youtube.com/watch?v=z8PgfYT1s84",
+      "guestNames": [
+        "Julia Angwin"
+      ],
+      "links": [
+        {
+          "title": "The Markup",
+          "url": "https://themarkup.org"
+        },
+        {
+          "title": "Blacklight",
+          "url": "https://themarkup.org/blacklight"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 374,
+      "airDate": "2021-04-05",
+      "summary": "Discussing the recent SCOTUS decision in Oracle v. Google",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-265",
+      "youTubeURL": "https://www.youtube.com/watch?v=q1SAozu4Bvg",
+      "guestNames": [
+        "Mark Lemley"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 373,
+      "airDate": "2021-04-04",
+      "summary": "Mystery guest Sunday, Ben edition",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-264",
+      "youTubeURL": "https://www.youtube.com/watch?v=Q45c9t9NQm0",
+      "guestNames": [
+        "Olivia Troye"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 372,
+      "airDate": "2021-04-03",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-263",
+      "youTubeURL": "https://www.youtube.com/watch?v=SOqIg4zl68E",
+      "hasDetail": false
+    },
+    {
+      "episode": 371,
+      "airDate": "2021-04-02",
+      "summary": "Discussing the recent jobs numbers, spending plans, and economic recovery",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-262",
+      "guestNames": [
+        "David Wessel"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 370,
+      "airDate": "2021-04-01",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-261",
+      "youTubeURL": "https://www.youtube.com/watch?v=UTnXcce7bg4",
+      "guestNames": [
+        "Tim Miller"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 369,
+      "airDate": "2021-03-31",
+      "summary": "Discussing vaccines",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode",
+      "youTubeURL": "https://www.youtube.com/watch?v=nWU_-X87vz0",
+      "guestNames": [
+        "Josh Sharfstein"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 368,
+      "airDate": "2021-03-30",
+      "summary": "Discussing the book \"Tangled Up in Blue\"",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-260",
+      "youTubeURL": "https://www.youtube.com/watch?v=Y3uDdXnDawI",
+      "guestNames": [
+        "Rosa Brooks"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://www.penguinrandomhouse.com/books/565187/tangled-up-in-blue-by-rosa-brooks/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 367,
+      "airDate": "2021-03-29",
+      "summary": "Discussing the nature of disgust, and other related research topics",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-259",
+      "youTubeURL": "https://www.youtube.com/watch?v=yDe2whYD2Xs",
+      "guestNames": [
+        "Nina Strohminger"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 366,
+      "airDate": "2021-03-28",
+      "summary": "Mystery guest Sunday, Kate edition",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-258",
+      "youTubeURL": "https://www.youtube.com/watch?v=tBOzeyJqQu8",
+      "guestNames": [
+        "Molly McKew"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 365,
+      "airDate": "2021-03-27",
+      "summary": "In honor of Passover",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-257",
+      "youTubeURL": "https://www.youtube.com/watch?v=bRcOx_SEAT8",
+      "hasDetail": false
+    },
+    {
+      "episode": 364,
+      "airDate": "2021-03-26",
+      "summary": "Discussing human rights in Egypt, and also large boats",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-256",
+      "youTubeURL": "https://www.youtube.com/watch?v=GGfFNzdi8MQ",
+      "guestNames": [
+        "Mai El-Sadany"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 363,
+      "airDate": "2021-03-25",
+      "summary": "The one-year anniversary of the first ILoF broadcast",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-255",
+      "youTubeURL": "https://www.youtube.com/watch?v=eFYX91n_RHI",
+      "special": true,
+      "hasDetail": true
+    },
+    {
+      "episode": 362,
+      "airDate": "2021-03-24",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-254",
+      "youTubeURL": "https://www.youtube.com/watch?v=JqQc5iZi8HY",
+      "guestNames": [
+        "Darrell West"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 361,
+      "airDate": "2021-03-23",
+      "summary": "Discussing Jamal's new book",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-253",
+      "youTubeURL": "https://www.youtube.com/watch?v=Lcv1Y4W4KRg",
+      "guestNames": [
+        "Jamal Greene"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://www.hmhbooks.com/shop/books/How-Rights-Went-Wrong/9781328518118"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 360,
+      "airDate": "2021-03-22",
+      "summary": "Discussing violent extremism, border issues, and the DHS transition",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-252",
+      "youTubeURL": "https://www.youtube.com/watch?v=_Z71gxySJ9E",
+      "guestNames": [
+        "Elizabeth Neumann"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 359,
+      "airDate": "2021-03-21",
+      "summary": "Mystery guest Sunday, Ben edition",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-251",
+      "youTubeURL": "https://www.youtube.com/watch?v=l-Zh71nGDoA",
+      "guestNames": [
+        "Natan Sachs"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 358,
+      "airDate": "2021-03-20",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-250",
+      "youTubeURL": "https://www.youtube.com/watch?v=CUWL9pUvxdQ",
+      "hasDetail": false
+    },
+    {
+      "episode": 357,
+      "airDate": "2021-03-19",
+      "summary": "Discussing Vladimir Putin's challenge to President Biden",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-249",
+      "youTubeURL": "https://www.youtube.com/watch?v=HDSBajxYL0c",
+      "guestNames": [
+        "Alexander S. Vindman",
+        "Michel Paradis"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 356,
+      "airDate": "2021-03-18",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-248",
+      "youTubeURL": "https://www.youtube.com/watch?v=FIVJM7DJD1g",
+      "guestNames": [
+        "Michel Paradis"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 355,
+      "airDate": "2021-03-17",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-247",
+      "youTubeURL": "https://www.youtube.com/watch?v=O5kUTSIGM2k",
+      "guestNames": [
+        "Jacob Mchangama"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 354,
+      "airDate": "2021-03-16",
+      "summary": "Discussing Renaissance history, scence fiction, and flying cars",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-246",
+      "youTubeURL": "https://www.youtube.com/watch?v=6b1WjyM2hB0",
+      "guestNames": [
+        "Ada Palmer"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 353,
+      "airDate": "2021-03-15",
+      "summary": "Discussing policing, evidence, fake news, and related topics",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-245",
+      "youTubeURL": "https://www.youtube.com/watch?v=Bh9naoEAg3s",
+      "guestNames": [
+        "Radley Balko"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 352,
+      "airDate": "2021-03-14",
+      "summary": "Mystery guest Sunday, Kate edition",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-244",
+      "youTubeURL": "https://www.youtube.com/watch?v=hQhzEdqc5H8",
+      "guestNames": [
+        "Jordan Ellenberg"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 351,
+      "airDate": "2021-03-13",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-243",
+      "youTubeURL": "https://www.youtube.com/watch?v=EvY2D92-ZDo",
+      "hasDetail": false
+    },
+    {
+      "episode": 350,
+      "airDate": "2021-03-12",
+      "summary": "Discussing the nature of time, a coda on Pugilism Week",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-242",
+      "youTubeURL": "https://www.youtube.com/watch?v=fb-xM3zVnnE",
+      "guestNames": [
+        "Jon Lovett"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 349,
+      "airDate": "2021-03-11",
+      "summary": "Kate leads the discussion",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-241",
+      "youTubeURL": "https://www.youtube.com/watch?v=gB1Js6s9VU4",
+      "hasDetail": false
+    },
+    {
+      "episode": 348,
+      "airDate": "2021-03-10",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-240",
+      "youTubeURL": "https://www.youtube.com/watch?v=6hCtpNGmPus",
+      "guestNames": [
+        "Christine Emba"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 347,
+      "airDate": "2021-03-09",
+      "crowdcastURL": "https://www.crowdcast.io/e/in-lieu-of-fun-episode-239",
+      "youTubeURL": "https://www.youtube.com/watch?v=ckdfZAb7Iqc",
+      "guestNames": [
+        "John Villasenor"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 346,
+      "airDate": "2021-03-08",
+      "youTubeURL": "https://www.youtube.com/watch?v=M_GgRjz7kqQ",
+      "guestNames": [
+        "Eugene Volokh"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 345,
+      "airDate": "2021-03-07",
+      "summary": "Mystery guest Sunday, Ben edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=AATiTZhUdiM",
+      "guestNames": [
+        "Jonathan Rauch"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 344,
+      "airDate": "2021-03-06",
+      "youTubeURL": "https://www.youtube.com/watch?v=0ngim0sC9TM",
+      "hasDetail": false
+    },
+    {
+      "episode": 343,
+      "airDate": "2021-03-05",
+      "summary": "Day 5 of Pugilism Week",
+      "youTubeURL": "https://www.youtube.com/watch?v=14mK-xraJI8",
+      "guestNames": [
+        "Wes Siler"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 342,
+      "airDate": "2021-03-04",
+      "summary": "Day 4 of Pugilism Week, on state sanction for marriage",
+      "youTubeURL": "https://www.youtube.com/watch?v=eXtaDIEnvKw",
+      "guestNames": [
+        "Brad Wilcox"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 341,
+      "airDate": "2021-03-03",
+      "summary": "Day 3 of Pugilism Week, on FBI vs. CIA",
+      "youTubeURL": "https://www.youtube.com/watch?v=qblzG8PTirU",
+      "guestNames": [
+        "Alex Finley",
+        "John Sipher",
+        "Peter Strzok"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 340,
+      "airDate": "2021-03-02",
+      "summary": "Day 2 of Pugilism Week, on exclusive vs. inclusive legal positivism",
+      "youTubeURL": "https://www.youtube.com/watch?v=VMCQ4ELkF-o",
+      "guestNames": [
+        "Scott Shapiro"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 339,
+      "airDate": "2021-03-01",
+      "summary": "Day 1 of Pugilism Week, on whether we need a third party",
+      "youTubeURL": "https://www.youtube.com/watch?v=YYk197wRoSQ",
+      "guestNames": [
+        "David Jolly",
+        "Sarah Longwell"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 338,
+      "airDate": "2021-02-28",
+      "summary": "Mystery guest Sunday, Kate edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=mmfCCqhqss0",
+      "guestNames": [
+        "Jessie Bullock"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 337,
+      "airDate": "2021-02-27",
+      "youTubeURL": "https://www.youtube.com/watch?v=h848nBbfoWk",
+      "hasDetail": false
+    },
+    {
+      "episode": 336,
+      "airDate": "2021-02-26",
+      "summary": "Discussing the problem of monopolies, and tech platforms",
+      "youTubeURL": "https://www.youtube.com/watch?v=mG2NlM23DVw",
+      "guestNames": [
+        "Richard R. John"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 335,
+      "airDate": "2021-02-25",
+      "summary": "Discussing matters around death and dying, and COVID",
+      "youTubeURL": "https://www.youtube.com/watch?v=QevbFzOjEKw",
+      "guestNames": [
+        "Katie Engelhart"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://us.macmillan.com/books/9781250201461"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 334,
+      "airDate": "2021-02-24",
+      "summary": "Discussing free speech",
+      "youTubeURL": "https://www.youtube.com/watch?v=avM358f7GWA",
+      "guestNames": [
+        "Jack Balkin"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 333,
+      "airDate": "2021-02-23",
+      "summary": "Discussing languages, linguistics, and the politics of language",
+      "youTubeURL": "https://www.youtube.com/watch?v=4ynj8h6GEDk",
+      "guestNames": [
+        "John McWhorter"
+      ],
+      "links": [
+        {
+          "title": "Podcast",
+          "url": "https://slate.com/podcasts/lexicon-valley"
+        },
+        {
+          "title": "Book",
+          "url": "https://www.harpercollins.com/products/the-power-of-babel-john-mcwhorter"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 332,
+      "airDate": "2021-02-22",
+      "summary": "Discussing the Garland appointment",
+      "youTubeURL": "https://www.youtube.com/watch?v=JvSMHjFPvCA",
+      "guestNames": [
+        "Matthew Miller",
+        "Sarah Longwell"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 331,
+      "airDate": "2021-02-21",
+      "summary": "Mystery guest Sunday, Ben edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=vswms8jNlps",
+      "guestNames": [
+        "Deborah Copaken"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 330,
+      "airDate": "2021-02-19",
+      "youTubeURL": "https://www.youtube.com/watch?v=bA_dTP0UfRc",
+      "guestNames": [
+        "Orin Kerr"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 329,
+      "airDate": "2021-02-18",
+      "summary": "Discussing white collar crime and \"following the money\"",
+      "youTubeURL": "https://www.youtube.com/watch?v=0ZFEDPzrEVo",
+      "guestNames": [
+        "Jennifer Taub"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://www.penguinrandomhouse.com/books/623034/big-dirty-money-by-jennifer-taub/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 328,
+      "airDate": "2021-02-17",
+      "summary": "Discussing the new book \"Saving Justice: Truth, Transparency, and Trust\"",
+      "youTubeURL": "https://www.youtube.com/watch?v=cfgWeWsBX4E",
+      "guestNames": [
+        "James Comey"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "https://us.macmillan.com/books/9781250799128"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 327,
+      "airDate": "2021-02-16",
+      "summary": "Discussing the Million Book Project",
+      "youTubeURL": "https://www.youtube.com/watch?v=iQ5DCKv_bjc",
+      "guestNames": [
+        "Reginald Dwayne Betts"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 326,
+      "airDate": "2021-02-15",
+      "summary": "Discussing impeachment and foreign policy",
+      "youTubeURL": "https://www.youtube.com/watch?v=TuGd7mnbJvo",
+      "guestNames": [
+        "Tom Nichols"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 325,
+      "airDate": "2021-02-14",
+      "summary": "Mystery guest Sunday, Kate edition.",
+      "youTubeURL": "https://www.youtube.com/watch?v=9fEhzPZvWrM",
+      "guestNames": [
+        "Jonathan Shea"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 324,
+      "airDate": "2021-02-13",
+      "youTubeURL": "https://www.youtube.com/watch?v=Qo0iAeppo3A",
+      "hasDetail": false
+    },
+    {
+      "episode": 323,
+      "airDate": "2021-02-12",
+      "summary": "Ben interviews Kate about her article in The New Yorker on the Facebook Oversight Board",
+      "youTubeURL": "https://www.youtube.com/watch?v=7w68229pWn4",
+      "links": [
+        {
+          "title": "Article",
+          "url": "https://www.newyorker.com/tech/annals-of-technology/inside-the-making-of-facebooks-supreme-court"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 322,
+      "airDate": "2021-02-11",
+      "youTubeURL": "https://www.youtube.com/watch?v=2rMiuQ4dWJc",
+      "guestNames": [
+        "Mike Pesca"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 321,
+      "airDate": "2021-02-10",
+      "summary": "Discussing surveillance history and related topics",
+      "youTubeURL": "https://www.youtube.com/watch?v=mz_eJRrRSic",
+      "guestNames": [
+        "David Kris"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 320,
+      "airDate": "2021-02-09",
+      "summary": "Discussing the first day of the second impeachment trial",
+      "youTubeURL": "https://www.youtube.com/watch?v=AAobz87tpeA",
+      "guestNames": [
+        "Paul Rosenzweig",
+        "Sarah Longwell"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 319,
+      "airDate": "2021-02-08",
+      "summary": "Discussing the world championship of a form of sportsball played by only one country",
+      "youTubeURL": "https://www.youtube.com/watch?v=mfdSUoqnu7c",
+      "guestNames": [
+        "Jonathan Rauch"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 318,
+      "airDate": "2021-02-07",
+      "summary": "Mystery guest Sunday, special Ben edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=1IdVZtK0hBk",
+      "guestNames": [
+        "Tamara Cofman Wittes"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 317,
+      "airDate": "2021-02-06",
+      "youTubeURL": "https://www.youtube.com/watch?v=7Qiirnzq9fE",
+      "hasDetail": false
+    },
+    {
+      "episode": 316,
+      "airDate": "2021-02-05",
+      "summary": "Discussing the upcoming impeachment trial, in lieu of a Jewish space laser",
+      "youTubeURL": "https://www.youtube.com/watch?v=JMa0BkUDn28",
+      "guestNames": [
+        "Dan Drezner",
+        "Tim Miller"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 315,
+      "airDate": "2021-02-04",
+      "summary": "Discussing the definition of \"incitement\" and its current relevancy",
+      "youTubeURL": "https://www.youtube.com/watch?v=PHl569vxNJY",
+      "guestNames": [
+        "Katie Reisner"
+      ],
+      "links": [
+        {
+          "title": "OpEd",
+          "url": "https://www.usatoday.com/story/opinion/2021/02/03/donald-trump-incited-capitol-attack-by-any-legal-test-column/4370622001/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 314,
+      "airDate": "2021-02-03",
+      "youTubeURL": "https://www.youtube.com/watch?v=zV3nkR2iTu8",
+      "guestNames": [
+        "Shane Harris"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 313,
+      "airDate": "2021-02-02",
+      "summary": "Discussing drones",
+      "youTubeURL": "https://www.youtube.com/watch?v=5q8U1RCK47Y",
+      "guestNames": [
+        "Nicholas Weaver"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 312,
+      "airDate": "2021-02-01",
+      "youTubeURL": "https://www.youtube.com/watch?v=wgR4i_Wk7n0",
+      "hasDetail": false
+    },
+    {
+      "episode": 311,
+      "airDate": "2021-01-31",
+      "summary": "Discussing the first decisions made by the Facebook Oversight Board",
+      "youTubeURL": "https://www.youtube.com/watch?v=MwHNfp6iDqc",
+      "guestNames": [
+        "Nate Persily"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 310,
+      "airDate": "2021-01-30",
+      "youTubeURL": "https://www.youtube.com/watch?v=tlCUlTq5dqU",
+      "guestNames": [
+        "George Conway"
+      ],
+      "links": [
+        {
+          "title": "Article",
+          "url": "https://www.washingtonpost.com/opinions/2021/01/22/trump-charges-george-conway/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 309,
+      "airDate": "2021-01-29",
+      "summary": "Discussing U.S. foreign policy in the Biden administration",
+      "youTubeURL": "https://www.youtube.com/watch?v=WAGgSOGcKII",
+      "guestNames": [
+        "Tom Wright"
+      ],
+      "links": [
+        {
+          "title": "Book",
+          "url": "http://yalebooks.com/book/9780300223286/all-measures-short-war"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 308,
+      "airDate": "2021-01-28",
+      "youTubeURL": "https://www.youtube.com/watch?v=a150Fkmxhds",
+      "guestNames": [
+        "Anne Kornhauser"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 307,
+      "airDate": "2021-01-27",
+      "youTubeURL": "https://www.youtube.com/watch?v=-hngxk6z6sQ",
+      "guestNames": [
+        "Miss PunnyPennie"
+      ],
+      "links": [
+        {
+          "title": "Scots Word of the Day",
+          "url": "https://twitter.com/lenniesaurus"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 306,
+      "airDate": "2021-01-26",
+      "summary": "Discussing immigration policy in the new Biden administration",
+      "youTubeURL": "https://www.youtube.com/watch?v=DNXwL4Md-Rc",
+      "guestNames": [
+        "Dara Lind"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 305,
+      "airDate": "2021-01-25",
+      "youTubeURL": "https://www.youtube.com/watch?v=WMF21Vu72tg",
+      "guestNames": [
+        "Katie Benner"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 304,
+      "airDate": "2021-01-24",
+      "summary": "Mystery guest Sunday, Ben edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=XQVC0gaABd0",
+      "guestNames": [
+        "Quinta Jurecic"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 303,
+      "airDate": "2021-01-23",
+      "summary": "Discussing the protests in Russia over the arrest of Navalny with multiple guests",
+      "youTubeURL": "https://www.youtube.com/watch?v=NJl37vpFSZM",
+      "guestNames": [
+        "Alexander S. Vindman",
+        "Bianna Golodryga",
+        "Toomas Hendrick Ilves"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 302,
+      "airDate": "2021-01-22",
+      "summary": "Discussing the return of Alexei Navalny to Russia",
+      "youTubeURL": "https://www.youtube.com/watch?v=fIxymatM0IE",
+      "guestNames": [
+        "Alina Polyakova"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 301,
+      "airDate": "2021-01-21",
+      "summary": "Discussing the peaceful transition of power and related topics",
+      "youTubeURL": "https://www.youtube.com/watch?v=DGo13gQVsOQ",
+      "guestNames": [
+        "Jeffrey Rosen"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 300,
+      "airDate": "2021-01-20",
+      "summary": "Celebrating the inaguration of a new President and the 300th episode of ILoF",
+      "youTubeURL": "https://www.youtube.com/watch?v=Keg-uXEB0Is",
+      "special": true,
+      "guestNames": [
+        "Sarah Longwell",
+        "Tim Miller"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 299,
+      "airDate": "2021-01-19",
+      "youTubeURL": "https://www.youtube.com/watch?v=X31xjKFtPdI",
+      "guestNames": [
+        "Margaret Love"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 298,
+      "airDate": "2021-01-18",
+      "summary": "Discussing the perils facing the Inauguration and impending pardons",
+      "youTubeURL": "https://www.youtube.com/watch?v=uuyV0rwR8GY",
+      "guestNames": [
+        "Jonathan Rauch"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 297,
+      "airDate": "2021-01-17",
+      "summary": "Mystery guest Sunday, Kate edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=g4txotT-56s",
+      "hasDetail": true
+    },
+    {
+      "episode": 296,
+      "airDate": "2021-01-16",
+      "youTubeURL": "https://www.youtube.com/watch?v=tbb0lnSdX-U",
+      "hasDetail": false
+    },
+    {
+      "episode": 295,
+      "airDate": "2021-01-15",
+      "summary": "Discussing the problems in free speech law and the recent high-profile deplatformings",
+      "youTubeURL": "https://www.youtube.com/watch?v=bORGQ26S3ZA",
+      "guestNames": [
+        "Genevieve Lakier"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 294,
+      "airDate": "2021-01-14",
+      "youTubeURL": "https://www.youtube.com/watch?v=g3vb778exH4",
+      "guestNames": [
+        "Clare Malone"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 293,
+      "airDate": "2021-01-13",
+      "summary": "Discussing the use of Section 3 of the 14th Amendment",
+      "youTubeURL": "https://www.youtube.com/watch?v=egLzcANegUw",
+      "guestNames": [
+        "Brian Beutler",
+        "Deepak Gupta"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 292,
+      "airDate": "2021-01-12",
+      "summary": "Discussing differential policing",
+      "youTubeURL": "https://www.youtube.com/watch?v=V-ZQstZE2Po",
+      "guestNames": [
+        "Dr. Rashawn Ray"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 291,
+      "airDate": "2021-01-11",
+      "summary": "Discussing the ongoing constitutional crisis and deplatforming events",
+      "youTubeURL": "https://www.youtube.com/watch?v=JSJYMXUt1m8",
+      "guestNames": [
+        "Jack Balkin"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 290,
+      "airDate": "2021-01-10",
+      "summary": "An insider viewpoint on the insurrection at the Capitol last week",
+      "youTubeURL": "https://www.youtube.com/watch?v=YIUsYGHoSQ0",
+      "guestNames": [
+        "Tom Malinowski"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 289,
+      "airDate": "2021-01-09",
+      "youTubeURL": "https://www.youtube.com/watch?v=ptiQUXi15OA",
+      "hasDetail": true
+    },
+    {
+      "episode": 288,
+      "airDate": "2021-01-08",
+      "summary": "Discussing the QAnon movement with an expert",
+      "youTubeURL": "https://www.youtube.com/watch?v=SUBBYq66VmI",
+      "guestNames": [
+        "Adrienne LaFrance"
+      ],
+      "links": [
+        {
+          "title": "Article",
+          "url": "https://www.theatlantic.com/membership/archive/2021/01/for-subscribers-where-qanon-goes-from-here/617602"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 287,
+      "airDate": "2021-01-07",
+      "summary": "Continuing the discussion about the fallout from yesterday",
+      "youTubeURL": "https://www.youtube.com/watch?v=ETjNpbYTN1s",
+      "guestNames": [
+        "Kathleen Belew"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 286,
+      "airDate": "2021-01-06",
+      "summary": "Discussing the ongoing drama in Georgia, Congress, and the DC streets",
+      "youTubeURL": "https://www.youtube.com/watch?v=-M1eOYGG9zQ",
+      "guestNames": [
+        "Bobby Chesney",
+        "Kathleen Belew",
+        "Sarah Longwell"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 285,
+      "airDate": "2021-01-05",
+      "summary": "Discussing the count of electoral votes and affiliated protests in DC",
+      "youTubeURL": "https://www.youtube.com/watch?v=sVftu_R3JZU",
+      "guestNames": [
+        "David Plotz"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 284,
+      "airDate": "2021-01-04",
+      "summary": "Discussing the phone call and press conference in Georgia.",
+      "youTubeURL": "https://www.youtube.com/watch?v=awMpdgU6XlQ",
+      "guestNames": [
+        "Steve Vladeck"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 283,
+      "airDate": "2021-01-03",
+      "summary": "A day of interviewing guests from the audience",
+      "youTubeURL": "https://www.youtube.com/watch?v=-Ik1_dRd2A0",
+      "guestNames": [
+        "The Audience"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 282,
+      "airDate": "2021-01-02",
+      "youTubeURL": "https://www.youtube.com/watch?v=ZxX_yYpQQxs",
+      "hasDetail": false
+    },
+    {
+      "episode": 281,
+      "airDate": "2021-01-01",
+      "summary": "New year's resolutions.",
+      "youTubeURL": "https://www.youtube.com/watch?v=3oB5ZaijJiA",
+      "guestNames": [
+        "Scott Shapiro"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 280,
+      "airDate": "2020-12-31",
+      "summary": "Good riddance 2020!🥂🥂🥂",
+      "youTubeURL": "https://www.youtube.com/watch?v=g1cQWdOeVXI",
+      "guestNames": [
+        "Lisa Page"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 279,
+      "airDate": "2020-12-30",
+      "youTubeURL": "https://www.youtube.com/watch?v=m8YjGWAYtus",
+      "guestNames": [
+        "David Wessel"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 278,
+      "airDate": "2020-12-29",
+      "summary": "A discussion about intervention.",
+      "youTubeURL": "https://www.youtube.com/watch?v=m1GsB4RQogQ",
+      "guestNames": [
+        "Stephen Wertheim"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 277,
+      "airDate": "2020-12-28",
+      "summary": "Discussing Yaya Fanusie's new paper, \"Central Bank Digital Currencies\"",
+      "youTubeURL": "https://www.youtube.com/watch?v=dColrfNYjgo",
+      "guestNames": [
+        "Yaya J. Fanusie"
+      ],
+      "links": [
+        {
+          "title": "Paper",
+          "url": "https://www.lawfareblog.com/central-bank-digital-currencies-threat-money-launderers-and-how-stop-them"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 276,
+      "airDate": "2020-12-27",
+      "summary": "Mystery guests gone wild",
+      "youTubeURL": "https://www.youtube.com/watch?v=nxtJb4awY3Q",
+      "guestNames": [
+        "Alan Rozenshtein",
+        "David Priess",
+        "Mike Chase"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 275,
+      "airDate": "2020-12-26",
+      "youTubeURL": "https://www.youtube.com/watch?v=tZyyOpWffeA",
+      "hasDetail": true
+    },
+    {
+      "episode": 274,
+      "airDate": "2020-12-25",
+      "summary": "Discussing how we should deal with trolls",
+      "youTubeURL": "https://www.youtube.com/watch?v=T4O1sUON4PQ",
+      "hasDetail": true
+    },
+    {
+      "episode": 273,
+      "airDate": "2020-12-24",
+      "summary": "An unstructured Christmas chat because Tim Miller seems like he needs some socializing.",
+      "youTubeURL": "https://www.youtube.com/watch?v=QErvngVOlO4",
+      "guestNames": [
+        "Tim Miller"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 272,
+      "airDate": "2020-12-23",
+      "summary": "Discussing Reconstruction and its contemporary relevance.",
+      "youTubeURL": "https://www.youtube.com/watch?v=YRkz6oZAAw8",
+      "guestNames": [
+        "Heather Cox Richardson"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 271,
+      "airDate": "2020-12-22",
+      "summary": "Discussing how to protect democracy in the post-Trump era",
+      "youTubeURL": "https://www.youtube.com/watch?v=fSdZ70zfy5w",
+      "guestNames": [
+        "Jonathan Rauch",
+        "Norm Eisen"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 270,
+      "airDate": "2020-12-21",
+      "youTubeURL": "https://www.youtube.com/watch?v=wY23aj4n2qw",
+      "guestNames": [
+        "Kaeli Swift"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 269,
+      "airDate": "2020-12-20",
+      "summary": "Mystery guest Sunday, Ben edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=tXLTB5Ce8ws",
+      "guestNames": [
+        "Jasmine El-Gamal"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 268,
+      "airDate": "2020-12-19",
+      "youTubeURL": "https://www.youtube.com/watch?v=CE_4BKcVSU0",
+      "hasDetail": false
+    },
+    {
+      "episode": 267,
+      "airDate": "2020-12-18",
+      "youTubeURL": "https://www.youtube.com/watch?v=RC_AC7fnoGE",
+      "guestNames": [
+        "Mieke Eoyang"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 266,
+      "airDate": "2020-12-17",
+      "summary": "Discussing the intersection of encryption and policy",
+      "youTubeURL": "https://www.youtube.com/watch?v=a--gEBefIgc",
+      "guestNames": [
+        "Susan Landau"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 265,
+      "airDate": "2020-12-16",
+      "summary": "Discussing the challenges of distributing and providing COVID vaccines",
+      "youTubeURL": "https://www.youtube.com/watch?v=f65-vHSUKWE",
+      "guestNames": [
+        "Andy Slavitt"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 264,
+      "airDate": "2020-12-15",
+      "summary": "Discussing the work of the late John Le Carré",
+      "youTubeURL": "https://www.youtube.com/watch?v=bTC8OWALM5A",
+      "guestNames": [
+        "Peter Strzok"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 263,
+      "airDate": "2020-12-14",
+      "summary": "Discussing the Electoral College voting (holi)day",
+      "youTubeURL": "https://www.youtube.com/watch?v=a1jn8mGwENE",
+      "guestNames": [
+        "Asha Rangappa"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 262,
+      "airDate": "2020-12-13",
+      "summary": "Mystery guest Sunday, Kate edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=kNZIY9tbA3E",
+      "guestNames": [
+        "Sarah Longwell"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 261,
+      "airDate": "2020-12-12",
+      "youTubeURL": "https://www.youtube.com/watch?v=dFu7ytJ7Kk8",
+      "hasDetail": false
+    },
+    {
+      "episode": 260,
+      "airDate": "2020-12-11",
+      "summary": "Discussing the recurring thread of secessionism",
+      "youTubeURL": "https://www.youtube.com/watch?v=Di3mboLk0SE",
+      "guestNames": [
+        "David French"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 259,
+      "airDate": "2020-12-10",
+      "youTubeURL": "https://www.youtube.com/watch?v=AQb8KKaGq9U",
+      "guestNames": [
+        "Jonathan Rauch",
+        "Scott Shapiro"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 258,
+      "airDate": "2020-12-09",
+      "youTubeURL": "https://www.youtube.com/watch?v=StliDV4COnA",
+      "guestNames": [
+        "Alex Finley"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 257,
+      "airDate": "2020-12-08",
+      "youTubeURL": "https://www.youtube.com/watch?v=MLPGwjChoSc",
+      "guestNames": [
+        "Nicholson Price"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 256,
+      "airDate": "2020-12-07",
+      "summary": "Discussing intellectual property and video games",
+      "youTubeURL": "https://www.youtube.com/watch?v=peCWcgcgF0g",
+      "guestNames": [
+        "Mark Lemley"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 255,
+      "airDate": "2020-12-06",
+      "summary": "Mystery Guest Sunday, Ben edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=psqDvBzQR6s",
+      "guestNames": [
+        "Juliette Kayyem"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 254,
+      "airDate": "2020-12-05",
+      "youTubeURL": "https://www.youtube.com/watch?v=VuNPsHiZ4sU",
+      "hasDetail": false
+    },
+    {
+      "episode": 253,
+      "airDate": "2020-12-04",
+      "youTubeURL": "https://www.youtube.com/watch?v=z7ySnQu3SzE",
+      "guestNames": [
+        "David Kaye"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 252,
+      "airDate": "2020-12-03",
+      "youTubeURL": "https://www.youtube.com/watch?v=y5jTbsvd3rA",
+      "guestNames": [
+        "Marc Polymeropoulos"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 251,
+      "airDate": "2020-12-02",
+      "youTubeURL": "https://www.youtube.com/watch?v=6lN5gpW-ACo",
+      "guestNames": [
+        "Sarah Bond"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 250,
+      "airDate": "2020-12-01",
+      "summary": "Discussing tax history and policy",
+      "youTubeURL": "https://www.youtube.com/watch?v=o-t4DgXDImA",
+      "guestNames": [
+        "Molly Michelmore",
+        "Vanessa Williamson"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 249,
+      "airDate": "2020-11-30",
+      "summary": "Discussing pandemic response and other affiliated topics",
+      "youTubeURL": "https://www.youtube.com/watch?v=kM2vt8T9l6Y",
+      "guestNames": [
+        "Alex Gibney"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 248,
+      "airDate": "2020-11-29",
+      "summary": "Mystery guest Sunday, Kate edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=q9Rrx-fqfb4",
+      "guestNames": [
+        "Molly Brady"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 247,
+      "airDate": "2020-11-28",
+      "youTubeURL": "https://www.youtube.com/watch?v=g50TVnrtE1Y",
+      "hasDetail": false
+    },
+    {
+      "episode": 246,
+      "airDate": "2020-11-27",
+      "summary": "Discussing all things related to espionage",
+      "youTubeURL": "https://www.youtube.com/watch?v=F0D8WNAReSo",
+      "guestNames": [
+        "John Sipher"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 245,
+      "airDate": "2020-11-26",
+      "summary": "Thanksgiving Day socializing",
+      "youTubeURL": "https://www.youtube.com/watch?v=DoRINMk1TnU",
+      "special": true,
+      "hasDetail": false
+    },
+    {
+      "episode": 244,
+      "airDate": "2020-11-25",
+      "youTubeURL": "https://www.youtube.com/watch?v=1MA_buwZrNs",
+      "guestNames": [
+        "Jennifer Mercieca"
+      ],
+      "links": [
+        {
+          "title": "Demagogue for President",
+          "url": "https://www.tamupress.com/book/9781623499068/demagogue-for-president/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 243,
+      "airDate": "2020-11-24",
+      "youTubeURL": "https://www.youtube.com/watch?v=KURMzOkhBsU",
+      "guestNames": [
+        "Jordan Ellenberg"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 242,
+      "airDate": "2020-11-23",
+      "summary": "Discussing the waning days of the Trump administration and its post-election thrashing",
+      "youTubeURL": "https://www.youtube.com/watch?v=CU8vi-jdZls",
+      "guestNames": [
+        "Jack Goldsmith"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 241,
+      "airDate": "2020-11-22",
+      "summary": "Continuing to interview audience members as guests",
+      "youTubeURL": "https://www.youtube.com/watch?v=Y4ycH8BmGDs",
+      "guestNames": [
+        "The Audience"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 240,
+      "airDate": "2020-11-21",
+      "youTubeURL": "https://www.youtube.com/watch?v=QNNMhxX5VVE",
+      "hasDetail": false
+    },
+    {
+      "episode": 239,
+      "airDate": "2020-11-20",
+      "summary": "The audience are the guests in this special edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=awOcDOJ6bHM",
+      "guestNames": [
+        "The Audience"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 238,
+      "airDate": "2020-11-19",
+      "summary": "Discussing acting, film, and interesting family stories",
+      "youTubeURL": "https://www.youtube.com/watch?v=1nY5IQS8xMQ",
+      "guestNames": [
+        "Alessandro Nivola"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 237,
+      "airDate": "2020-11-18",
+      "summary": "Discussing the ascertainment phase of the Presidential transition",
+      "youTubeURL": "https://www.youtube.com/watch?v=Sh59RzEherQ",
+      "guestNames": [
+        "Steve Vladeck"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 236,
+      "airDate": "2020-11-17",
+      "summary": "Discussing the effects of the Presidential transition at the Justice Department",
+      "youTubeURL": "https://www.youtube.com/watch?v=6oXWQgdVi4Y",
+      "guestNames": [
+        "Carrie Johnson"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 235,
+      "airDate": "2020-11-16",
+      "summary": "Discussing polling errors during the 2020 election campaign",
+      "youTubeURL": "https://www.youtube.com/watch?v=J2sGLujJvXQ",
+      "guestNames": [
+        "Natalie Jackson"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 234,
+      "airDate": "2020-11-15",
+      "summary": "Mystery Guest Sunday, Kate edition, and with no Ben due to lack of Internet",
+      "guestNames": [
+        "Anna Salvatore"
+      ],
+      "links": [
+        {
+          "title": "High School SCOTUS",
+          "url": "https://highschoolscotus.wordpress.com/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 233,
+      "airDate": "2020-11-14",
+      "youTubeURL": "https://www.youtube.com/watch?v=ymYTmjB4-Ms",
+      "hasDetail": false
+    },
+    {
+      "episode": 232,
+      "airDate": "2020-11-13",
+      "youTubeURL": "https://www.youtube.com/watch?v=fOxisRx2HZY",
+      "guestNames": [
+        "John Q. Barrett"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 231,
+      "airDate": "2020-11-12",
+      "youTubeURL": "https://www.youtube.com/watch?v=OQGkXJut-iw",
+      "guestNames": [
+        "David Allen Green"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 230,
+      "airDate": "2020-11-11",
+      "summary": "Discussing the current status of the election results, vaccine research, and so on",
+      "youTubeURL": "https://www.youtube.com/watch?v=igL6xwn9_38",
+      "guestNames": [
+        "Jonathan Rauch"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 229,
+      "airDate": "2020-11-10",
+      "summary": "Discussing vaccines, political perfidy, and other topics as arise",
+      "youTubeURL": "https://www.youtube.com/watch?v=YPKc_Gnt7Mw",
+      "guestNames": [
+        "Mike Pesca"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 228,
+      "airDate": "2020-11-09",
+      "summary": "Discussing the results of the now-almost-certainly-settled Presidental election",
+      "youTubeURL": "https://www.youtube.com/watch?v=7qAdG5LaMT0",
+      "guestNames": [
+        "Bill Galston"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 227,
+      "airDate": "2020-11-08",
+      "summary": "Mystery Guest Sunday, Ben edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=Hu4Ny8H1axQ",
+      "guestNames": [
+        "David Priess"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 226,
+      "airDate": "2020-11-07",
+      "youTubeURL": "https://www.youtube.com/watch?v=BtfwthFPM1E",
+      "hasDetail": false
+    },
+    {
+      "episode": 225,
+      "airDate": "2020-11-06",
+      "summary": "Bidding farewell to Trump and Trumpcast, with a visit from its esteemed host",
+      "youTubeURL": "https://www.youtube.com/watch?v=u7AKZ4nRnew",
+      "guestNames": [
+        "Virginia Heffernan",
+        "Windsor Mann"
+      ],
+      "links": [
+        {
+          "title": "Trumpcast",
+          "url": "https://slate.com/podcasts/trumpcast"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 224,
+      "airDate": "2020-11-05",
+      "summary": "Discussing the election results on this Guy Fawkes Day, also Ben's birthday",
+      "youTubeURL": "https://www.youtube.com/watch?v=kK8LaJ8G61w",
+      "special": true,
+      "guestNames": [
+        "Tim Miller"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 223,
+      "airDate": "2020-11-04",
+      "summary": "Discussing what we know after the closing of the polls",
+      "youTubeURL": "https://www.youtube.com/watch?v=VzBegfTYsBg",
+      "guestNames": [
+        "Alan Rozenshtein"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 222,
+      "airDate": "2020-11-03",
+      "summary": "Anxiety, angst, and existential ennui on the occasion of Election Day",
+      "youTubeURL": "https://www.youtube.com/watch?v=qypPonDFFrE",
+      "guestNames": [
+        "Preet Bharara"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 221,
+      "airDate": "2020-11-02",
+      "summary": "A round-up of previous guests discussing the momentous occasion upon us",
+      "youTubeURL": "https://www.youtube.com/watch?v=7ugrrV5cmys",
+      "guestNames": [
+        "Election 2020 Panel"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 220,
+      "airDate": "2020-11-01",
+      "summary": "The last undecided voter in America discusses his thought process with the maven of focus groups",
+      "youTubeURL": "https://www.youtube.com/watch?v=t4sB38MzEpk",
+      "guestNames": [
+        "Sarah Longwell",
+        "Scott Shapiro"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 219,
+      "airDate": "2020-10-31",
+      "summary": "The Lisa Page Puppet comes to life for Halloween",
+      "youTubeURL": "https://www.youtube.com/watch?v=iBFOul1jRS8",
+      "guestNames": [
+        "Lisa Page"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 218,
+      "airDate": "2020-10-30",
+      "summary": "Salvaging what fun there is to be had in the upcoming election (part 3)",
+      "youTubeURL": "https://www.youtube.com/watch?v=OC0jlnCTul8",
+      "guestNames": [
+        "Alexandra Petri",
+        "Dan Drezner"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 217,
+      "airDate": "2020-10-29",
+      "summary": "Salvaging what fun there is to be had in the upcoming election (part 2)",
+      "youTubeURL": "https://www.youtube.com/watch?v=QykRDa5P1D0",
+      "guestNames": [
+        "Ken White",
+        "Matthew Miller"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 216,
+      "airDate": "2020-10-28",
+      "summary": "Salvaging what fun there is to be had in the upcoming election (part 1)",
+      "youTubeURL": "https://www.youtube.com/watch?v=E4d5IfdYsz0",
+      "guestNames": [
+        "Mike Chase",
+        "Virginia Heffernan"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 215,
+      "airDate": "2020-10-27",
+      "youTubeURL": "https://www.youtube.com/watch?v=TIzhg1_Sbj4",
+      "guestNames": [
+        "Kashmir Hill"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 214,
+      "airDate": "2020-10-26",
+      "summary": "Discussing foreign interference in the U.S. elections",
+      "youTubeURL": "https://www.youtube.com/watch?v=-UKI6az9s3Q",
+      "guestNames": [
+        "Laura Rosenberger"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 213,
+      "airDate": "2020-10-25",
+      "summary": "Mystery Guest Sunday, Kate edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=egFO8GA2tGg",
+      "guestNames": [
+        "Samm Sacks"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 212,
+      "airDate": "2020-10-24",
+      "summary": "Planning for the upcoming Election Day show",
+      "youTubeURL": "https://www.youtube.com/watch?v=eEQtgehlj1M",
+      "hasDetail": false
+    },
+    {
+      "episode": 211,
+      "airDate": "2020-10-23",
+      "youTubeURL": "https://www.youtube.com/watch?v=S895vcknwRQ",
+      "guestNames": [
+        "Brian Beutler"
+      ],
+      "links": [
+        {
+          "title": "Crooked Media",
+          "url": "https://crooked.com/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 210,
+      "airDate": "2020-10-22",
+      "summary": "Discussing the challenges of reforming criminal justice and policing",
+      "youTubeURL": "https://www.youtube.com/watch?v=16M4qGJIF3E",
+      "guestNames": [
+        "Scott Hechinger"
+      ],
+      "links": [
+        {
+          "title": "The Zealous Project",
+          "url": "https://zealo.us"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 209,
+      "airDate": "2020-10-21",
+      "summary": "Ben & Kate help Jonathan workshop the draft of his forthcoming book",
+      "youTubeURL": "https://www.youtube.com/watch?v=nRv6TJGsuTc",
+      "guestNames": [
+        "Jonathan Rauch"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 208,
+      "airDate": "2020-10-20",
+      "summary": "Discussing Emily's recent article on the future of free speech and disinformation",
+      "youTubeURL": "https://www.youtube.com/watch?v=BvhCIt-mGXA",
+      "guestNames": [
+        "Emily Bazelon",
+        "Sarah Longwell"
+      ],
+      "links": [
+        {
+          "title": "NYT Magazine",
+          "url": "https://www.nytimes.com/2020/10/13/magazine/free-speech.html"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 207,
+      "airDate": "2020-10-19",
+      "summary": "Discussing remedies for U.S. diplomacy and lost prestige",
+      "youTubeURL": "https://www.youtube.com/watch?v=wKtRHQBPXRs",
+      "guestNames": [
+        "Kori Schake"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 206,
+      "airDate": "2020-10-18",
+      "summary": "Mystery Guest Sunday, Ben edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=xgGOnMfQba4",
+      "guestNames": [
+        "Annie Karni",
+        "Jonathan Rauch"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 205,
+      "airDate": "2020-10-17",
+      "youTubeURL": "https://www.youtube.com/watch?v=2VOHisbZYp4",
+      "hasDetail": false
+    },
+    {
+      "episode": 204,
+      "airDate": "2020-10-16",
+      "summary": "Discussing the Barrett confirmation hearings, the closing days of the election, disinformation, and conspiracy theories",
+      "youTubeURL": "https://www.youtube.com/watch?v=GzHQ-Qr0pDY",
+      "guestNames": [
+        "Daniel Klaidman"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 203,
+      "airDate": "2020-10-15",
+      "summary": "Discussing the supreme court nomination hearing for Amy Coney Barrett",
+      "youTubeURL": "https://www.youtube.com/watch?v=21_idUhpSQ4",
+      "guestNames": [
+        "Dahlia Lithwick",
+        "Kate Shaw",
+        "Leah Litman"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 202,
+      "airDate": "2020-10-14",
+      "summary": "Discussing the nail-biting, hair-raising days in advance of vote counting",
+      "youTubeURL": "https://www.youtube.com/watch?v=khcni8KaSt8",
+      "guestNames": [
+        "Tim Miller"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 201,
+      "airDate": "2020-10-13",
+      "summary": "Discussing the recent white nationalist kidnapping and coup attempt in Michigan",
+      "youTubeURL": "https://www.youtube.com/watch?v=gqz_CrXfjes",
+      "guestNames": [
+        "Kathleen Belew"
+      ],
+      "links": [
+        {
+          "title": "New York Times",
+          "url": "https://www.nytimes.com/2020/10/02/opinion/trump-proud-boys.html"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 200,
+      "airDate": "2020-10-12",
+      "summary": "For the 200th episode of ILoF, a crossover with the hosts of The New Abnormal",
+      "youTubeURL": "https://www.youtube.com/watch?v=zhsY44y_8fc",
+      "special": true,
+      "guestNames": [
+        "Molly Jong-Fast",
+        "Rick Wilson"
+      ],
+      "links": [
+        {
+          "title": "The New Abnormal",
+          "url": "https://podcasts.apple.com/us/podcast/the-new-abnormal-with-molly-jong-fast-rick-wilson/id1508202790"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 199,
+      "airDate": "2020-10-11",
+      "summary": "Mystery Guest Sunday, Kate edition; double the Kates or your money back",
+      "youTubeURL": "https://www.youtube.com/watch?v=iXbRHHUX2LE",
+      "guestNames": [
+        "Kate Gage"
+      ],
+      "links": [
+        {
+          "title": "People's Action",
+          "url": "https://peoplesaction.org/"
+        },
+        {
+          "title": "How to Save a Planet",
+          "url": "https://podcasts.apple.com/us/podcast/how-to-save-a-planet/id1525955817?i=1000492414039"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 198,
+      "airDate": "2020-10-10",
+      "youTubeURL": "https://www.youtube.com/watch?v=XDVQ2N1sjvM",
+      "hasDetail": true
+    },
+    {
+      "episode": 197,
+      "airDate": "2020-10-09",
+      "summary": "Discussing the phenomenon of \"court packing\"",
+      "youTubeURL": "https://www.youtube.com/watch?v=V6teeTrEusU",
+      "guestNames": [
+        "Jack Balkin"
+      ],
+      "links": [
+        {
+          "title": "Balkinization",
+          "url": "https://balkin.blogspot.com/2020/10/dont-pack-court-regularize-appointments.html"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 196,
+      "airDate": "2020-10-08",
+      "summary": "Discussing the risks of the President undermining the upcoming election",
+      "youTubeURL": "https://www.youtube.com/watch?v=QCtsfwdBkr0",
+      "guestNames": [
+        "Barton Gellman"
+      ],
+      "links": [
+        {
+          "title": "The Atlantic",
+          "url": "https://www.theatlantic.com/magazine/archive/2020/11/what-if-trump-refuses-concede/616424/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 195,
+      "airDate": "2020-10-07",
+      "summary": "Discussing life in the public eye, the value of public service, and missing being the grey man",
+      "youTubeURL": "https://www.youtube.com/watch?v=lgw7bJeL_jE",
+      "guestNames": [
+        "Peter Strzok"
+      ],
+      "links": [
+        {
+          "title": "Compromised",
+          "url": "https://www.hmhbooks.com/shop/books/Compromised/9780358237532"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 194,
+      "airDate": "2020-10-06",
+      "summary": "Discussing the Presidential COVID affliction and its consequences",
+      "youTubeURL": "https://www.youtube.com/watch?v=vxaNIpt_Xqk",
+      "guestNames": [
+        "Natasha Bertrand"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 193,
+      "airDate": "2020-10-05",
+      "summary": "Discussing the challenges of working for racial justice, and how to balance time and resources when there is so much work still to do",
+      "youTubeURL": "https://www.youtube.com/watch?v=CqFFOWNlFZs",
+      "guestNames": [
+        "Camille Busette"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 192,
+      "airDate": "2020-10-04",
+      "summary": "Mystery Guest Sunday, Ben edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=ZQgY7eaMoXk",
+      "guestNames": [
+        "Michael Sean Winters"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 191,
+      "airDate": "2020-10-03",
+      "youTubeURL": "https://www.youtube.com/watch?v=bLVtGFb7lzY",
+      "hasDetail": false
+    },
+    {
+      "episode": 190,
+      "airDate": "2020-10-02",
+      "youTubeURL": "https://www.youtube.com/watch?v=zL75z7Vb3DY",
+      "guestNames": [
+        "Windsor Mann"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 189,
+      "airDate": "2020-10-01",
+      "summary": "Discussing how to save the Republic; insights from focus groups after the first night of debates, and what stories enable voters to change their minds",
+      "youTubeURL": "https://www.youtube.com/watch?v=K1-Q0W3hrgU",
+      "guestNames": [
+        "Sarah Longwell"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 188,
+      "airDate": "2020-09-30",
+      "summary": "Discussing the first round of presidential debase held last night",
+      "youTubeURL": "https://www.youtube.com/watch?v=eLgfz4m8FYo",
+      "guestNames": [
+        "Tom Nichols"
+      ],
+      "links": [
+        {
+          "title": "The Death of Expertise",
+          "url": "https://global.oup.com/academic/product/the-death-of-expertise-9780190469412"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 187,
+      "airDate": "2020-09-29",
+      "summary": "Discussing the leaked FinCEN files, their implications and consequences",
+      "youTubeURL": "https://www.youtube.com/watch?v=crBIHinifCM",
+      "guestNames": [
+        "Jason Leopold"
+      ],
+      "links": [
+        {
+          "title": "Background",
+          "url": "https://en.wikipedia.org/wiki/FinCEN_Files"
+        },
+        {
+          "title": "FinCEN files",
+          "url": "https://www.buzzfeednews.com/fincen-files"
+        },
+        {
+          "title": "Suspicious Activity (podcast)",
+          "url": "https://open.spotify.com/show/5RMdM2ropEmNNoguvU0J27?si=fs5urnh8RhS3dkZWtOhlvA"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 186,
+      "airDate": "2020-09-28",
+      "summary": "Discussing computing, language, artificial intelligence, and the Singularity",
+      "youTubeURL": "https://www.youtube.com/watch?v=5dWDRR4w8Yw",
+      "guestNames": [
+        "Brian Christian"
+      ],
+      "links": [
+        {
+          "title": "The Alignment Problem",
+          "url": "https://brianchristian.org/the-alignment-problem/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 185,
+      "airDate": "2020-09-27",
+      "summary": "Mystery Guest Sunday, Kate edition; discussing the Supreme Court nomination, the sudden release of Presidential tax returns, and sestinas about Rochester, NY",
+      "youTubeURL": "https://www.youtube.com/watch?v=OEa0_L43E-M",
+      "guestNames": [
+        "Alan Rozenshtein"
+      ],
+      "links": [
+        {
+          "title": "Sestina D'Inverno",
+          "url": "https://philebersole.wordpress.com/2011/02/09/sestina-dinverno-by-anthony-hecht-2/"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 184,
+      "airDate": "2020-09-26",
+      "youTubeURL": "https://www.youtube.com/watch?v=HQrplHu46Rc",
+      "hasDetail": false
+    },
+    {
+      "episode": 183,
+      "airDate": "2020-09-25",
+      "summary": "Discussing political progress in Belarus; strategies and tactics for responding to authoritarian populism; dealing with COVID-19",
+      "youTubeURL": "https://www.youtube.com/watch?v=LUYaVkgRhao",
+      "guestNames": [
+        "Anne Applebaum"
+      ],
+      "links": [
+        {
+          "title": "The Twilight of Democracy",
+          "url": "https://en.wikipedia.org/wiki/Twilight_of_Democracy"
+        },
+        {
+          "title": "The Atlantic",
+          "url": "https://www.theatlantic.com/ideas/archive/2020/08/22-year-old-blogger-behind-protests-belarus/615526/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 182,
+      "airDate": "2020-09-24",
+      "summary": "A somewhat sarcastic but thoughtful discussion about norms and balance in political discourse",
+      "youTubeURL": "https://www.youtube.com/watch?v=aq7UDcCx1f4",
+      "guestNames": [
+        "Scott Shapiro"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 181,
+      "airDate": "2020-09-23",
+      "summary": "Discussing the origins of the word \"intelligence\" as a term for espionage",
+      "youTubeURL": "https://www.youtube.com/watch?v=49DMJQlanD4",
+      "guestNames": [
+        "David Priess"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 180,
+      "airDate": "2020-09-22",
+      "summary": "Discussing the forthcoming action in the Senate; predictions both optimistic and pessimistic",
+      "youTubeURL": "https://www.youtube.com/watch?v=x1nLBpTfwm4",
+      "special": true,
+      "guestNames": [
+        "Sarah Longwell"
+      ],
+      "links": [
+        {
+          "title": "Show reel 1",
+          "url": "https://twitter.com/Klonick/status/1308484591876014088/video/1"
+        },
+        {
+          "title": "Show reel 2",
+          "url": "https://twitter.com/Klonick/status/1308485185101598722/video/1"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 179,
+      "airDate": "2020-09-21",
+      "summary": "Discussing the chances of a SCOTUS appointment before the election, and what comes after",
+      "youTubeURL": "https://www.youtube.com/watch?v=F55yBPHQT98",
+      "guestNames": [
+        "David Frum"
+      ],
+      "links": [
+        {
+          "title": "Trumpocalypse",
+          "url": "https://www.harpercollins.com/products/trumpocalypse-david-frum?variant=32116410613794"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 178,
+      "airDate": "2020-09-20",
+      "summary": "Mystery Guest Sunday, Ben edition; discussing disinformation, political campaigns, chai-flavoured rum, and show planning",
+      "youTubeURL": "https://www.youtube.com/watch?v=0fRVyQrrCvE",
+      "guestNames": [
+        "Lisa Kaplan"
+      ],
+      "links": [
+        {
+          "title": "The Alethea Group",
+          "url": "https://www.aletheagroup.com/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 177,
+      "airDate": "2020-09-19",
+      "summary": "In memory of Justice Ruth Bader Ginsburg's passing last night, we share anecdotes and reflections on her contributions; show planning is deferred until tomorrow",
+      "youTubeURL": "https://www.youtube.com/watch?v=snDfDAEOGys",
+      "guestNames": [
+        "Susan Hennessey"
+      ],
+      "links": [
+        {
+          "title": "NPR",
+          "url": "https://www.npr.org/2020/09/18/100306972/justice-ruth-bader-ginsburg-champion-of-gender-equality-dies-at-87"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 176,
+      "airDate": "2020-09-18",
+      "summary": "Discussing misinformation, disinformation, semantic drift, and the helpful and harmful use of social media during times of crisis",
+      "youTubeURL": "https://www.youtube.com/watch?v=o263XdLEu94",
+      "guestNames": [
+        "Kate Starbird"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 175,
+      "airDate": "2020-09-17",
+      "summary": "Discussing the unhinged speeches and conduct of Attorney General Bill Barr in the past few days",
+      "youTubeURL": "https://www.youtube.com/watch?v=9MJPx0f2zUY",
+      "guestNames": [
+        "Bianna Golodryga"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 174,
+      "airDate": "2020-09-16",
+      "summary": "Discussing human rights law in Egypt and the wider Middle East, challenges for lawyers, reporters, and citizens in the face of authoritarian consolidation",
+      "youTubeURL": "https://www.youtube.com/watch?v=JuMXCFnvEs4",
+      "guestNames": [
+        "Mai El-Sadany"
+      ],
+      "links": [
+        {
+          "title": "Tahrir Institute",
+          "url": "https://timep.org"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 173,
+      "airDate": "2020-09-15",
+      "summary": "Discussing the new book, \"Social Media & Democracy\", and whether, in fact, social media can be compatible with democracy",
+      "youTubeURL": "https://www.youtube.com/watch?v=MLoolDkh6zo",
+      "guestNames": [
+        "Joshua Tucker",
+        "Nate Persily"
+      ],
+      "links": [
+        {
+          "title": "Social Media & Democracy",
+          "url": "https://www.cambridge.org/core/books/social-media-and-democracy/E79E2BBF03C18C3A56A5CC393698F117"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 172,
+      "airDate": "2020-09-14",
+      "summary": "Discussing Season 2 of the Conspiracyland podcast",
+      "youTubeURL": "https://www.youtube.com/watch?v=t9SaaKyjMZc",
+      "guestNames": [
+        "Michael Isikoff"
+      ],
+      "links": [
+        {
+          "title": "Conspiracyland",
+          "url": "https://podcasts.apple.com/us/podcast/conspiracyland/id1471037693"
+        },
+        {
+          "title": "Skullduggery",
+          "url": "https://podcasts.apple.com/us/podcast/skullduggery/id1333621434"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 171,
+      "airDate": "2020-09-13",
+      "summary": "Mystery Guest Sunday, Kate edition",
+      "youTubeURL": "https://www.youtube.com/watch?v=57r8IdTQNCU",
+      "guestNames": [
+        "Jeff Horwitz"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 170,
+      "airDate": "2020-09-12",
+      "youTubeURL": "https://www.youtube.com/watch?v=NahvU8N7sKk",
+      "hasDetail": false
+    },
+    {
+      "episode": 169,
+      "airDate": "2020-09-11",
+      "youTubeURL": "https://www.youtube.com/watch?v=SpDQ4fPr-b0",
+      "guestNames": [
+        "Ben Smith"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 168,
+      "airDate": "2020-09-10",
+      "youTubeURL": "https://www.youtube.com/watch?v=W0S81RJiyjY",
+      "guestNames": [
+        "Emily Bazelon"
+      ],
+      "links": [
+        {
+          "title": "Emily's books",
+          "url": "https://emilybazelon.com/books/"
+        },
+        {
+          "title": "Will This Be a Lost Year for America's Children?",
+          "url": "https://www.nytimes.com/interactive/2020/09/11/magazine/covid-school-reopenings.html"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 167,
+      "airDate": "2020-09-09",
+      "summary": "Discussing the intelligence, problem-solving, and cultural impact of crows and other corvids; how misinformation and disformation propagate through communication networks",
+      "youTubeURL": "https://www.youtube.com/watch?v=TLrLor6Fd-4",
+      "guestNames": [
+        "Carl T. Bergstrom"
+      ],
+      "links": [
+        {
+          "title": "Calling Bullshit",
+          "url": "https://www.penguinrandomhouse.com/books/563882/calling-bullshit-by-carl-t-bergstrom-and-jevin-d-west/"
+        },
+        {
+          "title": "bird photography",
+          "url": "http://ctbergstrom.com/birds.html"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 166,
+      "airDate": "2020-09-08",
+      "summary": "Discussing journalism, history, and the demographics of the upcoming election; it is widely agreed one hour is not nearly enough time with Jamelle",
+      "youTubeURL": "https://www.youtube.com/watch?v=AK0Fg2peBnw",
+      "guestNames": [
+        "Jamelle Bouie"
+      ],
+      "links": [
+        {
+          "title": "Jamelle's newsletter",
+          "url": "https://www.nytimes.com/newsletters/jamellebouie"
+        },
+        {
+          "title": "Paths Out of Dixie",
+          "url": "https://press.princeton.edu/books/hardcover/9780691133386/paths-out-of-dixie"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 165,
+      "airDate": "2020-09-07",
+      "summary": "Discussing the effects of technology and automation on working life, attitudes toward work, entitlements, and social effects",
+      "youTubeURL": "https://www.youtube.com/watch?v=04F3uQw-SBA",
+      "guestNames": [
+        "Cynthia Estlund"
+      ],
+      "links": [
+        {
+          "title": "A New Deal for China's Workers?",
+          "url": "https://www.hup.harvard.edu/catalog.php?isbn=9780674971394"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 164,
+      "airDate": "2020-09-06",
+      "summary": "Ben brings two mystery guests, Ian live in person at the Cabin in the Woods, and Dan, in the more conventional way, to talk about the lack of good election podcasts and how (or whether) to fix it",
+      "youTubeURL": "https://www.youtube.com/watch?v=KLz0BRDRvDM",
+      "guestNames": [
+        "Dan Drezner",
+        "Ian Enright"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 163,
+      "airDate": "2020-09-05",
+      "summary": "It turns out that Kate has already planned a fantastic guest lineup for the coming week, so we spend the rest of the episode in a vibrant  discussion of current events",
+      "youTubeURL": "https://www.youtube.com/watch?v=_yLWtVwuZQ8",
+      "hasDetail": false
+    },
+    {
+      "episode": 162,
+      "airDate": "2020-09-04",
+      "summary": "Discussing the Internet as the Roman roads of the modern economy; the difference between thriving democracies and captured states; Adam's new podcasting company",
+      "youTubeURL": "https://www.youtube.com/watch?v=Z75Svn6DyQA",
+      "guestNames": [
+        "Adam Davidson"
+      ],
+      "links": [
+        {
+          "title": "The Passion Economy",
+          "url": "https://www.threeuncannyfour.com/passion-economy.html"
+        },
+        {
+          "title": "Planet Money",
+          "url": "https://www.npr.org/podcasts/510289/planet-money"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 161,
+      "airDate": "2020-09-03",
+      "summary": "Discussing the impending destruction of the U.S. East Coast, how Alan learned to cook; how Kate got her hand crushed by a car; and how old Alan was before he realized islands do not float. Vain attempts are made to figure out Bill Barr",
+      "youTubeURL": "https://www.youtube.com/watch?v=gAyz4HDjwf8",
+      "guestNames": [
+        "Alan Rozenshtein"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 160,
+      "airDate": "2020-09-02",
+      "summary": "Discussing Michel's new book, \"Last Mission to Tokyo\", Kate's scandalous Twitter ban",
+      "youTubeURL": "https://www.youtube.com/watch?v=64g5GEkeQqQ",
+      "guestNames": [
+        "Michel Paradis"
+      ],
+      "links": [
+        {
+          "title": "Last Mission to Tokyo",
+          "url": "http://www.lastmissiontotokyo.com/"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 159,
+      "airDate": "2020-09-01",
+      "summary": "Discussing the President's roundtable in Kenosha; the (new) New Abnormal podcast; the future of Republicanism after Trump",
+      "youTubeURL": "https://www.youtube.com/watch?v=eR1XnAxWWzs",
+      "guestNames": [
+        "Molly Jong-Fast"
+      ],
+      "links": [
+        {
+          "title": "The New Abnormal",
+          "url": "https://podcasts.apple.com/us/podcast/the-new-abnormal/id1508202790"
+        },
+        {
+          "title": "Lawfare Turns Ten",
+          "url": "https://www.lawfareblog.com/lawfare-turns-ten"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 158,
+      "airDate": "2020-08-31",
+      "summary": "Discussing Paul's recent article on client-side scanning",
+      "youTubeURL": "https://www.youtube.com/watch?v=TZ4HuVKa4uM",
+      "guestNames": [
+        "Alex Stamos",
+        "Paul Rosenzweig"
+      ],
+      "links": [
+        {
+          "title": "Lawfare",
+          "url": "https://www.lawfareblog.com/law-and-policy-client-side-scanning"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 157,
+      "airDate": "2020-08-30",
+      "summary": "Discussing preparations to teach in-person in the age of coronavirus; the difficulty and expense of getting good course materials, and being stood up by Kate for a lunch meeting.",
+      "youTubeURL": "https://www.youtube.com/watch?v=pW1VsRPfwCg",
+      "guestNames": [
+        "Jeremy Sheff"
+      ],
+      "links": [
+        {
+          "title": "Open-Source Property",
+          "url": "https://opensourceproperty.org/"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 156,
+      "airDate": "2020-08-29",
+      "summary": "In addition to planning the show for the next week, we discuss the new merch store, and ask the audience to vote on which charity should receive the proceeds.",
+      "youTubeURL": "https://www.youtube.com/watch?v=wrcp3CbSjC8",
+      "links": [
+        {
+          "title": "ILoF Bloopers",
+          "url": "https://www.youtube.com/watch?v=M-6N3kMV0QQ"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 155,
+      "airDate": "2020-08-28",
+      "summary": "Introducing a new feature, \"Guests Gone Wild\", in which former guests return to talk among themselves while Kate and Ben sit back and (mostly) just watch.",
+      "youTubeURL": "https://www.youtube.com/watch?v=XRC0lousV1o",
+      "guestNames": [
+        "Danielle Citron",
+        "Rachel \"The Doc\" Bitecofer",
+        "Tim Miller"
+      ],
+      "links": [
+        {
+          "title": "What it Takes",
+          "url": "https://en.wikipedia.org/wiki/What_It_Takes:_The_Way_to_the_White_House"
+        },
+        {
+          "title": "The Bulwark",
+          "url": "https://thebulwark.com/author/tim-miller/"
+        },
+        {
+          "title": "Hate Crimes in Cyberspace",
+          "url": "https://www.hup.harvard.edu/catalog.php?isbn=9780674659902"
+        },
+        {
+          "title": "Election Whisperer",
+          "url": "https://oldbull.tv/tew/"
+        },
+        {
+          "title": "DoJ memorandum",
+          "url": "https://www.justice.gov/file/19351/download"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 154,
+      "airDate": "2020-08-27",
+      "summary": "Discussing the Senate Intelligence Commitee's Russia report",
+      "topics": "Senate intelligence committee report, Russia, compromat",
+      "youTubeURL": "https://www.youtube.com/watch?v=z2onIuNc0F8",
+      "guestNames": [
+        "Margaret Taylor"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 153,
+      "airDate": "2020-08-26",
+      "summary": "Discussing how political outlooks change over time, and how rapid access to data via the Internet affects attitudes about elections. Concerns about the loss of public trust in the electoral process, loss of faith in expertise. The trade-offs of voting in-person vs. by mail.",
+      "topics": "political polarization, public trust, expertise, voting",
+      "youTubeURL": "https://www.youtube.com/watch?v=LO2nnELFW4M",
+      "guestNames": [
+        "Richard Pildes"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 152,
+      "airDate": "2020-08-25",
+      "summary": "Discussing election modeling and forecasting, polls, and crystal balls.",
+      "youTubeURL": "https://www.youtube.com/watch?v=nphZCMuhgUU",
+      "guestNames": [
+        "Rachel \"The Doc\" Bitecofer"
+      ],
+      "links": [
+        {
+          "title": "Niskanen Center",
+          "url": "https://www.niskanencenter.org"
+        },
+        {
+          "title": "Lincoln Project",
+          "url": "https://lincolnproject.us"
+        },
+        {
+          "title": "The Election Whisperer",
+          "url": "https://oldbull.tv/tew/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 151,
+      "airDate": "2020-08-24",
+      "summary": "Founder of The Bulwark, discussing the party conventions, the future of principled conservatism, and other topics of interest for the upcoming U.S. elections.",
+      "youTubeURL": "https://www.youtube.com/watch?v=5LE3cZfkZJg",
+      "guestNames": [
+        "Charlie Sykes"
+      ],
+      "links": [
+        {
+          "title": "The Bulwark",
+          "url": "https://thebulwark.com"
+        },
+        {
+          "title": "Bulwark podcast",
+          "url": "https://podcast.thebulwark.com/"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 150,
+      "airDate": "2020-08-23",
+      "summary": "Discussing the Bannon indictment, the Geoffrey Berman incident, and the difficulties of wearing many hats in the legal/judicial world.",
+      "youTubeURL": "https://www.youtube.com/watch?v=ua64SYY08rE",
+      "guestNames": [
+        "Anne Milgram"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 149,
+      "airDate": "2020-08-22",
+      "summary": "Ben has a surprise for Kate. Mutual admiration ensues, followed by some deeper conversation on our troubling times.",
+      "youTubeURL": "https://www.youtube.com/watch?v=oLMErzS74xQ",
+      "links": [
+        {
+          "title": "Twitter Transparency Center",
+          "url": "https://transparency.twitter.com"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 148,
+      "airDate": "2020-08-21",
+      "summary": "A gentle lesson about the absurdity of indecision in the face of overwhelming evidence.",
+      "youTubeURL": "https://www.youtube.com/watch?v=rZotHWlMhhY",
+      "guestNames": [
+        "Scott Shapiro"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 147,
+      "airDate": "2020-08-20",
+      "summary": "Discussing the DNC convention, the future of conservatism, and the indictment of Steven K. Bannon. This surprises Kate for an interesting reason.",
+      "youTubeURL": "https://www.youtube.com/watch?v=0IJkgnR3hf4",
+      "guestNames": [
+        "Sarah Longwell"
+      ],
+      "links": [
+        {
+          "title": "WSJ",
+          "url": "https://www.wsj.com/articles/former-senior-trump-advisor-steve-bannon-charged-with-alleged-fundraising-scheme-11597931727"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 146,
+      "airDate": "2020-08-19",
+      "summary": "Discussing Jill's new book",
+      "youTubeURL": "https://www.youtube.com/watch?v=Q2bi51jt60g",
+      "guestNames": [
+        "Jill Filipovic"
+      ],
+      "links": [
+        {
+          "title": "OK Boomer, Let's Talk",
+          "url": "https://www.simonandschuster.com/books/OK-Boomer-Lets-Talk/Jill-Filipovic/9781982153762"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 145,
+      "airDate": "2020-08-18",
+      "summary": "Discussing Jack's new book",
+      "youTubeURL": "https://www.youtube.com/watch?v=hP32YJaaZYo",
+      "guestNames": [
+        "Jack Balkin"
+      ],
+      "links": [
+        {
+          "title": "Cycles of Constitutional Time",
+          "url": "https://global.oup.com/academic/product/the-cycles-of-constitutional-time-9780197530993"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 144,
+      "airDate": "2020-08-17",
+      "summary": "Discussing the effects of pandemic on government function, free speech, and assembly",
+      "youTubeURL": "https://www.youtube.com/watch?v=ADfzmr5JEk4",
+      "guestNames": [
+        "Jameel Jaffer"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 143,
+      "airDate": "2020-08-16",
+      "topics": "abuse on the internet, sextortion, revenge porn",
+      "youTubeURL": "https://www.youtube.com/watch?v=YCE1VteWyC0",
+      "guestNames": [
+        "Carrie Goldberg"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 142,
+      "airDate": "2020-08-15",
+      "youTubeURL": "https://www.youtube.com/watch?v=skQkiQIthwA",
+      "hasDetail": false
+    },
+    {
+      "episode": 141,
+      "airDate": "2020-08-14",
+      "summary": "Discussing election modeling and forecasting, polling",
+      "youTubeURL": "https://www.youtube.com/watch?v=jhlkNsXoZW4",
+      "guestNames": [
+        "Natalie Jackson"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 140,
+      "airDate": "2020-08-13",
+      "summary": "Discussing the history of the U.S. postal service",
+      "youTubeURL": "https://www.youtube.com/watch?v=KBR1Ou7Wf1g",
+      "guestNames": [
+        "Richard R. John"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 139,
+      "airDate": "2020-08-12",
+      "summary": "Discussing election modeling and the viability thereof",
+      "youTubeURL": "https://www.youtube.com/watch?v=U1S3QO0np08",
+      "guestNames": [
+        "G. Elliott Morris"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 138,
+      "airDate": "2020-08-11",
+      "summary": "Discussing the filibuster, and the live audience is polled about preferences for ILoF merchandise",
+      "youTubeURL": "https://www.youtube.com/watch?v=Esw2TN64jQg",
+      "guestNames": [
+        "Josh Chafetz"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 137,
+      "airDate": "2020-08-10",
+      "topics": "elections, journalism, otters",
+      "youTubeURL": "https://www.youtube.com/watch?v=w4gsTEKlYkI",
+      "guestNames": [
+        "Virginia Heffernan"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 136,
+      "airDate": "2020-08-09",
+      "summary": "Discussing the scope, history, and efficacy of executive orders",
+      "youTubeURL": "https://www.youtube.com/watch?v=Oq9qM1gngtw",
+      "guestNames": [
+        "Julian Davis Mortenson"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 135,
+      "airDate": "2020-08-08",
+      "youTubeURL": "https://www.youtube.com/watch?v=O2Y6hOeFwIE",
+      "hasDetail": false
+    },
+    {
+      "episode": 134,
+      "airDate": "2020-08-07",
+      "summary": "Discussion vaccines and vaccine trials, cononavirus, and Ben's childhood",
+      "youTubeURL": "https://www.youtube.com/watch?v=qzS31IHohvQ",
+      "guestNames": [
+        "Janet Turk Wittes"
+      ],
+      "links": [
+        {
+          "title": "Statistics Collaborative",
+          "url": "https://www.statcollab.com/"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 133,
+      "airDate": "2020-08-06",
+      "summary": "Discussing the PACER accessibility decision, and the importance of open access to court records",
+      "youTubeURL": "https://www.youtube.com/watch?v=gPk-OIxqFGA",
+      "guestNames": [
+        "Deepak Gupta"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 132,
+      "airDate": "2020-08-05",
+      "topics": "election, voting",
+      "youTubeURL": "https://www.youtube.com/watch?v=s_917Xl_5Qc",
+      "guestNames": [
+        "Nate Persily"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 131,
+      "airDate": "2020-08-04",
+      "summary": "Discussing the Axios interview released August 3, 2020",
+      "topics": "Trump Axios interview",
+      "youTubeURL": "https://www.youtube.com/watch?v=WUGRwJ_RKqk",
+      "guestNames": [
+        "Dan Drezner"
+      ],
+      "links": [
+        {
+          "title": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/this-is-the-cognitive-test-trump-didnt-pass-internet-reacts-to-presidents-shocking-axios-interview-2020-08-04"
+        },
+        {
+          "title": "Rolling Stone",
+          "url": "https://www.rollingstone.com/politics/politics-news/trump-axios-interview-jonathan-swan-1039137"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 130,
+      "airDate": "2020-08-03",
+      "topics": "tech, law, policy",
+      "youTubeURL": "https://www.youtube.com/watch?v=Hhzs5_gP29o",
+      "guestNames": [
+        "Kara Swisher"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 129,
+      "airDate": "2020-08-02",
+      "summary": "Discussing immigration, border and refugee issues",
+      "youTubeURL": "https://www.youtube.com/watch?v=pGYdsXLPSOU",
+      "guestNames": [
+        "Allegra Love"
+      ],
+      "links": [
+        {
+          "title": "Law and Border",
+          "url": "https://dartmouthalumnimagazine.com/articles/law-and-border"
+        },
+        {
+          "title": "Santa Fe Dreamers",
+          "url": "http://www.santafedreamersproject.org/who-we-are"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 128,
+      "airDate": "2020-08-01",
+      "youTubeURL": "https://www.youtube.com/watch?v=9sOKNTEngOE",
+      "hasDetail": false
+    },
+    {
+      "episode": 127,
+      "airDate": "2020-07-31",
+      "topics": "law, judgeship, life",
+      "youTubeURL": "https://www.youtube.com/watch?v=bOAXqLq1K44",
+      "guestNames": [
+        "Katie Phang"
+      ],
+      "links": [
+        {
+          "title": "MSNBC",
+          "url": "https://www.msnbc.com/msnbc/watch/katie-phang-talks-mueller-s-russia-probe-and-impeachment-1492290627856"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 126,
+      "airDate": "2020-07-30",
+      "summary": "Washington Post humor columnist",
+      "topics": "humor, puns, journalism",
+      "youTubeURL": "https://www.youtube.com/watch?v=wzdkNWnQSMw",
+      "guestNames": [
+        "Alexandra Petri",
+        "Kathleen Belew",
+        "Mike Chase"
+      ],
+      "links": [
+        {
+          "title": "Cosmopolitan",
+          "url": "https://www.cosmopolitan.com/career/a63347/alexandra-petri-washington-post-get-that-life/"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 125,
+      "airDate": "2020-07-29",
+      "summary": "Discussing the 2020 U.S. Presidential election",
+      "topics": "the 2020 elections, voting",
+      "youTubeURL": "https://www.youtube.com/watch?v=SEji_b4J9G4",
+      "guestNames": [
+        "Matthew Miller",
+        "Nate Persily",
+        "Tim Miller"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 124,
+      "airDate": "2020-07-28",
+      "summary": "Discussing USAG Barr's testimony before the House Judiciary Committee",
+      "topics": "Barr testimony",
+      "youTubeURL": "https://www.youtube.com/watch?v=pysTnKmPf8w",
+      "guestNames": [
+        "Matthew Miller"
+      ],
+      "links": [
+        {
+          "title": "New York Times",
+          "url": "https://www.nytimes.com/2020/07/28/us/politics/william-barr-house-judiciary-hearing.html"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 123,
+      "airDate": "2020-07-27",
+      "summary": "Discussing polling, politics, and group membership shibboleths",
+      "youTubeURL": "https://www.youtube.com/watch?v=SEXWmPyt90c",
+      "guestNames": [
+        "Clare Malone"
+      ],
+      "links": [
+        {
+          "title": "FiveThirtyEight",
+          "url": "https://fivethirtyeight.com/"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 122,
+      "airDate": "2020-07-26",
+      "summary": "Discussing the nature and challenges of comedy writing",
+      "youTubeURL": "https://www.youtube.com/watch?v=0RFr6iGH4rA",
+      "guestNames": [
+        "Daniel Radosh"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 121,
+      "airDate": "2020-07-25",
+      "youTubeURL": "https://www.youtube.com/watch?v=6uG9TpXj_1w",
+      "hasDetail": false
+    },
+    {
+      "episode": 120,
+      "airDate": "2020-07-24",
+      "topics": "Facebook",
+      "youTubeURL": "https://www.youtube.com/watch?v=OD_bxKCpKWs",
+      "guestNames": [
+        "Steven Levy"
+      ],
+      "links": [
+        {
+          "title": "New York Times",
+          "url": "https://www.nytimes.com/2020/02/25/books/review/facebook-the-inside-story-steven-levy.html"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 119,
+      "airDate": "2020-07-23",
+      "topics": "coronavirus",
+      "youTubeURL": "https://www.youtube.com/watch?v=yRrjdIhwTjU",
+      "guestNames": [
+        "Andy Slavitt"
+      ],
+      "links": [
+        {
+          "title": "StatNews",
+          "url": "https://www.statnews.com/2017/05/25/andy-slavitt-aca-town-halls/"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 118,
+      "airDate": "2020-07-22",
+      "summary": "Discussing the creation of crossword puzzles, and how to get professionally involved in their creation",
+      "youTubeURL": "https://www.youtube.com/watch?v=tpUZVfWSc0A",
+      "guestNames": [
+        "Ross Trudeau"
+      ],
+      "links": [
+        {
+          "title": "New York Times",
+          "url": "https://www.nytimes.com/2020/02/19/crosswords/constructor-crossword-puzzles-trudeau.html"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 117,
+      "airDate": "2020-07-21",
+      "summary": "Discussing DHS \"Job Aid\" describing domestic surveillance to protect monuments and statues",
+      "topics": "DHS Job Aid, stories of Ben's youth",
+      "youTubeURL": "https://www.youtube.com/watch?v=laG-tutITvo",
+      "links": [
+        {
+          "title": "Lawfare",
+          "url": "https://www.lawfareblog.com/dhs-authorizes-domestic-surveillance-protect-statues-and-monuments"
+        },
+        {
+          "title": "Salon",
+          "url": "https://www.salon.com/2020/07/21/leaked-memo-trump-administration-authorized-domestic-surveillance-of-protests-to-protect-statues"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 116,
+      "airDate": "2020-07-20",
+      "summary": "An update on COVID-19 from Dr. Sharfstein of the Johns Hopkins Bloomberg School of Public Health",
+      "topics": "coronavirus",
+      "youTubeURL": "https://www.youtube.com/watch?v=lRYyarIkNY8",
+      "guestNames": [
+        "Josh Sharfstein"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 115,
+      "airDate": "2020-07-19",
+      "youTubeURL": "https://www.youtube.com/watch?v=ifekFFj8wMg",
+      "hasDetail": false
+    },
+    {
+      "episode": 114,
+      "airDate": "2020-07-18",
+      "summary": "Discussing deployment of DHS Rapid Protection Force in Portland, Oregon",
+      "youTubeURL": "https://www.youtube.com/watch?v=1UE8wrilGKU",
+      "guestNames": [
+        "Steve Vladeck"
+      ],
+      "links": [
+        {
+          "title": "Lawfare",
+          "url": "https://www.lawfareblog.com/what-heck-are-federal-law-enforcement-officers-doing-portland"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 113,
+      "airDate": "2020-07-17",
+      "youTubeURL": "https://www.youtube.com/watch?v=Jz88Ae3Z6lc",
+      "guestNames": [
+        "Charlie Warzel"
+      ],
+      "links": [
+        {
+          "title": "NYT Company",
+          "url": "https://www.nytco.com/press/charlie-warzel-to-join-the-new-york-times-opinion-pages/"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 112,
+      "airDate": "2020-07-16",
+      "summary": "Discussing the \"Crime a Day\" Twitter feed and book",
+      "topics": "crime",
+      "youTubeURL": "https://www.youtube.com/watch?v=58lpcyTWUl4",
+      "guestNames": [
+        "Mike Chase"
+      ],
+      "links": [
+        {
+          "title": "How to Become a Federal Criminal",
+          "url": "https://www.simonandschuster.com/books/How-to-Become-a-Federal-Criminal/Mike-Chase/9781982112516"
+        },
+        {
+          "title": "@CrimeADay",
+          "url": "https://twitter.com/CrimeADay"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 111,
+      "airDate": "2020-07-15",
+      "youTubeURL": "https://www.youtube.com/watch?v=eXc6LFfvzbU",
+      "guestNames": [
+        "Jill Filipovic"
+      ],
+      "links": [
+        {
+          "title": "The Atlantic",
+          "url": "https://www.theatlantic.com/entertainment/archive/2017/04/the-h-spot-review-jill-filipovic-the-feminist-case-for-happiness/524241/"
+        },
+        {
+          "title": "The H-Spot",
+          "url": "https://www.npr.org/books/titles/584670728/the-h-spot-the-feminist-pursuit-of-happiness"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 110,
+      "airDate": "2020-07-14",
+      "summary": "Discussing the SCOTUS decision in McGirt v. Oklahoma",
+      "youTubeURL": "https://www.youtube.com/watch?v=5k1NVhZ1i_g",
+      "guestNames": [
+        "Ian Heath Gershengorn"
+      ],
+      "links": [
+        {
+          "title": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/us-law-week/project-bolsters-tribes-high-court-claims-following-defeats"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 109,
+      "airDate": "2020-07-13",
+      "summary": "Discussing issues of free speech and the press",
+      "youTubeURL": "https://www.youtube.com/watch?v=hGG3oy2jJ3M",
+      "guestNames": [
+        "Jeff Jarvis"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 108,
+      "airDate": "2020-07-12",
+      "topics": "prosciutto, media",
+      "youTubeURL": "https://www.youtube.com/watch?v=jzvsZOnKshk",
+      "guestNames": [
+        "Andrew Marantz"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 107,
+      "airDate": "2020-07-11",
+      "youTubeURL": "https://www.youtube.com/watch?v=T36fD7ziBGU",
+      "hasDetail": false
+    },
+    {
+      "episode": 106,
+      "airDate": "2020-07-10",
+      "summary": "Debating the recent Harper's letter regarding so-called \"cancel culture\"",
+      "youTubeURL": "https://www.youtube.com/watch?v=tpY9MJa0H3U",
+      "guestNames": [
+        "Alex Shephard",
+        "Jonathan Rauch"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 105,
+      "airDate": "2020-07-09",
+      "summary": "Discussing the recent SCOTUS cases around congressional subpoenas",
+      "youTubeURL": "https://www.youtube.com/watch?v=R1tHI6LiNEM",
+      "guestNames": [
+        "Dahlia Lithwick",
+        "Leah Litman",
+        "Margaret Taylor",
+        "Marty Lederman"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 104,
+      "airDate": "2020-07-08",
+      "summary": "Discussing the recent SCOTUS religous freedom cases",
+      "youTubeURL": "https://www.youtube.com/watch?v=nGJorGSSn3I",
+      "guestNames": [
+        "Anna Salvatore",
+        "Marty Lederman",
+        "Thomas Berg"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 103,
+      "airDate": "2020-07-07",
+      "topics": "interviewing",
+      "youTubeURL": "https://www.youtube.com/watch?v=3TuLKtwKp8Q",
+      "guestNames": [
+        "Carrie Johnson"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 102,
+      "airDate": "2020-07-06",
+      "summary": "Discussing the Faithless Electors SCOTUS case",
+      "topics": "SCOTUS \"faithless elector\" case",
+      "youTubeURL": "https://www.youtube.com/watch?v=_li_K6XSBOk",
+      "guestNames": [
+        "Leah Litman",
+        "Wilfred U. Codrington III"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 101,
+      "airDate": "2020-07-05",
+      "summary": "Discussing the Presidential daily briefings (PDB)",
+      "youTubeURL": "https://www.youtube.com/watch?v=CSww9j4_psM",
+      "guestNames": [
+        "David Priess"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 100,
+      "airDate": "2020-07-04",
+      "summary": "An informal roundup of previous guests on the show",
+      "youTubeURL": "https://www.youtube.com/watch?v=lUN2CuGTtHk",
+      "hasDetail": false
+    },
+    {
+      "episode": 99,
+      "airDate": "2020-07-03",
+      "topics": "polling",
+      "youTubeURL": "https://www.youtube.com/watch?v=ajHkbQDYdyE",
+      "guestNames": [
+        "Claudia Deane"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 98,
+      "airDate": "2020-07-02",
+      "summary": "Discussing history, philosophy, speculative fiction, and the relationships among them",
+      "youTubeURL": "https://www.youtube.com/watch?v=vcWc_5-65BY",
+      "guestNames": [
+        "Ada Palmer"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 97,
+      "airDate": "2020-07-01",
+      "topics": "Discussing politics, economics, and conditions in Hong Kong",
+      "youTubeURL": "https://www.youtube.com/watch?v=sSg5N_teCKs",
+      "guestNames": [
+        "Alvin Cheung",
+        "Jordan Schneider"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 96,
+      "airDate": "2020-06-30",
+      "topics": "Parler, opposition research",
+      "youTubeURL": "https://www.youtube.com/watch?v=-PSz6jWD8lE",
+      "guestNames": [
+        "Tim Miller"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 95,
+      "airDate": "2020-06-29",
+      "summary": "Discussing the recent SCOTUS abortion and unitary executive cases",
+      "youTubeURL": "https://www.youtube.com/watch?v=_c0NVSXluPw",
+      "guestNames": [
+        "Leah Litman",
+        "Marty Lederman",
+        "Scott Anderson"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 94,
+      "airDate": "2020-06-28",
+      "topics": "social media",
+      "youTubeURL": "https://www.youtube.com/watch?v=d8jvRDNVzkY",
+      "guestNames": [
+        "Mike Godwin"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 93,
+      "airDate": "2020-06-27",
+      "youTubeURL": "https://www.youtube.com/watch?v=obgAI8gvVFs",
+      "hasDetail": false
+    },
+    {
+      "episode": 92,
+      "airDate": "2020-06-26",
+      "topics": "institutions, law enforcement, terrorism",
+      "youTubeURL": "https://www.youtube.com/watch?v=Yo-wah-7IjY",
+      "guestNames": [
+        "Dan Byman"
+      ],
+      "links": [
+        {
+          "title": "Beyond Counterterrorism",
+          "url": "https://www.foreignaffairs.com/articles/2015-10-20/beyond-counterterrorism"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 91,
+      "airDate": "2020-06-25",
+      "topics": "misinformation, disinformation, active measures",
+      "youTubeURL": "https://www.youtube.com/watch?v=G1SzMKTimV8",
+      "guestNames": [
+        "Camille François"
+      ],
+      "links": [
+        {
+          "title": "Exposing Secondary Infektion",
+          "url": "https://graphika.com/reports/exposing-secondary-infektion/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 90,
+      "airDate": "2020-06-24",
+      "summary": "George Bemis Professor of International Law at Harvard Law School",
+      "topics": "section 230, content moderation",
+      "youTubeURL": "https://www.youtube.com/watch?v=omcuI8ljmiI",
+      "guestNames": [
+        "Carrie Goldberg",
+        "Jonathan Zittrain"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 89,
+      "airDate": "2020-06-23",
+      "summary": "Cybersecurity and information warfare expert and author of a new history of information operations",
+      "topics": "cybersecurity, active measures",
+      "youTubeURL": "https://www.youtube.com/watch?v=YCuUJIrZ60E",
+      "guestNames": [
+        "Thomas Rid"
+      ],
+      "links": [
+        {
+          "title": "Active Measures",
+          "url": "https://us.macmillan.com/books/9780374287269"
+        },
+        {
+          "title": "Washington Post",
+          "url": "https://www.washingtonpost.com/outlook/the-russians-manipulated-our-elections-we-helped/2020/04/23/e44e9e76-5742-11ea-9000-f3cffee23036_story.html"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 88,
+      "airDate": "2020-06-22",
+      "topics": "police accountability, elections",
+      "youTubeURL": "https://www.youtube.com/watch?v=2lz5iwRwqrg",
+      "guestNames": [
+        "Adam Serwer",
+        "Julian Sanchez"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 87,
+      "airDate": "2020-06-21",
+      "summary": "Discussing the Lincoln Project and defeating Trump and Trumpism at the ballot box",
+      "topics": "defeating Trumpism",
+      "youTubeURL": "https://www.youtube.com/watch?v=Ryn7-FA7FmU",
+      "guestNames": [
+        "Rick Wilson"
+      ],
+      "links": [
+        {
+          "title": "The Lincoln Project",
+          "url": "https://lincolnproject.us"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 86,
+      "airDate": "2020-06-20",
+      "topics": "U.S. attorney appointment",
+      "youTubeURL": "https://www.youtube.com/watch?v=duSBC8BANrc",
+      "guestNames": [
+        "Marty Lederman",
+        "Steve Vladeck"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 85,
+      "airDate": "2020-06-19",
+      "summary": "Discussing the history and ongoing impacts of white supremacy; the growth of white supremacy as an international phenomenon",
+      "youTubeURL": "https://www.youtube.com/watch?v=Ud0juduEvEc",
+      "guestNames": [
+        "Kathleen Belew"
+      ],
+      "links": [
+        {
+          "title": "NPR",
+          "url": "https://www.npr.org/2019/03/17/704209677/how-white-supremacist-ideology-spreads"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 84,
+      "airDate": "2020-06-18",
+      "topics": "Flynn, Bolton, courts",
+      "youTubeURL": "https://www.youtube.com/watch?v=NCyLimk8VZU",
+      "guestNames": [
+        "Marty Lederman"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 83,
+      "airDate": "2020-06-17",
+      "topics": "Bolton, classification",
+      "youTubeURL": "https://www.youtube.com/watch?v=gfNZEIVhSqc",
+      "guestNames": [
+        "Susan Hennessey"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 82,
+      "airDate": "2020-06-16",
+      "topics": "Russia, disinformation",
+      "youTubeURL": "https://www.youtube.com/watch?v=jDF8ZIChPXI",
+      "guestNames": [
+        "Alina Polyakova"
+      ],
+      "links": [
+        {
+          "title": "CEPA",
+          "url": "https://www.cepa.org/polyakova-cepa-president"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 81,
+      "airDate": "2020-06-15",
+      "summary": "Discussing SCOTUS's bombshell LGBT employment discrimination decision",
+      "topics": "SCOTUS LGBT discrimination case",
+      "youTubeURL": "https://www.youtube.com/watch?v=zbxMG9Y9eB4",
+      "guestNames": [
+        "Anthony Michael Kries",
+        "Leah Litman"
+      ],
+      "links": [
+        {
+          "title": "New York Times",
+          "url": "https://www.nytimes.com/2020/06/15/us/gay-transgender-workers-supreme-court.html"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 80,
+      "airDate": "2020-06-14",
+      "topics": "inequality",
+      "youTubeURL": "https://www.youtube.com/watch?v=evd6u9MoGsQ",
+      "guestNames": [
+        "Mike Pesca"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 79,
+      "airDate": "2020-06-13",
+      "youTubeURL": "https://www.youtube.com/watch?v=52tnlmp6fIE",
+      "hasDetail": false
+    },
+    {
+      "episode": 78,
+      "airDate": "2020-06-12",
+      "summary": "Discussing pandemic responses and the economic impacts of coronavirus",
+      "youTubeURL": "https://www.youtube.com/watch?v=nWYCgIqY55M",
+      "guestNames": [
+        "Catherine Rampell"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 77,
+      "airDate": "2020-06-11",
+      "topics": "politics",
+      "youTubeURL": "https://www.youtube.com/watch?v=e0KrQ4efuAc",
+      "guestNames": [
+        "Bill Kristol"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 76,
+      "airDate": "2020-06-10",
+      "topics": "DOJ, Bill Barr",
+      "youTubeURL": "https://www.youtube.com/watch?v=FXQHiVi9H7s",
+      "guestNames": [
+        "Matthew Miller"
+      ],
+      "links": [
+        {
+          "title": "MSN",
+          "url": "https://www.msn.com/en-us/news/politics/matt-miller-trumps-inability-to-find-top-tier-legal-council-is-harming-his-argument/vi-AAK47Iq"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 75,
+      "airDate": "2020-06-09",
+      "topics": "law and the Internet",
+      "youTubeURL": "https://www.youtube.com/watch?v=_On2qqsaoYI",
+      "guestNames": [
+        "Lawrence Lessig"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 74,
+      "airDate": "2020-06-08",
+      "topics": "journalism",
+      "youTubeURL": "https://www.youtube.com/watch?v=eEJktEIn0Hg",
+      "guestNames": [
+        "Matt Yglesias"
+      ],
+      "links": [
+        {
+          "title": "Vox",
+          "url": "https://www.vox.com/pages/about-us"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 73,
+      "airDate": "2020-06-07",
+      "topics": "elections, influence",
+      "youTubeURL": "https://www.youtube.com/watch?v=-jnsnUei1LA",
+      "guestNames": [
+        "Jonathan Rauch"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 72,
+      "airDate": "2020-06-06",
+      "youTubeURL": "https://www.youtube.com/watch?v=KvktA5oGPt0",
+      "hasDetail": false
+    },
+    {
+      "episode": 71,
+      "airDate": "2020-06-05",
+      "summary": "Discussing consensual voyeuristic art photography; the relevance and popularity of this technique in a world of social distancing and home quarantine",
+      "youTubeURL": "https://www.youtube.com/watch?v=Z_WpcZuXdRU",
+      "guestNames": [
+        "Gail Albert Halaban"
+      ],
+      "links": [
+        {
+          "title": "WSJ",
+          "url": "https://www.wsj.com/articles/gail-albert-halaban-out-my-window-review-voyeuristic-beauty-1537299595"
+        },
+        {
+          "title": "Eastman Museum",
+          "url": "https://www.eastman.org/gail-albert-halaban-out-my-window"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 70,
+      "airDate": "2020-06-04",
+      "topics": "partisanship",
+      "youTubeURL": "https://www.youtube.com/watch?v=jcaODo0BI_c",
+      "guestNames": [
+        "David French"
+      ],
+      "links": [
+        {
+          "title": "articles",
+          "url": "https://thedispatch.com/people/5849328-david-french"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 69,
+      "airDate": "2020-06-03",
+      "summary": "Discussing terrorism, influence operations, and disinformation",
+      "youTubeURL": "https://www.youtube.com/watch?v=b_YBQZ2uXlQ",
+      "guestNames": [
+        "Clint Watts"
+      ],
+      "links": [
+        {
+          "title": "Messing with the Enemy",
+          "url": "https://www.harpercollins.com/9780062795984/messing-with-the-enemy/"
+        },
+        {
+          "title": "CNN",
+          "url": "https://www.cnn.com/2017/03/30/politics/who-is-clint-watts/index.html"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 68,
+      "airDate": "2020-06-02",
+      "summary": "Stanford computer scientist and former chief security officer of Facebook returns to talk disinformation",
+      "topics": "content moderation, disinformation",
+      "youTubeURL": "https://www.youtube.com/watch?v=c0TDQ_m7K9E",
+      "guestNames": [
+        "Alex Stamos"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 67,
+      "airDate": "2020-06-01",
+      "topics": "journalism",
+      "youTubeURL": "https://www.youtube.com/watch?v=6mKxbYLi-5c",
+      "guestNames": [
+        "Virginia Heffernan"
+      ],
+      "links": [
+        {
+          "title": "Trumpcast",
+          "url": "https://slate.com/podcasts/trumpcast"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 66,
+      "airDate": "2020-05-31",
+      "summary": "Discussing the origins, incentives, and consequences of the ongoing epidemic of police militarization in the United States",
+      "youTubeURL": "https://www.youtube.com/watch?v=T6YEv3wPgc4",
+      "guestNames": [
+        "Radley Balko"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 65,
+      "airDate": "2020-05-30",
+      "youTubeURL": "https://www.youtube.com/watch?v=NI8dsIeZLuo",
+      "hasDetail": false
+    },
+    {
+      "episode": 64,
+      "airDate": "2020-05-29",
+      "summary": "Discussing police accountability and the challenges of getting it",
+      "youTubeURL": "https://www.youtube.com/watch?v=3MbA0IDkbt0",
+      "guestNames": [
+        "Barry Friedman"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 63,
+      "airDate": "2020-05-28",
+      "summary": "Discussing the President's draft order on social media, and Twitter's new policy toward Presidential tweets",
+      "topics": "executive orders, voting, moderation",
+      "youTubeURL": "https://www.youtube.com/watch?v=B0urk6wOAoI",
+      "guestNames": [
+        "Eugene Volokh",
+        "Jack Balkin",
+        "Quinta Jurecic"
+      ],
+      "links": [
+        {
+          "title": "executive order",
+          "url": "https://www.whitehouse.gov/presidential-actions/executive-order-preventing-online-censorship/"
+        },
+        {
+          "title": "Business Insider",
+          "url": "https://www.businessinsider.com/twitter-flags-trump-tweet-as-violating-policy-against-abusive-behavior-2020-6"
+        },
+        {
+          "title": "CNET",
+          "url": "https://www.cnet.com/news/twitter-removes-image-from-trump-tweet-for-violating-copyright-policy/"
+        },
+        {
+          "title": "New York Times",
+          "url": "https://www.nytimes.com/2020/06/18/technology/trump-tweet-baby-manipulated.html"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 62,
+      "airDate": "2020-05-27",
+      "topics": "evidence, investigation, subpoenas",
+      "youTubeURL": "https://www.youtube.com/watch?v=HdGzvDrT3AY",
+      "guestNames": [
+        "Paul Rosenzweig"
+      ],
+      "links": [
+        {
+          "title": "R Street",
+          "url": "https://www.rstreet.org/2013/01/09/cyber-warfare-how-conflicts-in-cyberspace-are-challenging-america-and-changing-the-world/"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 61,
+      "airDate": "2020-05-26",
+      "summary": "Professor of Law at St. John's University in New York City, teaching Constitutional Law, Criminal Procedure, and Legal History",
+      "topics": "supreme court",
+      "youTubeURL": "https://www.youtube.com/watch?v=eYBa3OZ5AzA",
+      "guestNames": [
+        "John Q. Barrett"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 60,
+      "airDate": "2020-05-25",
+      "summary": "Brooklyn-based investigative journalist, artist and engineer and who looks at the ways in which algorithmic systems perpetuate systemic biases and inequalities in society",
+      "topics": "facial recognition",
+      "youTubeURL": "https://www.youtube.com/watch?v=1pnAfPBZpmk",
+      "guestNames": [
+        "Surya Mattu"
+      ],
+      "links": [
+        {
+          "title": "ProPublica",
+          "url": "https://www.propublica.org/people/surya-mattu"
+        },
+        {
+          "title": "United States Artists",
+          "url": "https://www.unitedstatesartists.org/fellow/surya-mattu/"
+        },
+        {
+          "title": "Aspen Ideas",
+          "url": "https://www.aspenideas.org/speakers/surya-mattu"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 59,
+      "airDate": "2020-05-24",
+      "summary": "University of North Carolina professor",
+      "topics": "justice department, prosecution",
+      "youTubeURL": "https://www.youtube.com/watch?v=nSfN26DGu_Y",
+      "guestNames": [
+        "Carissa Byrne Hessick"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 58,
+      "airDate": "2020-05-23",
+      "youTubeURL": "https://www.youtube.com/watch?v=H6oRsd1w--Y",
+      "hasDetail": false
+    },
+    {
+      "episode": 57,
+      "airDate": "2020-05-22",
+      "summary": "Discussing drawing, and the situation in Hong Kong",
+      "topics": "art; Hong Kong",
+      "youTubeURL": "https://www.youtube.com/watch?v=TN0nacauG2g",
+      "guestNames": [
+        "Alvin Cheung",
+        "Ben Ponte"
+      ],
+      "links": [
+        {
+          "title": "Sketch and the City",
+          "url": "http://www.benponte.com/sketch-and-the-city"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 56,
+      "airDate": "2020-05-21",
+      "topics": "slavery, history, incarceration",
+      "youTubeURL": "https://www.youtube.com/watch?v=EmIG0lsjLqM",
+      "guestNames": [
+        "Reginald Dwayne Betts"
+      ],
+      "links": [
+        {
+          "title": "Poetry Foundation",
+          "url": "https://www.poetryfoundation.org/poets/reginald-dwayne-betts"
+        },
+        {
+          "title": "NEA",
+          "url": "https://www.arts.gov/nea-literature-fellowships/reginald-dwayne-betts"
+        },
+        {
+          "title": "NYT Magazine",
+          "url": "https://www.nytimes.com/2018/10/16/magazine/felon-attorney-crime-yale-law.html"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 55,
+      "airDate": "2020-05-20",
+      "summary": "Discussing films and art",
+      "youTubeURL": "https://www.youtube.com/watch?v=AqRCrypTYBc",
+      "guestNames": [
+        "Whit Stillman"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 54,
+      "airDate": "2020-05-19",
+      "topics": "pottery, crafts",
+      "youTubeURL": "https://www.youtube.com/watch?v=mGFrjz_E2NY",
+      "guestNames": [
+        "Eric Landon"
+      ],
+      "links": [
+        {
+          "title": "TORTUS",
+          "url": "http://tortus-copenhagen.com/about"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 53,
+      "airDate": "2020-05-18",
+      "summary": "Discussing writing, story telling, and creativity",
+      "youTubeURL": "https://www.youtube.com/watch?v=1CeNW2cYXpU",
+      "guestNames": [
+        "Thyra Heder"
+      ],
+      "links": [
+        {
+          "title": "Fraidyzoo",
+          "url": "https://www.publishersweekly.com/978-1-4197-0776-6"
+        },
+        {
+          "title": "How Do You Dance?",
+          "url": "https://www.publishersweekly.com/978-1-4197-3418-2"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 52,
+      "airDate": "2020-05-17",
+      "topics": "journalism, business",
+      "youTubeURL": "https://www.youtube.com/watch?v=tcENdhnjrfE",
+      "guestNames": [
+        "Josh Marshall"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 51,
+      "airDate": "2020-05-16",
+      "youTubeURL": "https://www.youtube.com/watch?v=nnwL00PQBLk",
+      "hasDetail": false
+    },
+    {
+      "episode": 50,
+      "airDate": "2020-05-15",
+      "summary": "Discussing reporting, investigations, and collusion",
+      "youTubeURL": "https://www.youtube.com/watch?v=UIEkehoNq2A",
+      "guestNames": [
+        "Shane Harris"
+      ],
+      "links": [
+        {
+          "title": "@War",
+          "url": "https://www.lawfareblog.com/war-rise-military-internet-complex-shane-harris"
+        },
+        {
+          "title": "The Watchers",
+          "url": "https://www.npr.org/2013/06/19/192770397/the-watchers-have-had-their-eyes-on-us-for-years"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 49,
+      "airDate": "2020-05-14",
+      "summary": "Discussing Michael Flynn, Bill Barr, and all the President's lawyers",
+      "topics": "law, investigation, history of the pope hat",
+      "youTubeURL": "https://www.youtube.com/watch?v=_kInOCJGko4",
+      "guestNames": [
+        "Ken White"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 48,
+      "airDate": "2020-05-13",
+      "summary": "Discussing telecommunications regulation then and now; Section 230",
+      "youTubeURL": "https://www.youtube.com/watch?v=12uWhb9xbeI",
+      "guestNames": [
+        "Tom Wheeler"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 47,
+      "airDate": "2020-05-12",
+      "summary": "Discussing the challenges facing conservatives in the wake of Trump",
+      "youTubeURL": "https://www.youtube.com/watch?v=9yAuLRoKR8I",
+      "guestNames": [
+        "Tim Miller"
+      ],
+      "links": [
+        {
+          "title": "Our Principles PAC",
+          "url": "https://www.loc.gov/item/lcwaN0017180/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 46,
+      "airDate": "2020-05-11",
+      "summary": "A dialogue with members of the new Facebook Oversight Board",
+      "topics": "Facebook oversight board",
+      "youTubeURL": "https://www.youtube.com/watch?v=ujT6UH-Zgrk",
+      "guestNames": [
+        "Jamal Greene",
+        "John Samples",
+        "Nicolas Suzor"
+      ],
+      "links": [
+        {
+          "title": "Business Insider",
+          "url": "https://www.businessinsider.com/facebook-announces-first-members-oversight-board-instagram-2020-5"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 45,
+      "airDate": "2020-05-10",
+      "topics": "life, travel, food, weather, Kate's cowlick",
+      "youTubeURL": "https://www.youtube.com/watch?v=CI8a-k9uibU",
+      "guestNames": [
+        "Alan Rozenshtein",
+        "Hannah Neprash"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 44,
+      "airDate": "2020-05-09",
+      "youTubeURL": "https://www.youtube.com/watch?v=RzxpF8fHdeg",
+      "hasDetail": false
+    },
+    {
+      "episode": 43,
+      "airDate": "2020-05-08",
+      "summary": "Discussing digital journalism, protests, and related issues",
+      "youTubeURL": "https://www.youtube.com/watch?v=YzjaXi8GONM",
+      "guestNames": [
+        "Emily Bell"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 42,
+      "airDate": "2020-05-07",
+      "summary": "Discussing reporting and norms, life at the DoJ, and DC gallows humour",
+      "youTubeURL": "https://www.youtube.com/watch?v=rhRBI6zc6Ss",
+      "guestNames": [
+        "Margaret Taylor"
+      ],
+      "links": [
+        {
+          "title": "Lawfare",
+          "url": "https://www.lawfareblog.com/i-vetted-state-department-whip-guy"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 41,
+      "airDate": "2020-05-06",
+      "summary": "Discussing big tech, media platforms, governance, and moderation",
+      "youTubeURL": "https://www.youtube.com/watch?v=oYRMd-X77w0",
+      "guestNames": [
+        "Alex Macgillivray",
+        "Evelyn Douek",
+        "Nicole Wong"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 40,
+      "airDate": "2020-05-05",
+      "topics": "Discussing medicine, quarantine, and the ongoing COVID plague",
+      "youTubeURL": "https://www.youtube.com/watch?v=A-sAEYCSQ7c",
+      "guestNames": [
+        "Will DeWitt"
+      ],
+      "links": [
+        {
+          "title": "Callen-Lorde",
+          "url": "https://callen-lorde.org/meet-our-providers/"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 39,
+      "airDate": "2020-05-04",
+      "summary": "Discussing the Supreme Court's embrace of remote oral arguments",
+      "topics": "law, trials, hearings, procedure",
+      "youTubeURL": "https://www.youtube.com/watch?v=WAk_6VboUgk",
+      "guestNames": [
+        "Dahlia Lithwick",
+        "Leah Litman"
+      ],
+      "links": [
+        {
+          "title": "NPR",
+          "url": "https://www.npr.org/2020/05/04/847785015/supreme-court-arguments-resume-but-with-a-twist"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 38,
+      "airDate": "2020-05-03",
+      "summary": "Discussing bees and beekeping, and the advent of \"murder hornets\"",
+      "youTubeURL": "https://www.youtube.com/watch?v=Q-R2jyi108o",
+      "guestNames": [
+        "Jeff Horwitz"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 37,
+      "airDate": "2020-05-02",
+      "topics": "coronavirus, governance, cabin in the woods",
+      "youTubeURL": "https://www.youtube.com/watch?v=-xfccHfAw1I",
+      "guestNames": [
+        "Yascha Mounk"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 36,
+      "airDate": "2020-05-01",
+      "topics": "Discussing coronavirus, state revenue, and the Census",
+      "youTubeURL": "https://www.youtube.com/watch?v=vIlU7BbCPlw",
+      "guestNames": [
+        "Seth Magaziner"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 35,
+      "airDate": "2020-04-30",
+      "topics": "Discussing writing, journalism, and the Department of Justice",
+      "youTubeURL": "https://www.youtube.com/watch?v=cADFrW2GHLo",
+      "guestNames": [
+        "David Plotz"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 34,
+      "airDate": "2020-04-29",
+      "summary": "Discussing Russia, Estonia, cybersecurity, elections, and disinformation",
+      "youTubeURL": "https://www.youtube.com/watch?v=2XBkAAaBrpQ",
+      "guestNames": [
+        "Toomas Hendrick Ilves"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 33,
+      "airDate": "2020-04-28",
+      "summary": "Discussing crime, prosecution, and the law",
+      "youTubeURL": "https://www.youtube.com/watch?v=xSCPjSMk6oo",
+      "guestNames": [
+        "Preet Bharara"
+      ],
+      "links": [
+        {
+          "title": "podcast",
+          "url": "https://cafe.com/stay-tuned-podcast/"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 32,
+      "airDate": "2020-04-27",
+      "summary": "Discussing history, speculative fiction, and The Renaissance",
+      "youTubeURL": "https://www.youtube.com/watch?v=ni3wmotnr2Q",
+      "guestNames": [
+        "Ada Palmer"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 31,
+      "airDate": "2020-04-26",
+      "summary": "Discussing politics, life, and baby cannons",
+      "youTubeURL": "https://www.youtube.com/watch?v=FamjIjc_XOs",
+      "guestNames": [
+        "Sarah Longwell",
+        "Yascha Mounk"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 30,
+      "airDate": "2020-04-25",
+      "youTubeURL": "https://www.youtube.com/watch?v=0mVSAhA7g6Y",
+      "hasDetail": false
+    },
+    {
+      "episode": 29,
+      "airDate": "2020-04-24",
+      "topics": "Discussing law, impeachment, and the courts (part of Pugilism Week)",
+      "youTubeURL": "https://www.youtube.com/watch?v=RYZAut8elnA",
+      "guestNames": [
+        "Noah Feldman"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 28,
+      "airDate": "2020-04-23",
+      "summary": "Discussing robots and the meaning of belonging",
+      "youTubeURL": "https://www.youtube.com/watch?v=kCZRZrZ9hRA",
+      "guestNames": [
+        "Kate Darling"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 27,
+      "airDate": "2020-04-22",
+      "summary": "Discussing government, rights, and coronovirus (part of Pugilism Week)",
+      "youTubeURL": "https://www.youtube.com/watch?v=kxVZ9yv4EeE",
+      "guestNames": [
+        "Randy Barnett"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 26,
+      "airDate": "2020-04-21",
+      "topics": "performative vilification, presidential abusiveness",
+      "youTubeURL": "https://www.youtube.com/watch?v=aOxJQY-rSsg",
+      "guestNames": [
+        "Lisa Page",
+        "Molly Jong-Fast"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 25,
+      "airDate": "2020-04-20",
+      "summary": "Discussing jurisprudence and legal philosophy (part of Pugilism Week)",
+      "youTubeURL": "https://www.youtube.com/watch?v=SDrh_KyJtmM",
+      "guestNames": [
+        "Orin Kerr",
+        "Scott Shapiro"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 24,
+      "airDate": "2020-04-19",
+      "summary": "Discussing content moderation, Section 230, and actual pugilism",
+      "youTubeURL": "https://www.youtube.com/watch?v=t0PMWLoZt04",
+      "guestNames": [
+        "Carrie Goldberg",
+        "Yorrick \"YoRock\" Anderson"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 23,
+      "airDate": "2020-04-18",
+      "summary": "Discussing coronavirus, shortages of PPE, and 3-D printing masks",
+      "youTubeURL": "https://www.youtube.com/watch?v=iEs5ZVZt6fY",
+      "hasDetail": true
+    },
+    {
+      "episode": 22,
+      "airDate": "2020-04-17",
+      "summary": "University of Minnesota health care economist",
+      "topics": "life, economics, policy limericks",
+      "youTubeURL": "https://www.youtube.com/watch?v=r8vZPqeZc44",
+      "guestNames": [
+        "Hannah Neprash"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 21,
+      "airDate": "2020-04-16",
+      "topics": "presidential norms, room rater, neighbors & singing",
+      "youTubeURL": "https://www.youtube.com/watch?v=YR40vyRGdcg",
+      "guestNames": [
+        "Dan Drezner",
+        "Maggie Feldman-Piltch"
+      ],
+      "links": [
+        {
+          "title": "Washington Post",
+          "url": "https://www.washingtonpost.com/outlook/when-the-president-is-more-like-a-little-kid-than-a-leader/2020/04/17/0af66450-73a9-11ea-a9bd-9f8b593300d0_story.html"
+        },
+        {
+          "title": "#NatSecGirlSquad",
+          "url": "https://www.natsecgirlsquad.com/about"
+        },
+        {
+          "title": "New York Times",
+          "url": "https://www.nytimes.com/2020/04/02/business/coronavirus-work-neighbors.html"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 20,
+      "airDate": "2020-04-15",
+      "summary": "Lawfare Managing Editor and a contributing writer for The Atlantic",
+      "youTubeURL": "https://www.youtube.com/watch?v=CL-sppxnIas",
+      "guestNames": [
+        "Quinta Jurecic"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 19,
+      "airDate": "2020-04-14",
+      "topics": "online speech, a.k.a. speech",
+      "youTubeURL": "https://www.youtube.com/watch?v=6IPTzcQ4PJc",
+      "guestNames": [
+        "Jillian York",
+        "Sarah Roberts"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 18,
+      "airDate": "2020-04-13",
+      "topics": "Facebook oversight board",
+      "youTubeURL": "https://www.youtube.com/watch?v=9D-yg7eBbSY",
+      "guestNames": [
+        "Evelyn Douek"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 17,
+      "airDate": "2020-04-12",
+      "topics": "the hamartia of democracies",
+      "youTubeURL": "https://www.youtube.com/watch?v=2XbTRLKELqU",
+      "guestNames": [
+        "Jonathan Rauch"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 16,
+      "airDate": "2020-04-11",
+      "youTubeURL": "https://www.youtube.com/watch?v=5r9q2Zwygg4",
+      "hasDetail": false
+    },
+    {
+      "episode": 15,
+      "airDate": "2020-04-10",
+      "summary": "Stories about hospitals struggling to respond to COVID-19",
+      "youTubeURL": "https://www.youtube.com/watch?v=C883ChjIHdw",
+      "guestNames": [
+        "Doug Bernstein"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 14,
+      "airDate": "2020-04-09",
+      "summary": "Discussing the challenges of principled conservative opposition to Trumpism",
+      "youTubeURL": "https://www.youtube.com/watch?v=uWgXMvJC2Eo",
+      "guestNames": [
+        "Kori Schake"
+      ],
+      "links": [
+        {
+          "title": "New York Times",
+          "url": "https://www.nytimes.com/2018/06/15/opinion/sunday/trump-china-america-first.html"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 13,
+      "airDate": "2020-04-08",
+      "summary": "Hosts of Slate's podcasts \"Trumpcast\" and \"The Gist\"",
+      "topics": "responding to crisis; following the money",
+      "youTubeURL": "https://www.youtube.com/watch?v=lz65Bwiau2w",
+      "guestNames": [
+        "Mike Pesca",
+        "Virginia Heffernan"
+      ],
+      "links": [
+        {
+          "title": "Trumpcast",
+          "url": "https://slate.com/podcasts/trumpcast"
+        },
+        {
+          "title": "The Gist",
+          "url": "https://slate.com/podcasts/the-gist"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 12,
+      "airDate": "2020-04-07",
+      "summary": "Discussing surveillance and COVID-19",
+      "topics": "surviving the plague; democracy, policy, and government leadership",
+      "youTubeURL": "https://www.youtube.com/watch?v=xrofDaV8mPk",
+      "guestNames": [
+        "Alan Rozenshtein"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 11,
+      "airDate": "2020-04-06",
+      "summary": "Discussing what it will take to prevent an election meltdown in November",
+      "topics": "elections in the time of coronavirus",
+      "youTubeURL": "https://www.youtube.com/watch?v=dzhZpWYQezE",
+      "guestNames": [
+        "Alex Stamos",
+        "Nate Persily"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 10,
+      "airDate": "2020-04-05",
+      "topics": "law, twitter, life, coronavirus",
+      "youTubeURL": "https://www.youtube.com/watch?v=73dll8bSuYs",
+      "guestNames": [
+        "Dan Drezner",
+        "Scott Shapiro"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 9,
+      "airDate": "2020-04-04",
+      "youTubeURL": "https://www.youtube.com/watch?v=0zCGwLbUNWI",
+      "hasDetail": false
+    },
+    {
+      "episode": 8,
+      "airDate": "2020-04-03",
+      "summary": "Discussing research on how countries are handling the coronavirus",
+      "topics": "coronavirus response",
+      "youTubeURL": "https://www.youtube.com/watch?v=-i7UkLg7-a4",
+      "guestNames": [
+        "Amanda Sloat"
+      ],
+      "links": [
+        {
+          "title": "Belfer Center",
+          "url": "https://www.belfercenter.org/publication/amanda-sloat-response-covid-19-around-globe"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 7,
+      "airDate": "2020-04-02",
+      "summary": "Discussing how the pandemic has changed the future of higher education",
+      "topics": "education in the time of coronavirus",
+      "youTubeURL": "https://www.youtube.com/watch?v=kmJMRn0x51c",
+      "guestNames": [
+        "Jack Balkin",
+        "Jordan Ellenberg"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 6,
+      "airDate": "2020-04-01",
+      "summary": "Discussing COVID-19 in rural Montana, kayaking across the Pacific, and more",
+      "topics": "wild outdoor adventure",
+      "youTubeURL": "https://www.youtube.com/watch?v=KNqZDaaSP60",
+      "guestNames": [
+        "Jon Turk"
+      ],
+      "links": [
+        {
+          "title": "Crocodiles and Ice",
+          "url": "https://ravallirepublic.com/news/local/article_872f8c24-77c5-11e6-8b40-f3384dc7726b.html"
+        }
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 5,
+      "airDate": "2020-03-31",
+      "summary": "Discussing academic career, privacy, COVID-19, and a little bit of music",
+      "topics": "law, legal education, life, and music",
+      "youTubeURL": "https://www.youtube.com/watch?v=yIkbO7u7V5o",
+      "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/orin-kerr",
+      "guestNames": [
+        "Orin Kerr"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 4,
+      "airDate": "2020-03-30",
+      "topics": "online abuse",
+      "youTubeURL": "https://www.youtube.com/watch?v=fqN2cuNnsMQ",
+      "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/danielle-citron-take-2",
+      "guestNames": [
+        "Danielle Citron"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 3,
+      "airDate": "2020-03-29",
+      "summary": "The origination of Mystery Guest Sundays",
+      "youTubeURL": "https://www.youtube.com/watch?v=fVLJfGjf7GI",
+      "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/mystery-guests",
+      "guestNames": [
+        "Cory Doctorow",
+        "Emily Hurson",
+        "Ken White",
+        "Mike Chase",
+        "Ross Garber"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": 2,
+      "airDate": "2020-03-28",
+      "youTubeURL": "https://www.youtube.com/watch?v=Jvp10Ve6LQs",
+      "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/just-chilling",
+      "guestNames": [
+        "Alex Stamos",
+        "Maggie Feldman-Piltch"
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 1,
+      "airDate": "2020-03-27",
+      "summary": "Talking about blogging the Supreme Court and missing the end of senior year",
+      "topics": "supreme court, learning",
+      "youTubeURL": "https://www.youtube.com/watch?v=sVthy2h3XAk",
+      "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/anna-salvatore",
+      "guestNames": [
+        "Anna Salvatore"
+      ],
+      "links": [
+        {
+          "title": "High School SCOTUS",
+          "url": "https://highschoolscotus.wordpress.com/"
+        }
+      ],
+      "hasDetail": false
+    },
+    {
+      "episode": 0,
+      "airDate": "2020-03-26",
+      "summary": "Discussing issues of platform governance, sextortion, and the interaction of feminism and national security",
+      "youTubeURL": "https://www.youtube.com/watch?v=8lqhrhjwyrk",
+      "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/danielle-citron",
+      "guestNames": [
+        "Danielle Citron"
+      ],
+      "hasDetail": true
+    },
+    {
+      "episode": "pilot",
+      "airDate": "2020-03-25",
+      "summary": "Pilot episode",
+      "youTubeURL": "https://www.youtube.com/watch?v=SORmEeTQUX4",
+      "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/our-very-first-episode",
+      "hasDetail": false
+    }
+  ]
+}

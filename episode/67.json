@@ -1,0 +1,17 @@
+{
+  "episode": {
+    "episode": 67,
+    "airDate": "2020-06-01",
+    "topics": "journalism",
+    "youTubeURL": "https://www.youtube.com/watch?v=6mKxbYLi-5c",
+    "guestNames": [
+      "Virginia Heffernan"
+    ],
+    "links": [
+      {
+        "title": "Trumpcast",
+        "url": "https://slate.com/podcasts/trumpcast"
+      }
+    ]
+  }
+}

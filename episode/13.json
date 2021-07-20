@@ -1,0 +1,23 @@
+{
+  "episode": {
+    "episode": 13,
+    "airDate": "2020-04-08",
+    "summary": "Hosts of Slate's podcasts \"Trumpcast\" and \"The Gist\"",
+    "topics": "responding to crisis; following the money",
+    "youTubeURL": "https://www.youtube.com/watch?v=lz65Bwiau2w",
+    "guestNames": [
+      "Mike Pesca",
+      "Virginia Heffernan"
+    ],
+    "links": [
+      {
+        "title": "Trumpcast",
+        "url": "https://slate.com/podcasts/trumpcast"
+      },
+      {
+        "title": "The Gist",
+        "url": "https://slate.com/podcasts/the-gist"
+      }
+    ]
+  }
+}

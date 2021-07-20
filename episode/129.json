@@ -1,0 +1,22 @@
+{
+  "episode": {
+    "episode": 129,
+    "airDate": "2020-08-02",
+    "summary": "Discussing immigration, border and refugee issues",
+    "youTubeURL": "https://www.youtube.com/watch?v=pGYdsXLPSOU",
+    "guestNames": [
+      "Allegra Love"
+    ],
+    "links": [
+      {
+        "title": "Law and Border",
+        "url": "https://dartmouthalumnimagazine.com/articles/law-and-border"
+      },
+      {
+        "title": "Santa Fe Dreamers",
+        "url": "http://www.santafedreamersproject.org/who-we-are"
+      }
+    ],
+    "detail": "Immigration attorney specializing in border and refugee issues, former\nExecutive Director of Santa Fe Dreamers Project."
+  }
+}

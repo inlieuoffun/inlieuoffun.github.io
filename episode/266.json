@@ -1,0 +1,12 @@
+{
+  "episode": {
+    "episode": 266,
+    "airDate": "2020-12-17",
+    "summary": "Discussing the intersection of encryption and policy",
+    "youTubeURL": "https://www.youtube.com/watch?v=a--gEBefIgc",
+    "guestNames": [
+      "Susan Landau"
+    ],
+    "detail": "We are joined by encryption guru Susan Landau.\n\nSusan is a professor at the Fletcher School of Law and Diplomacy at Tufts\nUniversity. She works at the intersection of cyber security, national security,\nlaw, and policy.\n\nhe has testified before Congress, written for the Washington Post, Science, and\nScientific American, and frequently appears on NPR and BBC. Her previous\npositions include senior staff privacy analyst at Google, distinguished\nengineer at Sun Microsystems, and faculty member at Worcester Polytechnic\nInstitute, the University of Massachusetts Amherst, and Wesleyan University."
+  }
+}

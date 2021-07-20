@@ -1,0 +1,17 @@
+{
+  "episode": {
+    "episode": 120,
+    "airDate": "2020-07-24",
+    "topics": "Facebook",
+    "youTubeURL": "https://www.youtube.com/watch?v=OD_bxKCpKWs",
+    "guestNames": [
+      "Steven Levy"
+    ],
+    "links": [
+      {
+        "title": "New York Times",
+        "url": "https://www.nytimes.com/2020/02/25/books/review/facebook-the-inside-story-steven-levy.html"
+      }
+    ]
+  }
+}

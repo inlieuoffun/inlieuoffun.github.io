@@ -1,0 +1,21 @@
+{
+  "episode": {
+    "episode": 69,
+    "airDate": "2020-06-03",
+    "summary": "Discussing terrorism, influence operations, and disinformation",
+    "youTubeURL": "https://www.youtube.com/watch?v=b_YBQZ2uXlQ",
+    "guestNames": [
+      "Clint Watts"
+    ],
+    "links": [
+      {
+        "title": "Messing with the Enemy",
+        "url": "https://www.harpercollins.com/9780062795984/messing-with-the-enemy/"
+      },
+      {
+        "title": "CNN",
+        "url": "https://www.cnn.com/2017/03/30/politics/who-is-clint-watts/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "episode": {
+    "episode": 60,
+    "airDate": "2020-05-25",
+    "summary": "Brooklyn-based investigative journalist, artist and engineer and who looks at the ways in which algorithmic systems perpetuate systemic biases and inequalities in society",
+    "topics": "facial recognition",
+    "youTubeURL": "https://www.youtube.com/watch?v=1pnAfPBZpmk",
+    "guestNames": [
+      "Surya Mattu"
+    ],
+    "links": [
+      {
+        "title": "ProPublica",
+        "url": "https://www.propublica.org/people/surya-mattu"
+      },
+      {
+        "title": "United States Artists",
+        "url": "https://www.unitedstatesartists.org/fellow/surya-mattu/"
+      },
+      {
+        "title": "Aspen Ideas",
+        "url": "https://www.aspenideas.org/speakers/surya-mattu"
+      }
+    ],
+    "detail": "Surya Mattu is a Brooklyn based investigative journalist, artist and engineer\nand who looks at the ways in which algorithmic systems perpetuate systemic\nbiases and inequalities in society. Currently he works as an investigative data\njournalist at The Markup.\n\nPreviously, he was a contributing researcher at ProPublica, where he worked on\nMachine Bias, a series that aims to highlight how algorithmic systems can be\nbiased and discriminate against people. Machine Bias was a Pulitzer Prize\nfinalist for Explanatory Journalism. He has also worked at Gizmodos’ Special\nProjects Desk and been a visiting scholar at the MIT Media Lab. He has shown\nwork at The Haus der Kulturen der Welt, Museum of Art & Design, The Whitney\nMuseum, Victoria & Albert Museum, and Bitforms Gallery."
+  }
+}

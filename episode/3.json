@@ -1,0 +1,17 @@
+{
+  "episode": {
+    "episode": 3,
+    "airDate": "2020-03-29",
+    "summary": "The origination of Mystery Guest Sundays",
+    "youTubeURL": "https://www.youtube.com/watch?v=fVLJfGjf7GI",
+    "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/mystery-guests",
+    "guestNames": [
+      "Cory Doctorow",
+      "Emily Hurson",
+      "Ken White",
+      "Mike Chase",
+      "Ross Garber"
+    ],
+    "detail": "Kate and Ben each invite a secret guest, and invite that secret guest to invite a secret guest.\n\nThis establishes Sundays as Mystery Guest day."
+  }
+}

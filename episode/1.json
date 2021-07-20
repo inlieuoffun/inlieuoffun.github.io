@@ -1,0 +1,19 @@
+{
+  "episode": {
+    "episode": 1,
+    "airDate": "2020-03-27",
+    "summary": "Talking about blogging the Supreme Court and missing the end of senior year",
+    "topics": "supreme court, learning",
+    "youTubeURL": "https://www.youtube.com/watch?v=sVthy2h3XAk",
+    "acastURL": "https://shows.acast.com/in-lieu-of-fun/episodes/anna-salvatore",
+    "guestNames": [
+      "Anna Salvatore"
+    ],
+    "links": [
+      {
+        "title": "High School SCOTUS",
+        "url": "https://highschoolscotus.wordpress.com/"
+      }
+    ]
+  }
+}

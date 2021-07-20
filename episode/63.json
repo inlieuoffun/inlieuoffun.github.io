@@ -1,0 +1,32 @@
+{
+  "episode": {
+    "episode": 63,
+    "airDate": "2020-05-28",
+    "summary": "Discussing the President's draft order on social media, and Twitter's new policy toward Presidential tweets",
+    "topics": "executive orders, voting, moderation",
+    "youTubeURL": "https://www.youtube.com/watch?v=B0urk6wOAoI",
+    "guestNames": [
+      "Eugene Volokh",
+      "Jack Balkin",
+      "Quinta Jurecic"
+    ],
+    "links": [
+      {
+        "title": "executive order",
+        "url": "https://www.whitehouse.gov/presidential-actions/executive-order-preventing-online-censorship/"
+      },
+      {
+        "title": "Business Insider",
+        "url": "https://www.businessinsider.com/twitter-flags-trump-tweet-as-violating-policy-against-abusive-behavior-2020-6"
+      },
+      {
+        "title": "CNET",
+        "url": "https://www.cnet.com/news/twitter-removes-image-from-trump-tweet-for-violating-copyright-policy/"
+      },
+      {
+        "title": "New York Times",
+        "url": "https://www.nytimes.com/2020/06/18/technology/trump-tweet-baby-manipulated.html"
+      }
+    ]
+  }
+}

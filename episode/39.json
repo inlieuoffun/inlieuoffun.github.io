@@ -1,0 +1,19 @@
+{
+  "episode": {
+    "episode": 39,
+    "airDate": "2020-05-04",
+    "summary": "Discussing the Supreme Court's embrace of remote oral arguments",
+    "topics": "law, trials, hearings, procedure",
+    "youTubeURL": "https://www.youtube.com/watch?v=WAk_6VboUgk",
+    "guestNames": [
+      "Dahlia Lithwick",
+      "Leah Litman"
+    ],
+    "links": [
+      {
+        "title": "NPR",
+        "url": "https://www.npr.org/2020/05/04/847785015/supreme-court-arguments-resume-but-with-a-twist"
+      }
+    ]
+  }
+}

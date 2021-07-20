@@ -1,0 +1,26 @@
+{
+  "episode": {
+    "episode": 187,
+    "airDate": "2020-09-29",
+    "summary": "Discussing the leaked FinCEN files, their implications and consequences",
+    "youTubeURL": "https://www.youtube.com/watch?v=crBIHinifCM",
+    "guestNames": [
+      "Jason Leopold"
+    ],
+    "links": [
+      {
+        "title": "Background",
+        "url": "https://en.wikipedia.org/wiki/FinCEN_Files"
+      },
+      {
+        "title": "FinCEN files",
+        "url": "https://www.buzzfeednews.com/fincen-files"
+      },
+      {
+        "title": "Suspicious Activity (podcast)",
+        "url": "https://open.spotify.com/show/5RMdM2ropEmNNoguvU0J27?si=fs5urnh8RhS3dkZWtOhlvA"
+      }
+    ],
+    "detail": "We are joined by Jason Leopold, senior investigative reporter for BuzzFeed News\nis based in Los Angeles. He is a 2018 Pulitzer finalist for international\nreporting, recipient of the IRE 2016 FOI award and a 2016 Newseum Institute\nNational Freedom of Information Hall of Fame inductee."
+  }
+}

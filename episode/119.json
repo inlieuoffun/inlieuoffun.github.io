@@ -1,0 +1,17 @@
+{
+  "episode": {
+    "episode": 119,
+    "airDate": "2020-07-23",
+    "topics": "coronavirus",
+    "youTubeURL": "https://www.youtube.com/watch?v=yRrjdIhwTjU",
+    "guestNames": [
+      "Andy Slavitt"
+    ],
+    "links": [
+      {
+        "title": "StatNews",
+        "url": "https://www.statnews.com/2017/05/25/andy-slavitt-aca-town-halls/"
+      }
+    ]
+  }
+}
