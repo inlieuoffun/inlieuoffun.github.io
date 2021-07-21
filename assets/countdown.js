@@ -3,12 +3,14 @@
     const oneHour = 60*oneMinute;
     const oneDay = 24*oneHour;
     const showTimeUTC = 21*oneHour;
+    const FRIDAY = 5;
 
     function todayUTC() {
         var now = new Date(); // stub here for testing
         return {
-            now:   now.getTime(),
-            start: Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()),
+            now:     now.getTime(),
+            weekDay: now.getDay(), // 0=Sunday, ...
+            start:   Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()),
         };
     }
 
@@ -20,9 +22,13 @@
         if (today.now > nextEnd) {
             if (today.now < nextEnd + 15*oneMinute) {
                 return '🕕 The <a href="/episode/latest">latest episode</a> just finished streaming.';
+            } else if (today.weekDay == FRIDAY) { // no weekend shows since Jul. 2021.
+                nextStart += 3*oneDay;
+                nextEnd += 3*oneDay;
+            } else {
+                nextStart += oneDay;
+                nextEnd += oneDay;
             }
-            nextStart += oneDay;
-            nextEnd += oneDay;
         } else if (today.now > nextStart) {
             return 'The current episode is <a href="/stream/latest">streaming live</a>. 👀';
         }
