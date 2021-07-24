@@ -22,9 +22,10 @@
         if (today.now > nextEnd) {
             if (today.now < nextEnd + 15*oneMinute) {
                 return '🕕 The <a href="/episode/latest">latest episode</a> just finished streaming.';
-            } else if (today.weekDay == FRIDAY) { // no weekend shows since Jul. 2021.
-                nextStart += 3*oneDay;
-                nextEnd += 3*oneDay;
+            } else if (today.weekDay >= FRIDAY) { // no weekend shows since Jul. 2021.
+		let nDays = 3 - (today.weekDay - FRIDAY);
+                nextStart += nDays*oneDay;
+                nextEnd += nDays*oneDay;
             } else {
                 nextStart += oneDay;
                 nextEnd += oneDay;
