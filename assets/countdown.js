@@ -4,6 +4,8 @@
     const oneDay = 24*oneHour;
     const showTimeUTC = 21*oneHour;
     const FRIDAY = 5;
+    const SATURDAY = 6;
+    const SUNDAY = 0;
 
     function todayUTC() {
         var now = new Date(); // stub here for testing
@@ -14,21 +16,26 @@
         };
     }
 
+    function todayShowTime(today) {
+        var nextStart = today.start;
+        if (today.weekDay == SATURDAY) {
+            nextStart += 2*oneDay;
+        } else if (today.weekDay == SUNDAY) {
+            nextStart += 1*oneDay;
+        }
+        return nextStart + showTimeUTC;
+    }
+
     function episodeStatus() {
         var today     = todayUTC();
-        var nextStart = today.start + showTimeUTC;
+        var nextStart = todayShowTime(today);
         var nextEnd   = nextStart + oneHour;
 
         if (today.now > nextEnd) {
             if (today.now < nextEnd + 15*oneMinute) {
                 return '🕕 The <a href="/episode/latest">latest episode</a> just finished streaming.';
-            } else if (today.weekDay >= FRIDAY) { // no weekend shows since Jul. 2021.
-		let nDays = 3 - (today.weekDay - FRIDAY);
-                nextStart += nDays*oneDay;
-                nextEnd += nDays*oneDay;
-            } else {
-                nextStart += oneDay;
-                nextEnd += oneDay;
+            } else if (today.weekDay == FRIDAY) {
+                nextStart += 3*oneDay;
             }
         } else if (today.now > nextStart) {
             return 'The current episode is <a href="/stream/latest">streaming live</a>. 👀';
@@ -37,6 +44,9 @@
         var diff = new TimeDiff(nextStart, today.now);
         var tag = diff.hours == 0 ? "🔜 " : "";
         var howLong = [];
+        if (diff.days > 0) {
+            howLong.push(diff.daysLabel());
+        }
         if (diff.hours > 0) {
             howLong.push(diff.hoursLabel());
         }
