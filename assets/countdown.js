@@ -44,7 +44,7 @@
         }
 
         var diff = new TimeDiff(nextStart, today.now);
-        var tag = diff.hours == 0 ? "🔜 " : "";
+        var tag = (diff.days == 0 && diff.hours == 0) ? "🔜 " : "";
         var howLong = [];
         if (diff.days > 0) {
             howLong.push(diff.daysLabel());
