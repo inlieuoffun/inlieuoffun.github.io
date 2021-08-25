@@ -10,7 +10,7 @@ This repository contains the website for the [In Lieu of Fun](https://inlieuof.f
 
 [issues]: http://issues.inlieuof.fun
 
-## Site Data
+## Episode Metadata
 
 Episodes are stored in Markdown files in the `_episodes` directory, with each
 file named like `YYYY-MM-DD-NNNN.md`. Here `NNNN` is the episode number, padded
@@ -37,9 +37,17 @@ table is rendered by the Liquid template in [`episodes.html`](./episodes.html).
 To add a new episode, create a new file in the `_episodes` directory following
 the format of the existing files, and update the guest list as necessary.
 
-Guests are recorded in [`_data/guests.yaml`](./_data/guests.yaml), and the
-guest list is rendered by the Liquid template in [`guests.html`](./guests.html).
+## Guest Metadata
 
+All guests are recorded in a single YAML file, [`_data/guests.yaml`](./_data/guests.yaml).
+The HTML guest list is rendered by the Liquid template in [`guests.html`](./guests.html).
+The following data are recorded for each guest:
+
+ - `name`: Guest name (required)
+ - `episodes`: List of episode numbers attended (required)
+ - `twitter`: Twitter handle (optional)
+ - `url`: Personal website URL (optional)
+ - `notes`: A brief biographical synopsis (optional)
 
 ## Updates
 
