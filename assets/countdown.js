@@ -7,8 +7,10 @@
     const SATURDAY = 6;
     const SUNDAY = 0;
 
-    function todayUTC() {
-        var now = new Date(); // stub here for testing
+    function todayUTC() { return dateInUTC(null); }
+
+    function dateInUTC(date) {
+        var now = date ? new Date(date) : new Date();  // stub here for testing
         return {
             now:     now.getTime(),
             weekDay: now.getDay(), // 0=Sunday, ...
