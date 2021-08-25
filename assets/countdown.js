@@ -30,7 +30,7 @@
 
     function episodeStatus() {
         var today     = todayUTC();
-        var nextStart = todayShowTime(today);
+        var nextStart = todayShowTime(dateInUTC("2021-08-30T21:00:00Z")); // patch for ep. 500 week
         var nextEnd   = nextStart + oneHour;
 
         if (today.now > nextEnd) {
