@@ -38,6 +38,8 @@
                 return '🕕 The <a href="/episode/latest">latest episode</a> just finished streaming.';
             } else if (today.weekDay == FRIDAY) {
                 nextStart += 3*oneDay;
+            } else {
+                nextStart += 1*oneDay;
             }
         } else if (today.now > nextStart) {
             return 'The current episode is <a href="/stream/latest">streaming live</a>. 👀';
