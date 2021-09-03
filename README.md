@@ -17,7 +17,7 @@ file named like `YYYY-MM-DD-NNNN.md`. Here `NNNN` is the episode number, padded
 with zeroes on the left (e.g., `0014`, `0143`). Each file has a YAML front
 matter section giving episode metadata:
 
- - `episode`: The episode number [integer; required]
+ - `episode`: The episode number [number; required]
  - `date`: The date when the episode aired [string, "YYYY-MM-DD"; required]
  - `youtube`: The URL of the episode stream on YouTube [string]
  - `crowdcast`: The URL of the episode stream on Crowdcast [string]
