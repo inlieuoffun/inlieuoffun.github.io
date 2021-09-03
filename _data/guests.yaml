@@ -181,7 +181,7 @@
 - name: Lisa Page
   twitter: natseclisa
   notes: National security & tech lawyer; former federal prosecutor; legal analyst
-  episodes: [26, 219, 280, 503]
+  episodes: [26, 219, 280, 500.3]
 
 - name: Molly Jong-Fast
   twitter: MollyJongFast
@@ -222,12 +222,12 @@
   twitter: Ada_Palmer
   url: https://adapalmer.com/
   notes: Historian, SF/Fantasy author, and composer
-  episodes: [32, 98, 354, 424]
+  episodes: [32, 98, 354, 424, 500.4]
 
 - name: Preet Bharara
   twitter: PreetBharara
   notes: Former U.S. Attorney for the Southern District of New York; podcaster extraordinaire
-  episodes: [33, 222, 501]
+  episodes: [33, 222, 500.2]
 
 - name: Toomas Hendrick Ilves
   twitter: IlvesToomas
@@ -310,7 +310,7 @@
   twitter: Timodc
   url: https://thebulwark.com/author/tim-miller/
   notes: Writer, author, journalist; former political director of RVAT
-  episodes: [47, 96, 125, 155, 202, 224, 273, 300, 316, 370, 390, 461, 496, 500]
+  episodes: [47, 96, 125, 155, 202, 224, 273, 300, 316, 370, 390, 461, 496, 500.1]
 
 - name: Tom Wheeler
   twitter: tewheels
@@ -869,7 +869,7 @@
 - name: Peter Strzok
   twitter: petestrzok
   notes: FBI and Army veteran; author
-  episodes: [195, 264, 341, 422, 471, 502]
+  episodes: [195, 264, 341, 422, 471, 500.2]
 
 - name: Barton Gellman
   twitter: bartongellman
