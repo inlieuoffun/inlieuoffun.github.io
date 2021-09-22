@@ -657,9 +657,10 @@
   episodes: [130]
 
 - name: Allegra Love
+  twitter: santafedreamers
   url: http://www.santafedreamersproject.org/who-we-are
   notes: Immigration attorney specializing in border and refugee issues
-  episodes: [129]
+  episodes: [129, 513]
 
 - name: Deepak Gupta
   twitter: deepakguptalaw
