@@ -499,7 +499,7 @@
   twitter: normative
   url: http://www.juliansanchez.com/
   notes: Writer, policy analyst, and journalist; Cato Institute Senior Fellow
-  episodes: [88]
+  episodes: [88, 541]
 
 - name: Thomas Rid
   twitter: RidT
@@ -1639,3 +1639,9 @@
   twitter: brittanheller
   notes: Lawyer, Fellow at the Harvard Carr Center
   episodes: [531]
+
+- name: Kriston Capps
+  twitter: kristoncapps
+  url: http://archive.boston.com/ae/theater_arts/exhibitionist/2007/04/kriston_capps_i.html
+  notes: Staff writer at CityLab, focusing on housing, architecture, art and chili
+  episodes: [541]
