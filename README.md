@@ -121,6 +121,8 @@ and push them up to GitHub.
     - These redirects prefer Crowdcast if available, and fall back to YouTube.
 - Episode N replay redirect (ex. N=25): https://inlieuof.fun/replay/25
     - These redirects go to YouTube unconditionally (if set).
+- Episode N audio redirect (ex. N=25) https://inlieuof.fun/audio/25
+    - These redirects go to ACast for episodes that set it.
 - Episode N detail redirect (ex. N=25): https://inlieuof.fun/episode/25
 - Merch store redirects: https://inlieuof.fun/merch, https://inlieuof.fun/store
 

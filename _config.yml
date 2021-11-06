@@ -20,6 +20,8 @@ static_redirect:
     values: [crowdcast, youtube]
   replay:
     value: youtube
+  audio:
+    value: acast
   episode:
     value: basename_without_ext
     template: '/episode/%<value>s.html'
