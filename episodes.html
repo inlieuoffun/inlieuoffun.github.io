@@ -34,7 +34,9 @@ do not.</p>
     <tr class="day{{ weekday }}{% if entry.special %} special{% endif %}">
       <td>
         <a name="ep{{ entry.episode }}"></a>
-        {{ entry.episode }}&nbsp;<a title="episode {{ entry.episode }} detail" href="/episode/{{ entry.episode }}">&#x2139;</a><br />
+        {{ entry.episode }}&nbsp;<a title="episode {{ entry.episode }} detail" href="/episode/{{ entry.episode }}">&#x2139;</a>
+        {%- if entry.acast %}
+        <a title="episode {{ entry.episode }} audio" href="/audio/{{ entry.episode }}">&#x1F509;</a>{% endif -%}<br />
         {% assign label = entry.date | date: "%b. %d, %Y" %}
         <a href="{{ site.url }}/stream/{{ entry.episode }}" target=_blank
            title="Stream for ILoF episode {{ entry.episode }}; aired {{ entry.date | date: "%B %d, %Y" }}">{{ label }}</a>
