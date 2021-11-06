@@ -21,6 +21,7 @@
     },
     "stream": {
       "latest": "{base}/stream/latest",
+      "audio": "{base}/audio/{number}",
       "episode": "{base}/stream/{number}",
       "replay": "{base}/replay/{number}"
     }
