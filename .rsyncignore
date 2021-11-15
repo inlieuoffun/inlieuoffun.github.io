@@ -1,0 +1,4 @@
+- .git
+- .jekyll-cache
+- _site
+- vendor
