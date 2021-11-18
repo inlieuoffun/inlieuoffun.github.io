@@ -110,7 +110,7 @@
         return parts.join(" ")+(diff.past ? " ago" : "");
     }
 
-    var status = document.getElementById("countdown");
+    var status = document.getElementById("showtime");
     function update() {
         status.innerHTML = episodeStatus();
     }
