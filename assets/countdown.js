@@ -2,10 +2,17 @@
     const oneMinute = 60*1000;
     const oneHour = 60*oneMinute;
     const oneDay = 24*oneHour;
-    const showTimeUTC = 22*oneHour;
+    const showTimeUTC = isDSTinUSA() ? 21*oneHour : 22*oneHour;
     const FRIDAY = 5;
     const SATURDAY = 6;
     const SUNDAY = 0;
+
+    function isDSTinUSA() {
+        var now = new Date();
+        var year = now.getFullYear();
+        var stdOffset = new Date(year, 0, 1).getTimezoneOffset();
+        return now.getTimezoneOffset() < stdOffset;
+    }
 
     function todayUTC() { return dateInUTC(null); }
 
