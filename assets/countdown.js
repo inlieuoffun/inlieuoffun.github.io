@@ -8,7 +8,7 @@
     const SUNDAY = 0;
 
     function isDSTinUSA() {
-        var now = new Date();
+        var now = new Date(todayUTC().now);
         var year = now.getFullYear();
         var stdOffset = new Date(year, 0, 1).getTimezoneOffset();
         return now.getTimezoneOffset() < stdOffset;
