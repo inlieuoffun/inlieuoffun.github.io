@@ -37,7 +37,7 @@
 
     function episodeStatus() {
         var today     = todayUTC();
-        var nextStart = todayShowTime(today);
+        var nextStart = todayShowTime(dateInUTC("2021-11-29T22:00:00Z")); // todayShowTime(today);
         var nextEnd   = nextStart + oneHour;
 
         if (today.now > nextEnd) {
