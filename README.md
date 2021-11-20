@@ -83,7 +83,7 @@ To use it you need to have (or install) [Go](https://golang.org), then run:
 [epdate]: https://github.com/inlieuoffun/tools/tree/default/epdate
 
 ```shell
-go get github.com/inlieuoffun/tools/epdate
+go install github.com/inlieuoffun/tools/epdate@latest
 ```
 
 To use the tool, you will need:
@@ -105,6 +105,32 @@ If there are new episodes scheduled, this will create one or more new files in
 the `_episodes` directory and update `_data/guests.yaml`. Inspect these and
 correct any errors or other missing data (the tool is imperfect), then commit
 and push them up to GitHub.
+
+### Audio Updates
+
+The Acast channel is updated separately from the main feed, and is usually
+around one to two weeks behind the main show. Older shows are being backfilled
+on an ad hoc basis.
+
+New audio episodes can be found from the [Acast RSS feed][acast-feed], but it
+is not currently practical to automatically integrate them. The publication
+date of the audio episode is after the original, but not by any fixed amount,
+and the episode numbering in the title is usually incorrect (it is probably
+being filled in by hand based on the previous entries).
+
+To update these episodes, install `scancast` from the tools repository:
+
+```shell
+go install github.com/inlieuoffun/tools/scancast@latest
+```
+
+This tool does not require any credentials. When you run `scantest`, it will
+fetch the Acast RSS feed and the ILoF episode log, and print out a summary of
+all the audio episodes listed in the feed whose URLs are not recorded in the
+episode log. You can (manually) update the episodes based on this output and
+commit the changes to Git.
+
+[acast-feed]: https://feeds.acast.com/public/shows/in-lieu-of-fun
 
 
 ## URL Structure
