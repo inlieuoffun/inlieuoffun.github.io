@@ -26,7 +26,7 @@
       "replay": "{base}/replay/{number}"
     }
   },
-  "type": {
+  "data": {
     "guest": {
       "description": "Details about a guest",
       "type": "object",
@@ -96,6 +96,7 @@
           "description": "A comma-separated list of topic labels"
         },
         "links": {
+          "description": "Hyperlinks to display in the episode log",
           "type": "array",
           "element": {
             "type": "object",
