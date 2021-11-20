@@ -106,6 +106,15 @@ the `_episodes` directory and update `_data/guests.yaml`. Inspect these and
 correct any errors or other missing data (the tool is imperfect), then commit
 and push them up to GitHub.
 
+To make the tool wait and poll until an update is made, run:
+
+```shell
+epdate -edit -poll-one
+```
+
+The [`scripts/poll.sh`](./scripts/poll.sh) script shows how you can combine
+this with other tools to post an alert when a new episode comes around.
+
 ### Audio Updates
 
 The Acast channel is updated separately from the main feed, and is usually
