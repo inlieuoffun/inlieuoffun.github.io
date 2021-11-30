@@ -18,7 +18,7 @@ jobs:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
-            ${{ runner.os }}-gems-
+            ${{ runner.os }}-gems-v2-
       - uses: helaili/jekyll-action@2.2.0
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
