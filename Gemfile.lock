@@ -72,6 +72,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ffi (~> 1.15)
   jekyll (~> 4.1.1)
   jekyll-feed (~> 0.12)
   jekyll-include-cache
