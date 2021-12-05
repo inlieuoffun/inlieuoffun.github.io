@@ -36,6 +36,13 @@
     }
 
     function episodeStatus() {
+	// To set a non-standard next-show time, for example if there is a hiatus
+	// from shows, replace nextStart below with an RFC3339 timestamp, e.g.,
+	//
+	//   var nextStart = todayShowTime(dateInUTC("2021-12-25T17:00:00-0500"));
+	//
+	// Revert to todayShowTime(today) when the exception has passed.
+
         var today     = todayUTC();
         var nextStart = todayShowTime(today);
         var nextEnd   = nextStart + oneHour;
