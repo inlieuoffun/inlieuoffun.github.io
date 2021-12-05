@@ -51,7 +51,7 @@ Audio-only versions of some episodes are also available on
 {%- for ep in rev limit:2 -%}
 {% capture url %}{{ site.url }}/stream/{{ ep.episode }}{% endcapture %}
   <li><a href="{{ site.url }}/episode/{{ ep.episode }}">Episode {{ ep.episode }}</a>
-   | {{ ep.date | date: "%B %d, %Y" }}
+   | {{ ep.date | date: "%B %e, %Y" }}
    | <a href="{{ url }}">stream</a>{% if ep.guests %}
    | <b>Guests:</b> {{ ep.guests | map: "name" | join: ", " }}{% else %}
    | Just your hosts{% endif %}
