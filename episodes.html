@@ -37,8 +37,9 @@ do not.</p>
         {{ entry.episode }}&nbsp;<a title="Detail page for episode {{ entry.episode }}" href="/episode/{{ entry.episode }}">&#x2139;</a>
         {%- if entry.acast %}
         <a title="Audio stream for episode {{ entry.episode }}" href="/audio/{{ entry.episode }}">&#x1F509;</a>{% endif -%}<br />
-        {% assign label = entry.date | date: "%b. %d, %Y" %}
-        <a href="{{ site.url }}/stream/{{ entry.episode }}" target=_blank
+        {% assign label = entry.date | date: "%b. %d, %Y" -%}
+        {% capture streamtype %}{% if forloop.index >= 5 %}replay{% else %}stream{% endif %}{% endcapture %}
+        <a href="{{ site.url }}/{{ streamtype }}/{{ entry.episode }}" target=_blank
            title="Stream for ILoF episode {{ entry.episode }}; aired {{ entry.date | date: "%B %d, %Y" }}">{{ label }}</a>
       </td>
       <td>
