@@ -69,6 +69,10 @@
           "description": "The episode number or label",
           "required": true
         },
+        "season": {
+          "type": "number",
+          "description": "The season number of this episode"
+        },
         "airDate": {
           "type": "string",
           "format": "YYYY-MM-DD",
