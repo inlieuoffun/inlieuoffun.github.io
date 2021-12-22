@@ -1,0 +1,49 @@
+---
+layout: page
+title: Frequent Guest List
+exclude: false
+---
+
+<p>The following the guests of <em>In Lieu of Fun</em>, who have appeared at
+least four times, ordered by frequency of appearance and first episode.</p>
+
+<span style="font-size: 120%; float: right;">
+  <a href="http://repo.inlieuof.fun/edit/source/_data/guests.yaml" target=_blank
+     title="Edit guest data on GitHub">&#x270D;</a>
+</p>
+
+</span>
+<table>
+  <thead>
+    <tr>
+      <th>Guest</th>
+      <th>Count</th>
+      <th>Episodes</th>
+    </tr>
+  </thead>
+  <tbody>
+  {%- for guest in site.data.leaderboard %}
+    <tr>
+      <td>
+        {%- if guest.url %}<a href="{{ guest.url }}">{% endif -%}
+        {{ guest.name }}
+        {%- if guest.url %}</a>{% endif %}
+        {%- if guest.twitter %}
+          (<a href="https://twitter.com/{{ guest.twitter }}">@
+          {{- guest.twitter }}</a>){% endif %}
+        {%- if guest.notes %}
+          <br /><small>{{ guest.notes }}</small>{% endif %}
+      </td>
+      <td>
+        {{ guest.episodes.size }}
+      </td>
+      <td>
+        {%- for n in guest.episodes %}
+        <a href="episode/{{ n }}">{{ n }}</a>
+        {%- unless forloop.last %}, {% endunless %}
+        {%- endfor %}
+      </td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>
