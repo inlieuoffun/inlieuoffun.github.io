@@ -22,7 +22,8 @@ matter section giving episode metadata:
  - `season`: The season number [integer]
  - `youtube`: The URL of the episode stream on YouTube [string]
  - `crowdcast`: The URL of the episode stream on Crowdcast [string]
- - `acast`: The URL of the episode audio on Acast [string]
+ - `acast`: The URL of the episode audio player on Acast [string]
+ - `audio-file`: The direct URL of the episode audio file [string]
  - `summary`: A brief summary of the episode [string, optional]. If this is
    provided, it is shown in the Episode Log.
  - `topics`: A comma-separated list of topics [string, optional]. If this is

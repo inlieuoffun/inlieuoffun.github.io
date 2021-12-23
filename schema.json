@@ -93,7 +93,12 @@
         "acastURL": {
           "type": "string",
           "format": "url",
-          "description": "Link to the episode audio stream on Acast"
+          "description": "Link to the episode audio stream player on Acast"
+        },
+        "audioFileURL": {
+          "type": "string",
+          "format": "url",
+          "description": "Direct link to the episode audio file on Acast"
         },
         "topics": {
           "type": "string",
