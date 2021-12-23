@@ -36,9 +36,7 @@ layout: default
           {% endif %}
       </li>
       <li><strong>{{ stream_label }}:</strong> {{ streams | join: ", " }}</li>
-      {%- if page.topics %}
-      <li><strong>Topics:</strong> {{ page.topics | strip }}</li>
-      {%- endif %}{%- assign c = content | strip %}
+      {%- assign c = content | strip %}
       {%- unless c.size > 0 %}{% if page.summary %}
       <li><strong>Summary:</strong> {{ page.summary | strip }}</li>
       {%- endif %}{% endunless %}

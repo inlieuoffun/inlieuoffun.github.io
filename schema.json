@@ -100,10 +100,6 @@
           "format": "url",
           "description": "Direct link to the episode audio file on Acast"
         },
-        "topics": {
-          "type": "string",
-          "description": "A comma-separated list of topic labels"
-        },
         "links": {
           "description": "Hyperlinks to display in the episode log",
           "type": "array",

@@ -26,8 +26,6 @@ matter section giving episode metadata:
  - `audio-file`: The direct URL of the episode audio file [string]
  - `summary`: A brief summary of the episode [string, optional]. If this is
    provided, it is shown in the Episode Log.
- - `topics`: A comma-separated list of topics [string, optional]. If this is
-   provided and there is not a summary, it is shown in the Episode Log.
  - `links`: A list of related hyperlinks [optional]. Shown on the Episode Log.
  - `special`: If true, cosmetically flag this episode as interesting in the Episode Log.
 

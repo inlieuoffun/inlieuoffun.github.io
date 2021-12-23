@@ -56,9 +56,7 @@ Audio-only versions of some episodes are also available on
    | <b>Guests:</b> {{ ep.guests | map: "name" | join: ", " }}{% else %}
    | Just your hosts{% endif %}
 {%- if ep.summary %}
-    <br /><small>{{ ep.summary | strip | replace: newline, " " }}</small>
-{%- elsif ep.topics %}
-    <br /><small><b>Topics:</b> {{ ep.topics | strip | replace: newline, " " }}</small>{% endif %}
+    <br /><small>{{ ep.summary | strip | replace: newline, " " }}</small>{% endif %}
   </li>{% endfor %}
 </ul>
 
