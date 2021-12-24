@@ -44,7 +44,7 @@
 	// Revert to todayShowTime(today) when the exception has passed.
 
         var today     = todayUTC();
-        var nextStart = todayShowTime(today);
+        var nextStart = todayShowTime(dateInUTC("2021-12-27T17:00:00-0500"));
         var nextEnd   = nextStart + oneHour;
 
         if (today.now > nextEnd) {
