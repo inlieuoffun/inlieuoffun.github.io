@@ -14,7 +14,7 @@
     function todayUTC() { return dateInUTC(null); }
 
     function dateInUTC(date) {
-        var now = date ? new Date(date) : new Date();  // stub here for testing
+        var now = date ? new Date(date) : new Date();
         var day = now.getDay();  // 0=Sunday, ...
         return {
             now:        now.getTime(),
@@ -39,6 +39,7 @@
         //   var nextStart = todayShowTime(dateInUTC("2021-12-25T17:00:00-0500"));
         //
         // Revert to todayShowTime(today) when the exception has passed.
+        // If you need to set a non-standard show start time, edit showTimeUTC.
 
         var today     = todayUTC();
         var nextStart = todayShowTime(today);
