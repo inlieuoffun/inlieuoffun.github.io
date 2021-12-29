@@ -3,9 +3,6 @@
     const oneHour = 60*oneMinute;
     const oneDay = 24*oneHour;
     const showTimeUTC = isDSTinUSA() ? 21*oneHour : 22*oneHour;
-    const FRIDAY = 5;
-    const SATURDAY = 6;
-    const SUNDAY = 0;
 
     function isDSTinUSA() {
         var now = new Date(todayUTC().now);
@@ -18,30 +15,30 @@
 
     function dateInUTC(date) {
         var now = date ? new Date(date) : new Date();  // stub here for testing
+        var day = now.getDay();  // 0=Sunday, ...
         return {
-            now:     now.getTime(),
-            weekDay: now.getDay(), // 0=Sunday, ...
-            start:   Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()),
+            now:        now.getTime(),
+            weekDay:    day,
+            isShowDay:  day >= 1 && day <= 5,
+            nextOffset: (day < 5) ? 1 : (8 - day),
+            start:      Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()),
         };
     }
 
     function todayShowTime(today) {
-        var nextStart = today.start;
-        if (today.weekDay == SATURDAY) {
-            nextStart += 2*oneDay;
-        } else if (today.weekDay == SUNDAY) {
-            nextStart += 1*oneDay;
+        if (today.isShowDay) {
+            return today.start + showTimeUTC;
         }
-        return nextStart + showTimeUTC;
+        return today.start + today.nextOffset*oneDay + showTimeUTC;
     }
 
     function episodeStatus() {
-	// To set a non-standard next-show time, for example if there is a hiatus
-	// from shows, replace nextStart below with an RFC3339 timestamp, e.g.,
-	//
-	//   var nextStart = todayShowTime(dateInUTC("2021-12-25T17:00:00-0500"));
-	//
-	// Revert to todayShowTime(today) when the exception has passed.
+        // To set a non-standard next-show time, for example if there is a hiatus
+        // from shows, replace nextStart below with an RFC3339 timestamp, e.g.,
+        //
+        //   var nextStart = todayShowTime(dateInUTC("2021-12-25T17:00:00-0500"));
+        //
+        // Revert to todayShowTime(today) when the exception has passed.
 
         var today     = todayUTC();
         var nextStart = todayShowTime(today);
@@ -50,10 +47,8 @@
         if (today.now > nextEnd) {
             if (today.now < nextEnd + 15*oneMinute) {
                 return '🕕 The <a href="/episode/latest">latest episode</a> just finished streaming.';
-            } else if (today.weekDay == FRIDAY) {
-                nextStart += 3*oneDay;
             } else {
-                nextStart += 1*oneDay;
+                nextStart += today.nextOffset*oneDay;
             }
         } else if (today.now > nextStart) {
             return 'The current episode is <a href="/stream/latest">streaming live</a>. 👀';
@@ -70,7 +65,7 @@
         }
         if (diff.minutes > 0) {
             howLong.push(diff.minutesLabel());
-        } else if (diff.hours == 0) {
+        } else if (howLong.length == 0) {
             howLong.push('<a href="/stream/latest">just a moment</a>');
         }
         return tag + "🕔 The next show goes live in " + howLong.join(", ") + ".";
