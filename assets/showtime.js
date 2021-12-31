@@ -19,8 +19,8 @@
         return {
             now:        now.getTime(),
             weekDay:    day,
-            isShowDay:  day >= 1 && day <= 5,
-            nextOffset: (day < 5) ? 1 : (8 - day),
+            isShowDay:  day%2 == 1, // Monday, Wednesday, Friday
+            nextOffset: (day < 5) ? 1+(day%2) : (8 - day),
             start:      Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()),
         };
     }
