@@ -139,10 +139,11 @@
           "element": {
             "type": "string",
             "values": {
-              "truth-from-fiction": "Guest tells a story, audience guesses whether it is true",
+              "announcement": "An important announcement takes place in this episode",
               "cheese-night": "The hosts eat cheese and there is no scheduled guest",
+              "mystery-guest": "Mystery Guest day in which guests are not pre-announced",
               "pugilism": "Multiple guests scheduled to debate on a topic",
-              "mystery-guest": "Mystery Guest day in which guests are not pre-announced"
+              "truth-from-fiction": "Guest tells a story, audience guesses whether it is true"
             }
           }
         },
