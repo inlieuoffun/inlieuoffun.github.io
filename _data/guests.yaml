@@ -1697,3 +1697,15 @@
   url: http://reneediresta.com
   notes: Scholar studying pathological information systems and narrative spread
   episodes: [578]
+
+- name: The New York Times
+  twitter: nytimes
+  url: http://www.nytimes.com/
+  notes: 'News tips? Share them here: https://t.co/ghL9OoYKMM'
+  episodes: [580]
+
+- name: Ryan Mac
+  twitter: RMac18
+  url: https://www.nytimes.com/by/ryan-mac
+  notes: Tech reporter for New York Times
+  episodes: [580]
