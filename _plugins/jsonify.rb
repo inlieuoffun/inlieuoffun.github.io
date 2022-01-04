@@ -21,7 +21,6 @@ module Jekyll
           :airDate => ep.data['date'].strftime('%Y-%m-%d'),
           :season => ep.data['season'],
           :summary => ep.data['summary'],
-          :tags => ep.data['tags'],
           :crowdcastURL => ep.data['crowdcast'],
           :youTubeURL => ep.data['youtube'],
           :acastURL => ep.data['acast'],
@@ -29,6 +28,7 @@ module Jekyll
           :special => ep.data['special'],
         }.compact
         msg[:guestNames] = ep.data['guests'].map {|v| v['name']} if ep.data['guests']
+        msg[:tags] = ep.data['tags'] if ep.data['tags']
         msg[:links] = ep.data['links'].map do |v|
           {:title => v['title'], :url => v['url']}
         end if ep.data['links']
