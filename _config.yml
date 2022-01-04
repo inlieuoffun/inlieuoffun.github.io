@@ -7,6 +7,7 @@ url: "https://inlieuof.fun"
 twitter_username: inlieuoffunshow
 github_username:  inlieuoffun
 theme: minima
+future: true
 
 # See _plugins/redirector.rb.
 static_redirect:
