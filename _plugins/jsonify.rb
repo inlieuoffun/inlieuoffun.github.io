@@ -28,7 +28,7 @@ module Jekyll
           :special => ep.data['special'],
         }.compact
         msg[:guestNames] = ep.data['guests'].map {|v| v['name']} if ep.data['guests']
-        msg[:tags] = ep.data['tags'] if ep.data['tags']
+        msg[:tags] = ep.data['tags'] if (ep.data['tags'] || []).length > 0
         msg[:links] = ep.data['links'].map do |v|
           {:title => v['title'], :url => v['url']}
         end if ep.data['links']
