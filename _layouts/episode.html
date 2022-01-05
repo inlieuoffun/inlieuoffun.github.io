@@ -24,8 +24,13 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{% if page.season %}[S{{ page.season }}]{% endif %} Episode {{ page.episode }}
     <span style="font-size: 80%; float: right;">
+    {% if page.previous %}<a href="/episode/{{ page.previous.episode }}"
+       title="Previous episode ({{ page.previous.episode }})">&#x2B05;</a>{% endif %}
     <a href="http://repo.inlieuof.fun/edit/source/{{ page.path }}" target=_blank
-       title="Edit episode {{ page.episode }} on GitHub">&#x270D;</a></span></h1>
+       title="Edit episode {{ page.episode }} on GitHub">&#x270D;</a>
+    {% if page.next %}<a href="/episode/{{ page.next.episode }}"
+       title="Next episode ({{ page.next.episode }})">&#x27A1;</a>{% endif %}
+    </span></h1>
 
     <ul>
       <li><strong>Air Date:</strong> {{ page.date | date: "%B %d, %Y" }}</li>
