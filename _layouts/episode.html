@@ -33,7 +33,7 @@ layout: default
     </span></h1>
 
     <ul>
-      <li><strong>Air Date:</strong> {{ page.date | date: "%B %d, %Y" }}</li>
+      <li><strong>Air Date:</strong> {{ page.date | date: "%B %e, %Y" }}</li>
       <li>{% if page.guests.size > 0 -%}
           <strong>Guests:</strong> {{ page.guests | map: "hyperlink" | join: ", " }}
           {% else -%}
