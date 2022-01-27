@@ -42,7 +42,7 @@
         // If you need to set a non-standard show start time, edit showTimeUTC.
 
         var today     = todayUTC();
-        var nextStart = dateInUTC("2022-01-27T17:00:00-0500").start + showTimeUTC;
+        var nextStart = todayShowTime(today);
         var nextEnd   = nextStart + oneHour;
 
         if (today.now > nextEnd) {
