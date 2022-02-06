@@ -4,6 +4,7 @@
 name: Build and publish ILoF
 
 on:
+  workflow_dispatch:  # allow manual invocation
   push:
     branches:
       - source
