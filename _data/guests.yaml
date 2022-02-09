@@ -1651,7 +1651,7 @@
   twitter: lageneralista
   url: http://lageneralista.com
   notes: Ph.D. researcher studying propaganda and human behaviour
-  episodes: [543, 585]
+  episodes: [543, 585, 596]
 
 - name: Steven Sloman
   url: https://www.brown.edu/academics/cognitive-linguistic-psychological-sciences/people/faculty/steven-sloman
@@ -1725,3 +1725,13 @@
   twitter: heliving1
   notes: Presbyterian pastor, holistic health and wellness coach; aspiring author
   episodes: [591]
+
+- name: Eve Gaumond
+  twitter: eve_gaumond
+  notes: Graduate student studying the societal impact of AI at Laval University; Lawfare contributor
+  episodes: [596]
+
+- name: Glen McGregor
+  twitter: glen_mcgregor
+  notes: CTV National News journalist in the Parliamentary Press Gallery
+  episodes: [596]
