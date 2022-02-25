@@ -233,7 +233,7 @@
   twitter: IlvesToomas
   url: https://www.presidentilves.ee/
   notes: Diplomat, journalist; former President of Estonia (2006-2016), MEP (2004-2006)
-  episodes: [34, 303, 422, 549]
+  episodes: [34, 303, 422, 549, 603]
 
 - name: David Plotz
   twitter: davidplotz
@@ -1741,3 +1741,9 @@
   url: https://lifeisasacredtext.substack.com/
   notes: Rabbi and author, Scholar-in-Residence at National Council of Jewish Women
   episodes: [602]
+
+- name: Constanze Stelzenmüller
+  twitter: ConStelz
+  url: http://www.brookings.edu/experts/stelzenmullerc
+  notes: Foreign policy scholar on Germany and the EU at Brookings; columnist
+  episodes: [603]
