@@ -110,6 +110,7 @@
 
 - name: Alan Rozenshtein
   twitter: ARozenshtein
+  url: https://alanrozenshtein.com/
   notes: Law professor, contributing editor at Lawfare; former Justice Department lawyer
   episodes: [12, 45, 161, 185, 223, 276]
 
@@ -215,6 +216,7 @@
 
 - name: Yascha Mounk
   twitter: Yascha_Mounk
+  url: https://www.persuasion.community/
   notes: Professor of Information Studies; contributing editor at The Atlantic
   episodes: [31, 37]
 
@@ -423,6 +425,7 @@
 
 - name: Matt Yglesias
   twitter: mattyglesias
+  url: https://www.slowboring.com/
   notes: Journalist and co-founder of vox.com
   episodes: [74]
 
@@ -1149,6 +1152,7 @@
 
 - name: Dara Lind
   twitter: dlind
+  url: https://www.daralind.com/
   notes: Immigration reporter at Propublica, co-host of "The Weeds" podcast
   episodes: [306]
 
@@ -1274,6 +1278,7 @@
 
 - name: Jacob Mchangama
   twitter: JMchangama
+  url: http://jacobmchangama.com/
   notes: Founder and CEO of Justitia; visiting fellow at FIRE
   episodes: [355]
 
@@ -1469,11 +1474,13 @@
 
 - name: Kate Conger
   twitter: kateconger
+  url: https://www.nytimes.com/by/kate-conger
   notes: Tech reporter for the New York Times
   episodes: [448]
 
 - name: Kate Levine
   twitter: klevine02
+  url: https://cardozo.yu.edu/directory/kate-levine
   notes: Professor of Law, former appellate public defender, writer
   episodes: [450]
 
@@ -1719,6 +1726,7 @@
 
 - name: Anita Krishnakumar
   twitter: ASKrishnakumar
+  url: https://www.law.georgetown.edu/faculty/anita-krishnakumar/
   notes: Law professor studying statutory interpretation and the legislative process
   episodes: [588]
 
