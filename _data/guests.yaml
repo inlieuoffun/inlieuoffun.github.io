@@ -1002,7 +1002,7 @@
 - name: Sarah Bond
   twitter: SarahEBond
   notes: Associate Professor of History, Roman historian, and writer
-  episodes: [251, 412, 484]
+  episodes: [251, 412, 484, 611]
 
 - name: Marc Polymeropoulos
   twitter: Mpolymer
@@ -1769,3 +1769,9 @@
   url: http://www.natelubin.com/
   notes: Fellow at Digital Life Initiative; former director, Office of Digital Strategy
   episodes: [607]
+
+- name: Peter Keegan
+  twitter: PeterKeegan7
+  url: https://mq.academia.edu/PeterKeegan
+  notes: Roman historian, lover of graffiti and archaeology, space enthusiast
+  episodes: [611]
