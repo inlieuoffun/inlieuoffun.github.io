@@ -42,6 +42,7 @@
         // If you need to set a non-standard show start time, edit showTimeUTC.
 
         var today     = todayUTC();
+        today.isShowDay = true;
         var nextStart = todayShowTime(today);
         var nextEnd   = nextStart + oneHour;
 
