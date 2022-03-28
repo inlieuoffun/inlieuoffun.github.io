@@ -38,7 +38,34 @@ Audio versions of many episodes are also available on the
 <a href="https://shows.acast.com/in-lieu-of-fun">ILoF Acast feed</a>.</p>
 
 <hr />
-<div id="recent-episodes" style="padding:0.5ex;background-color:#eeeeff;">
+<style type="text/css">
+  div.leftcol { min-width: 200px; width: 48%; float: left; }
+  div.rightcol { min-width: 200px; width: 48%; float: right; }
+</style>
+
+<hr />
+<div class="rightcol">
+<a name="quick-ref"></a><h2>🧐 Quick Reference</h2>
+
+<ul>
+  <li>Visit the <a href="episodes.html">Episode Log</a>,
+  the <a href="guests.html">Guest List</a>, or
+  <a href="frequent.html">Frequent Guests</a>.</li>
+
+  <li>Get <a href="data.html">episode or guest data in machine-readable form</a>.</li>
+
+  <li><b>See something wrong?</b>
+  Please <a href="http://issues.inlieuof.fun/new">file an issue</a> describing
+  the problem, and one of our loyal volunteers will look into it.
+
+     <ul><li>You can also <a href="http://repo.inlieuof.fun">view or send pull
+     requests</a> for this site, or <a href="http://build.inlieuof.fun">check the
+     build status</a>.</li></ul>
+  </li>
+</ul>
+</div>
+
+<div id="recent-episodes" class="leftcol" style="padding:0.5ex;background-color:#eeeeff;">
 <a name="recent"></a><h2>Recent Episodes</h2>
 
 <p id="showtime"></p>
@@ -59,43 +86,4 @@ Audio versions of many episodes are also available on the
     <br /><small>{{ ep.summary | strip | replace: newline, " " }}</small>{% endif %}
   </li>{% endfor %}
 </ul>
-
-<style type="text/css">
-  div.leftcol { min-width: 200px; width: 48%; float: left; }
-  div.rightcol { min-width: 200px; width: 48%; float: right; }
-</style>
-</div>
-
-<hr />
-<div class="leftcol">
-<a name="quick-ref"></a><h2>🧐 Quick Reference</h2>
-
-<ul>
-  <li>Get you some <a href="{{ site.url }}/store" target=_blank>ILoF merchandise</a>! &#x1F60E;</li>
-
-  <li>Visit the <a href="episodes.html">Episode Log</a>,
-  the <a href="guests.html">Guest List</a>, or
-  <a href="frequent.html">Frequent Guests</a>.</li>
-
-  <li>Get <a href="data.html">episode or guest data in machine-readable form</a>.</li>
-
-  <li><b>See something wrong?</b>
-  Please <a href="http://issues.inlieuof.fun/new">file an issue</a> describing
-  the problem, and one of our loyal volunteers will look into it.
-
-     <ul><li>You can also <a href="http://repo.inlieuof.fun">view or send pull
-     requests</a> for this site, or <a href="http://build.inlieuof.fun">check the
-     build status</a>.</li></ul>
-  </li>
-</ul>
-</div>
-
-<div class="rightcol" style="border-style:dotted; padding:1ex;">
-<h2>&#x1F389; <a href="https://inlieuof.fun/store">ILoF Paraphernalia</a>!</h2>
-
-<p><b>Join the Order of the Baby Cannon!</b> You can now get your own <b>In
-Lieu of Fun</b> mugs, clothing, and more from the
-<a href="https://inlieuof.fun/store">Revolution Art Shop</a>!  All proceeds
-from ILoF paraphernalia go to support <a href="https://wck.org/">World Central
-Kitchen</a>.</p>
 </div>

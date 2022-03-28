@@ -11,12 +11,6 @@ future: true
 
 # See _plugins/redirector.rb.
 static_redirect:
-  merch:
-    fixed: true
-    target: "https://revolutionartshop.com/collections/order-of-the-baby-cannon-in-lieu-of-fun"
-  store:
-    fixed: true
-    target: "https://revolutionartshop.com/collections/order-of-the-baby-cannon-in-lieu-of-fun"
   stream:
     values: [crowdcast, youtube]
   replay:
