@@ -235,7 +235,7 @@
   twitter: IlvesToomas
   url: https://www.presidentilves.ee/
   notes: Diplomat, journalist; former President of Estonia (2006-2016), MEP (2004-2006)
-  episodes: [34, 303, 422, 549]
+  episodes: [34, 303, 422, 549, 621]
 
 - name: David Plotz
   twitter: davidplotz
@@ -1797,3 +1797,9 @@
   url: http://emptywheel.net/
   notes: Journalist writing about national security and civil liberties
   episodes: [620]
+
+- name: Vladislav Davidzon
+  twitter: VladDavidzon
+  url: http://odessareview.com
+  notes: Fellow at the Atlantic Council; columnist and author  @AtlanticCouncil Columnist @tabletmag Eastern Europe @aminterest @ForeignPolicy Founding editor @theodessareview Author of “From Odessa with Love”
+  episodes: [621]
