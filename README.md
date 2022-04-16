@@ -161,6 +161,7 @@ commit the changes to Git.
 - Episode N audio redirect (ex. N=25) https://inlieuof.fun/audio/25
     - These redirects go to ACast for episodes that set it.
 - Episode N detail redirect (ex. N=25): https://inlieuof.fun/episode/25
+- Inverted index (JSON): https://inlieuof.fun/index.json
 
 ## Peculiarities
 
