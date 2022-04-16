@@ -1,0 +1,106 @@
+# coding: utf-8
+module Jekyll
+  class Indexer < Generator
+    safe true
+    priority :low
+
+    # Generate an inverted index of terms mentioned in episode descriptions.
+    def generate(site)
+      index = {} # :: episode → term → count
+      etags = {} # :: tag → doc
+      terms = {} # :: word → ndocs (for stopwording)
+      site.collections['episodes'].docs.each do |doc|
+        di = index_doc(doc)
+        index[doc.data['episode']] = di
+        di.each do |word, count|
+          terms[word] = (terms[word] || 0) + 1
+        end
+        (doc.data['tags'] || []).each do |tag|
+          if not etags.has_key? tag then
+            etags[tag] = []
+          end
+          etags[tag].append doc.data['episode']
+        end
+      end
+
+      # Compute stopwords based on prevalence and length.
+      ndocs = index.length.to_f
+      stops = {}
+      terms.each do |word, count|
+        if word.length > 25 or (count/ndocs) > 0.11 then
+          stops[word] = true
+        end
+      end
+
+      # Compute the inverted index, terms to array of document, count.
+      invert = {}
+      index.each do |doc, docindex|
+        docindex.each do |word, count|
+          next if stops[word]
+          if not invert.has_key? word then
+            invert[word] = {}
+          end
+          invert[word][doc] = count
+        end
+      end
+
+      msg = {
+        :terms => invert,
+        :tags => etags,
+      }
+      write_json(site, '', 'index.json', {:index => msg})
+    end
+
+    def write_json(site, dir, name, msg)
+      site.static_files << JSONFile.new(site, site.dest, dir, name, msg)
+    end
+
+    # JSONFile simulates a static file but the original content is generated
+    # instead of copied from the source directory.
+    #
+    # There might be a better way to do this, but Jekyll's plumbing for files
+    # is a little tricky due to various layers of rendering. This was the
+    # easiest solution I could come up with.
+    class JSONFile < StaticFile
+      def initialize(site, base, dir, name, msg)
+        super(site, base, dir, name)
+        @blob = JSON.pretty_generate(msg) # vs. msg.to_json
+      end
+
+      # Always consider this file type to require writing.
+      def modified? ; true end
+
+      # This is essentially the parent logic, but writes the generated data out
+      # instead of copying an existing file.
+      def write(dest)
+        dest_path = destination(dest)
+
+        FileUtils.mkdir_p(File.dirname(dest_path))
+        FileUtils.rm(dest_path) if File.exist?(dest_path)
+        File.open(dest_path, "w") do |f|
+          f.write @blob
+          f.close
+        end
+      end
+    end
+
+    def index_doc(doc)
+      index = {}
+      index_string(doc.data['summary'] || '').each do |word, count|
+        index[word] = (index[word] || 0) + count
+      end
+      index_string(doc.content).each do |word, count|
+        index[word] = (index[word] || 0) + count
+      end
+      return index
+    end
+
+    def index_string(s)
+      index = {}
+      s.strip.downcase.split(/\W+/).each do |word|
+        index[word] = (index[word] || 0) + 1
+      end
+      return index
+    end
+  end
+end
