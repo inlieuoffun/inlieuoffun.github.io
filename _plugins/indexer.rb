@@ -15,11 +15,24 @@ module Jekyll
         di.each do |word, count|
           terms[word] = (terms[word] || 0) + 1
         end
+
+        # Add tags for the explicitly-defined tags.
         (doc.data['tags'] || []).each do |tag|
-          if not etags.has_key? tag then
-            etags[tag] = []
-          end
-          etags[tag].append doc.data['episode']
+          add_tag(etags, tag, doc.data['episode'])
+        end
+
+        # Add implicit tags for other interesting properties.
+        if (doc.data['links'] || []).length > 0 then
+          add_tag(etags, 'has:links', doc.data['episode'])
+        end
+        if doc.data['acast'] then
+          add_tag(etags, 'has:audio', doc.data['episode'])
+        end
+        if doc.content.strip.size > 0 then
+          add_tag(etags, 'has:detail', doc.data['episode'])
+        end
+        if doc.data['special'] then
+          add_tag(etags, 'is:special', doc.data['episode'])
         end
       end
 
@@ -82,6 +95,13 @@ module Jekyll
           f.close
         end
       end
+    end
+
+    def add_tag(map, tag, elt)
+      if not map.has_key? tag then
+        map[tag] = []
+      end
+      map[tag].append elt
     end
 
     def index_doc(doc)
