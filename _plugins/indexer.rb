@@ -38,10 +38,12 @@ module Jekyll
 
       # Compute stopwords based on prevalence and length.
       ndocs = index.length.to_f
-      stops = {}
+      stops = {'' => true}
       terms.each do |word, count|
-        if word.length > 25 or (count/ndocs) > 0.11 then
+        if word.start_with? '_' or word.length > 25 or (count/ndocs) > 0.11 then
           stops[word] = true
+        elsif word.length > 4 and word.match? /^\d+$/ then
+          stops[word] = true  # probably crap from URLs.
         end
       end
 
@@ -58,8 +60,8 @@ module Jekyll
       end
 
       msg = {
-        :terms => invert,
-        :tags => etags,
+        :terms => invert.sort_by {|word, v| word}.to_h,
+        :tags => etags.sort_by {|tag, v| tag}.to_h,
       }
       write_json(site, '', 'index.json', {:index => msg})
     end
