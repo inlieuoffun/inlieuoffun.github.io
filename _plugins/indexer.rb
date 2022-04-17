@@ -42,7 +42,7 @@ module Jekyll
       ndocs = index.length.to_f
       stops = {'' => true}
       terms.each do |word, count|
-        if word.start_with? '_' or word.length > 25 or (count/ndocs) > 0.11 then
+        if word.include? '_' or word.length > 25 or (count/ndocs) > 0.11 then
           stops[word] = true
         elsif word.length > 4 and word.match? /^\d+$/ then
           stops[word] = true  # probably crap from URLs.
