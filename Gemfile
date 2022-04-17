@@ -22,3 +22,5 @@ end
 gem "webrick", "~> 1.7"
 
 gem "ffi", "~> 1.15"
+
+gem "porter2stemmer", git: 'https://github.com/NeilNjae/porter2stemmer'

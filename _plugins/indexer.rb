@@ -1,4 +1,6 @@
 # coding: utf-8
+require 'porter2stemmer'
+
 module Jekyll
   class Indexer < Generator
     safe true
@@ -119,10 +121,14 @@ module Jekyll
 
     def index_string(s)
       index = {}
-      s.strip.downcase.split(/\W+/).each do |word|
+      parse_string(s).each do |word|
         index[word] = (index[word] || 0) + 1
       end
       return index
+    end
+
+    def parse_string(s)
+      s.strip.downcase.split(/\W+/).map {|w| w.stem(true) }
     end
   end
 end

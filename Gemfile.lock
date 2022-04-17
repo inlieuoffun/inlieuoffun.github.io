@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/NeilNjae/porter2stemmer
+  revision: ea1c28d02d1178eb9243ee50ed1332b9d1c2917a
+  specs:
+    porter2stemmer (1.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -77,6 +83,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-include-cache
   minima (~> 2.5)
+  porter2stemmer!
   webrick (~> 1.7)
 
 BUNDLED WITH
