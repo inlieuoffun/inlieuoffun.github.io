@@ -27,7 +27,13 @@ use:</p>
   <a href="{{ site.url }}/schema.json"><tt>{{ site.url }}/schema.json</tt></a></li>
 
   <li>An inverted index of terms extracted from episode summaries and details:<br />
-  <a href="{{ site.url }}/index.json"><tt>{{ site.url }}/index.json</tt></a></li>
+  <a href="{{ site.url }}/index.json"><tt>{{ site.url }}/index.json</tt></a>
+
+  <p>The index contains two objects, `"terms"` and `"tags"`. Each term maps a
+  single word to the episodes that contain it. Words are normalized to lower-case,
+  and the value for each episode is the number of times the term occurs there.
+  The value for each tag is the list of episodes (in order) matching that tag.</p>
+  </li>
 </ul>
 
 <p>These data are generated statically when the site is updated. Tools can use
