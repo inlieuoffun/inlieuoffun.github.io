@@ -48,7 +48,7 @@ module Jekyll
           first = false
         end
       end
-      write_json(site, '', 'episodes.json', all)
+      write_json(site, '', 'episodes.json', all, pretty=false)
     end
 
     def generate_guests(site)
@@ -62,11 +62,11 @@ module Jekyll
                }.compact
              end
             }
-      write_json(site, '', 'guests.json', all)
+      write_json(site, '', 'guests.json', all, pretty=false)
     end
 
-    def write_json(site, dir, name, msg)
-      site.static_files << JSONFile.new(site, site.dest, dir, name, msg)
+    def write_json(site, dir, name, msg, pretty=true)
+      site.static_files << JSONFile.new(site, site.dest, dir, name, msg, pretty)
     end
 
     # JSONFile simulates a static file but the original content is generated
@@ -76,9 +76,9 @@ module Jekyll
     # is a little tricky due to various layers of rendering. This was the
     # easiest solution I could come up with.
     class JSONFile < StaticFile
-      def initialize(site, base, dir, name, msg)
+      def initialize(site, base, dir, name, msg, pretty)
         super(site, base, dir, name)
-        @blob = JSON.pretty_generate(msg) # vs. msg.to_json
+        @blob = pretty ? JSON.pretty_generate(msg) : msg.to_json
       end
 
       # Always consider this file type to require writing.
