@@ -30,12 +30,12 @@ use:</p>
   <a href="{{ site.url }}/index.json"><tt>{{ site.url }}/index.json</tt></a>
 
   <p>The index contains two objects, <tt>"terms"</tt> and <tt>"tags"</tt>. Each
-  term maps a single word to the episodes that contain it. Words are normalized
-  to lower-case, and the value for each episode is the number of times the term
-  occurs there.  The value for each tag is the list of episodes (in order)
-  matching that tag.</p>
+  term maps a single word stem to the episodes that contain words based on that
+  stem. Words are normalized to lower-case, and the value for each episode is
+  an array of the specific words matching the stem.  The value for each tag is
+  the list of episodes (in order) matching that tag.</p>
 
-  <p>Words in the terms index are stemmed using the
+  <p>The stems in the terms index are created using the
   <a href="http://snowball.tartarus.org/algorithms/english/stemmer.html" target=_blank>
   Porter 2</a> stemming algorithm.</p>
   </li>

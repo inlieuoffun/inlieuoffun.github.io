@@ -49,15 +49,20 @@ module Jekyll
         end
       end
 
-      # Compute the inverted index, terms to array of document, count.
+      # Compute the inverted index, mapping each stem to a map of document to
+      # an array of specific (non-stemmed) terms.
       invert = {}
       index.each do |doc, docindex|
         docindex.each do |word, count|
           next if stops[word]
-          if not invert.has_key? word then
-            invert[word] = {}
+          stem = word.stem(true)
+          if not invert.has_key? stem then
+            invert[stem] = {}
           end
-          invert[word][doc] = count
+          if not invert[stem].has_key? doc then
+            invert[stem][doc] = []
+          end
+          invert[stem][doc].append word
         end
       end
 
@@ -128,7 +133,7 @@ module Jekyll
     end
 
     def parse_string(s)
-      s.strip.downcase.split(/\W+/).map {|w| w.stem(true) }
+      s.strip.downcase.split(/\W+/)
     end
   end
 end
