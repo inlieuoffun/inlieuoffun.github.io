@@ -59,15 +59,15 @@ module Jekyll
           if not invert.has_key? stem then
             invert[stem] = {}
           end
-          if not invert[stem].has_key? doc then
-            invert[stem][doc] = []
+          if not invert[stem].has_key? word then
+            invert[stem][word] = []
           end
-          invert[stem][doc].append word
+          invert[stem][word].append doc
         end
       end
 
       msg = {
-        :terms => invert.sort_by {|word, v| word}.to_h,
+        :terms => invert.sort_by {|stem, _| stem}.to_h,
         :tags => etags.sort_by {|tag, v| tag}.to_h,
       }
       write_json(site, '', 'index.json', {:index => msg})
