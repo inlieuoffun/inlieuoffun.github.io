@@ -1,6 +1,21 @@
 # coding: utf-8
 require 'porter2stemmer'
 
+$english_stopwords = ["i", "me", "my", "myself", "we", "our", "ours",
+"ourselves", "you", "your", "yours", "yourself", "yourselves", "he", "him",
+"his", "himself", "she", "her", "hers", "herself", "it", "its", "itself",
+"they", "them", "their", "theirs", "themselves", "what", "which", "who",
+"whom", "this", "that", "these", "those", "am", "is", "are", "was", "were",
+"be", "been", "being", "have", "has", "had", "having", "do", "does", "did",
+"doing", "a", "an", "the", "and", "but", "if", "or", "because", "as", "until",
+"while", "of", "at", "by", "for", "with", "about", "against", "between",
+"into", "through", "during", "before", "after", "above", "below", "to", "from",
+"up", "down", "in", "out", "on", "off", "over", "under", "again", "further",
+"then", "once", "here", "there", "when", "where", "why", "how", "all", "any",
+"both", "each", "few", "more", "most", "other", "some", "such", "no", "nor",
+"not", "only", "own", "same", "so", "than", "too", "very", "s", "t", "can",
+"will", "just", "don", "should", "now"].to_set
+
 module Jekyll
   class Indexer < Generator
     safe true
@@ -42,7 +57,9 @@ module Jekyll
       ndocs = index.length.to_f
       stops = {'' => true}
       terms.each do |word, count|
-        if word.length < 2 or word.include? '_' or word.length > 25 or (count/ndocs) > 0.12 then
+        if $english_stopwords.include? word then
+          stops[word] = true
+        elsif word.length < 2 or word.include? '_' or word.length > 25 or (count/ndocs) > 0.12 then
           stops[word] = true
         elsif word.length != 4 and word.match? /^\d+$/ then
           stops[word] = true  # probably crap from URLs.
