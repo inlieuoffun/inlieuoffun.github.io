@@ -1,0 +1,18 @@
+---
+layout: page
+title: Text Index
+exclude: true
+---
+
+<table>
+  <tr><th>Term</th><th>Episodes</th></tr>
+  {%- for term in site.data.textindex %}
+  <tr>
+    <td>{{ term.word }}</td>
+    <td>{% for ep in term.episodes %}
+      <a href="{{ site.url }}/episode/{{ ep }}">{{ ep }}</a>
+      {%- unless forloop.last %}, {% endunless -%}
+      {%- endfor %}</td>
+  </tr>
+  {% endfor %}
+</table>
