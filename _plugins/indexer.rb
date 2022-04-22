@@ -92,7 +92,7 @@ module Jekyll
         :terms => invert.sort_by {|stem, _| stem}.to_h,
         :tags => etags.sort_by {|tag, v| tag}.to_h,
       }
-      write_json(site, '', 'index.json', {:index => msg})
+      write_json(site, '', 'textindex.json', {:index => msg})
     end
 
     def write_json(site, dir, name, msg)
