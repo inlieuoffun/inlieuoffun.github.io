@@ -42,9 +42,9 @@ module Jekyll
       ndocs = index.length.to_f
       stops = {'' => true}
       terms.each do |word, count|
-        if word.include? '_' or word.length > 25 or (count/ndocs) > 0.11 then
+        if word.length < 2 or word.include? '_' or word.length > 25 or (count/ndocs) > 0.12 then
           stops[word] = true
-        elsif word.length > 4 and word.match? /^\d+$/ then
+        elsif word.length != 4 and word.match? /^\d+$/ then
           stops[word] = true  # probably crap from URLs.
         end
       end
@@ -64,6 +64,11 @@ module Jekyll
           end
           invert[stem][word].append doc
         end
+      end
+
+      # For rendering, map to array of objects.
+      site.data['textindex'] = invert.sort_by {|stem, _| stem}.to_h.flat_map do |_, item|
+        item.map {|word, ep| {'word' => word, 'episodes' => ep }}
       end
 
       msg = {
@@ -133,7 +138,11 @@ module Jekyll
     end
 
     def parse_string(s)
-      s.strip.downcase.split(/\W+/)
+      s.strip.
+        gsub(/\[([^\]]+)\]\([^\)]+\)/, '\1').
+        gsub(/\bhttps?:\/\/\S+/, '').
+        gsub(/([a-z]+)\d+/i, '\1').
+        downcase.split(/\W+/)
     end
   end
 end
