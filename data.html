@@ -29,15 +29,13 @@ use:</p>
   <li>An inverted index of terms extracted from episode summaries and details:<br />
   <a href="{{ site.url }}/textindex.json"><tt>{{ site.url }}/textindex.json</tt></a>
 
-  <p>The index contains two objects, <tt>"terms"</tt> and <tt>"tags"</tt>. Each
-  term maps a single word stem to the words based on that stem, and for each
-  word the episodes that contain it.  Words are normalized to lower-case, and
-  the value for each episode is an array of the specific words matching the
-  stem.  The value for each tag is the list of episodes (in order) matching
-  that tag.</p>
+  <p>The index contains two entries, <tt>"terms"</tt> and <tt>"stops"</tt>.
+  Each term maps a single word stem to the words based on that stem, and for
+  each word the episodes that contain it.  Words are normalized to lower-case,
+  Tags (e.g., <tt>has:links</tt>) are recorded in the same format as words.</p>
 
-  <p>In addition, the index has an array <tt>"stops"</tt> of stopwords that are
-  excluded from indexing. This can be used to filter query terms.</p>
+  <p>The `"stops"` are an array of stopwords excluded from indexing. This can
+  be used to filter query terms.</p>
 
   <p>The stems in the terms index are created using the
   <a href="http://snowball.tartarus.org/algorithms/english/stemmer.html" target=_blank>

@@ -35,7 +35,7 @@ module Jekyll
 
         # Add tags for the explicitly-defined tags.
         (doc.data['tags'] || []).each do |tag|
-          add_tag(etags, tag, doc.data['episode'])
+          add_tag(etags, 'tag:'+tag, doc.data['episode'])
         end
 
         # Add implicit tags for other interesting properties.
@@ -82,6 +82,9 @@ module Jekyll
           invert[stem][word].append doc
         end
       end
+      etags.each do |tag, eps|
+        invert[tag] = {tag => eps}
+      end
 
       # For rendering, map to array of objects.
       site.data['textindex'] = invert.sort_by {|stem, _| stem}.to_h.flat_map do |_, item|
@@ -90,7 +93,6 @@ module Jekyll
 
       msg = {
         :terms => invert.sort_by {|stem, _| stem}.to_h,
-        :tags => etags.sort_by {|tag, v| tag}.to_h,
         :stops => $english_stopwords.to_a.sort,
       }
       write_json(site, '', 'textindex.json', {:index => msg})
