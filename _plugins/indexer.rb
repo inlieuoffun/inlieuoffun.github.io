@@ -45,7 +45,7 @@ module Jekyll
             add_tag(etags, 'guest:'+part, ep) if part.length > 1
           end
           if guest['twitter'] then
-            add_tag(etags, '@'+guest['twitter'], ep)
+            add_tag(etags, '@'+guest['twitter'].downcase, ep)
           end
         end
 
