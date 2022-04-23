@@ -91,6 +91,7 @@ module Jekyll
       msg = {
         :terms => invert.sort_by {|stem, _| stem}.to_h,
         :tags => etags.sort_by {|tag, v| tag}.to_h,
+        :stops => $english_stopwords.to_a.sort,
       }
       write_json(site, '', 'textindex.json', {:index => msg})
     end
