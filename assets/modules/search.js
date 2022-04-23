@@ -1,6 +1,6 @@
 import { stem } from './wink-porter2-stemmer.js'
 
-function isKeyword(term) { return term.match(/^(is|has|tag):/); }
+function isKeyword(term) { return term.match(/^(@|(is|has|tag):)/); }
 
 export class SearchIndex {
     #datap; // a promise for the index data
