@@ -4,6 +4,8 @@ title: Episode Log
 exclude: false
 ---
 
+<script type="module" src="assets/episode-search.js"></script>
+
 <p>Here is a list of all the {{ site.episodes.size }} episodes of <em>In Lieu of Fun</em>.
 They are listed in reverse chronological order. Follow the &#x2139; icon link
 beside an episode number to see the detail page for that episode.  Follow the
@@ -13,6 +15,13 @@ links to its stream on Crowdcast or YouTube.</p>
 <p><strong>Note:</strong> Some of the early episode numbers are incorrect on
 YouTube.  Rest assured the topics and guests will match even when the numbers
 do not.</p>
+
+<p>🔎 <input type=text id="query-input" size=64 />
+  <button id="clear-filter">clear</button><br />
+  <span id="show-query"><strong>Filter: </strong>
+    <span style="font-style:italic;" id="show-query-content">none</span>
+  </span>
+</p>
 
 {% capture newline %}
 {% endcapture %}
