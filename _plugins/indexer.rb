@@ -27,29 +27,40 @@ module Jekyll
       etags = {} # :: tag → doc
       terms = {} # :: word → ndocs (for stopwording)
       site.collections['episodes'].docs.each do |doc|
+        ep = doc.data['episode']
         di = index_doc(doc)
-        index[doc.data['episode']] = di
+        index[ep] = di
         di.each do |word, count|
           terms[word] = (terms[word] || 0) + 1
         end
 
         # Add tags for the explicitly-defined tags.
         (doc.data['tags'] || []).each do |tag|
-          add_tag(etags, 'tag:'+tag, doc.data['episode'])
+          add_tag(etags, 'tag:'+tag, ep)
+        end
+
+        # Add tags for the names of guests.
+        (doc.data['guests'] || []).each do |guest|
+          parse_string(guest['name']).each do |part|
+            add_tag(etags, 'guest:'+part, ep) if part.length > 1
+          end
+          if guest['twitter'] then
+            add_tag(etags, '@'+guest['twitter'], ep)
+          end
         end
 
         # Add implicit tags for other interesting properties.
         if (doc.data['links'] || []).length > 0 then
-          add_tag(etags, 'has:links', doc.data['episode'])
+          add_tag(etags, 'has:links', ep)
         end
         if doc.data['acast'] then
-          add_tag(etags, 'has:audio', doc.data['episode'])
+          add_tag(etags, 'has:audio', ep)
         end
         if doc.content.strip.size > 0 then
-          add_tag(etags, 'has:detail', doc.data['episode'])
+          add_tag(etags, 'has:detail', ep)
         end
         if doc.data['special'] then
-          add_tag(etags, 'is:special', doc.data['episode'])
+          add_tag(etags, 'is:special', ep)
         end
       end
 
