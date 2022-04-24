@@ -32,14 +32,17 @@ const clearButton = document.getElementById("clear-filter");
 const showQuery   = document.getElementById("show-query");
 const queryText   = document.getElementById("show-query-content");
 
+async function updateQueryOnEnter(e) {
+    if (e.key == 'Enter') {
+        updateQuery(queryInput.value.trim());
+    }
+}
+
 // updateQuery checks the contents of the query input and updates the current
 // filter state.
-async function updateQuery(e) {
-    if (e.key != 'Enter') { return; }
-    
-    const query = queryInput.value.trim();
+async function updateQuery(query) {
     if (query == "") {
-        clearQuery(e);
+        clearQuery();
         return;
     }
     const terms = await searchIndex.parseQuery(query);
@@ -54,7 +57,7 @@ async function updateQuery(e) {
 }
 
 // clearQuery resets the current query to empty and removes the filter.
-async function clearQuery(e) {
+async function clearQuery() {
     queryInput.value = '';
     if (filterSet.size > 0) {
         filterSet = new Set();
@@ -74,7 +77,19 @@ function updateUI() {
         'none';
 }
 
+// checkURLQuery checks for a query parameter in the URL and, if set, populates
+// the initial query value from it.
+async function checkURLQuery() {
+    const url = new URL(document.location.href);
+    const query = url.searchParams.get("q") || "";
+    if (query) {
+        queryInput.value = query;
+        updateQuery(query);
+    }
+}
+
 // Hook up event listeners and initialize the UIL.
 clearButton.addEventListener("click", clearQuery);
-queryInput.addEventListener("keyup", updateQuery);
+queryInput.addEventListener("keyup", updateQueryOnEnter);
+checkURLQuery();
 updateUI();
