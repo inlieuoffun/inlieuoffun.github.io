@@ -1,6 +1,6 @@
 import { SearchIndex } from './modules/search.js';
 
-var searchIndex = new SearchIndex('textindex.json');  
+const searchIndex = new SearchIndex('textindex.json');
 
 // filterSet indicates which episodes should be shown.  If it is empty all
 // episodes should be shown; otherwise it contains a set of episode numbers to
@@ -27,7 +27,7 @@ function updateVisible() {
     }
 }
 
-const queryInput  = document.getElementById("query-input"); 
+const queryInput  = document.getElementById("query-input");
 const clearButton = document.getElementById("clear-filter");
 const showQuery   = document.getElementById("show-query");
 const queryText   = document.getElementById("show-query-content");
@@ -88,7 +88,7 @@ async function checkURLQuery() {
     }
 }
 
-// Hook up event listeners and initialize the UIL.
+// Hook up event listeners and initialize the UI.
 clearButton.addEventListener("click", clearQuery);
 queryInput.addEventListener("keyup", updateQueryOnEnter);
 checkURLQuery();
