@@ -7,6 +7,9 @@ var searchIndex = new SearchIndex('textindex.json');
 // be made visible as search results.
 var filterSet = new Set();
 
+// numMatches is the number of matching (visible) results.
+var numMatches = 0;
+
 // isSelected reports whether the given episode tag should be visible given the
 // current filter set.
 function isSelected(ep) {
@@ -16,8 +19,11 @@ function isSelected(ep) {
 // updateVisible updates the visibility of each episode row according to the
 // current state of the filter set.
 function updateVisible() {
+    numMatches = 0;
     for (const row of document.getElementsByClassName('erow')) {
-        row.style.display = isSelected(row.dataset.tag) ? '' : 'none';
+        const ok = isSelected(row.dataset.tag);
+        row.style.display = ok ? '' : 'none';
+        if (ok) { numMatches += 1; }
     }
 }
 
@@ -42,8 +48,8 @@ async function updateQuery(e) {
         alert("No results matching '"+query+"'");
     } else {
         filterSet = match;
-        updateUI();
         updateVisible();
+        updateUI();
     }
 }
 
@@ -63,7 +69,9 @@ function updateUI() {
     const isFiltered = filterSet.size > 0;
     clearButton.disabled = !isFiltered
     showQuery.style.visibility = isFiltered ? 'visible' : 'hidden';
-    queryText.innerHTML = isFiltered ? queryInput.value : 'none';
+    queryText.innerHTML = isFiltered ?
+        `${queryInput.value} (${numMatches} results)` :
+        'none';
 }
 
 // Hook up event listeners and initialize the UIL.
