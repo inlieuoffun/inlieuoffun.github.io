@@ -66,14 +66,12 @@ module Jekyll
 
       # Compute stopwords based on prevalence and length.
       ndocs = index.length.to_f
-      stops = {'' => true}
+      stops = $english_stopwords.clone
       terms.each do |word, count|
-        if $english_stopwords.include? word then
-          stops[word] = true
-        elsif word.length < 2 or word.include? '_' or word.length > 25 or (count/ndocs) > 0.12 then
-          stops[word] = true
+        if word.length < 2 or word.include? '_' or word.length > 25 or (count/ndocs) > 0.10 then
+          stops.add word
         elsif word.length != 4 and word.match? /^\d+$/ then
-          stops[word] = true  # probably crap from URLs.
+          stops.add word
         end
       end
 
@@ -82,7 +80,7 @@ module Jekyll
       invert = {}
       index.each do |doc, docindex|
         docindex.each do |word, count|
-          next if stops[word]
+          next if stops.include? word
           stem = word.stem(true)
           if not invert.has_key? stem then
             invert[stem] = {}
@@ -99,7 +97,7 @@ module Jekyll
 
       msg = {
         :terms => invert.sort_by {|stem, _| stem}.to_h,
-        :stops => $english_stopwords.to_a.sort,
+        :stops => stops.to_a.sort,
       }
       write_json(site, '', 'textindex.json', {:index => msg})
     end
