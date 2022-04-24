@@ -97,11 +97,6 @@ module Jekyll
         invert[tag] = {tag => eps}
       end
 
-      # For rendering, map to array of objects.
-      site.data['textindex'] = invert.sort_by {|stem, _| stem}.to_h.flat_map do |_, item|
-        item.map {|word, ep| {'word' => word, 'episodes' => ep }}
-      end
-
       msg = {
         :terms => invert.sort_by {|stem, _| stem}.to_h,
         :stops => $english_stopwords.to_a.sort,
