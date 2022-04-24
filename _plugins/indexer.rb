@@ -40,12 +40,16 @@ module Jekyll
         end
 
         # Add tags for the names of guests.
-        (doc.data['guests'] || []).each do |guest|
-          parse_string(guest['name']).each do |part|
-            add_tag(etags, 'guest:'+part, ep) if part.length > 1
-          end
-          if guest['twitter'] then
-            add_tag(etags, '@'+guest['twitter'].downcase, ep)
+        guests = doc.data['guests'] || []
+        if guests.length != 0 then
+          add_tag(etags, 'has:guests', ep)
+          guests.each do |guest|
+            parse_string(guest['name']).each do |part|
+              add_tag(etags, 'guest:'+part, ep) if part.length > 1
+            end
+            if guest['twitter'] then
+              add_tag(etags, '@'+guest['twitter'].downcase, ep)
+            end
           end
         end
 
