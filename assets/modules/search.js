@@ -19,7 +19,7 @@ export class SearchIndex {
     async parseQuery(query) {
         // First pass: Split on spaces, and check for keyword prefixes.
         // Non-keyword arguments are split further.
-        let terms = query.trim().split(/\s+/).flatMap((t) => {
+        let terms = query.toLoweCase().trim().split(/\s+/).flatMap((t) => {
             if (isKeyword(t)) {
                 return t;
             }
