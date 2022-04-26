@@ -174,7 +174,8 @@ module Jekyll
         gsub(/\[([^\]]+)\]\([^\)]+\)/, '\1').
         gsub(/\bhttps?:\/\/\S+/, '').
         gsub(/([a-z]+)\d+/i, '\1').
-        downcase.split(/\W+/)
+        downcase.split(/\W+/).
+        map {|x| x.gsub /(^_+|_+$)/, ''}
     end
   end
 end
