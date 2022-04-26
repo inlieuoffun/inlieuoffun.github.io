@@ -102,6 +102,10 @@ module Jekyll
       msg = {
         :terms => invert.sort_by {|stem, _| stem}.to_h,
         :stops => stops.to_a.sort,
+        :tags  => etags.keys.
+                    filter {|x| x.start_with? 'tag:'}.
+                    map {|x| x.delete_prefix('tag:')}.
+                    sort
       }
       write_json(site, '', 'textindex.json', {:index => msg})
     end
