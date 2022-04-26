@@ -6,6 +6,7 @@ const searchIndex = new SearchIndex('textindex.json');
 // episodes should be shown; otherwise it contains a set of episode numbers to
 // be made visible as search results.
 var filterSet = new Set();
+var rawQuery = "";
 
 // numMatches is the number of matching (visible) results.
 var numMatches = 0;
@@ -31,6 +32,7 @@ const queryInput  = document.getElementById("query-input");
 const clearButton = document.getElementById("clear-filter");
 const showQuery   = document.getElementById("show-query");
 const queryText   = document.getElementById("show-query-content");
+const rawText     = document.getElementById("raw-query");
 
 async function updateQueryOnEnter(e) {
     if (e.key == 'Enter') {
@@ -51,6 +53,7 @@ async function updateQuery(query) {
         alert("No results matching '"+query+"'");
     } else {
         filterSet = match;
+        rawQuery = terms.join(' ');
         updateVisible();
         updateUI();
     }
@@ -61,6 +64,7 @@ async function clearQuery() {
     queryInput.value = '';
     if (filterSet.size > 0) {
         filterSet = new Set();
+        rawQuery = '';
         updateVisible();
     }
     updateUI();
@@ -75,6 +79,7 @@ function updateUI() {
     queryText.innerHTML = isFiltered ?
         `${queryInput.value} (${numMatches} results)` :
         'none';
+    rawText.value = rawQuery;
 }
 
 // checkURLQuery checks for a query parameter in the URL and, if set, populates
