@@ -99,8 +99,7 @@ module Jekyll
       # an array of specific (non-stemmed) terms.
       Jekyll.logger.info "Constructing inverted index..."
       invert = {}
-      ndocs = 0
-      last = 0
+      last, ndocs = 0, 0
       index.each do |doc, docindex|
         docindex.each do |word, count|
           next if stops.include? word
@@ -115,7 +114,7 @@ module Jekyll
         end
         last += 1
         ndocs += 1
-        if last == 10 then
+        if last == 25 then
           Jekyll.logger.info format("Processed %d documents (%d terms so far)", ndocs, invert.length)
           last = 0
         end
