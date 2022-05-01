@@ -74,7 +74,7 @@ module Jekyll
       ndocs = index.length.to_f
       stops = $english_stopwords.clone
       terms.each do |word, count|
-        if word.length < 2 or word.include? '_' or word.length > 25 or (count/ndocs) > 0.40 then
+        if word.length < 2 or word.include? '_' or word.length > 25 then
           stops.add word
         elsif word.length != 4 and word.match? /^\d+$/ then
           stops.add word
