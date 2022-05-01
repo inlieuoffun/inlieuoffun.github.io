@@ -21,13 +21,19 @@ module Jekyll
     safe true
     priority :low
 
+    @stemcache
+
     # Generate an inverted index of terms mentioned in episode descriptions.
     def generate(site)
-      @index_transcripts = site.config['indexer']['index_transcripts']
+      # The stemmer turns out to be incredibly slow, so keep a cache of words
+      # to their stems. Otherwise generating the inverted index takes minutes.
+      @stemcache = {}
 
       index = {} # :: episode → term → count
       etags = {} # :: tag → doc
       terms = {} # :: word → ndocs (for stopwording)
+
+      Jekyll.logger.info "Indexing episode details and summaries..."
       site.collections['episodes'].docs.each do |doc|
         ep = doc.data['episode']
         di = index_doc(doc)
@@ -70,7 +76,13 @@ module Jekyll
         end
       end
 
+      # If we're indexing transcripts, include those now.
+      if site.config['indexer']['index_transcripts'] then
+        index_transcripts(site.collections['episodes'].docs, index)
+      end
+
       # Compute stopwords based on prevalence and length.
+      Jekyll.logger.info "Constructing stopword index..."
       ndocs = index.length.to_f
       stops = $english_stopwords.clone
       terms.each do |word, count|
@@ -80,14 +92,19 @@ module Jekyll
           stops.add word
         end
       end
+      Jekyll.logger.info format("Stopword list is %d elements (%d base)",
+                                stops.size, $english_stopwords.size)
 
       # Compute the inverted index, mapping each stem to a map of document to
       # an array of specific (non-stemmed) terms.
+      Jekyll.logger.info "Constructing inverted index..."
       invert = {}
+      ndocs = 0
+      last = 0
       index.each do |doc, docindex|
         docindex.each do |word, count|
           next if stops.include? word
-          stem = word.stem(true)
+          stem = word_stem(word)
           if not invert.has_key? stem then
             invert[stem] = {}
           end
@@ -96,11 +113,19 @@ module Jekyll
           end
           invert[stem][word].append doc
         end
+        last += 1
+        ndocs += 1
+        if last == 10 then
+          Jekyll.logger.info format("Processed %d documents (%d terms so far)", ndocs, invert.length)
+          last = 0
+        end
       end
+      Jekyll.logger.info "Adding episode tags..."
       etags.each do |tag, eps|
         invert[tag] = {tag => eps}
       end
 
+      Jekyll.logger.info "Writing index data to output..."
       msg = {
         :terms => invert.sort_by {|stem, _| stem}.to_h,
         :stops => stops.to_a.sort,
@@ -110,6 +135,7 @@ module Jekyll
                     sort
       }
       write_json(site, '', 'textindex.json', {:index => msg})
+      Jekyll.logger.info "Indexing complete"
     end
 
     def write_json(site, dir, name, msg)
@@ -156,10 +182,36 @@ module Jekyll
       index = {}
       index_string(doc.data['summary'] || '', index)
       index_string(doc.content, index)
-      if @index_transcripts then
-        index_transcript(doc.data['transcript'], index)
-      end
       return index
+    end
+
+    def index_transcripts(docs, combined)
+      Jekyll.logger.info "Indexing episode transcripts..."
+      indices = []
+      threads = []
+      total = 0
+      docs.each do |doc|
+        next unless doc.data['transcript']
+        if threads.length > 64 then
+          threads.each(&:join)
+          threads = []
+          Jekyll.logger.info format("Finished indexing transcript %d of %d", total, docs.length)
+        end
+        index = {}
+        indices << {'doc' => doc.data['episode'], 'idx' => index}
+        threads << Thread.new { index_transcript(doc.data['transcript'], index) }
+        total += 1
+      end
+      threads.each(&:join)
+      Jekyll.logger.info format("Finished indexing transcript %d of %d", total, docs.length)
+      Jekyll.logger.info "Combining index results..."
+      indices.each do |elt|
+        target = combined[elt['doc']]
+        elt['idx'].each do |word, count|
+          target[word] = (target[word] || 0) + count
+        end
+      end
+      Jekyll.logger.info "Transcript indexing complete"
     end
 
     def index_string(s, index)
@@ -169,7 +221,6 @@ module Jekyll
     end
 
     def index_transcript(ts, index)
-      return unless ts
       bits = File.read(ts.path)
       JSON.load(bits)['transcript']['captions'].each do |c|
         index_string(c['text'], index)
@@ -183,6 +234,11 @@ module Jekyll
         gsub(/([a-z]+)\d+/i, '\1').
         downcase.split(/\W+/).
         map {|x| x.gsub /(^_+|_+$)/, ''}
+    end
+
+    def word_stem(word)
+      @stemcache[word] ||= word.stem(true)
+      @stemcache[word]
     end
   end
 end
