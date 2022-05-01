@@ -11,9 +11,20 @@ module Jekyll
     # episode as a .guests array, ordered by name. Furthermore, each guest is
     # given a .hyperlink attribute to use when generating markup.
     def generate(site)
+      # Check for episode transcripts.
+      tmap = {}
+      site.collections['transcripts'].files.each do |file|
+        m = file.path.match /-([\w.]+)\.json$/
+        next unless m
+        ep = m.captures[0].to_i
+        tmap[ep] = file
+      end
+
       emap = {}
       site.collections['episodes'].docs.each do |doc|
-        emap[doc.data['episode']] = doc
+        ep = doc.data['episode']
+        emap[ep] = doc
+        doc.data['transcript'] = tmap[ep]
       end
 
       gmap = {}
