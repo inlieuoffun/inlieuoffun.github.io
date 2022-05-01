@@ -23,6 +23,8 @@ module Jekyll
 
     # Generate an inverted index of terms mentioned in episode descriptions.
     def generate(site)
+      @index_transcripts = site.config['indexer']['index_transcripts']
+
       index = {} # :: episode → term → count
       etags = {} # :: tag → doc
       terms = {} # :: word → ndocs (for stopwording)
@@ -72,7 +74,7 @@ module Jekyll
       ndocs = index.length.to_f
       stops = $english_stopwords.clone
       terms.each do |word, count|
-        if word.length < 2 or word.include? '_' or word.length > 25 or (count/ndocs) > 0.10 then
+        if word.length < 2 or word.include? '_' or word.length > 25 or (count/ndocs) > 0.40 then
           stops.add word
         elsif word.length != 4 and word.match? /^\d+$/ then
           stops.add word
@@ -152,21 +154,26 @@ module Jekyll
 
     def index_doc(doc)
       index = {}
-      index_string(doc.data['summary'] || '').each do |word, count|
-        index[word] = (index[word] || 0) + count
-      end
-      index_string(doc.content).each do |word, count|
-        index[word] = (index[word] || 0) + count
+      index_string(doc.data['summary'] || '', index)
+      index_string(doc.content, index)
+      if @index_transcripts then
+        index_transcript(doc.data['transcript'], index)
       end
       return index
     end
 
-    def index_string(s)
-      index = {}
+    def index_string(s, index)
       parse_string(s).each do |word|
         index[word] = (index[word] || 0) + 1
       end
-      return index
+    end
+
+    def index_transcript(ts, index)
+      return unless ts
+      bits = File.read(ts.path)
+      JSON.load(bits)['transcript']['captions'].each do |c|
+        index_string(c['text'], index)
+      end
     end
 
     def parse_string(s)

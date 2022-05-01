@@ -36,6 +36,9 @@ defaults:
     values:
       layout: "episode"
 
+indexer:
+  index_transcripts: true
+
 feed:
   excerpt_only: true
   collections:
