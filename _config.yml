@@ -25,6 +25,8 @@ collections:
   episodes:
     output: true
     permalink: /episode/:name
+  transcripts:
+    output: true
 
 defaults:
   -
