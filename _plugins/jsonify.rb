@@ -25,7 +25,6 @@ module Jekyll
           :youTubeURL => ep.data['youtube'],
           :acastURL => ep.data['acast'],
           :audioFileURL => ep.data['audio-file'],
-          :special => ep.data['special'],
         }.compact
         msg[:guestNames] = ep.data['guests'].map {|v| v['name']} if ep.data['guests']
         msg[:tags] = ep.data['tags'] if (ep.data['tags'] || []).length > 0

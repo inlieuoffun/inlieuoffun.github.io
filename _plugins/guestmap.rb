@@ -25,6 +25,7 @@ module Jekyll
         ep = doc.data['episode']
         emap[ep] = doc
         doc.data['transcript'] = tmap[ep]
+        doc.data['special'] = (doc.data['tags'] || []).include? 'special'
       end
 
       gmap = {}

@@ -71,9 +71,6 @@ module Jekyll
         if doc.content.strip.size > 0 then
           add_tag(etags, 'has:detail', ep)
         end
-        if doc.data['special'] then
-          add_tag(etags, 'is:special', ep)
-        end
       end
 
       # If we're indexing transcripts, include those now.
