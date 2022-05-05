@@ -16,6 +16,7 @@ module Jekyll
       site.collections['transcripts'].files.each do |file|
         m = file.path.match /-([\w.]+)\.json$/
         next unless m
+        next unless File.size(file.path) > 0
         ep = m.captures[0].to_i
         tmap[ep] = file
       end
