@@ -7,4 +7,4 @@ seq 1 "$latest" | while read -r num ; do
     if ! [[ -f "_transcripts/$q" ]] ; then
         echo $q
     fi
-done | acat -nonempty missing.txt
+done
