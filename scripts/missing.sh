@@ -1,10 +1,9 @@
 #!/bin/sh
 set -euo pipefail
 
-latest="$(curl -s https://inlieuof.fun/latest.json | jq -r .latest.episode)"
-seq 1 "$latest" | while read -r num ; do
-    q="$(printf 'transcript-%04d.json' $num)"
-    if ! [[ -f "_transcripts/$q" ]] ; then
-        echo $q
+curl -s https://inlieuof.fun/episodes.json | jq -r '.episodes[].episode' | while read -r ep ; do
+    fn="$(printf '_transcripts/transcript-%04s.json' $ep)"
+    if [[ ! -f "$fn" ]] ; then
+        echo "$ep"
     fi
 done
