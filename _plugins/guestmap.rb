@@ -17,7 +17,7 @@ module Jekyll
         m = file.path.match /-([\w.]+)\.json$/
         next unless m
         next unless File.size(file.path) > 0
-        ep = m.captures[0].to_i
+        ep = m.captures[0].to_s.sub( /^0+/, '') || "0"
         tmap[ep] = file
       end
 
@@ -25,7 +25,7 @@ module Jekyll
       site.collections['episodes'].docs.each do |doc|
         ep = doc.data['episode']
         emap[ep] = doc
-        doc.data['transcript'] = tmap[ep]
+        doc.data['transcript'] = tmap[ep.to_s]
         doc.data['special'] = (doc.data['tags'] || []).include? 'special'
       end
 
