@@ -10,7 +10,8 @@ exclude: false
 They are listed in reverse chronological order. Follow the &#x2139; icon link
 beside an episode number to see the detail page for that episode.  Follow the
 &#x1F509; icon for a link to an audio recording, where available. The date
-links to its stream on Crowdcast or YouTube.</p>
+links to its stream on Crowdcast or YouTube. Episodes marked &#x1F4C3; have a
+full-text transcript.</p>
 
 <p><strong>Note:</strong> Some of the early episode numbers are incorrect on
 YouTube.  Rest assured the topics and guests will match even when the numbers
@@ -49,7 +50,8 @@ do not.</p>
         <a name="ep{{ entry.episode }}"></a>
         {{ entry.episode }}&nbsp;<a title="Detail page for episode {{ entry.episode }}" href="/episode/{{ entry.episode }}">&#x2139;</a>
         {%- if entry.acast %}
-        <a title="Audio stream for episode {{ entry.episode }}" href="/audio/{{ entry.episode }}">&#x1F509;</a>{% endif -%}<br />
+        <a title="Audio stream for episode {{ entry.episode }}" href="/audio/{{ entry.episode }}">&#x1F509;</a>{% endif -%}
+        {%- if entry.transcript %} &#x1F4C3;{% endif -%}<br />
         {% assign label = entry.date | date: "%b. %d, %Y" -%}
         {% capture streamtype %}{% if forloop.index >= 5 %}replay{% else %}stream{% endif %}{% endcapture %}
         <a href="{{ site.url }}/{{ streamtype }}/{{ entry.episode }}" target=_blank
