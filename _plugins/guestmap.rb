@@ -17,7 +17,8 @@ module Jekyll
         m = file.path.match /-([\w.]+)\.json$/
         next unless m
         next unless File.size(file.path) > 0
-        ep = m.captures[0].to_s.sub( /^0+/, '') || "0"
+        ep = m.captures[0].to_s.sub( /^0+/, '')
+        if ep == '' then ep = "0" end
         tmap[ep] = file
       end
 
