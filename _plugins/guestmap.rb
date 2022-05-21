@@ -25,7 +25,12 @@ module Jekyll
       site.collections['episodes'].docs.each do |doc|
         ep = doc.data['episode']
         emap[ep] = doc
-        doc.data['transcript'] = tmap[ep.to_s]
+        script = tmap[ep.to_s]
+        if script then
+          doc.data['transcript'] = script
+        else
+          doc.data['tags'] << 'no-transcript'
+        end
         doc.data['special'] = (doc.data['tags'] || []).include? 'special'
       end
 

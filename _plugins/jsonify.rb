@@ -27,9 +27,6 @@ module Jekyll
           :audioFileURL => ep.data['audio-file'],
         }.compact
         tags = ep.data['tags'] || []
-        if not ep.data['transcript'] and not tags.include? 'no-transcript' then
-          tags << 'no-transcript'
-        end
         msg[:guestNames] = ep.data['guests'].map {|v| v['name']} if ep.data['guests']
         msg[:tags] = tags if tags.length > 0
         msg[:links] = ep.data['links'].map do |v|
