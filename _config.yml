@@ -14,7 +14,7 @@ static_redirect:
   stream:
     values: [crowdcast, youtube]
   replay:
-    value: youtube
+    values: [youtube, crowdcast]
   audio:
     value: acast
   episode:
