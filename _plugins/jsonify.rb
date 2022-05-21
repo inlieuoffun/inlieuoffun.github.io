@@ -26,8 +26,12 @@ module Jekyll
           :acastURL => ep.data['acast'],
           :audioFileURL => ep.data['audio-file'],
         }.compact
+        tags = ep.data['tags'] || []
+        if not ep.data['transcript'] and not tags.include? 'no-transcript' then
+          tags << 'no-transcript'
+        end
         msg[:guestNames] = ep.data['guests'].map {|v| v['name']} if ep.data['guests']
-        msg[:tags] = ep.data['tags'] if (ep.data['tags'] || []).length > 0
+        msg[:tags] = tags if tags.length > 0
         msg[:links] = ep.data['links'].map do |v|
           {:title => v['title'], :url => v['url']}
         end if ep.data['links']
