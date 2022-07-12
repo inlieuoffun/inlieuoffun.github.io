@@ -134,7 +134,7 @@ To update these episodes, install `scancast` from the tools repository:
 go install github.com/inlieuoffun/tools/scancast@latest
 ```
 
-This tool does not require any credentials. When you run `scantest`, it will
+This tool does not require any credentials. When you run `scancast`, it will
 fetch the Acast RSS feed and the ILoF episode log, and print out a summary of
 all the audio episodes listed in the feed whose URLs are not recorded in the
 episode log. You can (manually) update the episodes based on this output and
