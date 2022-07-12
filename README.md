@@ -29,7 +29,6 @@ matter section giving episode metadata:
  - `tags`: A list of category tags for episode content [array of string].
    These tags are not currently show, but can be used to filter episodes.
  - `links`: A list of related hyperlinks [optional]. Shown on the Episode Log.
- - `special`: If true, cosmetically flag this episode as interesting in the Episode Log.
 
 The body of the episode is arbitrary markdown text that will be displayed on
 the episode detail page. Episode detail pages are rendered using the layout
@@ -161,7 +160,7 @@ commit the changes to Git.
 - Episode N audio redirect (ex. N=25) https://inlieuof.fun/audio/25
     - These redirects go to ACast for episodes that set it.
 - Episode N detail redirect (ex. N=25): https://inlieuof.fun/episode/25
-- Inverted index (JSON): https://inlieuof.fun/index.json
+- Inverted index (JSON): https://inlieuof.fun/textindex.json
 
 ## Peculiarities
 
