@@ -118,15 +118,14 @@ this with other tools to post an alert when a new episode comes around.
 
 ### Audio Updates
 
-The Acast channel is updated separately from the main feed, and is usually
-around one to two weeks behind the main show. Older shows are being backfilled
-on an ad hoc basis.
+The Acast channel is updated separately from the main feed, and is updated only
+irregularly.  When it is updated, new audio episodes can be found from the
+[Acast RSS feed][acast-feed].
 
-New audio episodes can be found from the [Acast RSS feed][acast-feed], but it
-is not currently practical to automatically integrate them. The publication
-date of the audio episode is after the original, but not by any fixed amount,
-and the episode numbering in the title is usually incorrect (it is probably
-being filled in by hand based on the previous entries).
+It is not currently practical to automatically integrate acast updates. The
+publication date of the audio episode is after the original, but not by any
+fixed amount, and the episode numbering in the title is usually incorrect (it
+is probably being filled in by hand based on the previous entries).
 
 To update these episodes, install `scancast` from the tools repository:
 
