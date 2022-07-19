@@ -29,10 +29,14 @@ use:</p>
   <li>An inverted index of terms extracted from episode summaries and details:<br />
   <a href="{{ site.url }}/textindex.json"><tt>{{ site.url }}/textindex.json</tt></a>
 
-  <p>The index contains two entries, <tt>"terms"</tt> and <tt>"stops"</tt>.
-  Each term maps a single word stem to the words based on that stem, and for
-  each word the episodes that contain it.  Words are normalized to lower-case,
-  Tags (e.g., <tt>has:links</tt>) are recorded in the same format as words.</p>
+  <p>The index contains three entries, <tt>"terms"</tt>, <tt>"tags</tt>,
+  and <tt>"stops"</tt>.  Each <tt>term</tt> maps a single word stem to the
+  words based on that stem, and for each word the episodes that contain it.
+  Words are normalized to lower-case, Tags (e.g., <tt>has:links</tt>) are
+  recorded in the same format as words.</p>
+
+  <p>The <tt>"tags</tt> are an array of the unique tag values defined in the
+  episode metadata.</p>
 
   <p>The <tt>"stops"</tt> are an array of stopwords excluded from indexing.
   This can be used to filter query terms.</p>
