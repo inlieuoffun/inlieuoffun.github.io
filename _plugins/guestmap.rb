@@ -65,9 +65,9 @@ module Jekyll
       end
 
       # Produce a "leaderboard" of frequent guests.
-      # Frequent is defined as having at least 4 visits, and results are ordered
+      # Frequent is defined as having at least 5 visits, and results are ordered
       # by number of visits with ties broken in favour of earliest episode.
-      freq = site.data['guests'].select do |g| g['episodes'].size >= 4 end.sort_by {|g|
+      freq = site.data['guests'].select do |g| g['episodes'].size >= 5 end.sort_by {|g|
         [-g['episodes'].size, g['episodes'][0]]
       }
       site.data['leaderboard'] = freq
