@@ -24,7 +24,17 @@ use:</p>
   <a href="{{ site.url }}/guests.json"><tt>{{ site.url }}/guests.json</tt></a></li>
 
   <li>The data schema:<br />
-  <a href="{{ site.url }}/schema.json"><tt>{{ site.url }}/schema.json</tt></a></li>
+  <a href="{{ site.url }}/schema.json"><tt>{{ site.url }}/schema.json</tt></a>
+
+  <p>The <tt>"channel"</tt> object gives the URLs of the various platforms ILoF
+  uses, including YouTube, CrowdCast, ACast, and Discord.</p>
+
+  <p>The <tt>"template"</tt> object descritbes the URL formats for fetching
+  various resources from the static site.</p>
+
+  <p>The <tt>"data"</tt> field describes the JSON blobs returned for the various
+  data queries, notably Guests and Episodes.</p>
+  </li>
 
   <li>An inverted index of terms extracted from episode summaries and details:<br />
   <a href="{{ site.url }}/textindex.json"><tt>{{ site.url }}/textindex.json</tt></a>
@@ -35,7 +45,7 @@ use:</p>
   Words are normalized to lower-case, Tags (e.g., <tt>has:links</tt>) are
   recorded in the same format as words.</p>
 
-  <p>The <tt>"tags</tt> are an array of the unique tag values defined in the
+  <p>The <tt>"tags"</tt> are an array of the unique tag values defined in the
   episode metadata.</p>
 
   <p>The <tt>"stops"</tt> are an array of stopwords excluded from indexing.
