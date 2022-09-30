@@ -3,7 +3,8 @@
     "acast": "https://shows.acast.com/in-lieu-of-fun",
     "crowdcast": "https://www.crowdcast.io/inlieuoffun",
     "youTube": "https://www.youtube.com/channel/UC8lKFNnYE1War3a41Q41fMw",
-    "discord": "https://discord.gg/U3Vd3ESYAd"
+    "discord": "https://discord.gg/U3Vd3ESYAd",
+    "groups": "https://groups.google.com/g/in-lieu-of-fun"
   },
   "template": {
     "base": "https://inlieuof.fun",
