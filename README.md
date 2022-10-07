@@ -161,8 +161,15 @@ commit the changes to Git.
 - Episode N detail redirect (ex. N=25): https://inlieuof.fun/episode/25
 - Inverted index (JSON): https://inlieuof.fun/textindex.json
 
-## Peculiarities
 
-Because this site is hosted from a github.io repository, the generated site
-data must be published from the branch named `master`. Thus, this repository
-uses the `source` branch as its default branch.
+## Hosting
+
+The user-facing site is built using Jekyll and hosted on GitHub Pages. The
+`main` branch of this repository is the default, and contains the sources and
+configuration settings for Jekyll, and the site is deployed from the `pages`
+branch.
+
+To modify the user-facing site, commit changes to `main` and push them to
+GitHub. The "[Build and Publish ILoF](.github/workflows/github-pages.yml)"
+workflow will automatically rebuild and (provided there are no errors) deploy
+the changes.
