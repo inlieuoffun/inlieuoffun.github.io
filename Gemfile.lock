@@ -35,7 +35,7 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
-    jekyll-feed (0.16.0)
+    jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
@@ -80,7 +80,7 @@ PLATFORMS
 DEPENDENCIES
   ffi (~> 1.15)
   jekyll (~> 4.2.2)
-  jekyll-feed (~> 0.12)
+  jekyll-feed (~> 0.17)
   jekyll-include-cache
   minima (~> 2.5)
   porter2stemmer!
