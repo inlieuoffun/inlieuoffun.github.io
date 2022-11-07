@@ -42,7 +42,7 @@ module Jekyll
 
         all[:episodes].push cp
 
-        write_json(site, 'episode', '%s.json' % msg[:episode], {:episode => msg})
+        write_json(site, 'episode', '%s.json' % msg[:episode], {:episode => msg}, pretty=false)
         if first then
           write_json(site, '', 'latest.json', {:latest => msg})
           first = false
