@@ -19,7 +19,6 @@ module Jekyll
         msg = {
           :episode => ep.data['episode'],
           :airDate => ep.data['date'].strftime('%Y-%m-%d'),
-          :season => ep.data['season'],
           :summary => ep.data['summary'],
           :crowdcastURL => ep.data['crowdcast'],
           :youTubeURL => ep.data['youtube'],
