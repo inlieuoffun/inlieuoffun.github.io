@@ -2,107 +2,132 @@
 layout: home
 ---
 <style type="text/css">
-  p.intro { font-size: 110%; text-align: justify; }
+  div.index {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  #masthead { flex-wrap: nowrap; }
+  #disclaimer { margin: auto; width: 500px; }
+  #banner { flex-direction: column; align-items: center; flex-shrink: 1; min-width: 50px; }
+  #about { flex-direction: column; flex-shrink: 2; }
+  #about p { min-width: 200px; font-size: 110%; }
+  #links { flex-wrap: nowrap; }
+  #recent-episodes {
+      padding: 1rem;
+      background-color: #dce9d5;
+      flex-direction: column;
+      min-width: 40%;
+      flex-shrink: 1;
+  }
+  #quick-ref { flex-direction: column; flex-shrink: 3; }
   b.sc, span.sc { font-variant: small-caps; }
 </style>
 
-<p style="margin: auto 2rem; clear:both; border: 1px solid black; padding: 1rem; text-align: center; background-color: #dddddd;">
-This site is an archival record of the regular episodes and guests
-of <strong>In Lieu of Fun</strong>. As of September 23, 2022, it is no longer
-updated regularly.</p>
+<div class=index id=outer>
+  <div class=index id=disclaimer>
+    <p style="border: 1px solid black; padding: 1rem; text-align: center; background-color: #dddddd;">
+      This site is an archival record of the regular episodes and guests
+      of <strong>In Lieu of Fun</strong>. As of September 23, 2022, it is no longer
+      updated regularly.
+    </p>
+  </div>
+  <div class=index id=masthead>
+    <div class=index id=banner>
+      <p><img src="/assets/ilof-logo.jpg" /></p>
+      <p><span style="font-size: 60%">Logo created by Kevin Thorn of
+          <a href="https://nuggethead.net/">NuggetHead Studioz</a>.</span></p>
+    </div>
+    <div class=index id=about>
+      <p>&#x1F9A0; <b><span class=sc>In 2020, we were stricken</span> by a
+          coronavirus pandemic.</b></p>
 
-<div style="float:left;padding:1%;max-width:30%;min-width:144pt;">
-  <p><img src="/assets/ilof-logo.jpg" width="100%" /><br />
-  <span style="font-size: 60%">Logo created by Kevin Thorn of
-     <a href="https://nuggethead.net/">NuggetHead Studioz</a>.</span></p>
-</div>
-<p class=intro>
-&#x1F9A0; <b><span class=sc>In 2020, we were stricken</span> by a coronavirus
-pandemic.</b></p>
-<p class=intro>For a long time, we weren't allowed to have fun anymore; but
-<a href="https://twitter.com/peppigue/status/1241881885439033345"
-   title="the history of the name" target=_blank>
-<em>in lieu of fun</em></a>, you could grab a beverage of your choice and come
-hang out with us, your hosts
+      <p>For a long time, we weren't allowed to have fun anymore; but
+        <a href="https://twitter.com/peppigue/status/1241881885439033345"
+           title="the history of the name" target=_blank>
+          <em>in lieu of fun</em></a>, you could grab a beverage of your choice and come
+        hang out with us, your hosts
 
-<a href="https://twitter.com/benjaminwittes">Ben Wittes</a>,
-<a href="https://twitter.com/klonick">Kate Klonick</a>,
-<a href="https://twitter.com/scottjshapiro">Scott Shapiro</a>, and
-<a href="https://twitter.com/GenevieveDFR">Genevieve DellaFerra</a>
-on a live webcast.</p>
-
-<p class=intro>&#x1F41D; <b class=sc> In Lieu of Fun</b>
-was a casual, unstructured webcast that broadcast from March 25, 2020 until
-September 23, 2022.  We talked about news, law, life, art, squirrels, murder
-hornets, Baby Cannons, and whatever else came up. Often there were pre-announced
-<a href="guests.html"> guests</a>.
-
-<hr /></p>
-
-<p class="height: 1em;">&nbsp;</p>
-
-<p>&#x1F50E; <strong>How to Find Us:</strong>
-<ul>
-  <li>Follow <a href="https://twitter.com/inlieuoffunshow">@inlieuoffunshow</a> on Twitter.</li>
-  <li>Episodes were streamed live on
-    <a href="https://www.crowdcast.io/inlieuoffun">Crowdcast</a> and
-    <a href="https://www.youtube.com/channel/UC8lKFNnYE1War3a41Q41fMw">YouTube</a>.</li>
-  <li>You can find links to recordings of past episodes from the
-    <a href="episodes.html">Episode Log</a>.</li>
-  <li>Audio versions of many episodes are also available on the
-    <a href="https://shows.acast.com/in-lieu-of-fun">ILoF Acast feed</a>.</li>
-  <li>Connect with the hosts and audience community via the
-    <a href="https://groups.google.com/g/in-lieu-of-fun">In Lieu of Fun Google group</a>.</li>
-</ul>
-</p>
-
-<hr />
-<style type="text/css">
-  div.leftcol { min-width: 200px; width: 49%; float: left; }
-  div.rightcol { min-width: 200px; width: 49%; float: right; }
-</style>
-
-<hr />
-<div id="recent-episodes" class="leftcol" style="padding:0.5ex;background-color:#dce9d5;">
-<a name="recent"></a><h2>📅 Latest Episodes</h2>
-
-<!-- <p id="showtime"></p>
-<script type="text/javascript" src="assets/showtime.js"></script> -->
-
-{% capture newline %}
-{% endcapture -%}
-{%- assign rev = site.episodes | reverse -%}
-<ul>
-{%- for ep in rev limit:2 -%}
-{% capture url %}{{ site.url }}/stream/{{ ep.episode }}{% endcapture %}
-  <li><a href="{{ site.url }}/episode/{{ ep.episode }}">Episode {{ ep.episode }}</a>
-   | {{ ep.date | date: "%B %e, %Y" }}
-   | <a href="{{ url }}">stream</a>{% if ep.guests %}
-   | <b>Guests:</b> {{ ep.guests | map: "name" | join: ", " }}{% else %}
-   | Just your hosts{% endif %}
-{%- if ep.summary %}
-    <br /><small>{{ ep.summary | strip | replace: newline, " " }}</small>{% endif %}
-  </li>{% endfor %}
-</ul>
+        <a href="https://twitter.com/benjaminwittes">Ben Wittes</a>,
+        <a href="https://twitter.com/klonick">Kate Klonick</a>,
+        <a href="https://twitter.com/scottjshapiro">Scott Shapiro</a>, and
+        <a href="https://twitter.com/GenevieveDFR">Genevieve DellaFerra</a>
+        on a live webcast.
+      </p>
+    </div>
+  </div>
 </div>
 
-<div class="rightcol">
-<a name="quick-ref"></a><h2>🧐 Quick Reference</h2>
+<div class=index id=detail>
+  <p>&#x1F41D; <b class=sc> In Lieu of Fun</b>
+    was a casual, unstructured webcast that broadcast from March 25, 2020 until
+    September 23, 2022.  We talked about news, law, life, art, squirrels, murder
+    hornets, Baby Cannons, and whatever else came up. Often there were pre-announced
+    <a href="guests.html"> guests</a>.
+  </p>
 
-<ul>
-  <li>&#x1F50E; Visit the <a href="episodes.html">Episode Log</a>,
-  the <a href="guests.html">Guest List</a>, or
-  <a href="frequent.html">Frequent Guests</a>.</li>
+  <p>&#x1F50E; <strong>How to Find Us:</strong>
+    <ul>
+      <li>Follow <a href="https://twitter.com/inlieuoffunshow">@inlieuoffunshow</a> on Twitter.</li>
+      <li>Episodes were streamed live on
+        <a href="https://www.crowdcast.io/inlieuoffun">Crowdcast</a> and
+        <a href="https://www.youtube.com/channel/UC8lKFNnYE1War3a41Q41fMw">YouTube</a>.</li>
+      <li>You can find links to recordings of past episodes from the
+        <a href="episodes.html">Episode Log</a>.</li>
+      <li>Audio versions of many episodes are also available on the
+        <a href="https://shows.acast.com/in-lieu-of-fun">ILoF Acast feed</a>.</li>
+      <li>Connect with the hosts and audience community via the
+        <a href="https://groups.google.com/g/in-lieu-of-fun">In Lieu of Fun Google group</a>.</li>
+    </ul>
+  </p>
+</div>
 
-  <li>&#x02699; Get <a href="data.html">episode or guest data in machine-readable form</a>.</li>
+<hr />
+<div class=index id=links>
+  <div class=index id="recent-episodes">
+    <a name="recent"></a><h2>📅 Latest Episodes</h2>
 
-  <li>&#x1F41E; <b>See something wrong?</b>
-  Please <a href="http://issues.inlieuof.fun/new">file an issue</a> describing
-  the problem, and one of our loyal volunteers will look into it.
+    <!-- <p id="showtime"></p>
+         <script type="text/javascript" src="assets/showtime.js"></script> -->
 
-     <ul><li>You can also <a href="http://repo.inlieuof.fun">send pull
-     requests</a> for the site, and <a href="http://build.inlieuof.fun">check
-     the build status</a>.</li></ul>
-  </li>
-</ul>
+    {% capture newline %}
+    {% endcapture -%}
+    {%- assign rev = site.episodes | reverse -%}
+    <ul>
+    {%- for ep in rev limit:2 -%}
+    {% capture url %}{{ site.url }}/stream/{{ ep.episode }}{% endcapture %}
+    <li><a href="{{ site.url }}/episode/{{ ep.episode }}">Episode {{ ep.episode }}</a>
+      | {{ ep.date | date: "%B %e, %Y" }}
+      | <a href="{{ url }}">stream</a>{% if ep.guests %}
+      | <b>Guests:</b> {{ ep.guests | map: "name" | join: ", " }}{% else %}
+      | Just your hosts{% endif %}
+      {%- if ep.summary %}
+      <br /><small>{{ ep.summary | strip | replace: newline, " " }}</small>{% endif %}
+    </li>{% endfor %}
+  </ul>
+  </div>
+
+  <div class=index id="quick-ref">
+    <a name="quick-ref"></a><h2>🧐 Quick Reference</h2>
+
+    <ul>
+      <li>&#x1F50E; Visit the <a href="episodes.html">Episode Log</a>,
+        the <a href="guests.html">Guest List</a>, or
+        <a href="frequent.html">Frequent Guests</a>.</li>
+
+      <li>&#x02699; Get <a href="data.html">episode or guest data in machine-readable form</a>.</li>
+
+      <li>&#x1F41E; <b>See something wrong?</b>
+        Please <a href="http://issues.inlieuof.fun/new">file an issue</a> describing
+        the problem, and one of our loyal volunteers will look into it.
+
+      <li>You can also <a href="http://repo.inlieuof.fun">send pull
+        requests</a> for the site, and <a href="http://build.inlieuof.fun">check
+        the build status</a>.</li>
+      </li>
+    </ul>
+  </div>
 </div>
