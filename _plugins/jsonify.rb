@@ -27,6 +27,9 @@ module Jekyll
         }.compact
         tags = ep.data['tags'] || []
         msg[:guestNames] = ep.data['guests'].map {|v| v['name']} if ep.data['guests']
+        if ep.data['transcript'] then
+          msg[:transcriptPath] = ep.data['transcript'].url
+        end
         msg[:tags] = tags if tags.length > 0
         msg[:links] = ep.data['links'].map do |v|
           {:title => v['title'], :url => v['url']}
